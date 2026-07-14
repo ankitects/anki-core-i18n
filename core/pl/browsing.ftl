@@ -84,7 +84,15 @@ browsing-reposition = Zmień pozycję...
 browsing-reposition-new-cards = Zmień pozycję nowych kart
 browsing-reschedule = Zmień plan
 browsing-search-bar-hint = Szukaj kart/notatek (wpisz tekst, a następnie naciśnij Enter)
+browsing-search-facet-starters = Filtruj
 browsing-search-in = Szukaj w:
+browsing-search-quick = Szybkie filtry
+browsing-search-quick-flagged = Oflagowane
+browsing-search-quick-leeches = Pijawki
+browsing-search-recent = Niedawne
+browsing-search-suggestions = Sugestie
+browsing-search-syntax-mode = Tryb składni
+browsing-search-text-match = Szukaj "{ $query }"
 browsing-search-within-formatting-slow = Szukaj z formatowaniem (wolne)
 browsing-select-deck = Wybierz talię
 browsing-selected-notes-only = Tylko wybrane notatki
@@ -167,6 +175,22 @@ browsing-sidebar-due-today = Na dziś
 browsing-sidebar-untagged = Bez tagów
 browsing-sidebar-overdue = Zaległe
 browsing-row-deleted = (usunięto)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = Teraz
+# Status chip label in browse card rows
+browsing-leech = Pijawka
+browsing-more-tags =
+    { $count ->
+        [one] 1 tag więcej
+        [few] { $count } tagi więcej
+       *[many] { $count } tagów więcej
+    }
+browsing-leech-lapses =
+    { $count ->
+        [one] Pijawka, { $count } pętla
+        [few] Pijawka, { $count } pętle
+       *[many] Pijawka, { $count } pętli
+    }
 browsing-removed-unused-tags-count =
     { $count ->
         [one] Usunięto { $count } nieużywany tag.

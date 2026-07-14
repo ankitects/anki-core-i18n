@@ -342,6 +342,10 @@ deck-config-which-deck = Dla której talii chcesz wyświetlić opcje?
 
 deck-config-updating-cards = Aktualizowanie kart: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Podane parametry FSRS są nieprawidłowe. Pozostaw je puste, aby użyć domyślnych parametrów.
+deck-config-placeholder-parameters =
+    Domyślne parametry
+    (Wybierz "{ deck-config-optimize-button }"  od czasu do czasu aby umożliwić FSRS lepsze dostosowanie do twojej pamięci)
+deck-config-manual-parameter-edit-warning = Parametry powinny być modyfikowane wyłącznie przy użyciu przycisku optymalizacji. Zdecydowanie odradzane jest ich ręczne modyfikowanie.
 deck-config-not-enough-history = Historia powtórek jest niewystarczająca do przeprowadzenia tej operacji.
 deck-config-must-have-400-reviews =
     { $count ->
@@ -425,6 +429,7 @@ deck-config-checking-for-improvement = Sprawdzanie postępów...
 deck-config-optimizing-preset = Optymalizowanie opcji { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Musisz najpierw włączyć FSRS.
 deck-config-fsrs-params-optimal = Parametry FSRS wyglądają obecnie na optymalne.
+deck-config-fsrs-confirm-save-and-optimize = Wszelkie dokonane zmiany zostaną zapisane. Kontynuować?
 deck-config-fsrs-params-no-reviews = Nie znaleziono powtórek. Sprawdź, czy ta opcja FSRS jest przypisana do wszystkich talii, które chcesz zoptymalizować (wliczając w to podtalie) i spróbuj ponownie.
 deck-config-wait-for-audio = Czekaj na dźwięk
 deck-config-show-reminder = Pokaż przypomnienie
@@ -453,9 +458,8 @@ deck-config-save-options-to-preset-confirm = Nadpisać ustawienia w obecnych opc
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Zapamiętane
-deck-config-fsrs-simulator-radio-ratio = Stosunek czasu do zapamiętania
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time } na jedną zapamiętaną kartę
+deck-config-fsrs-simulator-radio-efficiency = Efektywność
+deck-config-fsrs-simulator-ratio-tooltip2 = { $time } zapamiętane karty na godzinę
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -478,6 +482,9 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-radio-ratio = Stosunek czasu do zapamiętania
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } na jedną zapamiętaną kartę
 deck-config-unable-to-determine-desired-retention = Nie można ustalić minimalnego zalecanego zapamiętywania.
 deck-config-predicted-minimum-recommended-retention = Minimalne rekomendowane zapamiętywanie: { $num }
 deck-config-compute-minimum-recommended-retention = Minimalne rekomendowane zapamiętywanie

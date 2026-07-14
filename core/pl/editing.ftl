@@ -49,6 +49,12 @@ editing-show-duplicates = Pokaż duplikaty
 editing-subscript = Indeks dolny
 editing-superscript = indeks górny
 editing-tags = Tagi
+editing-tag-count =
+    { $count ->
+        [one] { $count } tag
+        [few] { $count } tagi
+       *[many] { $count } tagów
+    }
 editing-tags-add = Dodaj tag
 editing-tags-copy = Kopiuj tagi
 editing-tags-remove = Usuń tagi
