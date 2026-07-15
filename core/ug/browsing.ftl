@@ -28,6 +28,7 @@ browsing-cards-deleted-with-deckname =
 browsing-change-deck = دەستە ئۆزگەرت
 browsing-change-deck2 = دەستە ئۆزگەرت…
 browsing-change-note-type = خاتىرە تۈرىنى ئۆزگەرت
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = خاتىرە تۈرىنى ئۆزگەرت…
 browsing-change-notetype = خاتىرە تۈرىنى ئۆزگەرت
 browsing-clear-unused-tags = ئىشلىتىلمىگەن بەلگىنى تازىلا
@@ -80,7 +81,14 @@ browsing-reposition = قايتا تەرتىپلە
 browsing-reposition-new-cards = يېڭى كارتىنى قايتا تەرتىپلە
 browsing-reschedule = قايتا كۈنتەرتىپلە
 browsing-search-bar-hint = كارتا/خاتىرە ئىزدە(تېكىست كىرگۈزۈپ Enter بېسىلىدۇ)
+browsing-search-facet-starters = سۈزگۈچى
 browsing-search-in = ئىچىدە ئىزدە:
+browsing-search-quick = تېز سۈزگۈچ
+browsing-search-quick-flagged = بايراق قوشۇلغان
+browsing-search-recent = يېقىنقى
+browsing-search-suggestions = تەكلىپ
+browsing-search-syntax-mode = سىنتاكس ھالىتى
+browsing-search-text-match = «{ $query }» ئىزدە
 browsing-search-within-formatting-slow = پىچىملىق ئىزدە (ئاستا)
 browsing-select-deck = دەستە تاللا
 browsing-selected-notes-only = تاللىغان خاتىرەلا
@@ -155,6 +163,13 @@ browsing-sidebar-due-today = مۆھلەت
 browsing-sidebar-untagged = بەلگە سېلىنمىغان
 browsing-sidebar-overdue = مۆھلەتتىن ئۆتكەن
 browsing-row-deleted = (ئۆچۈرۈلگەن)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = ھازىر
+browsing-more-tags =
+    { $count ->
+        [one] يەنە 1 بەلگە
+       *[other] يەنە { $count } بەلگە
+    }
 browsing-removed-unused-tags-count =
     { $count ->
         [one] ئىشلىتىلمىگەن { $count } بەلگە چىقىرىۋېتىلدى.

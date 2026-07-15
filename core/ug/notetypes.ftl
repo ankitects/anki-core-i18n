@@ -1,4 +1,6 @@
 notetypes-notetype = خاتىرە تۈرى
+notetypes-choose-note-type = خاتىرە تۈرىنى تاللا
+notetypes-change-note-type-ctrlandn = خاتىرە تۈرىنى ئۆزگەرت(Ctrl+N)
 
 ## Default field names in newly created note types
 

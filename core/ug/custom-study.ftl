@@ -1,32 +1,53 @@
-custom-study-must-rename-deck = ئالدى بىلەن مەۋجۇت ئىختىيارى ئۆگىنىش دەستىسىنىڭ ئاتىنى ئۆزگەرتىڭ.
-custom-study-all-cards-in-random-order-dont = بارلىق كارتا ئىختىيارىي تەرتىپتە (قايتا كۈنتەرتىپلەنمەيدۇ)
-custom-study-all-review-cards-in-random-order = بارلىق تەكرارلايدىغان كارتا ئىختىيارى تەرتىپتە
-custom-study-cards = كارتا
-custom-study-cards-from-the-deck = دەستەدىكى كارتا
-custom-study-choose-tags = بەلگە تاللا
-custom-study-custom-study-session = ئىختىيارى ئۆگىنىش جەريانى
-custom-study-due-cards-only = پەقەت مۆھلىتى توشقان كارتىلا
+### options related to the Custom Study window
+
 custom-study-increase-todays-new-card-limit = بۈگۈننىڭ يېڭى كارتا چېكىنى ئاشۇر
+# increase limit by {amount} cards
 custom-study-increase-todays-new-card-limit-by = بۈگۈننىڭ يېڭى كارتا چېكىنى ئاشۇر
+# the last word in the sentence "increase today's [new/review] card limit by {amount} cards"
+custom-study-cards = كارتا
+custom-study-available-new-cards-2 = ئىشلىتىشچان يېڭى كارتا سانى: { $countString }
 custom-study-increase-todays-review-card-limit = بۈگۈننىڭ تەكرارلايدىغان كارتا چېكىنى ئاشۇر
+# increase limit by {amount} cards
 custom-study-increase-todays-review-limit-by = بۈگۈننىڭ تەكرارلايدىغان كارتا چېكىنى ئاشۇر
-custom-study-new-cards-only = پەقەت يېڭى كارتىلا
-custom-study-no-cards-matched-the-criteria-you = شەرتىڭىزگە ھېچقانداق كارتا ماس كەلمىدى.
-custom-study-ok = جەزملە
-custom-study-preview-new-cards = يېڭى كارتىنى ئالدىن كۆزەت
-custom-study-preview-new-cards-added-in-the = يېقىندا قوشقان يېڭى كارتىنى ئالدىن كۆزەت
-custom-study-require-one-or-more-of-these = بۇ بەلگىدىن بىر ياكى بىر قانچىسى كېرەك:
+custom-study-available-review-cards-2 = ئىشلىتىلىشچان تەكرارلايدىغان كارتا سانى:{ $countString }
+custom-study-review-forgotten-cards = ئۇنتۇغان كارتىنى تەكرارلا
+custom-study-review-cards-forgotten-in-last = يېقىندا ئۇنتۇغان كارتىنى تەكرارلا
+custom-study-days =
+    { $count ->
+        [one] كۈن
+       *[other] كۈن
+    }
 custom-study-review-ahead = ئالدىن تەكرارلا
 custom-study-review-ahead-by = ئالدىن تەكرارلاش ۋاقتى
-custom-study-review-cards-forgotten-in-last = يېقىندا ئۇنتۇغان كارتىنى تەكرارلا
-custom-study-review-forgotten-cards = ئۇنتۇغان كارتىنى تەكرارلا
-custom-study-select = تاللا
-custom-study-select-tags-to-exclude = مۇستەسنا بەلگە تاللىنىدۇ:
-custom-study-selective-study = تاللاشچان ئۆگىنىش
+custom-study-preview-new-cards = يېڭى كارتىنى ئالدىن كۆزەت
+custom-study-preview-new-cards-added-in-the = يېقىندا قوشقان يېڭى كارتىنى ئالدىن كۆزەت
+
+## options for the "study by card state or tag" subsection
+
 custom-study-study-by-card-state-or-tag = كارتا ھالىتى ياكى بەلگە بويىچە ئۆگىنىش
-custom-study-available-new-cards-2 = ئىشلىتىشچان يېڭى كارتا سانى: { $countString }
-custom-study-available-review-cards-2 = ئىشلىتىلىشچان تەكرارلايدىغان كارتا سانى:{ $countString }
+# verb, not noun. As in "Select {amount} cards from the deck"
+custom-study-select = تاللا
+# As in "select {amount} cards from the deck"
+custom-study-cards-from-the-deck = دەستەدىكى كارتا
+custom-study-new-cards-only = پەقەت يېڭى كارتىلا
+custom-study-due-cards-only = پەقەت مۆھلىتى توشقان كارتىلا
+custom-study-all-review-cards-in-random-order = بارلىق تەكرارلايدىغان كارتا ئىختىيارى تەرتىپتە
+custom-study-all-cards-in-random-order-dont = بارلىق كارتا ئىختىيارىي تەرتىپتە (قايتا كۈنتەرتىپلەنمەيدۇ)
+custom-study-choose-tags = بەلگە تاللا
+
+##
+
+custom-study-ok = جەزملە
+custom-study-no-cards-matched-the-criteria-you = شەرتىڭىزگە ھېچقانداق كارتا ماس كەلمىدى.
+custom-study-must-rename-deck = ئالدى بىلەن مەۋجۇت ئىختىيارى ئۆگىنىش دەستىسىنىڭ ئاتىنى ئۆزگەرتىڭ.
+custom-study-custom-study-session = ئىختىيارى ئۆگىنىش جەريانى
 custom-study-available-child-count = (تارماق دەستىدە { $count })
+
+## inside the Selective Study window, accessible by selecting "Study by card state or tag" and then clicking "Choose Tags"
+
+custom-study-selective-study = تاللاشچان ئۆگىنىش
+custom-study-require-one-or-more-of-these = بۇ بەلگىدىن بىر ياكى بىر قانچىسى كېرەك:
+custom-study-select-tags-to-exclude = مۇستەسنا بەلگە تاللىنىدۇ:
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

@@ -282,6 +282,10 @@ deck-config-which-deck = قايسى دەستەنىڭ تاللانمىسىنى ك
 
 deck-config-updating-cards = كارتىنى يېڭىلاۋاتىدۇ: { $current_cards_count }/{ $total_cards_count }…
 deck-config-invalid-parameters = تەمىنلەنگەن FSRS پارامېتىرى ئىناۋەتسىز. كۆڭۈلدىكى پارامېتىرنى ئىشلىتىش ئۈچۈن ئۇلار بوش قالدۇرۇلسا بولىدۇ.
+deck-config-placeholder-parameters =
+    كۆڭۈلدىكى ئۆزگەرگۈچى
+    (FSRS نىڭ خاتىرىڭىزگە تېخىمۇ ياخشى ماسلىشىشى ئۈچۈن قەرەللىك ھالدا «{ deck-config-optimize-button }» بېسىلىدۇ)
+deck-config-manual-parameter-edit-warning = ئۆزگەرگۈچىنى پەقەت ئەلالاشتۇرۇش توپچىسىنى بېسىپ ئۆزگەرتكىلى بولىدۇ. ئۇلارنى قولدا ئۆزگەرتىش قەتئىي تەۋسىيە قىلىنمايدۇ.
 deck-config-not-enough-history = تەكرارلاش تارىخ خاتىرىسى بەك ئاز، بۇ مەشغۇلاتنى ئىجرا قىلالمايدۇ.
 deck-config-must-have-400-reviews =
     { $count ->
@@ -354,6 +358,7 @@ deck-config-checking-for-improvement = ياخشىلىنىشنى تەكشۈرۈۋ
 deck-config-optimizing-preset = ئالدىن تەڭشەكنى ئەلالاشتۇرۇۋاتىدۇ { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = ئالدى بىلەن FSRS نى قوزغىتىش كېرەك.
 deck-config-fsrs-params-optimal = نۆۋەتتە FSRS نىڭ پارامېتىرلىرى ئەلالاشتۇرۇلغان.
+deck-config-fsrs-confirm-save-and-optimize = بۇ باشقا ھەر قانداق ئۆزگىرىشنى ساقلايدۇ. راستتىنلا شۇنداق قىلامسىز؟
 deck-config-fsrs-params-no-reviews = تەكرارلاش خاتىرىسىنى تاپالمىدى. بارلىق ئەلالاشتۇرۇشقا تېگىشلىك دەستە (تارماق دەستىمۇ ئىچىدە) نىڭ ھەممىسى نۆۋەتتىكى ئالدىن تەڭشەكنى ئىشلىتىۋاتقانلىقىنى تەكشۈرۈپ ئاندىن قايتا سىناڭ.
 deck-config-wait-for-audio = ئۈن قويۇلۇشىنى كۈتىدۇ
 deck-config-show-reminder = ئەسكەرتىشنى كۆرسەت
@@ -382,9 +387,8 @@ deck-config-save-options-to-preset-confirm = تەقلىدلىگۈچتىكى نۆ
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = ئەستە تۇتقان
-deck-config-fsrs-simulator-radio-ratio = ۋاقىت/ئەستە ساقلاش نىسبىتى
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time } ھەر كارتىنى ئەستە ساقلاش
+deck-config-fsrs-simulator-radio-efficiency = ئۈنۈم
+deck-config-fsrs-simulator-ratio-tooltip2 = سائىتىگە { $time } كارتا ئەستە تۇتتى
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -404,6 +408,9 @@ deck-config-fsrs-good-fit = FSRS ئەستە ساقلاش ھالىتىڭىزگە 
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-radio-ratio = ۋاقىت/ئەستە ساقلاش نىسبىتى
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } ھەر كارتىنى ئەستە ساقلاش
 deck-config-unable-to-determine-desired-retention = تەۋسىيە قىلىنغان ئەڭ ئاز ئەستە ساقلاش نىسبىتىنى ھېسابلىيالمايدۇ
 deck-config-predicted-minimum-recommended-retention = تەۋسىيە قىلىنغان ئەڭ تۆۋەن ئەستە ساقلاش نىسبىتى: { $num }
 deck-config-compute-minimum-recommended-retention = تەۋسىيە قىلىنغان ئەڭ تۆۋەن ئەستە ساقلاش نىسبىتى

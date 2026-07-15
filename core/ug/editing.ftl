@@ -49,6 +49,11 @@ editing-show-duplicates = تەكرارلانغاننى كۆرسەت
 editing-subscript = ئاستى ئىندېكىس
 editing-superscript = ئۈستى ئىندېكىس
 editing-tags = بەلگە
+editing-tag-count =
+    { $count ->
+        [one] بەلگە
+       *[other] بەلگە
+    }
 editing-tags-add = بەلگە قوش
 editing-tags-copy = بەلگە كۆچۈر
 editing-tags-remove = بەلگىنى چىقىرىۋەت
