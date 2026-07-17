@@ -40,7 +40,9 @@ preferences-theme-follow-system = Seuraa järjestelmän asetuksia
 preferences-theme-light = Vaalea
 preferences-theme-dark = Tumma
 preferences-v3-scheduler = V3-aikataulutusohjelma
+preferences-updates = Päivitykset
 preferences-check-for-updates = Tarkista ohjelman päivitykset
+preferences-check-for-addon-updates = Tarkista lisäosien päivitykset
 preferences-ignore-accents-in-search = Jätä aksentit huomiotta haun yhteydessä (hitaampi)
 preferences-backup-explanation = Anki varmuuskopioi kokoelmasi säännöllisesti, kun se on suljettu. Kun varmuuskopiot ovat yli 2 päivää vanhoja, Anki alkaa poistaa niistä joitakin vapauttaakseen levytilaa.
 preferences-daily-backups = Säilytettävien päivittäisten varmuuskopioiden määrä:
@@ -80,6 +82,7 @@ preferences-ankihub-not-logged-in = Et ole tällä hetkellä kirjautuneena AnkiH
 preferences-ankiweb-intro = AnkiWeb on ilmainen palvelu, jonka avulla voit pitää opettelukorttiesi tiedot synkronoituna eri laitteidesi välillä ja palauttaa tiedot, jos laitteesi rikkoutuu tai katoaa.
 preferences-ankihub-intro = AnkiHub tarjoaa mahdollisuuden työstää korttipakkoja yhdessä muiden kanssa ja muita opiskelutyökaluja. Tiettyjen ominaisuuksien käyttö edellyttää maksullista tilausta.
 preferences-third-party-description = Anki ei ole sidoksissa kolmannen osapuolen palveluihin eikä ole niiden tukija. Näiden palvelujen käyttö saattaa edellyttää maksua.
+preferences-experimental-features-tab = Kokeelliset
 
 ## URL scheme related
 

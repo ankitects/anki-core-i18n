@@ -326,6 +326,10 @@ deck-config-which-deck = Minkä pakan haluaisit?
 
 deck-config-updating-cards = Päivitetään kortteja: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Annetut FSRS:n painokertoimet ovat virheellisiä. Jätä ne tyhjiksi käyttääksesi oletusarvoja.
+deck-config-placeholder-parameters =
+    Oletusparametrit¶
+    (Paina "{ deck-config-optimize-button }" aika ajoin, jotta FSRS voi paremmin mukautua muistisi mukaan)
+deck-config-manual-parameter-edit-warning = Parametreja kannattaa muokata ainoastaan optimoi-painikkeen avulla. Niiden muokkaamista käsin ei suositella.
 deck-config-not-enough-history = Ei riittävästi menneitä kertauksia tämän toiminnon suorittamiseen.
 deck-config-must-have-400-reviews =
     { $count ->
@@ -390,6 +394,7 @@ deck-config-checking-for-improvement = Etsitään parannettavaa...
 deck-config-optimizing-preset = Optimoidaan esiasetuksia { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS on otettava käyttöön ensin.
 deck-config-fsrs-params-optimal = FSRS:n painokertoimet vaikuttavat tällä hetkellä optimaalisilta.
+deck-config-fsrs-confirm-save-and-optimize = Myös kaikki muut tekemäsi muutokset tallennetaan. Oletko varma?
 deck-config-fsrs-params-no-reviews = Kertauksia ei löytynyt. Tarkista että tämä esiasetus on käytössä kaikissa pakoissa jotka haluat optimoida (mukaan luken alipakat), ja yritä sitten uudelleen.
 deck-config-wait-for-audio = Odota äänen päättymistä
 deck-config-show-reminder = Näytä muistutus
@@ -418,9 +423,8 @@ deck-config-save-options-to-preset-confirm = Korvataanko nykyisen esiasetuksen a
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Opittu ulkoa
-deck-config-fsrs-simulator-radio-ratio = Suhdeluku: aika / ulkoa opittujen määrä
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time } per ulkoa opittu kortti
+deck-config-fsrs-simulator-radio-efficiency = Tehokkuus
+deck-config-fsrs-simulator-ratio-tooltip2 = { $time } opittua korttia tunnissa
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -443,6 +447,9 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-radio-ratio = Suhdeluku: aika / ulkoa opittujen määrä
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } per ulkoa opittu kortti
 deck-config-unable-to-determine-desired-retention = Optimaalisen retention määrittäminen ei onnistunut.
 deck-config-predicted-minimum-recommended-retention = Pienin suositeltu retentio: { $num }
 deck-config-compute-minimum-recommended-retention = Pienin suositeltu retentio

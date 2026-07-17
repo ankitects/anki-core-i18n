@@ -49,6 +49,11 @@ editing-show-duplicates = Näytä kaksoiskappaleet
 editing-subscript = Alaindeksi
 editing-superscript = Yläindeksi
 editing-tags = Tunnisteet
+editing-tag-count =
+    { $count ->
+        [one] { $count } tunniste
+       *[other] { $count } tunnistetta
+    }
 editing-tags-add = Lisää tunniste
 editing-tags-copy = Kopioi tunnisteet
 editing-tags-remove = Poista tunnisteet

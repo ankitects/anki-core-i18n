@@ -28,6 +28,7 @@ browsing-cards-deleted-with-deckname =
 browsing-change-deck = Vaihda pakkaa
 browsing-change-deck2 = Vaihda pakkaa...
 browsing-change-note-type = Vaihda muistiinpanotyyppiä
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Vaihda muistiinpanotyyppiä...
 browsing-change-notetype = Vaihda muistiinpanotyyppiä
 browsing-clear-unused-tags = Poista käyttämättömät tunnisteet
@@ -80,7 +81,15 @@ browsing-reposition = Uuden sijainnin määrittäminen...
 browsing-reposition-new-cards = Määritä uusi sijainti pakassa uusille korteille
 browsing-reschedule = Ajasta uudelleen
 browsing-search-bar-hint = Etsi kortteja/muistiinpanoja (kirjoita tekstiä ja paina Enter-näppäintä)
+browsing-search-facet-starters = Suodata...
 browsing-search-in = Etsi paikasta:
+browsing-search-quick = Pikasuodattimet
+browsing-search-quick-flagged = Liputetut
+browsing-search-quick-leeches = Resurssisyöpöt
+browsing-search-recent = Viimeaikaiset
+browsing-search-suggestions = Ehdotukset
+browsing-search-syntax-mode = Syntaksin tila
+browsing-search-text-match = Etsi: "{ $query }"
 browsing-search-within-formatting-slow = Etsi muotoiluista (hidas)
 browsing-select-deck = Valitse pakka
 browsing-selected-notes-only = Vain valitut muistiinpanot
@@ -155,6 +164,20 @@ browsing-sidebar-due-today = Erääntyvät
 browsing-sidebar-untagged = Tunnisteettomat
 browsing-sidebar-overdue = Rästissä
 browsing-row-deleted = (poistettu)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = Nyt
+# Status chip label in browse card rows
+browsing-leech = Resurssisyöppö
+browsing-more-tags =
+    { $count ->
+        [one] 1 muu tunniste
+       *[other] { $count } muuta tunnistetta
+    }
+browsing-leech-lapses =
+    { $count ->
+        [one] Resurssisyöppö, { $count } virhe
+       *[other] Resurssisyöppö, { $count } virhettä
+    }
 browsing-removed-unused-tags-count =
     { $count ->
         [one] Poistettiin { $count } käyttämätön tunniste.

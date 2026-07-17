@@ -1,4 +1,6 @@
 notetypes-notetype = Muistiinpanotyyppi
+notetypes-choose-note-type = Valitse muistiinpanotyyppi
+notetypes-change-note-type-ctrlandn = Vaihda muistiinpanotyyppiä (Ctrl + N)
 
 ## Default field names in newly created note types
 
