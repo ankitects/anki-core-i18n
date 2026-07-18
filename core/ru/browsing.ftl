@@ -84,7 +84,15 @@ browsing-reposition = Переместить...
 browsing-reposition-new-cards = Переместить новые карточки
 browsing-reschedule = Позже
 browsing-search-bar-hint = Поиск карточек и записей (введите запрос и нажмите Enter)
+browsing-search-facet-starters = Отфильтровать по
 browsing-search-in = Искать в:
+browsing-search-quick = Быстрые фильтры
+browsing-search-quick-flagged = С флажком
+browsing-search-quick-leeches = Приставучие
+browsing-search-recent = Недавние
+browsing-search-suggestions = Предложения
+browsing-search-syntax-mode = Режим синтаксиса
+browsing-search-text-match = Искать «{ $query }»
 browsing-search-within-formatting-slow = Поиск по форматированию (медленно)
 browsing-select-deck = Выбрать колоду
 browsing-selected-notes-only = Только выбранные записи
@@ -167,6 +175,22 @@ browsing-sidebar-due-today = К повторению
 browsing-sidebar-untagged = Без метки
 browsing-sidebar-overdue = Просрочено
 browsing-row-deleted = (удаленные)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = Сейчас
+# Status chip label in browse card rows
+browsing-leech = Приставучая
+browsing-more-tags =
+    { $count ->
+        [one] ещё 1 метка
+        [few] ещё несколько метки
+       *[many] ещё { $count } меток
+    }
+browsing-leech-lapses =
+    { $count ->
+        [one] Приставучая, забыта { $count } раз
+        [few] Приставучая, забыта { $count } раза
+       *[many] Приставучая, забыта { $count } раз
+    }
 browsing-removed-unused-tags-count =
     { $count ->
         [one] Удалена { $count } неиспользуемая метка.

@@ -1,4 +1,6 @@
 notetypes-notetype = Тип записи
+notetypes-choose-note-type = Выбрать тип записи
+notetypes-change-note-type-ctrlandn = Сменить тип записи (Ctrl+N)
 
 ## Default field names in newly created note types
 

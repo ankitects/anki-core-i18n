@@ -436,9 +436,7 @@ deck-config-save-options-to-preset-confirm = Перезаписать парам
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Выученo
-deck-config-fsrs-simulator-radio-ratio = Соотношение время / запоминание
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time } на запоминание карты
+deck-config-fsrs-simulator-radio-efficiency = Эффективность
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -458,6 +456,9 @@ deck-config-fsrs-good-fit = FSRS хорошо адаптирован к ваше
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-radio-ratio = Соотношение время / запоминание
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } на запоминание карты
 deck-config-unable-to-determine-desired-retention = Не удалось вычислить минимальное рекомендуемое усвоение
 deck-config-predicted-minimum-recommended-retention = Минимальное рекомендуемое усвоение: { $num }
 deck-config-compute-minimum-recommended-retention = Минимальное рекомендуемое усвоение

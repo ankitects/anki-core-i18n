@@ -1,33 +1,46 @@
-decks-add-new-deck-ctrlandn = Добавить новую колоду (Ctrl+N)
-decks-build = Создать
+## In the options window of a filtered deck
+
+decks-limit-to = Ограничить до
 decks-cards-selected-by = карт, выбранных
-decks-create-deck = Создать колоду
-decks_create_even_if_empty = Создать/обновить эту колоду, даже если она пуста
-decks-custom-steps-in-minutes = Заданные шаги (мин.)
-decks-deck = Колода
-decks-delete-deck = Удалить колоду
+decks-reschedule-cards-based-on-my-answers = Перепланировать карточки на основе моих ответов в этой колоде
 decks-enable-second-filter = Активировать второй фильтр
+decks_create_even_if_empty = Создать/обновить эту колоду, даже если она пуста
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = Задержка для { $button }
+# The count of cards waiting to be reviewed
+decks-zero-minutes-hint = (0 = вернуть карточку в исходную колоду)
+# filter is a noun here
 decks-filter = Фильтр:
 decks-filter-2 = Фильтр 2
+
+## column names on the main "Decks" window 
+
+decks-deck = Колода
+decks-learn-header = Изучаемые
+decks-review-header = К повторению
+
+##
+
+decks-unmovable-cards = Показать все исключённые карточки
+decks-add-new-deck-ctrlandn = Добавить новую колоду (Ctrl+N)
+decks-build = Создать
+decks-create-deck = Создать колоду
+decks-custom-steps-in-minutes = Заданные шаги (мин.)
+decks-delete-deck = Удалить колоду
+# a button that links to AnkiWeb for browsing shared decks
 decks-get-shared = Скачать колоду
+# import deck from file
 decks-import-file = Импортировать
-decks-limit-to = Ограничить до
 decks-minutes = мин.
 decks-new-deck-name = Имя новой колоды:
 decks-no-deck = [нет колоды]
 decks-please-select-something = Выберите вариант.
 decks-repeat-failed-cards-after = Повторить забытые карточки после
-# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
-decks-delay-for-button = Задержка для { $button }
-decks-reschedule-cards-based-on-my-answers = Перепланировать карточки на основе моих ответов в этой колоде
 decks-study = Учить
 decks-study-deck = Учить колоду
 decks-filtered-deck-search-empty = Совпадений не найдено. Карточки могли быть исключены или находиться в другой фильтрованной колоде.
-decks-unmovable-cards = Показать все исключённые карточки
-decks-learn-header = Изучаемые
-# The count of cards waiting to be reviewed
-decks-review-header = К повторению
-decks-zero-minutes-hint = (0 = вернуть карточку в исходную колоду)
+decks-choose-deck = Выбрать колоду
+decks-target-deck-ctrlandd = Целевая колода (Ctrl+D)
 
 ## Sort order of cards
 
@@ -47,9 +60,9 @@ decks-decreasing-intervals = Сокращающиеся интервалы
 decks-oldest-seen-first = Сначала просмотренные давно
 # Combobox entry: Sort the cards in random order
 decks-random = В случайном порядке
+# Combobox entry: Sort the cards by relative overdueness, in descending order (most overdue to least overdue)
+decks-relative-overdueness = Относительная просроченность
 
 ## These strings are no longer used - you do not need to translate them if they
 ## are not already translated.
 
-# Combobox entry: Sort the cards by relative overdueness, in descending order (most overdue to least overdue)
-decks-relative-overdueness = Относительная просроченность

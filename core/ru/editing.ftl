@@ -49,6 +49,12 @@ editing-show-duplicates = Показать повторы
 editing-subscript = Подстрочный знак
 editing-superscript = Надстрочный знак
 editing-tags = Метки
+editing-tag-count =
+    { $count ->
+        [one] метка
+        [few] метки
+       *[many] меток
+    }
 editing-tags-add = Добавить метку
 editing-tags-copy = Копировать метку
 editing-tags-remove = Удалить метки
