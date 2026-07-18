@@ -241,7 +241,7 @@ deck-config-confirm-remove-name = 要移除「{ $name }」嗎？
 deck-config-save-button = 儲存
 deck-config-save-to-all-subdecks = 儲存至所有子牌組
 deck-config-save-and-optimize = 最佳化所有預設組
-deck-config-revert-button-tooltip = 回復設定為預設值？
+deck-config-revert-button-tooltip = 將此設定回復為預設值
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
@@ -274,6 +274,10 @@ deck-config-which-deck = 要顯示哪一個牌組的選項？
 
 deck-config-updating-cards = 正在更新卡片：{ $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = 提供的 FSRS 參數無效。留空以使用預設參數。
+deck-config-placeholder-parameters =
+    預設參數
+    （請定期使用「{ deck-config-optimize-button }」按鈕來讓 FSRS 根據你的記憶情況進行調整）
+deck-config-manual-parameter-edit-warning = 請僅使用「最佳化」按鈕來修改這些參數。強烈建議不要手動編輯。
 deck-config-not-enough-history = 複習歷程過少，無法執行此動作。
 deck-config-must-have-400-reviews = 只找到了 { $count } 筆複習記錄。至少需要 400 筆複習記錄才能執行此動作。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
@@ -341,6 +345,7 @@ deck-config-checking-for-improvement = 正在檢查改善情況...
 deck-config-optimizing-preset = 正在最佳化預設組 { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = 必須先啟用 FSRS。
 deck-config-fsrs-params-optimal = 當前 FSRS 參數已為最佳。
+deck-config-fsrs-confirm-save-and-optimize = 將儲存你對其他選項所做的任何更動。確定嗎？
 deck-config-fsrs-params-no-reviews = 找不到複習記錄。請確保所有需要最佳化的牌組（含子牌組）都正在使用此預設組，然後再試一次。
 deck-config-wait-for-audio = 等待音訊播放
 deck-config-show-reminder = 顯示提醒
