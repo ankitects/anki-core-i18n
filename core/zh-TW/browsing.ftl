@@ -23,6 +23,7 @@ browsing-cards-deleted-with-deckname = 已刪除「{ $deck_name }」中的 { $co
 browsing-change-deck = 更改牌組
 browsing-change-deck2 = 更改牌組...
 browsing-change-note-type = 更改筆記類型
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = 更改筆記類型...
 browsing-change-notetype = 更改筆記類型
 browsing-clear-unused-tags = 清理未使用的標籤
@@ -76,6 +77,7 @@ browsing-reposition-new-cards = 調整新卡片順序
 browsing-reschedule = 重新排程
 browsing-search-bar-hint = 搜尋卡片/筆記（輸入文字後按下 Enter 鍵）
 browsing-search-in = 搜尋範圍：
+browsing-search-quick-leeches = 低效卡
 browsing-search-within-formatting-slow = 含格式搜尋（較慢）
 browsing-select-deck = 選取牌組
 browsing-selected-notes-only = 僅選取的筆記
@@ -146,6 +148,8 @@ browsing-sidebar-due-today = 到期
 browsing-sidebar-untagged = 沒有標籤
 browsing-sidebar-overdue = 逾期
 browsing-row-deleted = （已刪除）
+# Status chip label in browse card rows
+browsing-leech = 低效卡
 browsing-removed-unused-tags-count =
     { $count ->
        *[other] 已移除 { $count } 個未使用的標籤。

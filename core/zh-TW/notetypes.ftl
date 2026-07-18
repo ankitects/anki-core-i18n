@@ -1,4 +1,6 @@
 notetypes-notetype = 筆記類型
+notetypes-choose-note-type = 選擇筆記類型
+notetypes-change-note-type-ctrlandn = 更改筆記類型 (Ctrl+N)
 
 ## Default field names in newly created note types
 

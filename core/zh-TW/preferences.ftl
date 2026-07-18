@@ -40,7 +40,9 @@ preferences-theme-follow-system = 跟隨系統設定
 preferences-theme-light = 淺色
 preferences-theme-dark = 深色
 preferences-v3-scheduler = V3 排程器
+preferences-updates = 更新
 preferences-check-for-updates = 檢查程式更新
+preferences-check-for-addon-updates = 檢查附加元件更新
 preferences-ignore-accents-in-search = 搜尋時忽略字母的變音符號（速度較慢）
 preferences-backup-explanation = Anki 會定期備份你的集合。為節省硬碟空間，超過 2 天以前建立的備份將有一部分會被自動刪除。
 preferences-daily-backups = 每日保留備份數量：
@@ -80,6 +82,7 @@ preferences-ankihub-not-logged-in = 未登入 AnkiHub。
 preferences-ankiweb-intro = 你可以使用 AnkiWeb 來跨裝置同步卡片，裝置損毀或遺失時也可以輕鬆還原資料。使用 AnkiWeb 無需付費。
 preferences-ankihub-intro = AnkiHub 可以合作編輯牌組，並提供其他學習工具。部分功能需付費訂閱。
 preferences-third-party-description = Anki 與第三方服務無合作關係，不予擔保。使用這些服務可能需要付費。
+preferences-experimental-features-tab = 實驗功能
 
 ## URL scheme related
 

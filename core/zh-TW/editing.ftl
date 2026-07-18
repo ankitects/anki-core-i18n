@@ -49,6 +49,7 @@ editing-show-duplicates = 顯示重複項目
 editing-subscript = 下標
 editing-superscript = 上標
 editing-tags = 標籤
+editing-tag-count = { $count } 個標籤
 editing-tags-add = 加入標籤
 editing-tags-copy = 複製標籤
 editing-tags-remove = 移除標籤
