@@ -317,6 +317,10 @@ deck-config-which-deck = Какую колоду вы выбираете?
 
 deck-config-updating-cards = Обновление карт: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Указанные параметры FSRS недействительны. Оставьте поле для параметров пустым, чтобы использовать параметры по умолчанию.
+deck-config-placeholder-parameters =
+    Параметры по умолчанию
+    (Периодически нажимайте кнопку "{ deck-config-optimize-button }" , чтобы FSRS лучше адаптировался к вашей памяти)
+deck-config-manual-parameter-edit-warning = Изменять параметры следует только с помощью кнопки «Оптимизировать». Редактировать их вручную категорически не рекомендуется.
 deck-config-not-enough-history = Недостаточно повторений для выполнения данной операции.
 deck-config-must-have-400-reviews =
     { $count ->
@@ -408,6 +412,7 @@ deck-config-checking-for-improvement = Проверка на предмет ул
 deck-config-optimizing-preset = Оптимизация конфигурации { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Сначала необходимо включить FSRS.
 deck-config-fsrs-params-optimal = В настоящее время параметры FSRS, вероятно, оптимальны.
+deck-config-fsrs-confirm-save-and-optimize = Это сохранит все остальные внесенные вами изменения. Вы уверены?
 deck-config-fsrs-params-no-reviews = Повторений не обнаружено. Проверьте, что этот пакетный профиль назначен всем колодам и подколодам, которые вы хотите оптимизировать, затем попробуйте еще раз.
 deck-config-wait-for-audio = Ждать аудио
 deck-config-show-reminder = Показать напоминание
@@ -437,6 +442,7 @@ deck-config-save-options-to-preset-confirm = Перезаписать парам
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Выученo
 deck-config-fsrs-simulator-radio-efficiency = Эффективность
+deck-config-fsrs-simulator-ratio-tooltip2 = { $time } количество запомненных карт в час
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
