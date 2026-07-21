@@ -3,6 +3,7 @@ exporting-anki-20-deck = Anki 2.0 牌組
 exporting-anki-collection-package = Anki 集合檔
 exporting-anki-deck-package = Anki 牌組檔
 exporting-cards-in-plain-text = 純文字卡片
+# used in the filename during the export of a collection package
 exporting-collection = 集合
 exporting-collection-exported = 已匯出集合。
 exporting-colpkg-too-new = 請更新 Anki 到最新版本，然後重新嘗試匯入此 .colpkg 檔。
@@ -17,7 +18,7 @@ exporting-include-deck-configs = 包含牌組預設組
 exporting-include-tags = 包含標籤
 exporting-support-older-anki-versions = 舊版 Anki 支援（速度較慢/檔案更大）
 exporting-notes-in-plain-text = 純文字筆記
-exporting-selected-notes = 已選取的筆記
+exporting-selected-notes = 所選筆記
 exporting-card-exported =
     { $count ->
        *[other] 已匯出 { $count } 張卡片。
