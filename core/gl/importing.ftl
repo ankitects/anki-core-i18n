@@ -29,6 +29,7 @@ importing-mapped-to = asignado a <b>{ $val }</b>
 importing-mapped-to-tags = asignado a <b>etiquetas</b>
 # the action of combining two existing note types to create a new one
 importing-merge-notetypes = Combinar tipos de nota
+importing-notes-added-from-file = Notas engadidas desde o ficheiro: { $val }
 # the '|' character
 importing-pipe = Canalización
 importing-rows-had-num1d-fields-expected-num2d = «{ $row }» ten { $found } campos, agardábanse { $expected }
@@ -66,6 +67,18 @@ importing-note-updated =
         [one] { $count } nota actualizada
        *[other] { $count } notas actualizadas
     }
+importing-cards-added =
+    { $count ->
+        [one] Engadiuse { $count } tarxeta.
+       *[other] Engadíronse { $count } tarxetas.
+    }
+importing-notes-added =
+    { $count ->
+        [one] Importouse { $count } nota.
+       *[other] Importáronse { $count } notas.
+    }
+importing-duplicate-note-added = Engadiuse unha nota duplicada.
+importing-added-new-note = Engadiuse unha nota nova.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
