@@ -81,7 +81,15 @@ browsing-reposition = Yeniden konumlandır...
 browsing-reposition-new-cards = Yeni Kartları Yeniden Konumlandır
 browsing-reschedule = Yeniden Planla
 browsing-search-bar-hint = Kartlarda/notlarda arayın (metin yazıp Enter tuşuna basın)
+browsing-search-facet-starters = Şuna göre filtrele
 browsing-search-in = Şurada ara:
+browsing-search-quick = Hızlı filtreler
+browsing-search-quick-flagged = Bayrak Eklendi
+browsing-search-quick-leeches = İllet Kartlar
+browsing-search-recent = Son Kullanılanlar
+browsing-search-suggestions = Öneriler
+browsing-search-syntax-mode = Söz Dizimi modu
+browsing-search-text-match = "{ $query }" ifadesini ara
 browsing-search-within-formatting-slow = Biçimlendirmenin içinde ara (yavaş)
 browsing-select-deck = Desteyi Seç
 browsing-selected-notes-only = Yalnızca seçilen notlar
@@ -156,6 +164,20 @@ browsing-sidebar-due-today = Vade
 browsing-sidebar-untagged = Etiketlenmemiş
 browsing-sidebar-overdue = Gecikmiş
 browsing-row-deleted = (silinmiş)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = Şimdi
+# Status chip label in browse card rows
+browsing-leech = İllet Kart
+browsing-more-tags =
+    { $count ->
+        [one] { $count } adet daha etiket
+       *[other] { $count } adet daha etiket
+    }
+browsing-leech-lapses =
+    { $count ->
+        [one] İllet Kart, { $count } kez unutuldu
+       *[other] İllet Kart, { $count } kez unutuldu
+    }
 browsing-removed-unused-tags-count =
     { $count ->
         [one] { $count } kullanılmayan etiket silindi.

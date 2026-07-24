@@ -170,6 +170,10 @@ deck-config-clone-group = Ön Ayarı Kopyala
 ## Removing
 
 deck-config-remove-group = Ön Ayarı Sil
+deck-config-will-require-full-sync =
+    Yapılacak senkronizasyon tek taraflıdır. Eğer başka cihaz(lar)da
+    değişiklik yaptıysanız ve o cihazları senkronize etmediyseniz
+    lütfen devam etmeden önce diğer cihazları senkronize edin.
 
 ## Other Buttons
 

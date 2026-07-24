@@ -46,9 +46,14 @@ sync-ankiweb-id-label = Kullanıcı Adı:
 sync-password-label = Parola:
 sync-account-required =
     <h1>Hesap Gerekli</h1>
-    Koleksiyonunuzun eşitlenmesi için ücretsiz hesap açmanız gerekiyor.  Lütfen  <a href="{ $link }">hesap açın</a> ve bilgilerinizi yazın.
+    Koleksiyonunuzun senkronize edilmesi için ücretsiz bir hesap açmanız gerekiyor. Lütfen önce <a href="{ $link }">kayıt olun</a>, ardından bilgilerinizi aşağıya girin.
 sync-sanity-check-failed = Lütfen "Veritabanını Kontrol Et" işlevini kullanın ve ardından tekrar senkronize edin. Sorun devam ederse, lütfen tercihler ekranından tek yönlü senkronizasyonu zorlayın.
 sync-clock-off = Senkronize edilemedi - sistem saatin doğru saate ayarlanmamış.
+# “details” expands to a string such as “300.14 MB > 300.00 MB”
+sync-upload-too-large =
+    Koleksiyonunuz AnkiWeb'e gönderilemeyecek kadar büyük. İstenmeyen desteleri kaldırabilir (ya da önce bunları dışa aktarabilir), sonrasında "Veri Tabanını Kontrol Et" işlevini kullanarak dosya boyutunu düşürebilirsiniz.
+    
+    { $details } (sıkıştırılmamış)
 sync-sign-in = Oturum aç
 sync-ankihub-dialog-heading = AnkiHub Girişi
 sync-ankihub-username-label = Kullanıcı adı veya E-posta
@@ -67,7 +72,7 @@ sync-cancel-button = İptal
 
 sync-downloading-from-ankiweb = AnkiWeb'den indiriliyor...
 sync-uploading-to-ankiweb = AnkiWeb'e yükleniyor...
-sync-syncing = Eşitleniyor...
+sync-syncing = Senkronize ediliyor...
 sync-checking = Kontrol ediliyor...
 sync-connecting = Bağlantı kuruluyor...
 sync-added-updated-count = Eklendi/düzenlendi: { $up }↑ { $down }↓
