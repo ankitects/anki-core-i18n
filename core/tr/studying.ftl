@@ -7,7 +7,7 @@ studying-bury = Göm
 studying-bury-card = Kartı Göm
 studying-bury-note = Notu Göm
 studying-card-suspended = Kart askıya alındı.
-studying-card-was-a-leech = Kart bir sömürücüydü.
+studying-card-was-a-leech = İllet bir karttı.
 studying-cards-buried =
     { $count ->
         [one] kart gizlendi.
@@ -46,6 +46,11 @@ studying-type-answer-unknown-field = Cevap yazın: bilinmeyen alan { $val }
 studying-unbury = Gömmeyi geri̇ al
 studying-what-would-you-like-to-unbury = Neyin gömmesini geri almak istersiniz?
 studying-you-havent-recorded-your-voice-yet = Sesinizi henüz kaydetmediniz.
+studying-question-time-elapsed = Soru süresi geçti
+studying-answer-time-elapsed = Cevap süresi geçen
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] { $count } kartın çalışılma süresi:
@@ -56,5 +61,3 @@ studying-minute =
         [one] { $count } dakika.
        *[other] { $count } dakika.
     }
-studying-question-time-elapsed = Soru süresi geçti
-studying-answer-time-elapsed = Cevap süresi geçen

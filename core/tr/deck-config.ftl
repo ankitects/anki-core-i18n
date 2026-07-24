@@ -70,11 +70,19 @@ deck-config-new-insertion-order-random = Rastgele
 ## Lapses section
 
 deck-config-relearning-steps = Yeniden öğrenme adımları
+deck-config-leech-threshold-tooltip =
+    Bir tekrar kartının illet kart olarak işaretlenmesi için
+    'Yeniden' butonuna basılması gereken sayı. İllet kartlar
+    vaktinizi fazlasıyla harcayan kartlardır; bu nedenle bir
+    kart illet olarak işaretlendiğinde onu değiştirmeyi düşünmek,
+    silmek veya hatırlamanıza yardımcı olacak bir ipucu bulmak
+    iyi bir fikirdir.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `Tag Only`: Nota bir "leech" etiketi ekle, bir açılır mesaj da göster.
+    'Sadece Etiketle': Nota "illet kart" etiketi ekler ve bir açılır pencere gösterir.
     
-    `Suspend Card`: Notu etiketlemeye ek olarak, kartı manuel olarak tekrar gösterilene kadar gizle.
+    'Kartı Askıya Al': Notu etiketlemenin yanı sıra, manuel olarak askıdan çıkarılana
+    kadar kartı gizler.
 
 ## Burying section
 
@@ -113,6 +121,12 @@ deck-config-new-gather-priority-random-notes = Rastgele notlar
 deck-config-new-gather-priority-random-cards = Rastgele kartlar
 # Sort the cards randomly.
 deck-config-sort-order-random = Rastgele
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Gözden geçirmeleri karıştır
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Gözden geçirmelerden sonra göster
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Gözden geçirmelerden önce göster
 # Sort the cards by the interval, in ascending order (shortest to longest).
 deck-config-sort-order-ascending-intervals = Artan aralık
 # Sort the cards by the interval, in descending order (longest to shortest).
@@ -132,16 +146,20 @@ deck-config-sort-order-retrievability-descending = Azalan hatırlanabilirlik
 
 ## Timer section
 
+deck-config-timer-title = Zamanlayıcılar
 deck-config-maximum-answer-secs = Maksimum cevap saniyeleri
 
 ## Auto Advance section
 
 deck-config-question-action-show-answer = Cevabı Göster
 deck-config-question-action-show-reminder = Hatırlatıcıyı Göster
+deck-config-question-action = Soru eylemi
+deck-config-answer-action = Yanıt eylemi
 
 ## Audio section
 
 deck-config-audio-title = Ses
+deck-config-disable-autoplay = Sesi otomatik oynatmayı devre dışı bırak
 
 ## Advanced section
 
@@ -149,6 +167,7 @@ deck-config-advanced-title = Gelişmiş
 
 ## Easy Days section.
 
+deck-config-easy-days-title = Hafif Günler
 deck-config-easy-days-monday = Pazartesi
 deck-config-easy-days-tuesday = Salı
 deck-config-easy-days-wednesday = Çarşamba
@@ -174,6 +193,7 @@ deck-config-will-require-full-sync =
     Yapılacak senkronizasyon tek taraflıdır. Eğer başka cihaz(lar)da
     değişiklik yaptıysanız ve o cihazları senkronize etmediyseniz
     lütfen devam etmeden önce diğer cihazları senkronize edin.
+deck-config-confirm-remove-name = { $name } kaldırılsın mı?
 
 ## Other Buttons
 
@@ -194,10 +214,14 @@ deck-config-revert-button-tooltip = Bu ayarı varsayılan değerine geri yükle.
 
 ## Messages related to the FSRS scheduler
 
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = FSRS parametreleri
+deck-config-compute-optimal-weights = FSRS parametrelerini optimize et
 deck-config-optimize-button = Mevcut Ön Ayarı Optimize Et
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (yavaş)
 deck-config-compute-button = Hesapla
+deck-config-ignore-before = Daha önce incelenen kartları görmezden gel
 deck-config-complete = %{ $num } tamamlandı.
 deck-config-please-save-your-changes-first = Lütfen önce değişikliklerinizi kaydedin.
 deck-config-percent-of-reviews =
@@ -210,6 +234,7 @@ deck-config-percent-input = %{ $pct }
 deck-config-checking-for-improvement = İyileştirme için kontrol ediliyor...
 deck-config-fsrs-must-be-enabled = Önce FSRS etkinleştirilmelidir.
 deck-config-fsrs-params-optimal = FSRS değişkenleri şu anda ideal görünmektedir.
+deck-config-wait-for-audio = Sesi bekleyin
 deck-config-show-reminder = Hatırlatıcıyı Göster
 deck-config-answer-again = Tekrar Cevapla
 deck-config-answer-hard = Zor
@@ -222,10 +247,22 @@ deck-config-fsrs-simulator-experimental = FSRS Simülatörü (Deneysel)
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Karar Vermeme Yardım Et (Deneysel)
 deck-config-simulate = Simüle et
 deck-config-clear-last-simulate = Son Simülasyonu Temizle
+deck-config-fsrs-simulator-radio-count = Gözden Geçirmeler
 deck-config-advanced-settings = Gelişmiş Ayarlar
+deck-config-suspend-leeches = Askıya alınan İllet Kartlar
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    Sağlık Kontrolü:
+    FSRS'nin hafızanızı tahmin etmesi zorlaşıyor. Öneriler:
+    
+    - Sürekli unuttuğunuz kartları askıya alın veya yeniden düzenleyin.
+    - Yanıt butonlarını tutarlı bir şekilde kullanın. "Zor" seçeneğinin bir hata değil, geçerli bir seçenek unutmayın.
+    - Ezberlemeden önce anlayın.
+    
+    Bu önerileri takip ederseniz, performansınız genellikle önümüzdeki birkaç ay içinde artacaktır.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

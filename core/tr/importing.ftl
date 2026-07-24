@@ -41,6 +41,10 @@ importing-notes-updated-as-file-had-newer = Dosya daha yeni bir sürüme sahip o
 importing-include-reviews = Gözden geçirmeleri dahil et
 importing-with-deck-configs = Deste ön ayarlarını içe aktar
 importing-updates = Güncellemeler
+importing-include-reviews-help =
+    Etkinleştirilirse, desteyi paylaşan kişinin eklediği önceki tekrarlar da içe aktarılır.
+    Aksi takdirde tüm kartlar yeni kart olarak içe aktarılır ve tüm "illet kart" ya da "işaretli"
+    etiketleri kaldırılır.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paketlenmiş Anki Destesi/Koleksiyonu (*.apkg *.colpkg *.zip)
 # the '|' character
 importing-pipe = Dikey çizgi

@@ -5,14 +5,14 @@ actions-add = Ekle
 # a submenu. This entry in the submenu creates a search term that matches
 # cards/notes meeting ALL of the selected criteria.
 # https://github.com/ankitects/anki/pull/1044
-actions-all-selected = Seçilen hepsi
+actions-all-selected = Seçilenlerin hepsi
 # Action in context menu:
 # In the browser sidebar, when in "Select" mode, right-click on the
 # selected criteria elements. In the context menu, click on "Search" to open
 # a submenu. This entry in the submenu creates a search term that matches
 # cards/notes meeting ANY of the selected criteria.
 # https://github.com/ankitects/anki/pull/1044
-actions-any-selected = Seçilen herhangi biri
+actions-any-selected = Seçilenlerden herhangi biri
 actions-cancel = İptal
 actions-choose = Seç
 actions-close = Kapat
@@ -37,7 +37,7 @@ actions-options = Seçenekler
 actions-options-for = { $val } için seçenekler
 actions-preview = Önizleme
 actions-rebuild = Yeniden oluştur
-actions-rename = Yeniden Adlandır
+actions-rename = Yeniden adlandır
 actions-rename-deck = Desteyi Yeniden Adlandır
 actions-rename-tag = Etiketi Yeniden Adlandır
 actions-rename-with-parents = Üstlerle Yeniden Adlandır

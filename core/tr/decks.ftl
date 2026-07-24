@@ -1,28 +1,39 @@
-decks-add-new-deck-ctrlandn = Yeni Deste Ekle (Ctrl+N)
-decks-build = Oluştur
+## In the options window of a filtered deck
+
+decks-limit-to = Sınırla
 decks-cards-selected-by = tarafından seçilen kartlar
-decks-create-deck = Deste Oluştur
-decks_create_even_if_empty = Boş olsa bile bu desteyi oluştur/güncelle
-decks-custom-steps-in-minutes = Özel adımlar (dakikada)
-decks-deck = Deste
-decks-delete-deck = Desteyi kaldır
+decks-reschedule-cards-based-on-my-answers = Bu destedeki cevaplarıma göre kartları yeniden planlama
 decks-enable-second-filter = İkinci filtreyi etkinleştir
+decks_create_even_if_empty = Boş olsa bile bu desteyi oluştur/güncelle
+# filter is a noun here
 decks-filter = Filtre:
 decks-filter-2 = Filtre 2
+
+## column names on the main "Decks" window 
+
+decks-deck = Deste
+decks-learn-header = Öğrenme
+decks-review-header = Vade
+
+##
+
+decks-unmovable-cards = Hariç tutulan kartları göster
+decks-add-new-deck-ctrlandn = Yeni Deste Ekle (Ctrl+N)
+decks-build = Oluştur
+decks-create-deck = Deste Oluştur
+decks-custom-steps-in-minutes = Özel adımlar (dakikada)
+decks-delete-deck = Desteyi kaldır
+# a button that links to AnkiWeb for browsing shared decks
 decks-get-shared = Deste Bul
+# import deck from file
 decks-import-file = Dosyayı İçe Aktar
-decks-limit-to = Sınırla
 decks-minutes = dakîka
 decks-new-deck-name = Yeni deste adı:
 decks-no-deck = [deste yok]
 decks-please-select-something = Lütfen bir şey seçin.
-decks-reschedule-cards-based-on-my-answers = Bu destedeki cevaplarıma göre kartları yeniden planlama
 decks-study = Çalış
 decks-study-deck = Desteyi Çalış
-decks-unmovable-cards = Hariç tutulan kartları göster
-decks-learn-header = Öğrenme
-# The count of cards waiting to be reviewed
-decks-review-header = Vade
+decks-filtered-deck-search-empty = Yapılan aramaya uygun hiçbir kart bulunamadı. Bazı kartlar farklı bir filtreli destede olduğu ya da askıya alındığı için gösterilmemiş olabilir.
 
 ## Sort order of cards
 
@@ -42,9 +53,9 @@ decks-decreasing-intervals = Azalan aralıkta
 decks-oldest-seen-first = Önce en eski görülenler
 # Combobox entry: Sort the cards in random order
 decks-random = Rastgele
+# Combobox entry: Sort the cards by relative overdueness, in descending order (most overdue to least overdue)
+decks-relative-overdueness = Görece gecikmişlik
 
 ## These strings are no longer used - you do not need to translate them if they
 ## are not already translated.
 
-# Combobox entry: Sort the cards by relative overdueness, in descending order (most overdue to least overdue)
-decks-relative-overdueness = Görece gecikmişlik
