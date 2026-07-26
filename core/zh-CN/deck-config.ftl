@@ -440,9 +440,8 @@ deck-config-save-options-to-preset-confirm = 是否用模拟器中当前设置�
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = 已记忆卡片
-deck-config-fsrs-simulator-radio-ratio = 时间/记忆比
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time }每已记忆的卡片
+deck-config-fsrs-simulator-radio-efficiency = 效率
+deck-config-fsrs-simulator-ratio-tooltip2 = 每小时记住 { $time } 张卡片
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -465,6 +464,9 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-radio-ratio = 时间/记忆比
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time }每已记忆的卡片
 deck-config-unable-to-determine-desired-retention = 无法计算出推荐的最小记忆保留率
 deck-config-predicted-minimum-recommended-retention = 推荐的最小记忆保留率：{ $num }
 deck-config-compute-minimum-recommended-retention = 推荐的最小记忆保留率

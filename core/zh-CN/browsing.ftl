@@ -76,7 +76,15 @@ browsing-reposition = 重排位置…
 browsing-reposition-new-cards = 重排新卡片的位置
 browsing-reschedule = 重新排程
 browsing-search-bar-hint = 搜索卡片/笔记（输入文本，然后按回车键）
+browsing-search-facet-starters = 筛选方式
 browsing-search-in = 搜索位置：
+browsing-search-quick = 快速筛选
+browsing-search-quick-flagged = 已标记
+browsing-search-quick-leeches = 记忆难点
+browsing-search-recent = 最近
+browsing-search-suggestions = 建议
+browsing-search-syntax-mode = 语法模式
+browsing-search-text-match = 搜索「{ $query }」
 browsing-search-within-formatting-slow = 用格式搜索（较慢）
 browsing-select-deck = 选择牌组
 browsing-selected-notes-only = 仅选中的笔记
@@ -147,6 +155,12 @@ browsing-sidebar-due-today = 今天到期的
 browsing-sidebar-untagged = 无标签
 browsing-sidebar-overdue = 逾期未复习
 browsing-row-deleted = （已删除）
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = 现在
+# Status chip label in browse card rows
+browsing-leech = 记忆难点
+browsing-more-tags = 另外 { $count } 个标签
+browsing-leech-lapses = 记忆难点，{ $count } 次遗忘
 browsing-removed-unused-tags-count =
     { $count ->
        *[other] 已删除 { $count } 个未使用的标签。

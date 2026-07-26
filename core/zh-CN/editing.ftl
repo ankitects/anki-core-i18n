@@ -49,6 +49,7 @@ editing-show-duplicates = 查看重复的卡片
 editing-subscript = 下标
 editing-superscript = 上标
 editing-tags = 标签
+editing-tag-count = { $count } 个标签
 editing-tags-add = 添加标签
 editing-tags-copy = 复制标签
 editing-tags-remove = 删除标签

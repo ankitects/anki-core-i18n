@@ -1,4 +1,6 @@
 notetypes-notetype = 笔记模板
+notetypes-choose-note-type = 选择笔记模板
+notetypes-change-note-type-ctrlandn = 改变笔记模板 (Ctrl+N)
 
 ## Default field names in newly created note types
 
