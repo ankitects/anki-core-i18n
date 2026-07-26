@@ -333,6 +333,10 @@ deck-config-which-deck = 您想显示哪个牌组的选项？
 
 deck-config-updating-cards = 更新卡片中：{ $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = 提供的 FSRS 参数无效。可以将它们留空以使用默认参数。
+deck-config-placeholder-parameters =
+    默认参数
+    （请定期使用「{ deck-config-optimize-button }」以便 FSRS 更好地适应您的记忆）
+deck-config-manual-parameter-edit-warning = 只应使用「优化」按钮来修改这些参数。强烈建议不要手动编辑它们。
 deck-config-not-enough-history = 复习历史记录过少，无法执行该操作。
 deck-config-must-have-400-reviews = 只找到了 { $count } 次复习记录。至少需要复习 400 次才能进行此操作。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
@@ -412,6 +416,7 @@ deck-config-checking-for-improvement = 检查改进中……
 deck-config-optimizing-preset = 正在优化预设 { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = 请您先启用 FSRS。
 deck-config-fsrs-params-optimal = 当前 FSRS 参数已为最佳。
+deck-config-fsrs-confirm-save-and-optimize = 这将保存您已做出的所有其他更改。确定吗？
 deck-config-fsrs-params-no-reviews = 未找到复习记录。确保此预设已分配给您想要优化的所有牌组（包括子牌组），然后重试。
 deck-config-wait-for-audio = 等待音频播放完毕
 deck-config-show-reminder = 显示提醒
