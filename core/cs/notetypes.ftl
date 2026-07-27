@@ -1,4 +1,6 @@
 notetypes-notetype = Typ poznámky
+notetypes-choose-note-type = Vyber typ poznámky
+notetypes-change-note-type-ctrlandn = Změnit typ poznámky (Ctrl+N)
 
 ## Default field names in newly created note types
 
