@@ -40,7 +40,9 @@ preferences-theme-follow-system = Podle systému
 preferences-theme-light = Světlý
 preferences-theme-dark = Tmavý
 preferences-v3-scheduler = V3 plánovač
+preferences-updates = Aktualizace
 preferences-check-for-updates = Kontrolovat aktualizace programu
+preferences-check-for-addon-updates = Kontrolovat aktualizace doplňků
 preferences-ignore-accents-in-search = Ignorovat diakritiku ve vyhledávání (pomalejší)
 preferences-backup-explanation =
     Anki pravidelně zálohuje Vaši kolekci. Jestliže jsou zálohy více než 2 dny staré,

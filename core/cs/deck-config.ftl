@@ -369,6 +369,9 @@ deck-config-which-deck = Který balíček požadujete?
 
 deck-config-updating-cards = Aktualizují se karty: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Zadané parametry FSRS jsou neplatné. Ponechte je prázdné, použijí se tak výchozí parametry.
+deck-config-placeholder-parameters =
+    Výchozí parametry
+    (Pravidelně spouštějte „{ deck-config-optimize-button }“, aby se FSRS mohlo lépe přizpůsobit vaší paměti)
 deck-config-not-enough-history = K provedení této operace není dostatečná historie opakování.
 deck-config-must-have-400-reviews =
     { $count ->
@@ -477,9 +480,6 @@ deck-config-save-options-to-preset-confirm = Přepsat nastavení v aktuální p�
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Zapamatováno
-deck-config-fsrs-simulator-radio-ratio = Poměr čas / zapamatováno
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time } na zapamatovanou kartu
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -502,6 +502,9 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-radio-ratio = Poměr čas / zapamatováno
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } na zapamatovanou kartu
 deck-config-unable-to-determine-desired-retention = Nelze určit optimální retenci.
 deck-config-predicted-minimum-recommended-retention = Minimální doporučená retence: { $num }
 deck-config-compute-minimum-recommended-retention = Minimální doporučená retence
