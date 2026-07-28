@@ -81,7 +81,15 @@ browsing-reposition = Reposiciona…
 browsing-reposition-new-cards = Reposiciona les noves targetes
 browsing-reschedule = Replanifica
 browsing-search-bar-hint = Per a cercar targetes o notes, escriviu un text i premeu la tecla de retorn.
+browsing-search-facet-starters = Filtra per
 browsing-search-in = Cerca en:
+browsing-search-quick = Filtres ràpids
+browsing-search-quick-flagged = Amb senyal
+browsing-search-quick-leeches = Sangoneres
+browsing-search-recent = Recents
+browsing-search-suggestions = Suggeriments
+browsing-search-syntax-mode = Mode sintaxi
+browsing-search-text-match = Cerca «{ $query }»
 browsing-search-within-formatting-slow = Cerca en els elements de format (lent)
 browsing-select-deck = Tria una baralla
 browsing-selected-notes-only = Només les notes seleccionades
@@ -156,6 +164,15 @@ browsing-sidebar-due-today = Pendents
 browsing-sidebar-untagged = Sense etiqueta
 browsing-sidebar-overdue = En retard
 browsing-row-deleted = (esborrada)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = Ara
+# Status chip label in browse card rows
+browsing-leech = Sangonera
+browsing-more-tags =
+    { $count ->
+        [one] Una etiqueta més
+       *[other] { $count } etiquetes més
+    }
 browsing-removed-unused-tags-count =
     { $count ->
         [one] S’ha suprmit una etiqueta no utilizada.
