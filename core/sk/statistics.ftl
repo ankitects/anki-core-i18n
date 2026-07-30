@@ -157,6 +157,7 @@ statistics-average-over-period = Pri každodennom štúdiu
 statistics-save-pdf = Uložiť PDF
 statistics-saved = Uložené.
 statistics-stats = stat
+statistics-title = Štatistiky
 
 ## These strings are no longer used - you do not need to translate them if they
 ## are not already translated.
