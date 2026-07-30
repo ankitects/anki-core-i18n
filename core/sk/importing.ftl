@@ -1,4 +1,3 @@
-importing-failed = Import zlyhal.
 importing-failed-debug-info = Import zlyhal. Informácie o ladení:
 importing-aborted = Prerušené: { $val }
 importing-added-duplicate-with-first-field = Pridaný duplikát s prvým poľom: { $val }
@@ -33,15 +32,12 @@ importing-multicharacter-separators-are-not-supported-please = Viacznakové odde
 importing-notes-added-from-file = Poznámky pridané zo súboru: { $val }
 importing-notes-found-in-file = Poznámky nájdené v súbore: { $val }
 importing-notes-skipped-as-theyre-already-in = Preskočené poznámky, ktoré už sú v zbierke: { $val }
-importing-notes-that-could-not-be-imported = Poznámky, ktoré nebolo možné importovať, pretože sa zmenil typ poznámky: { $val }
 importing-notes-updated-as-file-had-newer = Poznámky aktualizované, pretože súbor bol v novšej verzii: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Zabalený Anki balíček/zbierka (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Pauker 1.8 lekcia (*.pau.gz)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' malo { $found } polí, namiesto očakávaných { $expected }
 importing-selected-file-was-not-in-utf8 = Zvolený súbor nie je vo formáte UTF-8. Prosím, prečítajte si  manuál, kapitola Import.
 importing-semicolon = Bodkočiarka
 importing-skipped = Preskočené
-importing-supermemo-xml-export-xml = Supermemo XML export (*.xml)
 importing-tab = Karta
 importing-tag-modified-notes = Pridať štítky k modifikovaným poznámkam:
 importing-text-separated-by-tabs-or-semicolons = Text oddelený tabulátormi alebo bodkočiarkami (*)
@@ -83,4 +79,11 @@ importing-processed-media-file =
         [few] Spracovaný { $count } multimediálny súbor
        *[other] Spracované { $count } multimediálne súbory
     }
+importing-importing-file = Importovanie súboru...
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-notes-that-could-not-be-imported = Poznámky, ktoré nebolo možné importovať, pretože sa zmenil typ poznámky: { $val }
 importing-added = Pridané
+importing-pauker-18-lesson-paugz = Pauker 1.8 lekcia (*.pau.gz)
+importing-supermemo-xml-export-xml = Supermemo XML export (*.xml)
