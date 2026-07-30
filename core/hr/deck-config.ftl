@@ -52,6 +52,7 @@ deck-config-learning-steps-tooltip = Jedna ili više odgoda odvojenih zarezom. P
 deck-config-graduating-interval-tooltip = Koliko dana da se čeka prije ponovnog prikazivanja kartice nakon što se pritisne gumb `Dobro` u posljednjem koraku učenja.
 deck-config-easy-interval-tooltip = Koliko dana da se čeka prije ponovnog prikazivanja kartice nakon što se klikom na gumb `Lako` odmah ukloni karta iz učenja.
 deck-config-new-insertion-order = Poredak umetanja
+deck-config-new-insertion-order-tooltip = Kontrolira poziciju (broj kartica na redu) novih kartica koja je dodijeljena kada dodate novu karticu. Kartice sa manjim brojem reda automatski će biti prikazane prve tijekom učenja. Mijenjanje ove opcije automatski će ažurirati postojeću poziciju novih kartica.
 deck-config-new-insertion-order-sequential = Sekvencijalno (prvo najstarije kartice)
 deck-config-new-insertion-order-random = Nasumično
 deck-config-new-insertion-order-random-with-v3 = S v3 raspoređivačem, bolje je postaviti ovu postavku na "sekvencijalno" i umjesto toga prilagoditi redoslijed sabiranja novih kartica.
@@ -353,8 +354,6 @@ deck-config-advanced-settings = Napredne postavke
 deck-config-smooth-graph = Glatki graf
 deck-config-suspend-leeches = Suspendiraj pijavice
 deck-config-save-options-to-preset = Spremi promjene u predložak
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time } po zapamćenoj kartici
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -373,6 +372,8 @@ deck-config-fsrs-bad-fit-warning =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } po zapamćenoj kartici
 deck-config-unable-to-determine-desired-retention = placeholder
 deck-config-predicted-minimum-recommended-retention = placeholder
 deck-config-compute-minimum-recommended-retention = placeholder

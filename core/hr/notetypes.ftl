@@ -1,4 +1,6 @@
 notetypes-notetype = Tip bilješke
+notetypes-choose-note-type = Odaberi vrstu bilješke
+notetypes-change-note-type-ctrlandn = Promijeni vrstu bilješke (Ctrl+N)
 
 ## Default field names in newly created note types
 

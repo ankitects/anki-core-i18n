@@ -24,6 +24,12 @@ database-check-field-count =
         [few] Popravljene { $count } bilješke s netočnim brojem polja.
        *[other] Popravljeno { $count } bilješki s netočnim brojem polja.
     }
+database-check-new-card-high-due =
+    { $count ->
+        [one] Pronađena { $count } nova kartica s "due" brojem >= 1,000,000 - razmislite o premještanju nje u Prozor pretraživanja.
+        [few] Pronađene { $count } nove kartice s "due" brojem >= 1,000,000 - razmislite o premještanju njih u Prozor pretraživanja.
+       *[other] Pronađeno { $count } novih kartica s "due" brojem >= 1,000,000 - razmislite o premještanju njih u Prozor pretraživanja.
+    }
 database-check-card-missing-note =
     { $count ->
         [one] Izbrisana { $count } kartica s nedostajućom bilješkom.

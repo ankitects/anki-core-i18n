@@ -83,7 +83,14 @@ browsing-reposition = Premjesti...
 browsing-reposition-new-cards = Premjesti nove kartice
 browsing-reschedule = Prerasporedi
 browsing-search-bar-hint = Pretraživanje kartica/bilješki (upišite tekst, a zatim pritisnite Enter)
+browsing-search-facet-starters = Filtriraj po
 browsing-search-in = Traži u:
+browsing-search-quick = Brzi filteri
+browsing-search-quick-flagged = Označeno
+browsing-search-recent = Nedavno
+browsing-search-suggestions = Prijedlozi
+browsing-search-syntax-mode = Način sintakse
+browsing-search-text-match = Pretraži "{ $query }"
 browsing-search-within-formatting-slow = Pretraživanje unutar formatiranja (sporo)
 browsing-select-deck = Odaberite špil
 browsing-selected-notes-only = Samo odabrane bilješke
@@ -172,6 +179,14 @@ browsing-sidebar-due-today = Na redu
 browsing-sidebar-untagged = Bez oznaka
 browsing-sidebar-overdue = Zakašnjelo
 browsing-row-deleted = (obrisano)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = Sada
+browsing-more-tags =
+    { $count ->
+        [one] više tag
+        [few] više tagova
+       *[other] više tagova
+    }
 browsing-removed-unused-tags-count =
     { $count ->
         [one] { $count } nekorištena oznaka uklonjena.

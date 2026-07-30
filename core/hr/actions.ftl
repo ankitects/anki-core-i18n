@@ -49,6 +49,7 @@ actions-search = Pretraživanje
 actions-select = Odaberite
 actions-shortcut-key = Na tipkovnici: { $val }
 actions-suspend-card = Suspendiraj karticu
+actions-set-due-date = Postavite rok
 actions-toggle-load-balancer = Uključi/isključi uravnoteživač opterećenja
 actions-grade-now = Ocijeni sada
 actions-answer-card = Kartica s odgovorom

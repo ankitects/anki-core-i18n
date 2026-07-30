@@ -169,6 +169,12 @@ scheduling-set-due-date-prompt-hint =
     0 = danas
     1! = sutra + promijeni interval na 1
     3-7 = nasumičan odabir između 3 i 7 dana.
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Postavi datum roka { $cards } kartice.
+        [few] Postavi datum roka { $cards } kartica.
+       *[other] Postavi datum roka { $cards } kartica.
+    }
 scheduling-graded-cards-done =
     { $cards ->
         [one] { $cards } kartica ocijenjena.

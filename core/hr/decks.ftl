@@ -1,32 +1,46 @@
-decks-add-new-deck-ctrlandn = Dodaj novi špil (Ctrl+N)
-decks-build = Izradi
+## In the options window of a filtered deck
+
+decks-limit-to = Ograniči na
 decks-cards-selected-by = kartica, odabranih po
-decks-create-deck = Stvori špil
-decks_create_even_if_empty = Stvori/ažuriraj ovaj špil čak i ako je prazan
-decks-custom-steps-in-minutes = Koraci po izboru (u minutama)
-decks-deck = Špil
-decks-delete-deck = Obriši špil
+decks-reschedule-cards-based-on-my-answers = Prerasporedi kartice na temelju mojih odgovora u ovom špilu
 decks-enable-second-filter = Omogući drugi filtar
+decks_create_even_if_empty = Stvori/ažuriraj ovaj špil čak i ako je prazan
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = Odgoda za { $button }
+# The count of cards waiting to be reviewed
+decks-zero-minutes-hint = (0 = vrati karticu u izvorni špil)
+# filter is a noun here
 decks-filter = Filtar:
 decks-filter-2 = Filtar 2
+
+## column names on the main "Decks" window 
+
+decks-deck = Špil
+decks-learn-header = Učenje
+decks-review-header = Na redu
+
+##
+
+decks-unmovable-cards = Pokaži isključene kartice
+decks-add-new-deck-ctrlandn = Dodaj novi špil (Ctrl+N)
+decks-build = Izradi
+decks-create-deck = Stvori špil
+decks-custom-steps-in-minutes = Koraci po izboru (u minutama)
+decks-delete-deck = Obriši špil
+# a button that links to AnkiWeb for browsing shared decks
 decks-get-shared = Preuzmi dijeljeni
+# import deck from file
 decks-import-file = Uvezi datoteku
-decks-limit-to = Ograniči na
+decks-minutes = minute
 decks-new-deck-name = Naziv novog špila:
 decks-no-deck = [nijedan špil]
 decks-please-select-something = Odaberite nešto.
 decks-repeat-failed-cards-after = Odgodi opetovano krivo odgovorene kartice nakon
-# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
-decks-delay-for-button = Odgoda za { $button }
-decks-reschedule-cards-based-on-my-answers = Prerasporedi kartice na temelju mojih odgovora u ovom špilu
 decks-study = Uči
 decks-study-deck = Uči špil
 decks-filtered-deck-search-empty = Nijedna kartica ne odgovara navedenom pretraživanju. Neke su kartice možda isključene jer se nalaze u drugom filtriranom špilu ili su suspendirane.
-decks-unmovable-cards = Pokaži isključene kartice
-decks-learn-header = Učenje
-# The count of cards waiting to be reviewed
-decks-review-header = Na redu
-decks-zero-minutes-hint = (0 = vrati karticu u izvorni špil)
+decks-choose-deck = Odaberi špil
+decks-target-deck-ctrlandd = Ciljani špil (Ctrl+D)
 
 ## Sort order of cards
 

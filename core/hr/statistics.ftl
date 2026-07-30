@@ -125,11 +125,14 @@ statistics-counts-separate-suspended-buried-cards = Razdvoji suspendirane/pokopa
 ##      window is certain sizes.
 
 statistics-true-retention-title = Retencija
+statistics-true-retention-subtitle = Stopa prolaznosti kartica s intervalom ≥ 1 dan.
 statistics-true-retention-tooltip = Ako koristite FSRS, očekuje se da će vaša retencija biti blizu željene retencije. Imajte na umu da podaci za pojedini dan imaju mnogo šuma pa je bolje gledati podatke za cijeli mjesec.
+statistics-true-retention-range = Opseg
 statistics-true-retention-pass = Prolaz
 statistics-true-retention-fail = Pad
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = Ukupno
+statistics-true-retention-count = Zbroj
 statistics-true-retention-retention = Retencija
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = Mlade
@@ -157,7 +160,9 @@ statistics-range-search = Pretraživanje
 statistics-card-ease-title = Lakoća kartica
 statistics-card-difficulty-title = Teškoća kartica
 statistics-card-stability-title = Stabilnost kartica
+statistics-card-stability-subtitle = Vremenski interval pri kojem dohvatljivost padne na 90%.
 statistics-median-stability = Medijan stabilnosti
+statistics-card-retrievability-title = Dohvatljivost Kartica
 statistics-card-ease-subtitle = Što je manja lakoća, to će se kartica češće pojavljivati.
 statistics-card-difficulty-subtitle2 = Što je teškoća veća, to stabilnost sporije raste.
 statistics-retrievability-subtitle = Vjerojatnost da se danas sjetite kartice.
@@ -173,6 +178,12 @@ statistics-card-difficulty-tooltip =
         [one] { $cards } kartica s { $percent } teškoće
         [few] { $cards } kartice s { $percent } teškoće
        *[other] { $cards } kartica s { $percent } teškoće
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } kartica s { $percent } lakoće.
+        [few] { $cards } kartice s { $percent } lakoće.
+       *[other] { $cards } kartica s { $percent } lakoće.
     }
 statistics-future-due-title = Prognoza
 statistics-future-due-subtitle = Broj ponavljanja planiranih u budućnosti.
@@ -307,6 +318,7 @@ statistics-cards-per-day =
     }
 statistics-median-ease = Medijan lakoće
 statistics-median-difficulty = Medijan teškoće
+statistics-average-retrievability = Prosječna dohvatljivost
 statistics-estimated-total-knowledge = Procjena ukupnog znanja
 statistics-save-pdf = Spremi PDF
 statistics-saved = Spremljeno.

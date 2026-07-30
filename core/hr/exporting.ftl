@@ -3,6 +3,7 @@ exporting-anki-20-deck = Anki 2.0 špil
 exporting-anki-collection-package = Anki paket kolekcije
 exporting-anki-deck-package = Anki paket špila
 exporting-cards-in-plain-text = Kartice u običnom tekstu
+# used in the filename during the export of a collection package
 exporting-collection = kolekcija
 exporting-collection-exported = Kolekcija izvezena.
 exporting-colpkg-too-new = Ažurirajte na najnoviju verziju Ankija te zatim ponovno uvezite .colpkg/.apkg datoteku.
@@ -12,6 +13,7 @@ exporting-export-format = <b>Format za izvoz</b>:
 exporting-include = <b>Uključi</b>:
 exporting-include-html-and-media-references = Uključi HTML i reference na medije
 exporting-include-media = Uključi medijske datoteke
+exporting-include-scheduling-information = Uključi informacije o vremenskom rasporedu
 exporting-include-deck-configs = Uključi predloške špilova
 exporting-include-tags = Uključi oznake
 exporting-support-older-anki-versions = Kompatibilnost sa starijim verzijama Ankija (sporije/veće datoteke)
