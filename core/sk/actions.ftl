@@ -1,5 +1,4 @@
 actions-add = Pridať
-actions-blue-flag = Modrý príznak
 actions-cancel = Zrušiť
 actions-choose = Vybrať
 actions-close = Zatvoriť
@@ -8,8 +7,8 @@ actions-custom-study = Vlastné štúdium
 actions-decks = Balíčky
 actions-delete = Odstrániť
 actions-export = Exportovať
+actions-empty-cards = Prázdne kartičky
 actions-filter = Filtrovať
-actions-green-flag = Zelený príznak
 actions-help = Pomocník
 actions-import = Importovať
 actions-manage = Spravovať...
@@ -18,10 +17,8 @@ actions-new = Nové
 actions-new-name = Nový názov:
 actions-options = Nastavenia
 actions-options-for = Nastavenia pre { $val }
-actions-orange-flag = Oranžový príznak
 actions-preview = Náhľad
 actions-rebuild = Znovu zostaviť
-actions-red-flag = Červený príznak
 actions-rename = Premenovať
 actions-rename-deck = Premenovať balíček
 actions-replay-audio = Prehrať zvuk
@@ -30,4 +27,21 @@ actions-save = Uložiť
 actions-search = Hľadať
 actions-shortcut-key = Klávesová skratka: { $val }
 actions-suspend-card = Dať kartu bokom
+actions-set-due-date = Nastaviť dátum skúšania
+actions-flag-number = Príznak
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
+actions-flag-red = Červený
+actions-flag-orange = Oranžový
+actions-flag-green = Zelený
+actions-flag-blue = Modrý
+actions-flag-pink = Rúžový
+actions-flag-turquoise = Tyrkysový
+actions-flag-purple = Purpurový
+
+##
+
 actions-processing = Spracováva sa...
