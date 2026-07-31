@@ -21,6 +21,7 @@ deck-config-tab-description =
     - `Tento balíček`: Limit je určený pre tento balíček.
     - `Iba dnes`: Urobte dočasnú zmenu limitu tohto balíčka.
 deck-config-new-cards-ignore-review-limit = Nové kartičky ignorujú limit opakovaní
+deck-config-affects-entire-collection = Ovplyvní celú kolekciu.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -30,6 +31,8 @@ deck-config-today-only = Iba dnes
 
 ## New Cards section
 
+deck-config-learning-steps = Kroky učenia
+deck-config-new-insertion-order-sequential = Postupné (najprv najstaršie karty)
 
 ## Lapses section
 
