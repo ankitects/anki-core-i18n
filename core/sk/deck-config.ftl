@@ -59,12 +59,17 @@ deck-config-today-only = Iba dnes
 
 ## Adding/renaming
 
+deck-config-add-group = Pridať predvoľbu
+deck-config-rename-group = Premenovať predvoľbu
+deck-config-clone-group = Duplikovať predvoľbu
 
 ## Removing
 
+deck-config-remove-group = Odstrániť predvoľbu
 
 ## Other Buttons
 
+deck-config-save-button = Uložiť
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
