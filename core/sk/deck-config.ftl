@@ -7,10 +7,25 @@ deck-config-default-name = Predvolený
 
 ## Daily limits section
 
+deck-config-daily-limits = Denné limity
+deck-config-new-limit-tooltip =
+    Maximálny počet nových kartičiek na deň, ak sú dostupné nové karty.
+    Pretože nový materiál zvýši vašu krátkodobú záťaž pri opakovaní, bežne by to malo
+    byť aspoň 10x menšie ako váš limit opakovaní.
+deck-config-limit-deck-v3 =
+    Počas študovania balíčku. ktorý ma vlastné podbalíčky, limity nastavené pre každý
+    podbalíček riadia maximálny počet kartičiek nazbieraných z daného podbalíčka.
+    Limity zvoleného balíčka riadia celok kartičiek, ktoré sa zobrazia.
+deck-config-tab-description =
+    - `Predvoľba`: Tento limit je použitý na všetky balíčky s touto predvoľbou .
+    - `Tento balíček`: Limit je určený pre tento balíček.
+    - `Iba dnes`: Urobte dočasnú zmenu limitu tohto balíčka.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-deck-only = Tento balíček
+deck-config-today-only = Iba dnes
 
 ## New Cards section
 

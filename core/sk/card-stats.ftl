@@ -10,6 +10,7 @@ card-stats-new-card-position = Pozícia
 card-stats-card-template = Typ karty
 card-stats-note-type = Typ poznámky
 card-stats-deck-name = Balíček
+card-stats-preset = Predvoľba
 card-stats-note-id = ID poznámky
 card-stats-card-id = ID karty
 card-stats-review-log-rating = Hodnotenie
@@ -21,3 +22,9 @@ card-stats-review-log-type-review = Opakovať
 card-stats-review-log-type-relearn = Zabudnuté
 card-stats-review-log-type-filtered = Filtrované:
 card-stats-review-log-type-rescheduled = Preplánovať
+
+## Window Titles
+
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
