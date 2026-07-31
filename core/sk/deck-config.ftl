@@ -20,6 +20,7 @@ deck-config-tab-description =
     - `Predvoľba`: Tento limit je použitý na všetky balíčky s touto predvoľbou .
     - `Tento balíček`: Limit je určený pre tento balíček.
     - `Iba dnes`: Urobte dočasnú zmenu limitu tohto balíčka.
+deck-config-new-cards-ignore-review-limit = Nové kartičky ignorujú limit opakovaní
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -70,6 +71,8 @@ deck-config-remove-group = Odstrániť predvoľbu
 ## Other Buttons
 
 deck-config-save-button = Uložiť
+deck-config-save-to-all-subdecks = Uložiť pre všetky podbalíčky
+deck-config-save-and-optimize = Optimalizovať všetky predvoľby
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
