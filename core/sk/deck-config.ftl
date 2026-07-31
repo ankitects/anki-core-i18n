@@ -43,12 +43,19 @@ deck-config-leech-threshold-tooltip =
     označená ako pijavica. Pijavice sú kartičky ktoré zaberajú mnoho z vášho času,
     a keď sa kartička označí ako pijavica, dobrým nápadom je ju prepísať, vymazať
     alebo vymyslieť mnemotechnickú pomôcku na zapamätanie si jej.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Iba štítok`: Pridá k jej poznámke štítok „leech“ a zobrazí vyskakovacie okno.
+    
+    `Vyradiť kartičku`: V dodatku k pridaniu štítka k poznámke schová kartičku dokiaľ
+    nie je manuálne zrušené vyradenie.
 
 ## Burying section
 
 
 ## Gather order and sort order of cards
 
+deck-config-ordering-title = Poradie zobrazovania
 
 ## Gather order and sort order of cards – Combobox entries
 

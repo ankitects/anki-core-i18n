@@ -28,6 +28,7 @@ actions-search = Hľadať
 actions-shortcut-key = Klávesová skratka: { $val }
 actions-suspend-card = Dať kartu bokom
 actions-set-due-date = Nastaviť dátum skúšania
+actions-unbury-unsuspend = Odhrabať/Vrátiť vyradenú
 actions-flag-number = Príznak
 
 ## The same translation may used for two independent actions:
