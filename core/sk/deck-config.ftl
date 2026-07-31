@@ -33,9 +33,16 @@ deck-config-today-only = Iba dnes
 
 deck-config-learning-steps = Kroky učenia
 deck-config-new-insertion-order-sequential = Postupné (najprv najstaršie karty)
+deck-config-new-insertion-order-random = Náhodne
 
 ## Lapses section
 
+deck-config-relearning-steps = Kroky znovu učenia
+deck-config-leech-threshold-tooltip =
+    Počet stlačení `Znovu` pri opakovaní karty predtým ako je
+    označená ako pijavica. Pijavice sú kartičky ktoré zaberajú mnoho z vášho času,
+    a keď sa kartička označí ako pijavica, dobrým nápadom je ju prepísať, vymazať
+    alebo vymyslieť mnemotechnickú pomôcku na zapamätanie si jej.
 
 ## Burying section
 
