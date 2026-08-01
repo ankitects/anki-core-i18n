@@ -56,9 +56,22 @@ deck-config-leech-action-tooltip =
 ## Gather order and sort order of cards
 
 deck-config-ordering-title = Poradie zobrazovania
+deck-config-new-gather-priority = Poradie zbierania nových kartičiek
 
 ## Gather order and sort order of cards – Combobox entries
 
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Balíček
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Balíček, potom náhodné poznámky
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Vzostupná pozícia
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Zostupná pozícia
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Náhodné poznámky
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Náhodné kartičky
 
 ## Timer section
 
