@@ -26,6 +26,7 @@ deck-config-affects-entire-collection = Ovplyvní celú kolekciu.
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-shared-preset = Predvoľbu
 deck-config-deck-only = Tento balíček
 deck-config-today-only = Iba dnes
 
@@ -58,7 +59,9 @@ deck-config-leech-action-tooltip =
 deck-config-ordering-title = Poradie zobrazovania
 deck-config-new-gather-priority = Poradie zbierania nových kartičiek
 deck-config-new-card-sort-order = Poradie zoradenia nových kariet
+deck-config-new-review-priority = Poradie nových/opakovaní
 deck-config-interday-step-priority = Poradie učenia/opakovaní pomedzi dňami
+deck-config-review-sort-order = Poradie zoradenia opakovaní
 
 ## Gather order and sort order of cards – Combobox entries
 
@@ -84,6 +87,34 @@ deck-config-sort-order-random = Náhodne
 deck-config-sort-order-template-then-gather = Typ kartičky, potom poradie nazbierania
 # Sort the cards by the order they were gathered, in ascending order (oldest to newest).
 deck-config-sort-order-gather = Poradie nazbierania
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Zamiešať s opakovaniami
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Ukázať po opakovaniach
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Ukázať pred opakovaniami
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Dátum na skúšanie, potom náhodne
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Dátum na skúšanie, potom balíček
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Balíček, potom dátum na skúšanie
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Intervaly vzostupne
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Intervaly zostupne
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Jednoduchosť vzostupne
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Jednoduchosť zostupne
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Najprv ľahké karty
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Najprv ťažké karty
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Zapamätanie vzostupne
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Zapamätanie zostupne
 
 ## Timer section
 
@@ -129,6 +160,14 @@ deck-config-which-deck = Pre ktorý balíček si želáte zobraziť možnosti?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-desired-retention = Požadovaná retencia
+deck-config-desired-retention-tooltip =
+    V predvolenom nastavení Anki plánuje kartičky tak, aby ste mali 90% pravdepodobnosť si ich pamätať,
+    keď sa znovu ukážu pri opakovaní. Ak túto hodnotu zvýšite, Anki bude zobrazovať kartičky častejšie,
+    aby ste mali väčšiu pravdepodobnosť si ich pamätať. Ak hodnotu znížite, Anki bude zobrazovať kartičky
+    zriedkavejšie, a vy viac z nich zabudnete. (...UNFINISHED) Be conservative when adjusting this - higher
+    values will greatly increase your workload, and lower values can be demoralizing when you forget
+    a lot of material.
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 

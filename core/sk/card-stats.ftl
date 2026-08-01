@@ -22,6 +22,7 @@ card-stats-review-log-type-review = Opakovať
 card-stats-review-log-type-relearn = Zabudnuté
 card-stats-review-log-type-filtered = Filtrované:
 card-stats-review-log-type-rescheduled = Preplánovať
+card-stats-fsrs-forgetting-curve-desired-retention = Požadovaná retencia
 
 ## Window Titles
 
