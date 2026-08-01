@@ -319,7 +319,7 @@ deck-config-updating-cards = Обновление карт: { $current_cards_cou
 deck-config-invalid-parameters = Указанные параметры FSRS недействительны. Оставьте поле для параметров пустым, чтобы использовать параметры по умолчанию.
 deck-config-placeholder-parameters =
     Параметры по умолчанию
-    (Периодически нажимайте кнопку "{ deck-config-optimize-button }" , чтобы FSRS лучше адаптировался к вашей памяти)
+    (Периодически нажимайте кнопку «{ deck-config-optimize-button }», чтобы FSRS лучше адаптировался к вашей памяти)
 deck-config-manual-parameter-edit-warning = Изменять параметры следует только с помощью кнопки «Оптимизировать». Редактировать их вручную категорически не рекомендуется.
 deck-config-not-enough-history = Недостаточно повторений для выполнения данной операции.
 deck-config-must-have-400-reviews =
@@ -442,7 +442,7 @@ deck-config-save-options-to-preset-confirm = Перезаписать парам
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Выученo
 deck-config-fsrs-simulator-radio-efficiency = Эффективность
-deck-config-fsrs-simulator-ratio-tooltip2 = { $time } количество запомненных карт в час
+deck-config-fsrs-simulator-ratio-tooltip2 = { $time } количество запомненных карточек в час
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
