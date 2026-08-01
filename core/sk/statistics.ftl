@@ -92,7 +92,7 @@ statistics-counts-total-cards = Celkom kariet
 statistics-counts-new-cards = Nové
 statistics-counts-young-cards = Mladé
 statistics-counts-mature-cards = Zrelé
-statistics-counts-suspended-cards = Odložené bokom
+statistics-counts-suspended-cards = Vyradené
 statistics-counts-learning-cards = Na učenie
 
 ## Retention represents your actual retention from past reviews, in

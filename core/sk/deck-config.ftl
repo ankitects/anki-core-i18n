@@ -162,8 +162,15 @@ deck-config-which-deck = Pre ktorý balíček si želáte zobraziť možnosti?
 
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS parametre/váhy modelu
+deck-config-optimize-button = Optimalizovať aktuálnu predvoľbu
 deck-config-desired-retention = Požadovaná retencia
 deck-config-reschedule-cards-on-change = Preplánovať kartičky pri zmene
+deck-config-fsrs-tooltip =
+    Ovplyvňuje celú kolekciu.
+    
+    Free Spaced Repetition Scheduler (FSRS) je alternatívou k, pôvodnému algoritmu Anki, SuperMemo 2 (SM-2).
+    Presnejším určovaním toho s akou pravdepodobnosťou zabudnete kartu, vám pomáha si zapamätať
+    viac materiálu za rovnaký čas. Toto nastavenie je zdieľané všetkými predvoľbami možností balíčkov.
 deck-config-desired-retention-tooltip =
     V predvolenom nastavení Anki plánuje kartičky tak, aby ste mali 90% pravdepodobnosť si ich pamätať,
     keď sa znovu ukážu pri opakovaní. Ak túto hodnotu zvýšite, Anki bude zobrazovať kartičky častejšie,
@@ -184,10 +191,23 @@ deck-config-reschedule-cards-warning =
     
     Používajte túto možnosť skromne, nakoľko pridá zápis opakovania pre každú z vašich kartičiek, a
     zväčšuje veľkosť vašej kolekcie.
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-experimental = Smulátor FSRS (experimentálna funkcia)
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Pomôž mi rozhodnúť sa (experimentálna funkcia)
+deck-config-suspend-leeches = Vyradené pijavice
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
+# Checkbox
+deck-config-health-check = Skontrolovať zdravie pri optimalizovaní
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    Kontrola zdravia:
+    FSRS sa vie dobre prispôsobiť vašej pamäti.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-health-check-tooltip1 = Zobrazí varovanie ak má FSRS ťažkosti s prispôsobením sa vašej pamäti.
+deck-config-health-check-tooltip2 = Kontrola zdravia prebehne iba ak je povolené Optimalizovať aktuálnu predvoľbu.
