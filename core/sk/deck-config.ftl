@@ -171,6 +171,19 @@ deck-config-desired-retention-tooltip =
     zriedkavejšie, a vy viac z nich zabudnete. Pri nastavovaní buďte konzervatívny - vyžšie hodnotý
     značne zvýšia vaše zaťaženie, a nižšie hodnoty môžu demotivujúce, keď veľa z matelálu zabudnete.
 deck-config-desired-retention-tooltip2 = Hodnoty študijnej záťaže uvádzané v informačnom okne sú približné. Pre vyšší stupeň presnosti použite simulátor.
+deck-config-reschedule-cards-on-change-tooltip =
+    Ovplyvní celú kolekciu, a neukladá sa v rámci predvoľby.
+    
+    Táto možnosť riadi či budú zmenené dátumy skúšania ak povolíte FSRS alebo optimalizujete
+    parametre/váhy modelu. Predvolené nastavenie je nepreplánovať kartičky: budúce opakovania
+    budú používať nové plánovanie, ale nenastane žiadna okamžitá zmena vášho zaťaženia. Ak je
+    preplánovanie povolené. dátumy na skúšania kartičiek sa zmenia.
+deck-config-reschedule-cards-warning =
+    V závislosti od vašej požadovanej retencie, toto môže spôsoby väčší počet kartičiek na skúšanie,
+    preto sa neodporúča pri prvom prechode z algoritmu SM-2.
+    
+    Používajte túto možnosť skromne, nakoľko pridá zápis opakovania pre každú z vašich kartičiek, a
+    zväčšuje veľkosť vašej kolekcie.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Pomôž mi rozhodnúť sa (experimentálna funkcia)
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
