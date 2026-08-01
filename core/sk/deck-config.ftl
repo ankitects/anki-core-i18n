@@ -160,14 +160,18 @@ deck-config-which-deck = Pre ktorý balíček si želáte zobraziť možnosti?
 
 ## Messages related to the FSRS scheduler
 
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = FSRS parametre/váhy modelu
 deck-config-desired-retention = Požadovaná retencia
+deck-config-reschedule-cards-on-change = Preplánovať kartičky pri zmene
 deck-config-desired-retention-tooltip =
     V predvolenom nastavení Anki plánuje kartičky tak, aby ste mali 90% pravdepodobnosť si ich pamätať,
     keď sa znovu ukážu pri opakovaní. Ak túto hodnotu zvýšite, Anki bude zobrazovať kartičky častejšie,
     aby ste mali väčšiu pravdepodobnosť si ich pamätať. Ak hodnotu znížite, Anki bude zobrazovať kartičky
-    zriedkavejšie, a vy viac z nich zabudnete. (...UNFINISHED) Be conservative when adjusting this - higher
-    values will greatly increase your workload, and lower values can be demoralizing when you forget
-    a lot of material.
+    zriedkavejšie, a vy viac z nich zabudnete. Pri nastavovaní buďte konzervatívny - vyžšie hodnotý
+    značne zvýšia vaše zaťaženie, a nižšie hodnoty môžu demotivujúce, keď veľa z matelálu zabudnete.
+deck-config-desired-retention-tooltip2 = Hodnoty študijnej záťaže uvádzané v informačnom okne sú približné. Pre vyšší stupeň presnosti použite simulátor.
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Pomôž mi rozhodnúť sa (experimentálna funkcia)
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
