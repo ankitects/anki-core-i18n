@@ -180,6 +180,15 @@ browsing-sidebar-due-today = مستحقة
 browsing-sidebar-untagged = غير موسوم
 browsing-sidebar-overdue = متأخر
 browsing-row-deleted = (محذوف)
+browsing-more-tags =
+    { $count ->
+        [zero] لا وسم إضافي
+        [one] وسم واحد إضافي
+        [two] وسمان إضافيان
+        [few] { $count } وسوم إضافية
+        [many] { $count } وسم إضافي
+       *[other] { $count } وسم إضافي
+    }
 browsing-removed-unused-tags-count =
     { $count ->
         [zero] لم يُحذف أي وسم غير مستخدم.

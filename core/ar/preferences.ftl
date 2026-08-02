@@ -40,7 +40,9 @@ preferences-theme-follow-system = حسب النظام
 preferences-theme-light = ساطع
 preferences-theme-dark = داكن
 preferences-v3-scheduler = مجدول V3
+preferences-updates = التحديثات
 preferences-check-for-updates = تحقق من تحديثات البرنامج
+preferences-check-for-addon-updates = تحقق من تحديثات الإضافات
 preferences-ignore-accents-in-search = تجاهل حركات الأحرف في البحث (أبطأ)
 preferences-backup-explanation =
     يأخذ أنكي نسخ احتياطية لمجموعتك بشكل دوري. سيبدأ أنكي بحذف بعض النسخ
@@ -82,6 +84,7 @@ preferences-ankihub-not-logged-in = ليس مربوطًا مع AnkiHub حالي�
 preferences-ankiweb-intro = أنكي ويب هي خدمة تسمح له بمزامنة البطاقات بين الأجهزة وتوفر طريقة لاسترجاع بياناتك إذا تعطل جهازك أو ضاع.
 preferences-ankihub-intro = يوفر AnkiHub خدمة تحرير الرزم التعاونية وأدوات دراسة إضافية. يتطلب اشتراك مدفوع للوصول لبعض الميزات.
 preferences-third-party-description = الخدمات الخارجية لا تنتمي لأنكي ولا نروج لها. قد يتطلب استخدام هذه الخدمات الدفع.
+preferences-experimental-features-tab = تجارب
 
 ## URL scheme related
 

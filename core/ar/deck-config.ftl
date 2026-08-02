@@ -482,7 +482,8 @@ deck-config-percent-input = { $pct }%
 deck-config-checking-for-improvement = يجري التحقق من التحسينات...
 deck-config-optimizing-preset = حساب المعاملات المثالية لمجموعة الخيارات { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = يجب تفعيل FSRS أولًا.
-deck-config-fsrs-params-optimal = يبدو أن عوامل FSRS محسنة بالفعل.
+deck-config-fsrs-params-optimal = يبدو أن عوامل FSRS محسنة بالفعل. هذا طبيعي عندما تكون العوامل مناسبة لسجل مراجعاتك. يمكنك تحسين العوامل مجددًا بعد مزيد من المراجعات.
+deck-config-fsrs-confirm-save-and-optimize = سيحفظ هذا كل التغييرات الأخرى. هل أنت متأكد؟
 deck-config-fsrs-params-no-reviews = لا توجد مراجعات. تأكد من أن هذه المجموعة مضبوطة لكل الرزم التي تريد تحسينها (بما يتضمن الرزم الفرعية) ثم حاول مجددًا.
 deck-config-wait-for-audio = انتظار الصوت
 deck-config-show-reminder = إظهار المُذكّر
@@ -511,9 +512,6 @@ deck-config-save-options-to-preset-confirm = هل تريد استبدال الخ
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = المحفوظ
-deck-config-fsrs-simulator-radio-ratio = العلاقة بين الوقت والبطاقات المحفوظة
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time } لكل بطاقة محفوظة
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -536,6 +534,9 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-radio-ratio = العلاقة بين الوقت والبطاقات المحفوظة
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } لكل بطاقة محفوظة
 deck-config-unable-to-determine-desired-retention = فشل تعيين معدل تذكر أمثل.
 deck-config-predicted-minimum-recommended-retention = معدل التذكر الأدنى المستحسن: { $num }
 deck-config-compute-minimum-recommended-retention = معدل التذكر الأدنى المستحسن

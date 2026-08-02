@@ -1,4 +1,6 @@
 notetypes-notetype = نوع الملحوظة
+notetypes-choose-note-type = اختيار نوع الملحوظة
+notetypes-change-note-type-ctrlandn = (Ctrl+N) تغيير نوع الملحوظة
 
 ## Default field names in newly created note types
 

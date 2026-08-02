@@ -49,6 +49,15 @@ editing-show-duplicates = إظهار الملحوظات المكررة
 editing-subscript = خط تحتي
 editing-superscript = خط فوقي
 editing-tags = وسوم
+editing-tag-count =
+    { $count ->
+        [zero] لا وسوم
+        [one] وسم واحد
+        [two] وسمان
+        [few] { $count } وسوم
+        [many] { $count } وسمًا
+       *[other] { $count } وسم
+    }
 editing-tags-add = أضف وسمًا
 editing-tags-copy = نسخ الوسوم
 editing-tags-remove = حذف الوسوم
