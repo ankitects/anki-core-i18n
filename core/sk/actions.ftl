@@ -29,6 +29,7 @@ actions-shortcut-key = Klávesová skratka: { $val }
 actions-suspend-card = Vyradiť kartičku
 actions-set-due-date = Nastaviť dátum skúšania
 actions-unbury-unsuspend = Odhrabať/Vrátiť vyradenú
+actions-previous-card-info = Info o predošlej karte
 actions-flag-number = Príznak
 
 ## The same translation may used for two independent actions:

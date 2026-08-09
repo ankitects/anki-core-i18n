@@ -127,6 +127,8 @@ deck-config-sort-order-retrievability-descending = Zapamätanie zostupne
 
 ## Advanced section
 
+deck-config-advanced-title = Pokročilé
+deck-config-custom-scheduling = Vlastné plánovanie
 
 ## Easy Days section.
 
@@ -164,7 +166,9 @@ deck-config-which-deck = Pre ktorý balíček si želáte zobraziť možnosti?
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS parametre/váhy modelu
 deck-config-optimize-button = Optimalizovať aktuálnu predvoľbu
+deck-config-ignore-before = Ignorovať kartičky opakované pred
 deck-config-desired-retention = Požadovaná retencia
+deck-config-historical-retention = Historická retencia
 deck-config-reschedule-cards-on-change = Preplánovať kartičky pri zmene
 deck-config-fsrs-tooltip =
     Ovplyvňuje celú kolekciu.

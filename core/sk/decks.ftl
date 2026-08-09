@@ -20,6 +20,7 @@ decks-review-header = Na skúšanie
 
 ##
 
+decks-unmovable-cards = Ukázať akékoľvek vylúčené kartičky
 decks-add-new-deck-ctrlandn = Pridať nový balíček (Ctrl+N)
 decks-build = Zostaviť
 decks-create-deck = Vytvoriť balíček
