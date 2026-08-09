@@ -134,6 +134,7 @@ deck-config-sort-order-retrievability-descending = Zapamätanie zostupne
 ## Adding/renaming
 
 deck-config-add-group = Pridať predvoľbu
+deck-config-name-prompt = Názov
 deck-config-rename-group = Premenovať predvoľbu
 deck-config-clone-group = Duplikovať predvoľbu
 
