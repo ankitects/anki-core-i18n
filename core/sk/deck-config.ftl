@@ -53,6 +53,10 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
+deck-config-bury-title = Zahrabávanie
+deck-config-bury-new-siblings = Zahrabať nové príbuzné karty na ďalší deň
+deck-config-bury-review-siblings = Zahrabať opakované príbuzné karty na ďalší deň
+deck-config-bury-interday-learning-siblings = Zahrabať učené príbuzné karty na ďalší deň
 
 ## Gather order and sort order of cards
 
@@ -60,7 +64,7 @@ deck-config-ordering-title = Poradie zobrazovania
 deck-config-new-gather-priority = Poradie zbierania nových kartičiek
 deck-config-new-card-sort-order = Poradie zoradenia nových kariet
 deck-config-new-review-priority = Poradie nových/opakovaní
-deck-config-interday-step-priority = Poradie učenia/opakovaní pomedzi dňami
+deck-config-interday-step-priority = Poradie učení/opakovaní
 deck-config-review-sort-order = Poradie zoradenia opakovaní
 
 ## Gather order and sort order of cards – Combobox entries
@@ -124,6 +128,9 @@ deck-config-sort-order-retrievability-descending = Zapamätanie zostupne
 
 ## Audio section
 
+deck-config-audio-title = Zvuk
+deck-config-disable-autoplay = Neprehrávať nahrávky automaticky
+deck-config-skip-question-when-replaying = Preskočiť otázku, keď sa prehráva odpoveď
 
 ## Advanced section
 
