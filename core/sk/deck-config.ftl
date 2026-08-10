@@ -160,6 +160,7 @@ deck-config-save-and-optimize = Optimalizovať všetky predvoľby
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling-hint = Spracúva zadaný text ako Markdown a čistí zadaný HTML. Keď je zvolený, popis sa tiež zobrazí na obrazovke gratulácií. Markdown sa zobrazí ako text pre Anki 2.1.40 a nižšie.
 
 ## Warnings shown to the user
 
