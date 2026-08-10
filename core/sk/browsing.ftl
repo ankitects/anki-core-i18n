@@ -15,6 +15,7 @@ browsing-change-deck2 = Zmeniť balíček...
 browsing-change-note-type = Zmeniť typ poznámky
 # Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Zmeniť typ poznámky...
+browsing-change-notetype = Zmeniť typ poznámky
 browsing-clear-unused-tags = Vymazať nepoužívané štítky
 browsing-created = Vytvorené
 browsing-current-deck = Aktuálny balíček

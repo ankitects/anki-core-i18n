@@ -149,9 +149,18 @@ deck-config-custom-scheduling = Vlastné plánovanie
 ## Easy Days section.
 
 deck-config-easy-days-title = Ľahké dni
+deck-config-easy-days-monday = Pon
+deck-config-easy-days-tuesday = Uto
+deck-config-easy-days-wednesday = Str
+deck-config-easy-days-thursday = Štv
+deck-config-easy-days-friday = Pia
+deck-config-easy-days-saturday = Sob
+deck-config-easy-days-sunday = Ned
 deck-config-easy-days-normal = Normálne
 deck-config-easy-days-reduced = Znížené
 deck-config-easy-days-minimum = Minimálne
+deck-config-easy-days-no-normal-days = Aspoň jeden deň by mal byť nastavený na „{ deck-config-easy-days-normal }“.
+deck-config-easy-days-change = Existujúce opakovania nebudú preplánované dokiaľ sa „{ deck-config-reschedule-cards-on-change }“ nezvolí v nastaveniach FSRS.
 
 ## Adding/renaming
 
@@ -178,6 +187,13 @@ deck-config-description-new-handling-hint = Spracúva zadaný text ako Markdown 
 
 ## Warnings shown to the user
 
+deck-config-reviews-too-low =
+    { $cards ->
+        [one] Keď sa pridáva { $cards } nová kartička každý deň, limit opakovaní by mal byť aspoň { $expected }.
+        [few] Keď sa pridávajú { $cards } nové kartičky každý deň, limit opakovaní by mal byť aspoň { $expected }.
+        [many] Ak sa pridávajú { $cards } nové kartičky každý deň, limit opakovaní by mal byť aspoň { $expected }.
+       *[other] Keď sa pridáva { $cards } nových kartičiek každý deň, limit opakovaní by mal byť aspoň { $expected }.
+    }
 
 ## Selecting a deck
 
