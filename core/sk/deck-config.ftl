@@ -122,9 +122,18 @@ deck-config-sort-order-retrievability-descending = Zapamätanie zostupne
 
 ## Timer section
 
+deck-config-timer-title = Časovač
+deck-config-maximum-answer-secs = Maximálny čas odpovedi v sekundách
+deck-config-stop-timer-on-answer = Zastaviť časovač na odpovedi
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = Počet sekúnd na zobrazenie otázky
+deck-config-seconds-to-show-answer = Počet sekúnd na zobrazenie odpovede
+deck-config-question-action-show-answer = Zobraziť odpoveď
+deck-config-question-action-show-reminder = Zobraziť pripomienku
+deck-config-question-action = Úkon po otázke
+deck-config-answer-action = Úkon po odpovedi
 
 ## Audio section
 
@@ -139,6 +148,10 @@ deck-config-custom-scheduling = Vlastné plánovanie
 
 ## Easy Days section.
 
+deck-config-easy-days-title = Ľahké dni
+deck-config-easy-days-normal = Normálne
+deck-config-easy-days-reduced = Znížené
+deck-config-easy-days-minimum = Minimálne
 
 ## Adding/renaming
 
@@ -156,11 +169,12 @@ deck-config-remove-group = Odstrániť predvoľbu
 deck-config-save-button = Uložiť
 deck-config-save-to-all-subdecks = Uložiť pre všetky podbalíčky
 deck-config-save-and-optimize = Optimalizovať všetky predvoľby
+deck-config-revert-button-tooltip = Obnoviť predvolenú hodnotu tohto nastavenia?
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling-hint = Spracúva zadaný text ako Markdown a čistí zadaný HTML. Keď je zvolený, popis sa tiež zobrazí na obrazovke gratulácií. Markdown sa zobrazí ako text pre Anki 2.1.40 a nižšie.
+deck-config-description-new-handling-hint = Spracúva zadaný text ako Markdown a čistí zadaný HTML. Keď je povolený, popis sa tiež zobrazí na obrazovke gratulácií. Markdown sa zobrazí ako text pre Anki 2.1.40 a nižšie.
 
 ## Warnings shown to the user
 
@@ -175,6 +189,7 @@ deck-config-which-deck = Pre ktorý balíček si želáte zobraziť možnosti?
 deck-config-weights = FSRS parametre/váhy modelu
 deck-config-optimize-button = Optimalizovať aktuálnu predvoľbu
 deck-config-ignore-before = Ignorovať kartičky opakované pred
+deck-config-time-to-optimize = Už prešiel nejaký čas - odporúča sa použiť tlačidlo Optimalizovať všetky predvoľby.
 deck-config-desired-retention = Požadovaná retencia
 deck-config-historical-retention = Historická retencia
 deck-config-reschedule-cards-on-change = Preplánovať kartičky pri zmene
@@ -204,6 +219,9 @@ deck-config-reschedule-cards-warning =
     
     Používajte túto možnosť skromne, nakoľko pridá zápis opakovania pre každú z vašich kartičiek, a
     zväčšuje veľkosť vašej kolekcie.
+deck-config-answer-again = Odpovedať znovu
+deck-config-answer-hard = Odpovedať ťažké
+deck-config-answer-good = Odpovedať dobré
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.

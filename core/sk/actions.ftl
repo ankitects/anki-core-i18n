@@ -46,4 +46,7 @@ actions-flag-purple = Purpurový
 
 ##
 
+actions-auto-advance = Automatický posun
+actions-auto-advance-activated = Automatický posun povolený
+actions-auto-advance-deactivated = Automatický posun zakázaný
 actions-processing = Spracováva sa...

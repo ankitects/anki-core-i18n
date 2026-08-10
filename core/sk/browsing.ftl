@@ -75,6 +75,7 @@ browsing-step = Krok:
 browsing-suspended = Vyradené
 browsing-tag-duplicates = Duplikáty štítkov
 browsing-target-field = Cieľové pole:
+browsing-toggle-showing-cards-notes = Prepnúť zobrazenie kartičiek/poznámok
 browsing-toggle-mark = Prepnúť označenie
 browsing-toggle-suspend = Prepnúť vyradenie
 browsing-treat-input-as-regular-expression = Považovať vstup za regulárny výraz
