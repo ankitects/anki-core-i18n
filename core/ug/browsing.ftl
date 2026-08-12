@@ -39,6 +39,22 @@ browsing-current-note-type = نۆۋەتتىكى خاتىرە تۈرى:
 browsing-delete-notes = خاتىرە ئۆچۈر
 browsing-duplicate = تەكرار
 browsing-ease = ئاسانلىقى
+# Button that clears the browse search
+browsing-empty-clear-search = ئىزدەشنى تازىلا
+# Title when the collection has no cards
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-collection-title =
+    { $notes-mode ->
+        [yes] تېخى كارتا يوق
+       *[other] تېخى كارتا يوق
+    }
+# Title when a valid search matches nothing
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-no-match-title =
+    { $notes-mode ->
+        [yes] بۇ ئىزدەشكە ھېچقانداق كارتا ماس كەلمىدى
+       *[other] بۇ ئىزدەشكە ھېچقانداق كارتا ماس كەلمىدى
+    }
 browsing-enter-tags-to-add = قوشىدىغان بەلگە كىرگۈزۈلىدۇ:
 browsing-enter-tags-to-delete = ئۆچۈرىدىغان بەلگە كىرگۈزۈلىدۇ:
 browsing-filtered = (سۈزۈلگەن)
@@ -85,7 +101,10 @@ browsing-search-facet-starters = سۈزگۈچى
 browsing-search-in = ئىچىدە ئىزدە:
 browsing-search-quick = تېز سۈزگۈچ
 browsing-search-quick-flagged = بايراق قوشۇلغان
+browsing-search-quick-leeches = قىيىن كارتا
 browsing-search-recent = يېقىنقى
+# Shown above browse results when the current search is invalid
+browsing-search-results-unchanged = ئىزدەش ئىناۋەتلىك بولمىغۇچە نەتىجە ئۆزگەرمەيدۇ
 browsing-search-suggestions = تەكلىپ
 browsing-search-syntax-mode = سىنتاكس ھالىتى
 browsing-search-text-match = «{ $query }» ئىزدە
@@ -165,10 +184,17 @@ browsing-sidebar-overdue = مۆھلەتتىن ئۆتكەن
 browsing-row-deleted = (ئۆچۈرۈلگەن)
 # Compact due text in browse card rows when a card is overdue or due today
 browsing-due-now = ھازىر
+# Status chip label in browse card rows
+browsing-leech = قىيىن كارتا
 browsing-more-tags =
     { $count ->
         [one] يەنە 1 بەلگە
        *[other] يەنە { $count } بەلگە
+    }
+browsing-leech-lapses =
+    { $count ->
+        [one] قىيىن كارتا، { $count } قېتىم ئۇنتۇلغان
+       *[other] { "" }
     }
 browsing-removed-unused-tags-count =
     { $count ->
