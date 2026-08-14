@@ -8,7 +8,7 @@ decks_create_even_if_empty = 空白時仍建立/更新此牌組
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
 decks-delay-for-button = 「{ $button }」延遲
 # The count of cards waiting to be reviewed
-decks-zero-minutes-hint = (0 = 將卡片放回原始牌組)
+decks-zero-minutes-hint = (0 = 卡片返回原牌組)
 # filter is a noun here
 decks-filter = 篩選器：
 decks-filter-2 = 篩選器 2
