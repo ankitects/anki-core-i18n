@@ -34,6 +34,22 @@ browsing-current-note-type = 當前筆記類型：
 browsing-delete-notes = 刪除筆記
 browsing-duplicate = 重複
 browsing-ease = 輕鬆度
+# Button that clears the browse search
+browsing-empty-clear-search = 清除搜尋條件
+# Title when the collection has no cards
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-collection-title =
+    { $notes-mode ->
+        [yes] 尚無筆記
+       *[other] 尚無卡片
+    }
+# Title when a valid search matches nothing
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-no-match-title =
+    { $notes-mode ->
+        [yes] 沒有符合搜尋條件的筆記
+       *[other] 沒有符合搜尋條件的卡片
+    }
 browsing-enter-tags-to-add = 輸入要加入的標籤：
 browsing-enter-tags-to-delete = 輸入要刪除的標籤：
 browsing-filtered = （已篩選）
@@ -76,9 +92,16 @@ browsing-reposition = 調整順序...
 browsing-reposition-new-cards = 調整新卡片順序
 browsing-reschedule = 重新排程
 browsing-search-bar-hint = 搜尋卡片/筆記（輸入文字後按下 Enter 鍵）
+browsing-search-facet-starters = 篩選...
 browsing-search-in = 搜尋範圍：
+browsing-search-quick = 快速篩選
+browsing-search-quick-flagged = 已旗標
 browsing-search-quick-leeches = 低效卡
+browsing-search-recent = 近期
+# Shown above browse results when the current search is invalid
+browsing-search-results-unchanged = 輸入有效的搜尋條件後才會更新結果
 browsing-search-suggestions = 建議
+browsing-search-syntax-mode = 語法模式
 browsing-search-text-match = 搜尋「{ $query }」
 browsing-search-within-formatting-slow = 含格式搜尋（較慢）
 browsing-select-deck = 選取牌組
@@ -150,8 +173,12 @@ browsing-sidebar-due-today = 到期
 browsing-sidebar-untagged = 沒有標籤
 browsing-sidebar-overdue = 逾期
 browsing-row-deleted = （已刪除）
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = 現在
 # Status chip label in browse card rows
 browsing-leech = 低效卡
+browsing-more-tags = 另外 { $count } 個標籤
+browsing-leech-lapses = 低效卡，遺忘 { $count } 次
 browsing-removed-unused-tags-count =
     { $count ->
        *[other] 已移除 { $count } 個未使用的標籤。
