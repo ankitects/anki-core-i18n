@@ -120,12 +120,25 @@ statistics-counts-separate-suspended-buried-cards = Oddeliť vyradené/zahraban�
 ##      window is certain sizes.
 
 statistics-true-retention-title = Retencia
+statistics-true-retention-subtitle = Miera úspešnosti kartičiek s intervalom ≥ 1 deň.
+statistics-true-retention-tooltip = Ak používate FSRS očakáva sa, že vaša retencia je blízko vašej požadovanej retencii. Prosím majte na pamäti že údaje za jediný deň obsahujú šum, preto je lepšie hľadieť na údaje za mesiac.
+statistics-true-retention-pass = Správne
+statistics-true-retention-fail = Chyby
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = Celkom kariet
+statistics-true-retention-count = Počet
+statistics-true-retention-retention = Retencia
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = Mladé
 # This will usually be the same as statistics-counts-mature-cards
 statistics-true-retention-mature = Zrelé
+statistics-true-retention-all = Všetky
+statistics-true-retention-today = Dnes
+statistics-true-retention-yesterday = Včera
+statistics-true-retention-week = Posledný týždeň
+statistics-true-retention-month = Posledný mesiac
+statistics-true-retention-year = Posledný rok
+statistics-true-retention-all-time = Celý čas
 
 ##
 
@@ -150,9 +163,37 @@ statistics-answer-buttons-title = Tlačidlá odpovedí
 statistics-answer-buttons-subtitle = Počet stlačení jednotlivých tlačidiel.
 statistics-reviews-title = Opakovania
 statistics-reviews-time-checkbox = Čas
+statistics-running-total = Celkom v obehu
 statistics-backlog-checkbox = Spätne
 statistics-intervals-title = Intervaly
 statistics-intervals-subtitle = Čas, po ktorom budú opakované karty znovu zobrazené.
+statistics-intervals-day-single =
+    { $cards ->
+        [one] { $cards } kartička s { $day } dňovým intervalom
+        [few] { $cards } kartičky s { $day } dňovým intervalom
+        [many] { $cards } kartičky s { $day } dňovým intervalom
+       *[other] { $cards } kartičiek s { $day } dňovým intervalom
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } kartička s { $daysStart }~{ $daysEnd } dňovou stabilitou
+        [few] { $cards } kartičky s { $daysStart }~{ $daysEnd } dňovou stabilitou
+        [many] { $cards } kartičky s { $daysStart }~{ $daysEnd } dňovou stabilitou
+       *[other] { $cards } kartičiek s { $daysStart }~{ $daysEnd } dňovou stabilitou
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } kartička s { $day } dňovou stabilitou
+        [few] { $cards } kartičky s { $day } dňovou stabilitou
+        [many] { $cards } kartičky s { $day } dňovou stabilitou
+       *[other] { $cards } kartičiek s { $day } dňovou stabilitou
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = Od { $hourStart }:00 do { $hourEnd }:00
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } opakovaní
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% správne ({ $reviews })
 statistics-hours-title = Hodinové rozdelenie
 statistics-hours-subtitle = Percento úspešnosti pre každú hodinu dňa.
 statistics-calendar-title = Kalendár
