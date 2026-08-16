@@ -144,6 +144,10 @@ deck-config-skip-question-when-replaying = Preskočiť otázku, keď sa prehráv
 ## Advanced section
 
 deck-config-advanced-title = Pokročilé
+deck-config-maximum-interval-tooltip =
+    Maximálny počet dní koľko bude kartička na opakovanie čakať. Po tom čo
+    opakovania dosiahli limit, `Ťažké`, `Dobré` a `Ľahké` budú dávať rovnaké
+    trvanie. Čím menej dní nastavíte, tým väčšia bude vaša pracovná záťaź.
 deck-config-custom-scheduling = Vlastné plánovanie
 
 ## Easy Days section.
