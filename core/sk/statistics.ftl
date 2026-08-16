@@ -118,6 +118,8 @@ statistics-true-retention-mature = Zrelé
 ##
 
 statistics-range-all-time = existencia balíčka
+statistics-range-1-year-history = posledných 12 mesiacov
+statistics-range-all-history = celá história
 statistics-range-deck = balíček
 statistics-range-collection = zbierka
 statistics-range-search = Hľadať
@@ -132,6 +134,7 @@ statistics-answer-buttons-title = Tlačidlá odpovedí
 statistics-answer-buttons-subtitle = Počet stlačení jednotlivých tlačidiel.
 statistics-reviews-title = Opakovania
 statistics-reviews-time-checkbox = Čas
+statistics-backlog-checkbox = Spätne
 statistics-intervals-title = Intervaly
 statistics-intervals-subtitle = Čas, po ktorom budú opakované karty znovu zobrazené.
 statistics-hours-title = Hodinové rozdelenie
@@ -155,7 +158,20 @@ statistics-days-studied = Podiel dní štúdia
 statistics-average-answer-time-label = Priemerný čas odpovede
 statistics-average = Priemer
 statistics-due-tomorrow = Na skúšanie zajtra
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
+statistics-daily-load = Denná záťaž
 statistics-average-over-period = Pri každodennom štúdiu
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } opakovanie/deň
+        [few] { $count } opakovania/deň
+        [many] { $count } opakovania/deň
+       *[other] { $count } opakovaní/deň
+    }
 statistics-save-pdf = Uložiť PDF
 statistics-saved = Uložené.
 statistics-stats = stat
