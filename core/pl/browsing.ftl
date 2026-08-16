@@ -42,6 +42,22 @@ browsing-current-note-type = Aktualny typ notatki:
 browsing-delete-notes = Usuń notatki
 browsing-duplicate = duplikat
 browsing-ease = Łatwość
+# Button that clears the browse search
+browsing-empty-clear-search = Wyczyść wyszukiwanie
+# Title when the collection has no cards
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-collection-title =
+    { $notes-mode ->
+        [yes] Brak notatek
+       *[other] Brak kart
+    }
+# Title when a valid search matches nothing
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-no-match-title =
+    { $notes-mode ->
+        [yes] Nie znaleziono notatek do podanego wyszukiwania
+       *[other] Nie znaleziono kart do podanego wyszukiwania
+    }
 browsing-enter-tags-to-add = Wpisz tagi do dodania:
 browsing-enter-tags-to-delete = Wpisz tagi do usunięcia:
 browsing-filtered = (filtrowana)
@@ -90,6 +106,8 @@ browsing-search-quick = Szybkie filtry
 browsing-search-quick-flagged = Oflagowane
 browsing-search-quick-leeches = Pijawki
 browsing-search-recent = Niedawne
+# Shown above browse results when the current search is invalid
+browsing-search-results-unchanged = Wyniki pozostaną bez zmian, dopóki wyszukiwanie nie będzie poprawne
 browsing-search-suggestions = Sugestie
 browsing-search-syntax-mode = Tryb składni
 browsing-search-text-match = Szukaj "{ $query }"
