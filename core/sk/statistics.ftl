@@ -74,6 +74,13 @@ statistics-cards =
         [many] { $cards } karty
        *[other] { $cards } kariet
     }
+statistics-notes =
+    { $notes ->
+        [one] { $count } poznámky
+        [few] { $notes } poznámok
+        [many] { $notes } poznámok
+       *[other] { $notes } poznámok
+    }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -93,7 +100,11 @@ statistics-counts-new-cards = Nové
 statistics-counts-young-cards = Mladé
 statistics-counts-mature-cards = Zrelé
 statistics-counts-suspended-cards = Vyradené
+statistics-counts-buried-cards = Zahrabané
 statistics-counts-learning-cards = Na učenie
+statistics-counts-relearning-cards = Znovu učené
+statistics-counts-title = Počty kartičiek
+statistics-counts-separate-suspended-buried-cards = Oddeliť vyradené/zahrabané kartičky
 
 ## Retention represents your actual retention from past reviews, in
 ## comparison to the "desired retention" setting of FSRS, which forecasts
@@ -108,6 +119,7 @@ statistics-counts-learning-cards = Na učenie
 ## N.B. Stats cards may be very small on mobile devices and when the Stats
 ##      window is certain sizes.
 
+statistics-true-retention-title = Retencia
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = Celkom kariet
 # This will usually be the same as statistics-counts-young-cards
@@ -124,7 +136,11 @@ statistics-range-deck = balíček
 statistics-range-collection = zbierka
 statistics-range-search = Hľadať
 statistics-card-stability-title = Stabilita kartičky
+statistics-card-stability-subtitle = Čas za ktorý šanca na pamätanie kartičky spadne na 90%.
+statistics-median-stability = Medián stability
 statistics-card-retrievability-title = Zapamätanie kartičky
+statistics-card-difficulty-subtitle2 = Čím vyššia obtiažnosť, tým pomalšie bude stabilita stúpať.
+statistics-retrievability-subtitle = Pravdepodobnosť spomenutia si na kartičku dnes.
 statistics-future-due-title = Predpoveď
 statistics-future-due-subtitle = Počet opakovaní v budúcnosti.
 statistics-added-title = Pridané
@@ -139,6 +155,7 @@ statistics-intervals-title = Intervaly
 statistics-intervals-subtitle = Čas, po ktorom budú opakované karty znovu zobrazené.
 statistics-hours-title = Hodinové rozdelenie
 statistics-hours-subtitle = Percento úspešnosti pre každú hodinu dňa.
+statistics-calendar-title = Kalendár
 
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
@@ -157,6 +174,7 @@ statistics-total = Celkom
 statistics-days-studied = Podiel dní štúdia
 statistics-average-answer-time-label = Priemerný čas odpovede
 statistics-average = Priemer
+statistics-median-interval = Medián intervalu
 statistics-due-tomorrow = Na skúšanie zajtra
 # This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
 # forecasted estimate of the number of cards expected to be reviewed daily in 
@@ -164,6 +182,8 @@ statistics-due-tomorrow = Na skúšanie zajtra
 # derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
 # ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Denná záťaž
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } z { $total } ({ $percent }%)
 statistics-average-over-period = Pri každodennom štúdiu
 statistics-reviews-per-day =
     { $count ->
@@ -172,6 +192,8 @@ statistics-reviews-per-day =
         [many] { $count } opakovania/deň
        *[other] { $count } opakovaní/deň
     }
+statistics-average-retrievability = Priemerné zapamätanie
+statistics-estimated-total-knowledge = Odhadované celkové vedomosti
 statistics-save-pdf = Uložiť PDF
 statistics-saved = Uložené.
 statistics-stats = stat
