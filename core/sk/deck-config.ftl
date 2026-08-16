@@ -226,6 +226,20 @@ deck-config-desired-retention-tooltip =
     zriedkavejšie, a vy viac z nich zabudnete. Pri nastavovaní buďte konzervatívny - vyžšie hodnotý
     značne zvýšia vaše zaťaženie, a nižšie hodnoty môžu demotivujúce, keď veľa z matelálu zabudnete.
 deck-config-desired-retention-tooltip2 = Hodnoty študijnej záťaže uvádzané v informačnom okne sú približné. Pre vyšší stupeň presnosti použite simulátor.
+deck-config-historical-retention-tooltip =
+    Ak časť vašej histórie opakovaní chýba, FSPS potrebuje vyplniť medzery. V predvolenom nastavení
+    bude predpokladať že keď ste robili tieto staré opakovania, pamätali ste si 90% materiálu.  Ak sa vaša
+    stará retencia bola značne vyžšia alebo nižšia ako 90%, prispôsbenie tohto nastavenia umožní FSRS
+    lepšie priblížiť chýbajúce opakovania.
+    
+    TODO: CONTINUE HERE
+    Your review history may be incomplete for two reasons:
+    1. Because you're using the 'ignore cards reviewed before' option.
+    2. Because you previously deleted review logs to free up space, or imported material from a different
+    SRS program.
+    
+    The latter is quite rare, so unless you're using the former option, you probably don't need to adjust
+    this option.
 deck-config-reschedule-cards-on-change-tooltip =
     Ovplyvní celú kolekciu, a neukladá sa v rámci predvoľby.
     
