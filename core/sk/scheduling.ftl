@@ -66,6 +66,14 @@ scheduling-today-new-limit-reached =
     Dostupné sú aj ďalšie nové karty, ale bol dosiahnutý denný limit. 
     Môžete ho zvýšiť v nastaveniach, ale prosím majte na pamäti, 
     že tým sa v najbližšej dobe zvýši aj počet kariet na opakovanie.
+scheduling-buried-cards-found = Jedna alebo viaceré karty boli zakopané a budú zobrazené zajtra. Môžete { $unburyThem } ak si ich prajete ihneď zobraziť.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = ich odkopať
+scheduling-how-to-custom-study = Ak si želáte študovať poza obvyklý plán, môžete použiť funkciu { $customStudy }.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = vlastné štúdium
 
 ## Scheduler upgrade
 

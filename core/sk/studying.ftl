@@ -45,9 +45,9 @@ studying-you-havent-recorded-your-voice-yet = Zatiaľ ste nenahrali svoj hlas.
 
 studying-card-studied-in =
     { $count ->
-        [one] naučených { $count } kariet
-        [few] naučená { $count } karta
-       *[other] naučené { $count } karty
+        [one] naučená { $count } karta
+        [few] naučené { $count } karty
+       *[other] naučených { $count } kariet
     }
 studying-minute =
     { $count ->

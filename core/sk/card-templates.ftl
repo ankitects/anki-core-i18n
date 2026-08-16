@@ -10,7 +10,6 @@ card-templates-anki-couldnt-find-the-line-between = Anki nemohol rozoznať otáz
 card-templates-at-least-one-card-type-is = Je potrebný aspoň jeden typ karty.
 card-templates-browser-appearance = Zobrazenie v prehliadači...
 card-templates-card = Karta { $val }
-card-templates-card-types = Typy kariet
 card-templates-card-types-for = Typy kariet pre { $val }
 card-templates-cloze = Doplňovačka
 card-templates-deck-override = Prepísať balíček...
@@ -26,13 +25,13 @@ card-templates-rename-card-type = Premenovať typ karty...
 card-templates-reposition-card-type = Zmeniť poradie typu karty...
 card-templates-card-count =
     { $count ->
-        [one] { $count } kariet
-        [few] { $count } karta
-       *[other] { $count } karty
+        [one] { $count } karta
+        [few] { $count } karty
+       *[other] { $count } kartiet
     }
 card-templates-this-will-create-card-proceed =
     { $count ->
-        [one] Bude vytvorených { $count } kariet. Pokračovať?
-        [few] Bude vytvorená { $count } karta. Pokračovať?
-       *[other] Budú vytvorené { $count } karty. Pokračovať?
+        [one] Bude vytvorená { $count } karta. Pokračovať?
+        [few] Bude vytvorené { $count } karty. Pokračovať?
+       *[other] Budú vytvorených { $count } kariet. Pokračovať?
     }

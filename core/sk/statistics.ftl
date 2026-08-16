@@ -84,10 +84,10 @@ statistics-notes =
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
-        [one] { $reviews } opakovaní
-        [few] { $reviews } opakovanie
+        [one] { $reviews } opakovanie
+        [few] { $reviews } opakovania
         [many] { $reviews } opakovania
-       *[other] { $reviews } opakovania
+       *[other] { $reviews } opakovaní
     }
 statistics-today-title = Dnes
 statistics-today-again-count = Počet stlačení "Znovu":
@@ -101,6 +101,7 @@ statistics-counts-young-cards = Mladé
 statistics-counts-mature-cards = Zrelé
 statistics-counts-suspended-cards = Vyradené
 statistics-counts-buried-cards = Zahrabané
+statistics-counts-filtered-cards = Filtrované
 statistics-counts-learning-cards = Na učenie
 statistics-counts-relearning-cards = Znovu učené
 statistics-counts-title = Počty kartičiek
@@ -157,16 +158,46 @@ statistics-retrievability-subtitle = Pravdepodobnosť spomenutia si na kartičku
 statistics-future-due-title = Predpoveď
 statistics-future-due-subtitle = Počet opakovaní v budúcnosti.
 statistics-added-title = Pridané
+statistics-added-subtitle = Počet nových kartičiek, ktoré ste pridali.
 statistics-reviews-count-subtitle = Počet zodpovedaných otázok.
 statistics-reviews-time-subtitle = Čas na zodpovedanie otázok.
 statistics-answer-buttons-title = Tlačidlá odpovedí
+# eg Button: 4
+statistics-answer-buttons-button-number = Tlačidlo
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = Počet stlačení
 statistics-answer-buttons-subtitle = Počet stlačení jednotlivých tlačidiel.
 statistics-reviews-title = Opakovania
 statistics-reviews-time-checkbox = Čas
+statistics-in-days-single =
+    { $days ->
+        [1] Zajtra
+        [0] Dnes
+        [one] Za { $days } deň
+        [few] Za { $days } dni
+        [many] Za { $days } dni
+       *[other] Za { $days } dní
+    }
+statistics-days-ago-single =
+    { $days ->
+        [1] Včera
+        [one] Pred { $days } dňom
+        [few] Pred { $days } dňami
+        [many] Pred { $days } dňami
+       *[other] Pred { $days } dňami
+    }
+statistics-days-ago-range = Pred { $daysStart }-{ $daysEnd } dňami
 statistics-running-total = Celkom v obehu
 statistics-backlog-checkbox = Spätne
 statistics-intervals-title = Intervaly
 statistics-intervals-subtitle = Čas, po ktorom budú opakované karty znovu zobrazené.
+statistics-intervals-day-range =
+    { $cards ->
+        [one] { $cards } kartička s { $daysStart }~{ $daysEnd } dňovým intervalom
+        [few] { $cards } kartičky s { $daysStart }~{ $daysEnd } dňovým intervalom
+        [many] { $cards } kartičky s { $daysStart }~{ $daysEnd } dňovým intervalom
+       *[other] { $cards } kartičiek s { $daysStart }~{ $daysEnd } dňovým intervalom
+    }
 statistics-intervals-day-single =
     { $cards ->
         [one] { $cards } kartička s { $day } dňovým intervalom
@@ -190,6 +221,8 @@ statistics-stability-day-single =
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Od { $hourStart }:00 do { $hourEnd }:00
+statistics-hours-correct = { $correct }/{ $total } správnych ({ $percent }%)
+statistics-hours-correct-info = → (nie „Znovu“)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } opakovaní
 # the emoji depicts the graph displaying this number
