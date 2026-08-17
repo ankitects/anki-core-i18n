@@ -58,6 +58,31 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    { $unit ->
+        [seconds]
+            { $amount ->
+                [one] Nasledujúca kartička na učenie bude pripravená za { $amount } sekundu.
+                [few] Nasledujúca kartička na učenie bude pripravená za { $amount } sekndy.
+                [many] Nasledujúca kartička na učenie bude pripravená za { $amount } sekundy.
+               *[other] Nasledujúca kartička na učenie bude pripravená za { $amount } sekúnd.
+            }
+        [minutes]
+            { $amount ->
+                [one] Nasledujúca kartička na učenie bude pripravená za { $amount } minútu.
+                [few] Nasledujúca kartička na učenie bude pripravená za { $amount } minúty.
+                [many] Nasledujúca kartička na učenie bude pripravená za { $amount } minúty.
+               *[other] Nasledujúca kartička na učenie bude pripravená za { $amount } minút.
+            }
+       *[hours]
+            { $amount ->
+                [one] Nasledujúca kartička na učenie bude pripravená za { $amount } hodinu.
+                [few] Nasledujúca kartička na učenie bude pripravená za { $amount } hodiny.
+                [many] Nasledujúca kartička na učenie bude pripravená za { $amount } hodiny.
+               *[other] Nasledujúca kartička na učenie bude pripravená za { $amount } hodín.
+            }
+    }
 scheduling-congratulations-finished = Blahoželáme! Nateraz ste tento balíček dokončili.
 scheduling-today-review-limit-reached =
     Bol dosiahnutý denný limit, ale stále zostávajú nejaké karty na opakovanie.

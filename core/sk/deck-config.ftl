@@ -12,6 +12,9 @@ deck-config-new-limit-tooltip =
     Maximálny počet nových kartičiek na deň, ak sú dostupné nové karty.
     Pretože nový materiál zvýši vašu krátkodobú záťaž pri opakovaní, bežne by to malo
     byť aspoň 10x menšie ako váš limit opakovaní.
+deck-config-review-limit-tooltip =
+    Maximálny počet karitičiek na opakovanie na,
+    ak kartičky sú pripravené na opakovanie.
 deck-config-limit-deck-v3 =
     Počas študovania balíčku. ktorý ma vlastné podbalíčky, limity nastavené pre každý
     podbalíček riadia maximálny počet kartičiek nazbieraných z daného podbalíčka.
@@ -21,6 +24,10 @@ deck-config-tab-description =
     - `Tento balíček`: Limit je určený pre tento balíček.
     - `Iba dnes`: Urobte dočasnú zmenu limitu tohto balíčka.
 deck-config-new-cards-ignore-review-limit = Nové kartičky ignorujú limit opakovaní
+deck-config-new-cards-ignore-review-limit-tooltip =
+    Predvolené nastavenie uplatňuje limit aj pre nové kartičky, a žiadne nové kartičky
+    sa nezobrazia po dosiahnutí limitu. Ak je toto nastavenie povolené, nové kartičky
+    sa zobrazia nezávisle od limitu opakovaní.
 deck-config-affects-entire-collection = Ovplyvní celú kolekciu.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -33,12 +40,23 @@ deck-config-today-only = Iba dnes
 ## New Cards section
 
 deck-config-learning-steps = Kroky učenia
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Trvania sú bežne minúty (napr. `1m`) alebo dni (napr. `2d`), ale hodiny (napr. `1h`) a sekundy (napr. `30s`) sú taktiež podporované.
+deck-config-new-insertion-order-tooltip =
+    Určuje poradie (na skúšanie #), ktoré je pridelené novým kartičkám keď pridáte
+    nové kartičky. Kartičky z nižšou pozíciou sa pri študovaní zobrazia ako prvé.
+    Zmena tohto nastavenia automaticky aktualizuje pozície existujúcich nových kartičiek.
 deck-config-new-insertion-order-sequential = Postupné (najprv najstaršie karty)
 deck-config-new-insertion-order-random = Náhodne
 
 ## Lapses section
 
 deck-config-relearning-steps = Kroky znovu učenia
+deck-config-relearning-steps-tooltip =
+    Nula a viac trvaní oddelených medzerami. V predvolenom nastavení stlačenie
+    tlačidla `Znovu` na opakovanej kartičke zobrazí túto kartu znovu za 10 minút.
+    Ak nie sú uvedené žiadne trvania, karitičke sa zmení interval bez začatia
+    učenia od nova. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     Počet stlačení `Znovu` pri opakovaní karty predtým ako je
     označená ako pijavica. Pijavice sú kartičky ktoré zaberajú mnoho z vášho času,
