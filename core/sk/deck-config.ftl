@@ -282,6 +282,9 @@ deck-config-historical-retention-tooltip =
     
     To druhé je dosť ojedinelé, takže pokiaľ nepoužívate druhú možnosť, pravdepodobne nemusíte
     upravovať toto nastavenie.
+deck-config-weights-tooltip2 =
+    FSRS parametre/váhy modelu obvplyvňujú ako sú kartičky naplánované. Anki začne s predvolenými parametrami.
+    Môžete použiť možnosť nižšie na optimalizovanie parametrov, aby sa čo najlepšie zhodovali s vaším výkonom pre balíček, ktorý túto predvoľbu používa.
 deck-config-reschedule-cards-on-change-tooltip =
     Ovplyvní celú kolekciu, a neukladá sa v rámci predvoľby.
     
