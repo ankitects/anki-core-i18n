@@ -34,6 +34,22 @@ browsing-current-note-type = 当前笔记模板：
 browsing-delete-notes = 删除笔记
 browsing-duplicate = 复制
 browsing-ease = 简易度
+# Button that clears the browse search
+browsing-empty-clear-search = 清除搜索条件
+# Title when the collection has no cards
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-collection-title =
+    { $notes-mode ->
+        [yes] 暂无笔记
+       *[other] 暂无卡片
+    }
+# Title when a valid search matches nothing
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-no-match-title =
+    { $notes-mode ->
+        [yes] 没有符合搜索条件的笔记
+       *[other] 没有符合搜索条件的卡片
+    }
 browsing-enter-tags-to-add = 输入要添加的标签：
 browsing-enter-tags-to-delete = 输入要删除的标签：
 browsing-filtered = 已筛选
@@ -82,6 +98,8 @@ browsing-search-quick = 快速筛选
 browsing-search-quick-flagged = 已标记
 browsing-search-quick-leeches = 记忆难点
 browsing-search-recent = 最近
+# Shown above browse results when the current search is invalid
+browsing-search-results-unchanged = 在搜索条件有效之前结果不会改变
 browsing-search-suggestions = 建议
 browsing-search-syntax-mode = 语法模式
 browsing-search-text-match = 搜索「{ $query }」
