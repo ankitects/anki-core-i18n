@@ -80,10 +80,35 @@ deck-config-bury-interday-learning-siblings = Zahrabať učené príbuzné karty
 
 deck-config-ordering-title = Poradie zobrazovania
 deck-config-new-gather-priority = Poradie zbierania nových kartičiek
+deck-config-new-gather-priority-tooltip-2 =
+    `Balíček`: Zbiera kartičky z každého podbalíčka začínajúc od vrchu. Kartičky z každého podbalíčka
+    sú nazbierané s rastúcou pozíciou. Ak denný limit daného balíčka je dosiahnutý,
+    zbieranie sa može zástaviť skôr ako boli všetky podbalíčky skontrolované.
+    Toto poradie je najrýchlejšie v obrovských kolekciách, a umožňuje vám prioritizovať podbalíčky bližšie k vrchu.
+    
+    `Pozícia vzostupne`: Zbiera kartičky vzostupne podľa pozície (na skúšanie #),
+    ktorá je bežne najstarší-pridaný prvý.
+    
+    `Pozícia zostupne`: Zbiera kartičky zostupne podľa pozície (na skúšanie #),
+    ktorá je bežne posledný-pridaný prvý.
+    
+    `Náhodné poznámky`: Náhodne vyberá poznámky, potom zbiera všetky jej kartičky.
+    
+    `Náhodné karitičky`: Zbiera všetky karitičky v náhodnom poradí.
 deck-config-new-card-sort-order = Poradie zoradenia nových kariet
 deck-config-new-review-priority = Poradie nových/opakovaní
+deck-config-new-review-priority-tooltip = Kedy zobraziť nové kartičky v závislosti od kartičiek na opakovanie.
 deck-config-interday-step-priority = Poradie učení/opakovaní
+deck-config-interday-step-priority-tooltip =
+    Kedy zobraziť (znovu)učené karitičky ktoré prekračujú začiatok dňa.
+    
+    Limit opakovaní sa vždy použije ako prvý na učené karitičky na ďaľší deň, a
+    potom karitičky na opakovanie. Toto nastavenie bude určovať poradie zobrazovania
+    nazbieraných kariet, ale kartičky na ďaľší deň budú vźdy zozbierané ako prvé.
 deck-config-review-sort-order = Poradie zoradenia opakovaní
+deck-config-display-order-will-use-current-deck =
+    Anki použije poradie zobrazenia podľa balíčka, ktorý ste
+    si vybrali na učenie, a nie z podbalíčkov ktoré môže mať.
 
 ## Gather order and sort order of cards – Combobox entries
 
@@ -92,9 +117,9 @@ deck-config-new-gather-priority-deck = Balíček
 # Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
 deck-config-new-gather-priority-deck-then-random-notes = Balíček, potom náhodné poznámky
 # Gather new cards ordered by position number, ascending (lowest to highest).
-deck-config-new-gather-priority-position-lowest-first = Vzostupná pozícia
+deck-config-new-gather-priority-position-lowest-first = Pozícia vzostupne
 # Gather new cards ordered by position number, descending (highest to lowest).
-deck-config-new-gather-priority-position-highest-first = Zostupná pozícia
+deck-config-new-gather-priority-position-highest-first = Pozícia zostupne
 # Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
 deck-config-new-gather-priority-random-notes = Náhodné poznámky
 # Gather new cards randomly.
