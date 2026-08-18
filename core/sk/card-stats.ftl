@@ -29,6 +29,7 @@ card-stats-fsrs-forgetting-curve-desired-retention = Požadovaná retencia (DR)
 
 ## Window Titles
 
+card-stats-current-card = Súčasná karta
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

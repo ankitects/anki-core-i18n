@@ -170,6 +170,13 @@ deck-config-sort-order-retrievability-descending = Zapamätanie zostupne
 
 deck-config-timer-title = Časovač
 deck-config-maximum-answer-secs = Maximálny čas odpovedi v sekundách
+deck-config-maximum-answer-secs-tooltip =
+    Maximälny počet sekúnd zapísaných k jednotlivému opakovaniu. Ak odpoveď
+    prekračuje tento čas (pretože si napríklad niekam odskočíte),
+    limit ktorý ste nastavili bude braný ako zaznamenaný čas odpovede.
+deck-config-show-answer-timer-tooltip =
+    Na obrazovke študovania sa zobrazí časovač počítajúci čas, ktorý
+    vám trvá študovanie každej kartičky.
 deck-config-stop-timer-on-answer = Zastaviť časovač na odpovedi
 
 ## Auto Advance section
