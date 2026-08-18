@@ -75,6 +75,9 @@ deck-config-bury-title = Zahrabávanie
 deck-config-bury-new-siblings = Zahrabať nové príbuzné karty na ďalší deň
 deck-config-bury-review-siblings = Zahrabať opakované príbuzné karty na ďalší deň
 deck-config-bury-interday-learning-siblings = Zahrabať učené príbuzné karty na ďalší deň
+deck-config-bury-new-tooltip =
+    Či iné `nové` kartičky rovnakej poznámky (napr. obrátené karitičky, susediace doplňovačky)
+    budú odložené na ďaľší deň.
 
 ## Gather order and sort order of cards
 
@@ -192,6 +195,7 @@ deck-config-maximum-interval-tooltip =
     opakovania dosiahli limit, `Ťažké`, `Dobré` a `Ľahké` budú dávať rovnaké
     trvanie. Čím menej dní nastavíte, tým väčšia bude vaša pracovná záťaź.
 deck-config-custom-scheduling = Vlastné plánovanie
+deck-config-custom-scheduling-tooltip = Ovplyvní celú kolekciu. Používajte na vlastné rizíko!
 
 ## Easy Days section.
 
@@ -283,7 +287,7 @@ deck-config-historical-retention-tooltip =
     To druhé je dosť ojedinelé, takže pokiaľ nepoužívate druhú možnosť, pravdepodobne nemusíte
     upravovať toto nastavenie.
 deck-config-weights-tooltip2 =
-    FSRS parametre/váhy modelu obvplyvňujú ako sú kartičky naplánované. Anki začne s predvolenými parametrami.
+    FSRS parametre/váhy modelu ovplyvňujú ako sú kartičky naplánované. Anki začne s predvolenými parametrami.
     Môžete použiť možnosť nižšie na optimalizovanie parametrov, aby sa čo najlepšie zhodovali s vaším výkonom pre balíček, ktorý túto predvoľbu používa.
 deck-config-reschedule-cards-on-change-tooltip =
     Ovplyvní celú kolekciu, a neukladá sa v rámci predvoľby.
@@ -298,6 +302,15 @@ deck-config-reschedule-cards-warning =
     
     Používajte túto možnosť skromne, nakoľko pridá zápis opakovania pre každú z vašich kartičiek, a
     zväčšuje veľkosť vašej kolekcie.
+deck-config-compute-optimal-weights-tooltip2 =
+    Keď stlačíte tlačidlo Optimalizovať, FSRS zanalyzuje vašu históriu opakovaní, a vygeneruje parametre
+    optimálne pre vašu pamäť a materiál, ktorý študujete. Ak sa vaše balíčky divoko líšia subjektívnou náročnosťou, je`
+    odporúčané im prideliť osobitné predvoľby, keďže parametre pre ľahké a ťažké balíčky budú odlišné.
+    Nemusíte vaše parametre optimalizovať často - raz za pár mesiacov stačí.
+    
+    V predvolenom nastavení budú parametre vypočítané podľa histórie opakovaní všetkých balíčkov používajúcich
+    danú predvoľbu. Prípadne môžete
+    doladiť vyhľadávací text, ak by ste chceli zmeniť, ktoré kartičky budú použité na optimalizáciu parametrov.
 deck-config-answer-again = Odpovedať znovu
 deck-config-answer-hard = Odpovedať ťažké
 deck-config-answer-good = Odpovedať dobré
