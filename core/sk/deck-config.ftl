@@ -128,13 +128,13 @@ deck-config-new-gather-priority-random-notes = Náhodné poznámky
 # Gather new cards randomly.
 deck-config-new-gather-priority-random-cards = Náhodné kartičky
 # Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
-deck-config-sort-order-card-template-then-random = Typ kartičky, potom náhodne
+deck-config-sort-order-card-template-then-random = Typ karty, potom náhodne
 # Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
-deck-config-sort-order-random-note-then-template = Náhodná poznámka, potom typ kartičky
+deck-config-sort-order-random-note-then-template = Náhodná poznámka, potom typ karty
 # Sort the cards randomly.
 deck-config-sort-order-random = Náhodne
 # Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
-deck-config-sort-order-template-then-gather = Typ kartičky, potom poradie nazbierania
+deck-config-sort-order-template-then-gather = Typ karty, potom poradie nazbierania
 # Sort the cards by the order they were gathered, in ascending order (oldest to newest).
 deck-config-sort-order-gather = Poradie nazbierania
 # How new cards or interday learning cards are mixed with review cards.
@@ -178,6 +178,9 @@ deck-config-show-answer-timer-tooltip =
     Na obrazovke študovania sa zobrazí časovač počítajúci čas, ktorý
     vám trvá študovanie každej kartičky.
 deck-config-stop-timer-on-answer = Zastaviť časovač na odpovedi
+deck-config-stop-timer-on-answer-tooltip =
+    Či sa má časovač zastaviť, keď sa odpoveď ukáže.
+    Toto nastavenie neovplivňuje štatistiky.
 
 ## Auto Advance section
 
@@ -309,6 +312,9 @@ deck-config-reschedule-cards-warning =
     
     Používajte túto možnosť skromne, nakoľko pridá zápis opakovania pre každú z vašich kartičiek, a
     zväčšuje veľkosť vašej kolekcie.
+deck-config-ignore-before-tooltip-2 =
+    Ak je povolené, opakovania kartičiek pred zvoleným dátumom budú ignorované pri optimalizovaní FSRS parametrov.
+    Toto môže byť užitočné, keď importujete údaje plánovania niekoho iného, alebo ste zmenili spôsob používania tlačidiel odpovede.
 deck-config-compute-optimal-weights-tooltip2 =
     Keď stlačíte tlačidlo Optimalizovať, FSRS zanalyzuje vašu históriu opakovaní, a vygeneruje parametre
     optimálne pre vašu pamäť a materiál, ktorý študujete. Ak sa vaše balíčky divoko líšia subjektívnou náročnosťou, je`
