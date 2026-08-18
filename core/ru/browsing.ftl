@@ -42,6 +42,22 @@ browsing-current-note-type = Текущий тип записи:
 browsing-delete-notes = Удалить записи
 browsing-duplicate = повтор
 browsing-ease = Лёгкость
+# Button that clears the browse search
+browsing-empty-clear-search = Очистить поиск
+# Title when the collection has no cards
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-collection-title =
+    { $notes-mode ->
+        [yes] Ещё нет записей
+       *[other] Ещё нет карточек
+    }
+# Title when a valid search matches nothing
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-no-match-title =
+    { $notes-mode ->
+        [yes] Нет записей удовлетворяющих этому поиску
+       *[other] Нет карточек удовлетворяющих этому поиску
+    }
 browsing-enter-tags-to-add = Введите метки для добавления:
 browsing-enter-tags-to-delete = Введите метки для удаления:
 browsing-filtered = (фильтрованные)
@@ -90,6 +106,8 @@ browsing-search-quick = Быстрые фильтры
 browsing-search-quick-flagged = С флажком
 browsing-search-quick-leeches = Приставучие
 browsing-search-recent = Недавние
+# Shown above browse results when the current search is invalid
+browsing-search-results-unchanged = Результаты остаются неизменными до тех пор, пока запрос не будет признан действительным
 browsing-search-suggestions = Предложения
 browsing-search-syntax-mode = Режим синтаксиса
 browsing-search-text-match = Искать «{ $query }»
