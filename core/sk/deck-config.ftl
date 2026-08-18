@@ -76,7 +76,7 @@ deck-config-bury-new-siblings = Zahrabať nové príbuzné karty na ďalší de�
 deck-config-bury-review-siblings = Zahrabať opakované príbuzné karty na ďalší deň
 deck-config-bury-interday-learning-siblings = Zahrabať učené príbuzné karty na ďalší deň
 deck-config-bury-new-tooltip =
-    Či iné `nové` kartičky rovnakej poznámky (napr. obrátené karitičky, susediace doplňovačky)
+    Či iné `nové` kartičky rovnakej poznámky (napr. obrátené kartičky, susediace doplňovačky)
     budú odložené na ďaľší deň.
 
 ## Gather order and sort order of cards
@@ -97,32 +97,32 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `Náhodné poznámky`: Náhodne vyberá poznámky, potom zbiera všetky jej kartičky.
     
-    `Náhodné karitičky`: Zbiera všetky karitičky v náhodnom poradí.
+    `Náhodné kartičky`: Zbiera všetky kartičky v náhodnom poradí.
 deck-config-new-card-sort-order = Poradie zoradenia nových kariet
 deck-config-new-card-sort-order-tooltip-2 =
     `Typ karty, potom poradie nazbierania`: Zobrazuje kartičky v poradí čísla typu karty.
     Kartičky z každého typu karty sú zobrazené v poradí, v ktorom boli zozbierané.
-    (TODO: TRANSLATION OUTDATED? If you have sibling burying disabled, this will ensure all front→back cards are seen before any back→front cards.
-    This is useful to have all cards of the same note shown in the same session, but not
-    too close to one another.)
+    Ak máte zakázané z možností zakopávania príbuzných, toto zaistí, že všetky kartičky predná→zadná strana sú videné pred akýmikoľvek kartičkami zadná→predná strana.
+    Toto je užitočné, aby boli všetky kartičky rovnakej poznámky zobrazené na jedno sedenie,
+    ale nie príliš blízko seba.
     
-    `Poradie nazbierania`: Zobrazí kartičky presne tak ako boli zozbierané. (TODO: HERE Ak zakopávanie príbuzných je zakázané toto typicky vyústi vo všetky kartičky poznámky zobrazené jednu za druhou.)
+    `Poradie nazbierania`: Zobrazí kartičky presne tak ako boli zozbierané. Ak je zakopávanie príbuzných kartičiek zakázané toto typicky vyústi v zobrazenie všetkých kartičiek na poznámku jedna za druhou.
     
     `Typ karty, potom náhodne`: Zobrazuje kartičky v poradí čísla typu karty. Kartičky z každého typu karty sú 
-    zobrazené v náhodnom poradí. Toto poradie je užitočné ak nechcete príbuzné karitičky,
+    zobrazené v náhodnom poradí. Toto poradie je užitočné ak nechcete príbuzné kartičky,
      aby sa zobrazovali blízko seba, ale stále chcete aby sa zobrazovali v náhodnm poradí.
     
-    `Náhodná poznámka, potom typ karty`: Náhodne vyberá poznámky, potom Zobrazuje všetky jej kartičky v poradí.
+    `Náhodná poznámka, potom typ karty`: Náhodne vyberá poznámky, potom zobrazuje všetky jej kartičky v poradí.
     
-    `Náhodne`: Zobrazuje karitičky v náhodnom poradí.
+    `Náhodne`: Zobrazuje kartičky v náhodnom poradí.
 deck-config-new-review-priority = Poradie nových/opakovaní
 deck-config-new-review-priority-tooltip = Kedy zobraziť nové kartičky v závislosti od kartičiek na opakovanie.
 deck-config-interday-step-priority = Poradie učení/opakovaní
 deck-config-interday-step-priority-tooltip =
-    Kedy zobraziť (znovu)učené karitičky ktoré prekračujú začiatok dňa.
+    Kedy zobraziť (znovu)učené kartičky ktoré prekračujú začiatok dňa.
     
-    Limit opakovaní sa vždy použije ako prvý na učené karitičky na ďaľší deň, a
-    potom karitičky na opakovanie. Toto nastavenie bude určovať poradie zobrazovania
+    Limit opakovaní sa vždy použije ako prvý na učené kartičky na ďaľší deň, a
+    potom kartičky na opakovanie. Toto nastavenie bude určovať poradie zobrazovania
     nazbieraných kariet, ale kartičky na ďaľší deň budú vźdy zozbierané ako prvé.
 deck-config-review-sort-order = Poradie zoradenia opakovaní
 deck-config-display-order-will-use-current-deck =
