@@ -34,6 +34,15 @@ browsing-current-note-type = Jenis catatan saat ini:
 browsing-delete-notes = Hapus Catatan
 browsing-duplicate = duplikat
 browsing-ease = Ease
+# Button that clears the browse search
+browsing-empty-clear-search = Hapus Pencarian
+# Title when the collection has no cards
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-collection-title =
+    { $notes-mode ->
+        [yes] Belum ada catatan
+       *[other] Belum ada kartu
+    }
 browsing-enter-tags-to-add = Masukkan label untuk ditambahkan:
 browsing-enter-tags-to-delete = Masukkan label untuk dihapus:
 browsing-filtered = (terfilter)
