@@ -14,7 +14,9 @@ preferences-on-next-sync-force-changes-in = Forzar cambios nunha dirección na p
 preferences-paste-clipboard-images-as-png = Pegar imaxes do portapapeis como PNG
 preferences-paste-without-shift-key-strips-formatting = Pegar sen a tecla Maiús elimina o formato
 preferences-generate-latex-images-automatically = Xerar imaxes LaTeX (risco de seguranza)
+preferences-latex-generation-disabled = A xeración de imaxes con LaTeX está desactivada nas preferencias.
 preferences-periodically-sync-media = Sincronizar ficheiros multimedia periodicamente
+preferences-please-restart-anki-to-complete-language = Por favor, reinicia o Anki para completar o cambio de idioma.
 preferences-preferences = Preferencias
 preferences-scheduling = Reprogramar
 preferences-show-learning-cards-with-larger-steps = Amosar as tarxetas en aprendizaxe con intervalos maiores antes dos repasos
@@ -25,6 +27,7 @@ preferences-show-remaining-card-count = Amosar o número de tarxetas restantes
 preferences-some-settings-will-take-effect-after = Algúns axustes terán efecto despois de reiniciar o Anki.
 preferences-tab-synchronisation = Sincronización
 preferences-synchronize-audio-and-images-too = Sincronizar o son e as imaxes
+preferences-login-successful-sync-now = Iniciouse sesión. Queres gardar as preferencias e sincronizar a colección?
 preferences-timebox-time-limit = Intervalos temporais de estudo
 preferences-user-interface-size = Tamaño da interface de usuario
 preferences-when-adding-default-to-current-deck = Ao engadir, facelo na baralla predeterminada
@@ -36,7 +39,9 @@ preferences-theme-follow-system = O mesmo do sistema
 preferences-theme-light = Claro
 preferences-theme-dark = Escuro
 preferences-v3-scheduler = Algoritmo de planificación V3
+preferences-updates = Actualizacións
 preferences-check-for-updates = Comprobar se hai actualizacións
+preferences-check-for-addon-updates = Comprobar se hai actualizacións para os complementos
 preferences-ignore-accents-in-search = Ignorar acentos na busca (máis lento)
 preferences-backup-explanation =
     O Anki crea copias de seguranza da túa colección periodicamente. Cando as copias teñan máis de 2 días,
@@ -74,8 +79,10 @@ preferences-reset-window-sizes = Restabelecer o tamaño das xanelas
 preferences-reset-window-sizes-complete = Restabelecéronse os tamaños e localizacións das xanelas.
 preferences-third-party-services = Servizos de terceiros
 preferences-ankihub-not-logged-in = Non iniciaches sesión no AnkiHub.
+preferences-ankiweb-intro = AnkiWeb é un servizo de balde que che permite sincronizar as tarxetas entre dispositivos e recuperar os datos en situación de perda ou avaría.
 preferences-ankihub-intro = AnkiHub fornece edición colaborativa de barallas e ferramentas de estudo adicionais. Cómpre ter unha subscrición de pago para acceder a certos recursos.
 preferences-third-party-description = Os servizos de terceiros non están vinculados nin avalados polo Anki. Algúns destes servizos poden ser de pago.
+preferences-experimental-features-tab = Experimentos
 
 ## URL scheme related
 

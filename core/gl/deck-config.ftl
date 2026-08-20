@@ -17,6 +17,7 @@ deck-config-title = Opcións da baralla
 
 deck-config-daily-limits = Límites diarios
 deck-config-new-cards-ignore-review-limit = As novas tarxetas ignoran o límite de repasos
+deck-config-apply-all-parent-limits = Os límites comezan coa baralla superior
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -107,11 +108,18 @@ deck-config-sort-order-retrievability-descending = Recuperabilidade decrecente
 
 ## Timer section
 
+deck-config-timer-title = Temporizador
+deck-config-maximum-answer-secs = Tempo máximo de resposta en segundos
+deck-config-stop-timer-on-answer = Deter o temporizador ao responder
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = Tempo en segundos que se amosará a pregunta
+deck-config-seconds-to-show-answer = Tempo en segundos que se amosará a resposta
 deck-config-question-action-show-answer = Amosar resposta
 deck-config-question-action-show-reminder = Amosar recordatorio
+deck-config-question-action = Acción da pregunta
+deck-config-answer-action = Acción da resposta
 
 ## Audio section
 
@@ -121,6 +129,8 @@ deck-config-skip-question-when-replaying = Omitir pregunta ao repetir a resposta
 
 ## Advanced section
 
+deck-config-advanced-title = Avanzado
+deck-config-custom-scheduling = Programación personalizada
 
 ## Easy Days section.
 
@@ -160,18 +170,32 @@ deck-config-save-and-optimize = Optimizar todos os perfís de estudo
 
 ## Warnings shown to the user
 
+deck-config-reviews-too-low =
+    { $cards ->
+        [one] Se engades { $cards } tarxeta nova cada día, o teu límite de repasos debería ser polo menos de { $expected }.
+       *[other] Se engades { $cards } tarxetas novas cada día, o teu límite de repasos debería ser polo menos de { $expected }.
+    }
 
 ## Selecting a deck
 
 
 ## Messages related to the FSRS scheduler
 
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = Parámetros do FSRS
+deck-config-compute-optimal-weights = Optimizar os parámetros do FSRS
+deck-config-optimize-button = Optimizar o perfil de estudo actual
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (lento)
+deck-config-ignore-before = Ignorar tarxetas repasadas antes de
+deck-config-time-to-optimize = Hai moito que non se optimizan os parámetros. Recomendase premer o botón «Optimizar todos os perfís de estudo».
 deck-config-evaluate-button = Avaliar
 deck-config-desired-retention = Retención desexada
 deck-config-historical-retention = Retención histórica
 deck-config-get-params = Obter parámetros
 deck-config-complete = { $num }% completado.
 deck-config-iterations = Iteración: { $count }...
+deck-config-reschedule-cards-on-change = Reprogramar as tarxetas tras un cambio
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% de { $reviews } repaso
@@ -180,20 +204,30 @@ deck-config-percent-of-reviews =
 deck-config-percent-input = { $pct }%
 deck-config-wait-for-audio = Esperar polo son
 deck-config-show-reminder = Amosar recordatorio
+deck-config-answer-again = Responder de novo
+deck-config-answer-hard = Responder difícil
+deck-config-answer-good = Responder ben
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-experimental = Simulador de FSRS (experimental)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Axúdame a decidir (experimental)
 deck-config-simulate = Simular
 deck-config-clear-last-simulate = Limpar última simulación
 deck-config-fsrs-simulator-radio-count = Repasos
 deck-config-advanced-settings = Configuración avanzada
 deck-config-suspend-leeches = Samesugas suspensas
 deck-config-save-options-to-preset = Gardar cambios no perfil de estudo
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time } por tarxeta memorizada
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
+# Checkbox
+deck-config-health-check = Comprobar integridade ao optimizar
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } por tarxeta memorizada
 deck-config-unable-to-determine-desired-retention = Non se puido determinar unha retención mínima recomendada.
 deck-config-predicted-minimum-recommended-retention = Retención mínima recomendada: { $num }
 deck-config-compute-minimum-recommended-retention = Retención mínima recomendada

@@ -2,8 +2,8 @@
 card-templates-blank = baleiro
 card-templates-changes-will-affect-notes =
     { $count ->
-        [one] Os cambios de embaixo afectarán a { $count } nota que usa este tipo de tarxeta.
-       *[other] Os cambios de embaixo afectarán as { $count } notas que usan este tipo de tarxeta.
+        [one] Os cambios de embaixo afectarán á { $count } nota que usa este tipo de tarxeta.
+       *[other] Os cambios de embaixo afectarán ás { $count } notas que usan este tipo de tarxeta.
     }
 card-templates-card-type = Tipo de tarxeta:
 card-templates-front-template = Modelo do anverso

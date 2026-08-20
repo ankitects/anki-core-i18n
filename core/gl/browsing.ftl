@@ -39,6 +39,22 @@ browsing-current-note-type = Tipo de nota actual:
 browsing-delete-notes = Eliminar as notas
 browsing-duplicate = duplicado
 browsing-ease = Facilidade
+# Button that clears the browse search
+browsing-empty-clear-search = Limpar busca
+# Title when the collection has no cards
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-collection-title =
+    { $notes-mode ->
+        [yes] Aínda non hai notas
+       *[other] Aínda non hai tarxetas
+    }
+# Title when a valid search matches nothing
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-no-match-title =
+    { $notes-mode ->
+        [yes] Non hai notas que coincidan con esta busca
+       *[other] Non hai tarxetas que coincidan con esta busca
+    }
 browsing-enter-tags-to-add = Insire etiquetas para engadir:
 browsing-enter-tags-to-delete = Insire etiquetas para eliminar:
 browsing-filtered = (filtrada)
@@ -81,7 +97,17 @@ browsing-reposition = Reposicionar...
 browsing-reposition-new-cards = Reposicionar tarxetas novas
 browsing-reschedule = Reprogramar
 browsing-search-bar-hint = Buscar tarxetas/notas (escribe o texto e preme a tecla Retorno)
+browsing-search-facet-starters = Filtrado por
 browsing-search-in = Buscar en:
+browsing-search-quick = Filtros rápidos
+browsing-search-quick-flagged = Abandeirada
+browsing-search-quick-leeches = Samesugas
+browsing-search-recent = Recentes
+# Shown above browse results when the current search is invalid
+browsing-search-results-unchanged = Os resultados non cambiarán ata que a busca sexa válida
+browsing-search-suggestions = Suxestións
+browsing-search-syntax-mode = Modo sintaxe
+browsing-search-text-match = Buscar «{ $query }»
 browsing-search-within-formatting-slow = Buscar en elementos de formato (lento)
 browsing-select-deck = Seleccionar baralla
 browsing-selected-notes-only = Só notas seleccionadas
@@ -123,8 +149,8 @@ browsing-notes-updated =
     }
 browsing-cards-updated =
     { $count ->
-        [one] { $count } tarxeta actualizada.
-       *[other] { $count } tarxetas actualizadas.
+        [one] Actualizouse { $count } tarxeta.
+       *[other] Actualizáronse { $count } tarxetas.
     }
 browsing-window-title = Explorar ({ $selected } de { $total } tarxetas seleccionadas)
 browsing-sidebar-expand = Expandir
@@ -156,6 +182,20 @@ browsing-sidebar-due-today = Pendentes
 browsing-sidebar-untagged = Sen etiquetar
 browsing-sidebar-overdue = Atrasadas
 browsing-row-deleted = (eliminada)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = Agora
+# Status chip label in browse card rows
+browsing-leech = Samesuga
+browsing-more-tags =
+    { $count ->
+        [one] 1 etiqueta máis
+       *[other] { $count } etiquetas máis
+    }
+browsing-leech-lapses =
+    { $count ->
+        [one] Samesuga, { $count } esquecemento
+       *[other] Samesuga, { $count } esquecementos
+    }
 browsing-removed-unused-tags-count =
     { $count ->
         [one] Eliminouse { $count } etiqueta sen utilizar.

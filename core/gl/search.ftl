@@ -4,6 +4,7 @@
 ## It's ok to change quotes outside of backticks however, eg:
 ## "`{ $context }`" => 「`{ $context }`」
 
+search-invalid-search = Busca non válida: { $reason }
 
 ## eg. expected a number in "due>5x", but found "5x"
 

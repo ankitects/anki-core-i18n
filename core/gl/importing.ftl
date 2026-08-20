@@ -30,6 +30,7 @@ importing-mapped-to-tags = asignado a <b>etiquetas</b>
 # the action of combining two existing note types to create a new one
 importing-merge-notetypes = Combinar tipos de nota
 importing-notes-added-from-file = Notas engadidas desde o ficheiro: { $val }
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = Baralla comprimida do Anki ou colección (*.apkg *.colpkg *.zip)
 # the '|' character
 importing-pipe = Canalización
 importing-rows-had-num1d-fields-expected-num2d = «{ $row }» ten { $found } campos, agardábanse { $expected }
