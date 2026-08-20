@@ -29,6 +29,13 @@ sync-conflict-explanation =
     Se escolle descargar, Anki descargará a colección dende AnkiWeb e calquera cambio que fixera no seu ordenador dende a última sincronización perderase.
     
     Se escolle subir, Anki subirá a súa colección a AnkiWeb e calquera cambio que fixera en AnkiWeb ou noutro dispositivo dende a última sincronización co ordenador perderase.
+sync-conflict-explanation2 =
+    Hai un conflito entre as barallas deste dispositivo e as do AnkiWeb. Debes escoller que versión manter:
+    
+    - Selecciona **{ sync-download-from-ankiweb }** para substituír as barallas deste dispositivo pola versión do AnkiWeb. Perderás calquera cambio que fixeses neste dispositivo dende a última sincronización.
+    - Seleccionar **{ sync-upload-to-ankiweb }** para sobrescribir as versións do AnkiWeb coas barallas deste dispositivo e elimina calquera cambio no AnkiWeb.
+    
+    Unha vez resolto o conflito, a sincronización funcionará coma de costume.
 sync-ankiweb-id-label = ID de AnkiWeb:
 sync-password-label = Constrasinal:
 sync-account-required =
@@ -43,8 +50,8 @@ sync-ankihub-login-failed = Non se puido iniciar sesión no AnkiHub coas credenc
 
 sync-media-log-button = Rexistro dos ficheiros multimedia
 sync-abort-button = Cancelar
-sync-download-from-ankiweb = Descargar dende a AnkiWeb
-sync-upload-to-ankiweb = Enviar a AnkiWeb
+sync-download-from-ankiweb = Descargar dende o AnkiWeb
+sync-upload-to-ankiweb = Enviar ao AnkiWeb
 sync-cancel-button = Cancelar
 
 ## Normal sync progress

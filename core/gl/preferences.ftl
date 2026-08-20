@@ -9,6 +9,7 @@ preferences-learn-ahead-limit = Tempo límite para adiantar o estudo
 preferences-mins = mins.
 preferences-network = Rede
 preferences-next-day-starts-at = O seguinte día comeza ás
+preferences-media-is-not-backed-up = Non se fai copia de seguranza dos ficheiros multimedia. Por motivos de seguridade, fai unha copia do cartafol do Anki periodicamente.
 preferences-on-next-sync-force-changes-in = Forzar cambios nunha dirección na próxima sincronización
 preferences-paste-clipboard-images-as-png = Pegar imaxes do portapapeis como PNG
 preferences-paste-without-shift-key-strips-formatting = Pegar sen a tecla Maiús elimina o formato
@@ -72,6 +73,8 @@ preferences-network-timeout = Tempo de espera da rede
 preferences-reset-window-sizes = Restabelecer o tamaño das xanelas
 preferences-reset-window-sizes-complete = Restabelecéronse os tamaños e localizacións das xanelas.
 preferences-third-party-services = Servizos de terceiros
+preferences-ankihub-not-logged-in = Non iniciaches sesión no AnkiHub.
+preferences-ankihub-intro = AnkiHub fornece edición colaborativa de barallas e ferramentas de estudo adicionais. Cómpre ter unha subscrición de pago para acceder a certos recursos.
 preferences-third-party-description = Os servizos de terceiros non están vinculados nin avalados polo Anki. Algúns destes servizos poden ser de pago.
 
 ## URL scheme related
