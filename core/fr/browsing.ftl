@@ -22,12 +22,13 @@ browsing-cards-deleted =
     }
 browsing-cards-deleted-with-deckname =
     { $count ->
-        [one] carte supprimée de
-       *[other] cartes supprimées de
+        [one] { $count } carte supprimée de { $deck_name }.
+       *[other] { $count }  cartes supprimées de { $deck_name }.
     }
 browsing-change-deck = Changer de paquet
 browsing-change-deck2 = Changer de paquet...
 browsing-change-note-type = Modifier le type de note
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Modifier le type de la note...
 browsing-change-notetype = Modifier le type de note
 browsing-clear-unused-tags = Supprimer les étiquettes inutilisées
