@@ -33,7 +33,7 @@ deck-config-affects-entire-collection = Ovplyvní celú kolekciu.
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
-deck-config-shared-preset = Predvoľbu
+deck-config-shared-preset = Predvoľba
 deck-config-deck-only = Tento balíček
 deck-config-today-only = Iba dnes
 
@@ -296,8 +296,8 @@ deck-config-desired-retention-tooltip =
     V predvolenom nastavení Anki plánuje kartičky tak, aby ste mali 90% pravdepodobnosť si ich pamätať,
     keď sa znovu ukážu pri opakovaní. Ak túto hodnotu zvýšite, Anki bude zobrazovať kartičky častejšie,
     aby ste mali väčšiu pravdepodobnosť si ich pamätať. Ak hodnotu znížite, Anki bude zobrazovať kartičky
-    zriedkavejšie, a vy viac z nich zabudnete. Pri nastavovaní buďte konzervatívny - vyžšie hodnotý
-    značne zvýšia vaše zaťaženie, a nižšie hodnoty môžu demotivujúce, keď veľa z matelálu zabudnete.
+    zriedkavejšie, a vy viac z nich zabudnete. Pri nastavovaní buďte konzervatívny - vyššie hodnoty
+    značne zvýšia vaše zaťaženie, a nižšie hodnoty môžu demotivujúce, keď veľa z materiálu zabudnete.
 deck-config-desired-retention-tooltip2 = Hodnoty študijnej záťaže uvádzané v informačnom okne sú približné. Pre vyšší stupeň presnosti použite simulátor.
 deck-config-historical-retention-tooltip =
     Ak časť vašej histórie opakovaní chýba, FSPS potrebuje vyplniť medzery. V predvolenom nastavení
