@@ -55,8 +55,8 @@ browsing-empty-collection-title =
 # $notes-mode is "yes" when browsing notes instead of cards
 browsing-empty-no-match-title =
     { $notes-mode ->
-        [yes] Нет записей удовлетворяющих этому поиску
-       *[other] Нет карточек удовлетворяющих этому поиску
+        [yes] Нет записей, удовлетворяющих запросу
+       *[other] Нет карточек, удовлетворяющих запросу
     }
 browsing-enter-tags-to-add = Введите метки для добавления:
 browsing-enter-tags-to-delete = Введите метки для удаления:
