@@ -55,8 +55,8 @@ deck-config-relearning-steps = Kroky znovu učenia
 deck-config-relearning-steps-tooltip =
     Nula a viac trvaní oddelených medzerami. V predvolenom nastavení stlačenie
     tlačidla `Znovu` na opakovanej kartičke zobrazí túto kartu znovu za 10 minút.
-    Ak nie sú uvedené žiadne trvania, karitičke sa zmení interval bez začatia
-    učenia od nova. { -deck-config-delay-hint }
+    Ak nie sú uvedené žiadne trvania, kartičke sa zmení interval bez začatia
+    učenia od znova. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     Počet stlačení `Znovu` pri opakovaní karty predtým ako je
     označená ako pijavica. Pijavice sú kartičky ktoré zaberajú mnoho z vášho času,
@@ -77,7 +77,7 @@ deck-config-bury-review-siblings = Zahrabať opakované príbuzné karty na ďal
 deck-config-bury-interday-learning-siblings = Zahrabať učené príbuzné karty na ďalší deň
 deck-config-bury-new-tooltip =
     Či iné `nové` kartičky rovnakej poznámky (napr. obrátené kartičky, susediace doplňovačky)
-    budú odložené na ďaľší deň.
+    budú odložené na ďalší deň.
 
 ## Gather order and sort order of cards
 
@@ -121,9 +121,9 @@ deck-config-interday-step-priority = Poradie učení/opakovaní
 deck-config-interday-step-priority-tooltip =
     Kedy zobraziť (znovu)učené kartičky ktoré prekračujú začiatok dňa.
     
-    Limit opakovaní sa vždy použije ako prvý na učené kartičky na ďaľší deň, a
+    Limit opakovaní sa vždy použije ako prvý na učené kartičky na ďalší deň, a
     potom kartičky na opakovanie. Toto nastavenie bude určovať poradie zobrazovania
-    nazbieraných kariet, ale kartičky na ďaľší deň budú vźdy zozbierané ako prvé.
+    nazbieraných kariet, ale kartičky na ďalší deň budú vždy zozbierané ako prvé.
 deck-config-review-sort-order = Poradie zoradenia opakovaní
 deck-config-display-order-will-use-current-deck =
     Anki použije poradie zobrazenia podľa balíčka, ktorý ste
@@ -187,7 +187,7 @@ deck-config-sort-order-retrievability-descending = Zapamätanie zostupne
 deck-config-timer-title = Časovač
 deck-config-maximum-answer-secs = Maximálny čas odpovedi v sekundách
 deck-config-maximum-answer-secs-tooltip =
-    Maximälny počet sekúnd zapísaných k jednotlivému opakovaniu. Ak odpoveď
+    Maximálny počet sekúnd zapísaných k jednotlivému opakovaniu. Ak odpoveď
     prekračuje tento čas (pretože si napríklad niekam odskočíte),
     limit ktorý ste nastavili bude braný ako zaznamenaný čas odpovede.
 deck-config-show-answer-timer-tooltip =
@@ -196,7 +196,7 @@ deck-config-show-answer-timer-tooltip =
 deck-config-stop-timer-on-answer = Zastaviť časovač na odpovedi
 deck-config-stop-timer-on-answer-tooltip =
     Či sa má časovač zastaviť, keď sa odpoveď ukáže.
-    Toto nastavenie neovplivňuje štatistiky.
+    Toto nastavenie neovplyvňuje štatistiky.
 
 ## Auto Advance section
 
@@ -302,12 +302,12 @@ deck-config-desired-retention-tooltip2 = Hodnoty študijnej záťaže uvádzané
 deck-config-historical-retention-tooltip =
     Ak časť vašej histórie opakovaní chýba, FSPS potrebuje vyplniť medzery. V predvolenom nastavení
     bude predpokladať že keď ste robili tieto staré opakovania, pamätali ste si 90% materiálu. Ak sa vaša
-    stará retencia bola značne vyžšia alebo nižšia ako 90%, prispôsbenie tohto nastavenia umožní FSRS
+    stará retencia bola značne vyššia alebo nižšia ako 90%, prispôsobenie tohto nastavenia umožní FSRS
     lepšie priblížiť chýbajúce opakovania.
     
     Vaša história opakovaní môže by nekompletná z dvoch dôvodov:
-    1. Pretože pužívate nastavenie „Ignorovať kartičky opakované pred“.
-    2. Pretože ste predtým odsrtánily históriu opakovaní na uvoľnenie miesta alebo ste importovali materiál
+    1. Pretože používate nastavenie „Ignorovať kartičky opakované pred“.
+    2. Pretože ste predtým odsrtánili históriu opakovaní na uvoľnenie miesta alebo ste importovali materiál
     z iného SRS programu.
     
     To druhé je dosť ojedinelé, takže pokiaľ nepoužívate druhú možnosť, pravdepodobne nemusíte
