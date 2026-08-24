@@ -89,8 +89,8 @@ browsing-shift-position-of-existing-cards = Changer la position de cartes exista
 browsing-sidebar = Barre latérale
 browsing-sidebar-filter = Filtre de la barre latérale
 # The field that is used for sorting (sort is an adjective here, not a verb)
-browsing-sort-field = Trier selon le champ
-browsing-sorting-on-this-column-is-not = Le tri sur cette colonne n’est pas permis. Choisissez-en une autre.
+browsing-sort-field = Champ de tri
+browsing-sorting-on-this-column-is-not = Il n'est pas possible de trier selon cette colonne. Merci d'en choisir une autre.
 browsing-start-position = Position de départ :
 browsing-step = Pas :
 browsing-suspended = Suspendues
