@@ -237,6 +237,7 @@ statistics-calendar-title = Kalendár
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
+statistics-elapsed-time-years = { $amount }r
 
 ##
 

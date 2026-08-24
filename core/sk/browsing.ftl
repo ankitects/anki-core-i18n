@@ -84,15 +84,15 @@ browsing-whole-collection = Celá zbierka
 browsing-you-must-have-at-least-one = Je potrebný aspoň jeden stĺpec.
 browsing-group =
     { $count ->
-        [one] { $count } skupín
-        [few] { $count } skupina
-       *[other] { $count } skupiny
+        [one] { $count } skupina
+        [few] { $count } skupiny
+       *[other] { $count } skupín
     }
 browsing-note-count =
     { $count ->
-        [one] { $count } poznámok
-        [few] { $count } poznámka
-       *[other] { $count } poznámky
+        [one] { $count } poznámka
+        [few] { $count } poznámky
+       *[other] { $count } poznámok
     }
 browsing-today = Dnes
 browsing-studied-today = Dnes preštudované

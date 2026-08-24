@@ -27,11 +27,11 @@ card-templates-card-count =
     { $count ->
         [one] { $count } karta
         [few] { $count } karty
-       *[other] { $count } kartiet
+       *[other] { $count } kariet
     }
 card-templates-this-will-create-card-proceed =
     { $count ->
         [one] Bude vytvorená { $count } karta. Pokračovať?
-        [few] Bude vytvorené { $count } karty. Pokračovať?
-       *[other] Budú vytvorených { $count } kariet. Pokračovať?
+        [few] Budú vytvorené { $count } karty. Pokračovať?
+       *[other] Bude vytvorených { $count } kariet. Pokračovať?
     }

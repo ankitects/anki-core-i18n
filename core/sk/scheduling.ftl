@@ -29,10 +29,10 @@ scheduling-time-span-minutes =
     }
 scheduling-time-span-hours =
     { $amount ->
-        [one] { $amount } hodína
+        [one] { $amount } hodina
         [few] { $amount } hodiny
         [many] { $amount } hodiny
-       *[other] { $amount } hodin
+       *[other] { $amount } hodín
     }
 scheduling-time-span-days =
     { $amount ->
@@ -64,7 +64,7 @@ scheduling-next-learn-due =
         [seconds]
             { $amount ->
                 [one] Nasledujúca kartička na učenie bude pripravená za { $amount } sekundu.
-                [few] Nasledujúca kartička na učenie bude pripravená za { $amount } sekndy.
+                [few] Nasledujúca kartička na učenie bude pripravená za { $amount } sekundy.
                 [many] Nasledujúca kartička na učenie bude pripravená za { $amount } sekundy.
                *[other] Nasledujúca kartička na učenie bude pripravená za { $amount } sekúnd.
             }

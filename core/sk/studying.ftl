@@ -51,7 +51,7 @@ studying-card-studied-in =
     }
 studying-minute =
     { $count ->
-        [one] { $count } minút.
-        [few] { $count } minútu.
-       *[other] { $count } minúty.
+        [one] { $count } minútu.
+        [few] { $count } minúty.
+       *[other] { $count } minút.
     }
