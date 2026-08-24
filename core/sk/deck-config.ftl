@@ -86,8 +86,8 @@ deck-config-new-gather-priority = Poradie zbierania nových kartičiek
 deck-config-new-gather-priority-tooltip-2 =
     `Balíček`: Zbiera kartičky z každého podbalíčka začínajúc od vrchu. Kartičky z každého podbalíčka
     sú nazbierané s rastúcou pozíciou. Ak denný limit daného balíčka je dosiahnutý,
-    zbieranie sa može zástaviť skôr ako boli všetky podbalíčky skontrolované.
-    Toto poradie je najrýchlejšie v obrovských kolekciách, a umožňuje vám prioritizovať podbalíčky bližšie k vrchu.
+    zbieranie sa môže zastaviť skôr ako boli všetky podbalíčky skontrolované.
+    Toto poradie je najrýchlejšie v obrovských kolekciách, a umožňuje vám priorizovať podbalíčky bližšie k vrchu.
     
     `Pozícia vzostupne`: Zbiera kartičky vzostupne podľa pozície (na skúšanie #),
     ktorá je bežne najstarší-pridaný prvý.
@@ -110,7 +110,7 @@ deck-config-new-card-sort-order-tooltip-2 =
     
     `Typ karty, potom náhodne`: Zobrazuje kartičky v poradí čísla typu karty. Kartičky z každého typu karty sú 
     zobrazené v náhodnom poradí. Toto poradie je užitočné ak nechcete príbuzné kartičky,
-     aby sa zobrazovali blízko seba, ale stále chcete aby sa zobrazovali v náhodnm poradí.
+     aby sa zobrazovali blízko seba, ale stále chcete aby sa zobrazovali v náhodnom poradí.
     
     `Náhodná poznámka, potom typ karty`: Náhodne vyberá poznámky, potom zobrazuje všetky jej kartičky v poradí.
     
@@ -221,7 +221,7 @@ deck-config-maximum-interval-tooltip =
     opakovania dosiahli limit, `Ťažké`, `Dobré` a `Ľahké` budú dávať rovnaké
     trvanie. Čím menej dní nastavíte, tým väčšia bude vaša pracovná záťaź.
 deck-config-custom-scheduling = Vlastné plánovanie
-deck-config-custom-scheduling-tooltip = Ovplyvní celú kolekciu. Používajte na vlastné rizíko!
+deck-config-custom-scheduling-tooltip = Ovplyvní celú kolekciu. Používajte na vlastné riziko!
 
 ## Easy Days section.
 

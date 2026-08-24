@@ -1,8 +1,9 @@
 exporting-all-decks = Všetky balíčky
 exporting-anki-20-deck = Balíček Anki 2.0
-exporting-anki-collection-package = Balíček Anki kolekce
+exporting-anki-collection-package = Balíček kolekcie Anki
 exporting-anki-deck-package = Balíček Anki
 exporting-cards-in-plain-text = Karty ako obyčajný text
+# used in the filename during the export of a collection package
 exporting-collection = zbierka
 exporting-collection-exported = Zbierka exportovaná.
 exporting-couldnt-save-file = Nemôžem uložiť súbor: { $val }
@@ -15,18 +16,21 @@ exporting-include-scheduling-information = Zahrnúť informácie o plánovaní
 exporting-include-tags = Zahrnúť štítky
 exporting-notes-in-plain-text = Poznámky ako jednoduchý text
 exporting-selected-notes = Vybrané poznámky
-exporting-card-exported = { $count ->
-    [one] exportovaných { $count } kariet.
-    [few] exportovaná { $count } karta.
-   *[other] exportované { $count } karty.
-  }
-exporting-exported-media-file = { $count ->
-    [one] Exportovaných { $count } multimediálnych súborov
-    [few] Exportovaný { $count } multimediálny súbor
-   *[other] Exportované { $count } multimediálne súbory
-  }
-exporting-note-exported = { $count ->
-    [one] { $count } poznámok exportovaných.
-    [few] { $count } poznámka exportovaná.
-   *[other] { $count } poznámky exportované.
-  }
+exporting-card-exported =
+    { $count ->
+        [one] exportovaných { $count } kariet.
+        [few] exportovaná { $count } karta.
+       *[other] exportované { $count } karty.
+    }
+exporting-exported-media-file =
+    { $count ->
+        [one] Exportovaných { $count } multimediálnych súborov
+        [few] Exportovaný { $count } multimediálny súbor
+       *[other] Exportované { $count } multimediálne súbory
+    }
+exporting-note-exported =
+    { $count ->
+        [one] { $count } poznámok exportovaných.
+        [few] { $count } poznámka exportovaná.
+       *[other] { $count } poznámky exportované.
+    }
