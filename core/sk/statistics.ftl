@@ -57,12 +57,12 @@ statistics-in-time-span-years =
 # version unmodified.
 statistics-studied-today =
     { $unit ->
-        [seconds] Dnes preštudovaných { statistics-cards } { statistics-in-time-span-seconds } ({ $secs-per-card }s/karitičku)
-        [minutes] Dnes preštudovaných { statistics-cards } { statistics-in-time-span-minutes } ({ $secs-per-card }s/karitičku)
-        [hours] Dnes preštudovaných { statistics-cards } { statistics-in-time-span-hours } ({ $secs-per-card }s/karitičku)
-        [days] Dnes preštudovaných { statistics-cards } { statistics-in-time-span-days } ({ $secs-per-card }s/karitičku)
-        [months] Dnes preštudovaných { statistics-cards } { statistics-in-time-span-months } ({ $secs-per-card }s/karitičku)
-       *[years] Dnes preštudovaných { statistics-cards } { statistics-in-time-span-years } ({ $secs-per-card }s/karitičku)
+        [seconds] Dnes preštudovaných { statistics-cards } { statistics-in-time-span-seconds } ({ $secs-per-card }s/kariičku)
+        [minutes] Dnes preštudovaných { statistics-cards } { statistics-in-time-span-minutes } ({ $secs-per-card }s/kartičku)
+        [hours] Dnes preštudovaných { statistics-cards } { statistics-in-time-span-hours } ({ $secs-per-card }s/kartičku)
+        [days] Dnes preštudovaných { statistics-cards } { statistics-in-time-span-days } ({ $secs-per-card }s/kartičku)
+        [months] Dnes preštudovaných { statistics-cards } { statistics-in-time-span-months } ({ $secs-per-card }s/kartičku)
+       *[years] Dnes preštudovaných { statistics-cards } { statistics-in-time-span-years } ({ $secs-per-card }s/kartičku)
     }
 
 ##

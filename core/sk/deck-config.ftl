@@ -64,7 +64,7 @@ deck-config-leech-threshold-tooltip =
     alebo vymyslieť mnemotechnickú pomôcku na zapamätanie si jej.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `Iba štítok`: Pridá k jej poznámke štítok „leech“ a zobrazí vyskakovacie okno.
+    `Iba štítok`: Pridá k jej poznámke štítok „leech“ (pijavica) a zobrazí vyskakovacie okno.
     
     `Vyradiť kartičku`: V dodatku k pridaniu štítka k poznámke schová kartičku dokiaľ
     nie je manuálne zrušené vyradenie.
