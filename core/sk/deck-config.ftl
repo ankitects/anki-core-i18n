@@ -355,6 +355,15 @@ deck-config-suspend-leeches = Vyradené pijavice
 # Checkbox
 deck-config-health-check = Skontrolovať zdravie pri optimalizovaní
 # Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    Vaša pamäť je pre FSRS ťažko predvídateľná. Odporúčania:
+    
+    - Vyraďte alebo preformulujte pijavice.
+    - Používajte tlačidlá odpovede konzistentne. Pamätajte že "Ťažké" je oznámkovanie za správnu odpoveď, nie zlú.
+    - Porozumejte pred zapamätávaním si.
+    
+    Ak sa budete riadiť týmito návrhmi, výkon sa bežne zlepší v priebehu pár mesiacov.
+# Message box showing the result of the health check
 deck-config-fsrs-good-fit =
     Kontrola zdravia:
     FSRS sa vie dobre prispôsobiť vašej pamäti.
