@@ -42,6 +42,12 @@ deck-config-today-only = Iba dnes
 deck-config-learning-steps = Kroky učenia
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Trvania sú bežne minúty (napr. `1m`) alebo dni (napr. `2d`), ale hodiny (napr. `1h`) a sekundy (napr. `30s`) sú taktiež podporované.
+deck-config-graduating-interval-tooltip =
+    Počet dní na prečkanie kým sa kartička znovu zobrazí po stlačení tlačidla
+    `Dobré` pri poslednom kroku učenia.
+deck-config-easy-interval-tooltip =
+    Počet dní na prečkanie kým sa kartička znovu zobrazí po použití tlačidla
+    `Ľahké` na okamžité odobratie kartičky z učenia.
 deck-config-new-insertion-order-tooltip =
     Určuje poradie (na skúšanie #), ktoré je pridelené novým kartičkám keď pridáte
     nové kartičky. Kartičky z nižšou pozíciou sa pri študovaní zobrazia ako prvé.
@@ -271,6 +277,8 @@ deck-config-reviews-too-low =
         [many] Ak sa pridávajú { $cards } nové kartičky každý deň, limit opakovaní by mal byť aspoň { $expected }.
        *[other] Keď sa pridáva { $cards } nových kartičiek každý deň, limit opakovaní by mal byť aspoň { $expected }.
     }
+deck-config-learning-step-above-graduating-interval = Interval postupu by mal byť aspoň taký dlhý ako posledný krok učenia.
+deck-config-good-above-easy = Interval pre ľahké by mal byť aspoň taký dlhý ako Interval postupu.
 deck-config-ignore-before-info = (Približne) { $included }/{ $totalCards } kariet sa použije na optimalizovanie parametrov FSRS.
 
 ## Selecting a deck
