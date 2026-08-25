@@ -340,6 +340,14 @@ deck-config-compute-optimal-weights-tooltip2 =
     V predvolenom nastavení budú parametre vypočítané podľa histórie opakovaní všetkých balíčkov používajúcich
     danú predvoľbu. Prípadne môžete
     doladiť vyhľadávací text, ak by ste chceli zmeniť, ktoré kartičky budú použité na optimalizáciu parametrov.
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [one] { $pct }% z { $reviews } opakovania
+        [few] { $pct }% z { $reviews } opakovaní
+        [many] { $pct }% z { $reviews } opakovaní
+       *[other] { $pct }% z { $reviews } opakovaní
+    }
+deck-config-fsrs-params-no-reviews = Nenašli sa žiadne opakovania. Prosím skontrolujte či je táto predvoľba priradená ku všetkým balíčkom (vrátane podbalíčkov), ktoré chcete optimalizovať a skúste znova.
 deck-config-answer-again = Odpovedať znovu
 deck-config-answer-hard = Odpovedať ťažké
 deck-config-answer-good = Odpovedať dobré

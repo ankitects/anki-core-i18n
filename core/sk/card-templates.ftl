@@ -5,6 +5,7 @@ card-templates-front-preview = Náhľad prednej strany
 card-templates-back-preview = Náhľad zadnej strany
 card-templates-preview-box = Náhľad
 card-templates-sample-cloze = Toto je { "{{c1::" }vzorová{ "}}" } doplňovačka.
+card-templates-discard-changes = Zahodiť zmeny?
 card-templates-add-card-type = Pridať typ karty...
 card-templates-anki-couldnt-find-the-line-between = Anki nemohol rozoznať otázku od odpovede. Prosím, upravte šablónu ručne, aby bolo možné prepínať medzi otázkou a odpoveďou.
 card-templates-at-least-one-card-type-is = Je potrebný aspoň jeden typ karty.

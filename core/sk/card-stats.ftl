@@ -1,6 +1,7 @@
 card-stats-added = Pridané
 card-stats-first-review = Prvé opakovanie
 card-stats-latest-review = Posledné opakovanie
+card-stats-interval = Interval
 card-stats-ease = Jednoduchosť
 card-stats-review-count = Opakovania
 card-stats-lapse-count = Zabudnuté
@@ -21,6 +22,7 @@ card-stats-review-log-type-learn = Učené
 card-stats-review-log-type-review = Opakovať
 card-stats-review-log-type-relearn = Znovu učené
 card-stats-review-log-type-filtered = Filtrované:
+card-stats-review-log-type-manual = Ručne
 card-stats-review-log-type-rescheduled = Preplánovať
 card-stats-fsrs-stability = Stabilita
 card-stats-fsrs-difficulty = Obtiažnosť

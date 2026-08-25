@@ -1,6 +1,6 @@
 adding-add-shortcut-ctrlandenter = Pridať (skratka: ctrl+enter)
 adding-added = Pridané
-adding-close-and-lose-current-input = Zatvoriť a zrušiť momentálne vkladané údaje?
+adding-keep-editing = Pokračovať v úpravách
 adding-edit = Upraviť "{ $val }"
 adding-history = História
 adding-note-deleted = (Poznámka odstránená)
