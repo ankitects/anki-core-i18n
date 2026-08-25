@@ -374,6 +374,7 @@ deck-config-percent-of-reviews =
 # This message appears during FSRS parameter optimization.
 deck-config-checking-for-improvement = Kontroluje sa pre zlepšenia...
 deck-config-optimizing-preset = Optimalizovanie predvoľby { $current_count }/{ $total_count }...
+deck-config-fsrs-params-optimal = Súčasné parametre FSRS sú optimálne. Je to očakávané v momente, keď parametre dobre sedia k vašej histórii opakovaní. Môžete vyskúšať optimalizovanie znovu po urobení viacerých opakovaní.
 deck-config-fsrs-params-no-reviews = Nenašli sa žiadne opakovania. Prosím skontrolujte či je táto predvoľba priradená ku všetkým balíčkom (vrátane podbalíčkov), ktoré chcete optimalizovať a skúste znova.
 deck-config-answer-again = Odpovedať znovu
 deck-config-answer-hard = Odpovedať ťažké
