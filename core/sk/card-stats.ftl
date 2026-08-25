@@ -24,14 +24,23 @@ card-stats-review-log-type-relearn = Znovu učené
 card-stats-review-log-type-filtered = Filtrované:
 card-stats-review-log-type-manual = Ručne
 card-stats-review-log-type-rescheduled = Preplánovať
+card-stats-review-log-elapsed-time = Uplynutý čas
+card-stats-no-card = (Žiadna karta na zobrazenie)
+card-stats-custom-data = Vlastné dáta
 card-stats-fsrs-stability = Stabilita
 card-stats-fsrs-difficulty = Obtiažnosť
 card-stats-fsrs-retrievability = Zapamätanie
+card-stats-fsrs-forgetting-curve-title = Krivka zabúdania
+card-stats-fsrs-forgetting-curve-first-week = Prvý týždeň
+card-stats-fsrs-forgetting-curve-first-month = Prvý mesiac
+card-stats-fsrs-forgetting-curve-first-year = Prvý rok
+card-stats-fsrs-forgetting-curve-all-time = Celý čas
 card-stats-fsrs-forgetting-curve-desired-retention = Požadovaná retencia (DR)
 
 ## Window Titles
 
-card-stats-current-card = Súčasná karta
+card-stats-current-card = Súčasná karta ({ $context })
+card-stats-previous-card = Predošlá karta ({ $context })
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

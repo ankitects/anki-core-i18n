@@ -123,6 +123,7 @@ statistics-counts-separate-suspended-buried-cards = Oddeliť vyradené/zahraban�
 statistics-true-retention-title = Retencia
 statistics-true-retention-subtitle = Miera úspešnosti kartičiek s intervalom ≥ 1 deň.
 statistics-true-retention-tooltip = Ak používate FSRS očakáva sa, že vaša retencia je blízko vašej požadovanej retencii. Prosím majte na pamäti že údaje za jediný deň obsahujú šum, preto je lepšie hľadieť na údaje za mesiac.
+statistics-true-retention-range = Rozsah
 statistics-true-retention-pass = Správne
 statistics-true-retention-fail = Chyby
 # This will usually be the same as statistics-counts-total-cards
