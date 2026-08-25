@@ -158,3 +158,10 @@ scheduling-deck-updated =
         [few] { $count } balíček aktualizovaný.
        *[other] { $count } balíčky aktualizované.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] Oznámkovaná { $cards } kartička.
+        [few] Oznámkované { $cards } kartičky.
+        [many] Oznámkované { $cards } kartičky.
+       *[other] Oznámkovaných { $cards } kartičiek.
+    }

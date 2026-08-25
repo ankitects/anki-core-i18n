@@ -271,6 +271,7 @@ deck-config-reviews-too-low =
         [many] Ak sa pridávajú { $cards } nové kartičky každý deň, limit opakovaní by mal byť aspoň { $expected }.
        *[other] Keď sa pridáva { $cards } nových kartičiek každý deň, limit opakovaní by mal byť aspoň { $expected }.
     }
+deck-config-ignore-before-info = (Približne) { $included }/{ $totalCards } kariet sa použije na optimalizovanie parametrov FSRS.
 
 ## Selecting a deck
 
@@ -278,6 +279,9 @@ deck-config-which-deck = Pre ktorý balíček si želáte zobraziť možnosti?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = Aktualizácia kartičiek: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-parameters = Zadané parametre FSRS sú nevyhovujúce. Nechajte ich prázdne, aby ste použili predvolené hodnoty.
+deck-config-not-enough-history = Nedostatočná pamäť opakovaní na uskutočnenie tejto operácie.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS parametre/váhy modelu
 deck-config-optimize-button = Optimalizovať aktuálnu predvoľbu
