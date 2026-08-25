@@ -13,7 +13,7 @@ deck-config-new-limit-tooltip =
     Pretože nový materiál zvýši vašu krátkodobú záťaž pri opakovaní, bežne by to malo
     byť aspoň 10x menšie ako váš limit opakovaní.
 deck-config-review-limit-tooltip =
-    Maximálny počet karitičiek na opakovanie na,
+    Maximálny počet kartičiek na opakovanie na,
     ak kartičky sú pripravené na opakovanie.
 deck-config-limit-deck-v3 =
     Počas študovania balíčku. ktorý ma vlastné podbalíčky, limity nastavené pre každý
@@ -219,7 +219,7 @@ deck-config-advanced-title = Pokročilé
 deck-config-maximum-interval-tooltip =
     Maximálny počet dní koľko bude kartička na opakovanie čakať. Po tom čo
     opakovania dosiahli limit, `Ťažké`, `Dobré` a `Ľahké` budú dávať rovnaké
-    trvanie. Čím menej dní nastavíte, tým väčšia bude vaša pracovná záťaź.
+    trvanie. Čím menej dní nastavíte, tým väčšia bude vaša pracovná záťaž.
 deck-config-custom-scheduling = Vlastné plánovanie
 deck-config-custom-scheduling-tooltip = Ovplyvní celú kolekciu. Používajte na vlastné riziko!
 
