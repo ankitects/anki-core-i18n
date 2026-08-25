@@ -284,11 +284,17 @@ deck-config-invalid-parameters = Zadané parametre FSRS sú nevyhovujúce. Necha
 deck-config-not-enough-history = Nedostatočná pamäť opakovaní na uskutočnenie tejto operácie.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS parametre/váhy modelu
+deck-config-compute-optimal-weights = Optimalizovať parametre FSRS
 deck-config-optimize-button = Optimalizovať aktuálnu predvoľbu
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (pomalé)
 deck-config-ignore-before = Ignorovať kartičky opakované pred
 deck-config-time-to-optimize = Už prešiel nejaký čas - odporúča sa použiť tlačidlo Optimalizovať všetky predvoľby.
+deck-config-evaluate-button = Vyhodnotiť
 deck-config-desired-retention = Požadovaná retencia
 deck-config-historical-retention = Historická retencia
+deck-config-steps-too-large-for-fsrs = Keď je FSRS povolené, kroky 1 dňa a dlhšie sa neodporúčajú.
+deck-config-complete = { $num }% hotové.
 deck-config-reschedule-cards-on-change = Preplánovať kartičky pri zmene
 deck-config-fsrs-tooltip =
     Ovplyvňuje celú kolekciu.
@@ -344,6 +350,12 @@ deck-config-compute-optimal-weights-tooltip2 =
     V predvolenom nastavení budú parametre vypočítané podľa histórie opakovaní všetkých balíčkov používajúcich
     danú predvoľbu. Prípadne môžete
     doladiť vyhľadávací text, ak by ste chceli zmeniť, ktoré kartičky budú použité na optimalizáciu parametrov.
+deck-config-workload-factor-change =
+    Odhadovaná pracovná záťaž: { $factor }x
+    (v porovnaní s { $previousDR }% požadovanou retenciou)
+deck-config-workload-factor-unchanged = Čím vyššia je vaša požadovaná retencia, tým častejšie sa vám budú kartičky zobrazovať.
+deck-config-desired-retention-too-low = Vaša požadovaná retencia je veľmi nízka, čo môže viesť k veľmi dlhým intervalom.
+deck-config-desired-retention-too-high = Vaša požadovaná retencia je veľmi vysoká, čo môže viesť k veľmi krátky intervalom.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% z { $reviews } opakovania
@@ -351,6 +363,9 @@ deck-config-percent-of-reviews =
         [many] { $pct }% z { $reviews } opakovaní
        *[other] { $pct }% z { $reviews } opakovaní
     }
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Kontroluje sa pre zlepšenia...
+deck-config-optimizing-preset = Optimalizovanie predvoľby { $current_count }/{ $total_count }...
 deck-config-fsrs-params-no-reviews = Nenašli sa žiadne opakovania. Prosím skontrolujte či je táto predvoľba priradená ku všetkým balíčkom (vrátane podbalíčkov), ktoré chcete optimalizovať a skúste znova.
 deck-config-answer-again = Odpovedať znovu
 deck-config-answer-hard = Odpovedať ťažké
