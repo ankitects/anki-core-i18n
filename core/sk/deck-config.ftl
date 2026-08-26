@@ -29,6 +29,11 @@ deck-config-new-cards-ignore-review-limit-tooltip =
     Predvolené nastavenie uplatňuje limit aj pre nové kartičky, a žiadne nové kartičky
     sa nezobrazia po dosiahnutí limitu. Ak je toto nastavenie povolené, nové kartičky
     sa zobrazia nezávisle od limitu opakovaní.
+deck-config-apply-all-parent-limits-tooltip =
+    V predvolenom nastavení nie sú denné limity balíčka vyššej úrovne použité, ak študujete z jeho podbalíčkov.
+    Ak je toto nastavenie povolené, limity
+    budú namiesto toho začínať od balíčka najvyššej úrovne, čo môže byť užitočné, ak si želáte študovať
+    jednotlivé podbalíčky a zároveň vynucovať celkový limit na kartičky pre daný balíček a jeho podbalíčlky.
 deck-config-affects-entire-collection = Ovplyvní celú kolekciu.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -43,6 +48,11 @@ deck-config-today-only = Iba dnes
 deck-config-learning-steps = Kroky učenia
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Trvania sú bežne minúty (napr. `1m`) alebo dni (napr. `2d`), ale hodiny (napr. `1h`) a sekundy (napr. `30s`) sú taktiež podporované.
+deck-config-learning-steps-tooltip =
+    Jedno alebo viac trvaní oddelené medzerami. Prvé trvanie bude použité
+    po stlačení tlačidla `Znovu` na novej kartičke a je 1 minúta v predvolenom nastavení.
+    Tlačidlo `Dobré` postúpi do nasledujúceho kroku, ktorý je 10 minút v predvolenom nastavení.
+    Po úspešnom prejdení všetkých krokov sa kartička stane kartičkou na opakovanie, a objaví sa v iný deň. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
     Počet dní na prečkanie kým sa kartička znovu zobrazí po stlačení tlačidla
     `Dobré` pri poslednom kroku učenia.
@@ -132,6 +142,12 @@ deck-config-interday-step-priority-tooltip =
     potom kartičky na opakovanie. Toto nastavenie bude určovať poradie zobrazovania
     nazbieraných kariet, ale kartičky na ďalší deň budú vždy zozbierané ako prvé.
 deck-config-review-sort-order = Poradie zoradenia opakovaní
+deck-config-review-sort-order-tooltip =
+    Poradie v predvolenom nastavení uprednostňuje kartičky ktoré čakali čo najdlhšie, takže
+    ak vám zostali opakovania spätne, to najdlhšie čakajúce sa objaví prvé.
+    Ak vám zostalo množstvo opakovaní spätne, ktoré zaberú viac ako niekoľko
+    dní, alebo si želáte vidieť kartičky v poradí podriadených balíčkov, môžete nájsť
+    alternatívne poradia zoraďovanie vhodnejšími.
 deck-config-display-order-will-use-current-deck =
     Anki použije poradie zobrazenia podľa balíčka, ktorý ste
     si vybrali na učenie, a nie z podbalíčkov ktoré môže mať.
@@ -227,6 +243,7 @@ deck-config-maximum-interval-tooltip =
     Maximálny počet dní koľko bude kartička na opakovanie čakať. Po tom čo
     opakovania dosiahli limit, `Ťažké`, `Dobré` a `Ľahké` budú dávať rovnaké
     trvanie. Čím menej dní nastavíte, tým väčšia bude vaša pracovná záťaž.
+deck-config-minimum-interval-tooltip = Minimálny interval daný opakovanej kartičke po odpovedaní `Znovu`.
 deck-config-custom-scheduling = Vlastné plánovanie
 deck-config-custom-scheduling-tooltip = Ovplyvní celú kolekciu. Používajte na vlastné riziko!
 
