@@ -19,6 +19,7 @@ deck-config-limit-deck-v3 =
     Počas študovania balíčku. ktorý ma vlastné podbalíčky, limity nastavené pre každý
     podbalíček riadia maximálny počet kartičiek nazbieraných z daného podbalíčka.
     Limity zvoleného balíčka riadia celok kartičiek, ktoré sa zobrazia.
+deck-config-limit-interday-bound-by-reviews = Limit opakovaní ovplyvňuje aj učené kartičky na ďalší deň. Pri uplatňovaní tohto limitu sú prvé zozbierané učené kartičky na ďalší deň potom kartičky na opakovanie.
 deck-config-tab-description =
     - `Predvoľba`: Tento limit je použitý na všetky balíčky s touto predvoľbou .
     - `Tento balíček`: Limit je určený pre tento balíček.
