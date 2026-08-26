@@ -282,6 +282,9 @@ deck-config-which-deck = Τις ρυθμίσεις ποιας τράπουλας
 
 deck-config-updating-cards = Ενημέρωση καρτών: { $current_cards_count }/{ $total_cards_count }
 deck-config-invalid-parameters = Οι παρεχόμενες παράμετροι FSRS δεν είναι έγκυρες. Αφήστε τις κενές για να χρησιμοποιήσετε τις προεπιλεγμένες παραμέτρους.
+deck-config-placeholder-parameters =
+    Προεπιλεγμένες παράμετροι
+    (Πατήστε περιοδικά το «{ deck-config-optimize-button }» για να επιτρέψετε στο FSRS να προσαρμοστεί καλύτερα στη μνήμη σας)
 deck-config-not-enough-history = Το ιστορικό των επαναλήψεων δεν είναι αρκετό για τη διενέργεια αυτής της λειτουργίας.
 deck-config-must-have-400-reviews =
     { $count ->
@@ -352,6 +355,7 @@ deck-config-checking-for-improvement = Έλεγχος για βελτίωση...
 deck-config-optimizing-preset = Βελτιστοποίηση προεπιλογής { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Το FSRS θα πρέπει να είναι πρώτα ενεργοποιημένο.
 deck-config-fsrs-params-optimal = Οι τρέχουσες ρυθμίσεις FSRS είναι βέλτιστες.
+deck-config-fsrs-confirm-save-and-optimize = Με αυτόν τον τρόπο θα αποθηκευτούν όλες οι άλλες αλλαγές που έχετε κάνει. Είστε σίγουροι;
 deck-config-fsrs-params-no-reviews = Δεν βρέθηκαν επαναλήψεις. Παρακαλούμε ελέγξτε ότι αυτή η προεπιλογή έχει εκχωρηθεί σε όλες τις τράπουλες που θέλετε να βελτιστοποιήσετε (συμπεριλαμβανομένων των υποενοτήτων) και δοκιμάστε ξανά.
 deck-config-wait-for-audio = Αναμονή για ήχο
 deck-config-show-reminder = Εμφάνιση υπενθύμισης
@@ -379,9 +383,8 @@ deck-config-save-options-to-preset-confirm = Αντικατάσταση των �
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Απομνημονευμένα
-deck-config-fsrs-simulator-radio-ratio = Χρόνος / Αναλογία απομνημόνευσης
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time } ανά απομνημονευμένη κάρτα
+deck-config-fsrs-simulator-radio-efficiency = Αποδοτικότητα
+deck-config-fsrs-simulator-ratio-tooltip2 = { $time } κάρτες που απομνημονεύτηκαν ανά ώρα
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -392,6 +395,9 @@ deck-config-fsrs-good-fit = Το FSRS είναι καλά προσαρμοσμέ
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-radio-ratio = Χρόνος / Αναλογία απομνημόνευσης
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } ανά απομνημονευμένη κάρτα
 deck-config-unable-to-determine-desired-retention = Αδύνατη η εκτίμηση της βέλτιστης ανάκλησης.
 deck-config-predicted-minimum-recommended-retention = Ελάχιστη προτεινόμενη ανάκληση: { $num }
 deck-config-compute-minimum-recommended-retention = Ελάχιστη προτεινόμενη ανάκληση

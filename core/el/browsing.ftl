@@ -39,6 +39,15 @@ browsing-current-note-type = Τρέχων τύπος σημείωσης:
 browsing-delete-notes = Διαγραφή Σημειώσεων
 browsing-duplicate = διπλά
 browsing-ease = Ευκολία
+# Button that clears the browse search
+browsing-empty-clear-search = Εκκαθάριση αναζήτησης
+# Title when a valid search matches nothing
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-no-match-title =
+    { $notes-mode ->
+        [yes] Δεν υπάρχουν σημειώσεις που να αντιστοιχούν σε αυτήν την αναζήτηση
+       *[other] Δεν υπάρχουν κάρτες που να ταιριάζουν με αυτήν την αναζήτηση
+    }
 browsing-enter-tags-to-add = Εισαγωγή ετικετών για προσθήκη:
 browsing-enter-tags-to-delete = Εισαγωγή ετικετών για διαγραφή:
 browsing-filtered = (φιλτραρίστηκε)
@@ -81,7 +90,11 @@ browsing-reposition = Επανατοποθέτηση...
 browsing-reposition-new-cards = Επανατοποθέτηση νέων καρτών
 browsing-reschedule = Επαναπρογραμματισμός
 browsing-search-bar-hint = Αναζήτηση καρτών/σημειώσεων (πληκτρολογήστε κείμενο και μετά πιέστε Enter)
+browsing-search-facet-starters = Φιλτράρισμα κατά
 browsing-search-in = Αναζήτηση σε:
+browsing-search-quick = Γρήγορα φίλτρα
+browsing-search-recent = Πρόσφατα
+browsing-search-suggestions = Προτάσεις
 browsing-search-within-formatting-slow = Αναζήτηση με μορφοποίηση (αργή)
 browsing-select-deck = Επιλογή Τράπουλας
 browsing-selected-notes-only = Μόνο επιλεγμένες σημειώσεις
@@ -156,6 +169,13 @@ browsing-sidebar-due-today = Προθεσμία
 browsing-sidebar-untagged = Χωρίς ετικέτα
 browsing-sidebar-overdue = Εκπρόθεσμο
 browsing-row-deleted = (διαγράφηκε)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = Τώρα
+browsing-more-tags =
+    { $count ->
+        [one] 1 επιπλέον ετικέτα
+       *[other] { $count } επιπλέον ετικέτες
+    }
 browsing-removed-unused-tags-count =
     { $count ->
         [one] Αφαιρέθηκε { $count } αχρησιμοποίητη ετικέτα.

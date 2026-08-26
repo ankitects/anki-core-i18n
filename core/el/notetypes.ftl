@@ -1,4 +1,6 @@
 notetypes-notetype = Τύπος σημείωσης
+notetypes-choose-note-type = Επιλογή Τύπου Σημείωσης
+notetypes-change-note-type-ctrlandn = Αλλαγή τύπου σημείωσης  (Ctrl+N)
 
 ## Default field names in newly created note types
 

@@ -43,6 +43,11 @@ editing-show-duplicates = Προβολή διπλότυπων
 editing-subscript = Δείκτης
 editing-superscript = Εκθέτης
 editing-tags = Ετικέτες
+editing-tag-count =
+    { $count ->
+        [one] { $count } Ετικέτα
+       *[other] { $count } ετικέτες
+    }
 editing-tags-add = Προσθήκη ετικέτας
 editing-tags-copy = Αντιγραφή ετικετών
 editing-tags-remove = Αφαίρεση ετικετών
