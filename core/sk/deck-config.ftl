@@ -98,6 +98,10 @@ deck-config-bury-interday-learning-siblings = Zahrabať učené príbuzné karty
 deck-config-bury-new-tooltip =
     Či iné `nové` kartičky rovnakej poznámky (napr. obrátené kartičky, susediace doplňovačky)
     budú odložené na ďalší deň.
+deck-config-bury-review-tooltip = Či iné `opakované` kartičky rovnakej poznámky budú odložené na ďalší deň.
+deck-config-bury-interday-learning-tooltip =
+    Či iné `učené` kartičky rovnakej poznámky s intervalom > 1 deň
+    budú odložené na ďalší deň.
 
 ## Gather order and sort order of cards
 
