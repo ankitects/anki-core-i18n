@@ -29,6 +29,7 @@ deck-config-new-cards-ignore-review-limit-tooltip =
     Predvolené nastavenie uplatňuje limit aj pre nové kartičky, a žiadne nové kartičky
     sa nezobrazia po dosiahnutí limitu. Ak je toto nastavenie povolené, nové kartičky
     sa zobrazia nezávisle od limitu opakovaní.
+deck-config-apply-all-parent-limits = Limity začínajú zvrchu
 deck-config-apply-all-parent-limits-tooltip =
     V predvolenom nastavení nie sú denné limity balíčka vyššej úrovne použité, ak študujete z jeho podbalíčkov.
     Ak je toto nastavenie povolené, limity
@@ -59,12 +60,14 @@ deck-config-graduating-interval-tooltip =
 deck-config-easy-interval-tooltip =
     Počet dní na prečkanie kým sa kartička znovu zobrazí po použití tlačidla
     `Ľahké` na okamžité odobratie kartičky z učenia.
+deck-config-new-insertion-order = Poradie vkladania
 deck-config-new-insertion-order-tooltip =
     Určuje poradie (na skúšanie #), ktoré je pridelené novým kartičkám keď pridáte
     nové kartičky. Kartičky z nižšou pozíciou sa pri študovaní zobrazia ako prvé.
     Zmena tohto nastavenia automaticky aktualizuje pozície existujúcich nových kartičiek.
 deck-config-new-insertion-order-sequential = Postupné (najprv najstaršie karty)
 deck-config-new-insertion-order-random = Náhodne
+deck-config-new-insertion-order-random-with-v3 = S plánovačom v3, je to lepšie ponechať nastavené na postupné a namiesto toho upraviť poradie zbierania nových kartičiek.
 
 ## Lapses section
 
