@@ -231,11 +231,16 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Počet sekúnd na zobrazenie otázky
+deck-config-seconds-to-show-question-tooltip-3 = Keď je automatický posun aktivovaný, počet sekúnd na počkanie pred vykonaním úkonu po otázke. Nastavte na 0 pre zakázanie nastavenia.
 deck-config-seconds-to-show-answer = Počet sekúnd na zobrazenie odpovede
+deck-config-seconds-to-show-answer-tooltip-2 = Keď je automatický posun aktivovaný, počet sekúnd na počkanie pred vykonaním úkonu po odpovedi. Nastavte na 0 pre zakázanie nastavenia.
 deck-config-question-action-show-answer = Zobraziť odpoveď
 deck-config-question-action-show-reminder = Zobraziť pripomienku
 deck-config-question-action = Úkon po otázke
+deck-config-question-action-tool-tip = Úkon ktorý má byť prevedený po zobrazení otázky a uplynutom čase.
 deck-config-answer-action = Úkon po odpovedi
+deck-config-answer-action-tooltip-2 = Úkon ktorý má byť prevedený po zobrazení odpovede a uplynutom čase.
+deck-config-wait-for-audio-tooltip-2 = Čakať na skončenie zvukovej stopy pred automatickým vykonaním úkonu po otázke alebo úkonu po odpovedi.
 
 ## Audio section
 
@@ -280,6 +285,7 @@ deck-config-clone-group = Duplikovať predvoľbu
 ## Removing
 
 deck-config-remove-group = Odstrániť predvoľbu
+deck-config-confirm-remove-name = Odstrániť { $name }?
 
 ## Other Buttons
 
