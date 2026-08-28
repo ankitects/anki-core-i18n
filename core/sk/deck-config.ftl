@@ -255,7 +255,13 @@ deck-config-wait-for-audio-tooltip-2 = Čakať na skončenie zvukovej stopy pred
 
 deck-config-audio-title = Zvuk
 deck-config-disable-autoplay = Neprehrávať nahrávky automaticky
+deck-config-disable-autoplay-tooltip =
+    Ak je zvolené, Anki nebude prehrávať audio automaticky.
+    Môže byť prehrané ručne, stlačením ikony zvuku, alebo použitím úkonu prehrávania.
 deck-config-skip-question-when-replaying = Preskočiť otázku, keď sa prehráva odpoveď
+deck-config-always-include-question-audio-tooltip =
+    Či má byť nahrávka z otázky prehraná, keď sa úkon prehrávania
+    použil na kartičke počas prezerania strany s odpoveďou.
 
 ## Advanced section
 
