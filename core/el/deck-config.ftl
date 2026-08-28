@@ -285,6 +285,7 @@ deck-config-invalid-parameters = Οι παρεχόμενες παράμετρο�
 deck-config-placeholder-parameters =
     Προεπιλεγμένες παράμετροι
     (Πατήστε περιοδικά το «{ deck-config-optimize-button }» για να επιτρέψετε στο FSRS να προσαρμοστεί καλύτερα στη μνήμη σας)
+deck-config-manual-parameter-edit-warning = Οι παράμετροι πρέπει να τροποποιούνται αποκλειστικά μέσω του κουμπιού «Βελτιστοποίηση». Η χειροκίνητη επεξεργασία τους δεν συνιστάται.
 deck-config-not-enough-history = Το ιστορικό των επαναλήψεων δεν είναι αρκετό για τη διενέργεια αυτής της λειτουργίας.
 deck-config-must-have-400-reviews =
     { $count ->

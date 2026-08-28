@@ -41,6 +41,13 @@ browsing-duplicate = διπλά
 browsing-ease = Ευκολία
 # Button that clears the browse search
 browsing-empty-clear-search = Εκκαθάριση αναζήτησης
+# Title when the collection has no cards
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-collection-title =
+    { $notes-mode ->
+        [yes] Καμία σημείωση
+       *[other] Καμία κάρτα
+    }
 # Title when a valid search matches nothing
 # $notes-mode is "yes" when browsing notes instead of cards
 browsing-empty-no-match-title =
@@ -94,7 +101,11 @@ browsing-search-facet-starters = Φιλτράρισμα κατά
 browsing-search-in = Αναζήτηση σε:
 browsing-search-quick = Γρήγορα φίλτρα
 browsing-search-recent = Πρόσφατα
+# Shown above browse results when the current search is invalid
+browsing-search-results-unchanged = Τα αποτελέσματα παραμένουν αμετάβλητα έως ότου η αναζήτηση θεωρηθεί έγκυρη
 browsing-search-suggestions = Προτάσεις
+browsing-search-syntax-mode = Λειτουργία σύνταξης
+browsing-search-text-match = Αναζήτηση "{ $query }"
 browsing-search-within-formatting-slow = Αναζήτηση με μορφοποίηση (αργή)
 browsing-select-deck = Επιλογή Τράπουλας
 browsing-selected-notes-only = Μόνο επιλεγμένες σημειώσεις

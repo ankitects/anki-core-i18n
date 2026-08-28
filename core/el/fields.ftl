@@ -17,4 +17,7 @@ fields-sort-by-this-field-in-the = Ταξινόμηση κατά αυτού το
 fields-that-field-name-is-already-used = Αυτό το όνομα αρχείου έχει ήδη χρησιμοποιηθεί.
 fields-name-first-letter-not-valid = Το όνομα πεδίου δεν πρέπει να αρχίζει με #, ^ ή /.
 fields-name-invalid-letter = Το όνομα πεδίου δεν πρέπει να περιέχει :, ", { "{" } ή { "}" }.
+# If enabled, the field is not included when searching for 'text', 're:text' and so on,
+# but is when searching for a specific field, eg 'field:text'.
+fields-exclude-from-search = Εξαίρεση από τις αναζητήσεις χωρίς κριτήρια (πιο αργές)
 fields-field-is-required = Αυτό είναι ένα απαιτούμενο πεδίο και δεν μπορεί να διαγραφεί.
