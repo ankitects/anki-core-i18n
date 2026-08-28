@@ -30,6 +30,7 @@ actions-suspend-card = Vyradiť kartičku
 actions-set-due-date = Nastaviť dátum skúšania
 actions-grade-now = Odpovedať teraz
 actions-unbury-unsuspend = Odhrabať/Vrátiť vyradenú
+actions-build-filtered-deck = Zostaviť balíček
 actions-previous-card-info = Info o predošlej kartičke
 actions-flag-number = Príznak
 

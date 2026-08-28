@@ -3,6 +3,15 @@
 
 ## Top section
 
+# Used in the deck configuration screen to show how many decks are used
+# by a particular configuration group, eg "Group1 (used by 3 decks)"
+deck-config-used-by-decks =
+    { $decks ->
+        [one] používané { $decks } balíčkom
+        [few] používané { $decks } balíčkami
+        [many] používané { $decks } balíčkami
+       *[other] používané { $decks } balíčkami
+    }
 deck-config-default-name = Predvolený
 
 ## Daily limits section
