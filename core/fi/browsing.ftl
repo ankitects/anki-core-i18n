@@ -39,6 +39,22 @@ browsing-current-note-type = Nykyinen muistiinpanotyyppi:
 browsing-delete-notes = Poista muistiinpanot
 browsing-duplicate = kaksoiskappale
 browsing-ease = Helppous
+# Button that clears the browse search
+browsing-empty-clear-search = Tyhjennä haku
+# Title when the collection has no cards
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-collection-title =
+    { $notes-mode ->
+        [yes] Ei muistiinpanoja vielä
+       *[other] Ei kortteja vielä
+    }
+# Title when a valid search matches nothing
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-no-match-title =
+    { $notes-mode ->
+        [yes] Yksikään muistiinpano ei vastannut hakua
+       *[other] Yksikään kortti ei vastannut hakua
+    }
 browsing-enter-tags-to-add = Lisättävät tunnisteet:
 browsing-enter-tags-to-delete = Poistettavat tunnisteet:
 browsing-filtered = (suodatettu)
@@ -87,6 +103,8 @@ browsing-search-quick = Pikasuodattimet
 browsing-search-quick-flagged = Liputetut
 browsing-search-quick-leeches = Resurssisyöpöt
 browsing-search-recent = Viimeaikaiset
+# Shown above browse results when the current search is invalid
+browsing-search-results-unchanged = Tulokset eivät muutu ennen kuin haku on kelvollinen
 browsing-search-suggestions = Ehdotukset
 browsing-search-syntax-mode = Syntaksin tila
 browsing-search-text-match = Etsi: "{ $query }"
