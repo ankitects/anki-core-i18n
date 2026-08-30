@@ -82,6 +82,7 @@ browsing-reposition-new-cards = Reposicionar tarjetas nuevas
 browsing-reschedule = Reprogramar
 browsing-search-bar-hint = Buscar tarjetas/notas (escriba el texto y luego presione Enter)
 browsing-search-in = Buscar en:
+browsing-search-recent = Recientes
 browsing-search-within-formatting-slow = Buscar en elementos de formato (lento)
 browsing-select-deck = Seleccionar mazo
 browsing-selected-notes-only = Solo notas seleccionadas
