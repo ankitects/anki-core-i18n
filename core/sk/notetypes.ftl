@@ -1,7 +1,7 @@
 ## Default field names in newly created note types
 
 notetypes-front-field = Predná strana
-notetypes-back-field = Späť
+notetypes-back-field = Zadná strana
 notetypes-add-reverse-field = Pridať zadnú stranu karty
 
 ## Default note type names

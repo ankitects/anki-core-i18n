@@ -24,6 +24,7 @@ preferences-user-interface-size = Veľkosť používateľského rozhrania
 preferences-when-adding-default-to-current-deck = Pri pridávaní je automaticky nastavený aktuálny balíček
 preferences-you-can-restore-backups-via-fileswitch = Môžete obnoviť zo zálohy pomocou Súbor>Prepnúť profil.
 preferences-ignore-accents-in-search = Ignorovať diakritiku v hľadaní (pomalšie)
+preferences-review = Opakovať
 
 ## URL scheme related
 
