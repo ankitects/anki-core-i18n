@@ -48,6 +48,7 @@ actions-flag-purple = Purpurový
 
 ##
 
+actions-set-flag = Nastaviť príznak
 actions-auto-advance = Automatický posun
 actions-auto-advance-activated = Automatický posun povolený
 actions-auto-advance-deactivated = Automatický posun zakázaný
