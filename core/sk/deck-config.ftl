@@ -44,7 +44,7 @@ deck-config-apply-all-parent-limits-tooltip =
     Ak je toto nastavenie povolené, limity
     budú namiesto toho začínať od balíčka najvyššej úrovne, čo môže byť užitočné, ak si želáte študovať
     jednotlivé podbalíčky a zároveň vynucovať celkový limit na kartičky pre daný balíček a jeho podbalíčlky.
-deck-config-affects-entire-collection = Ovplyvní celú kolekciu.
+deck-config-affects-entire-collection = Ovplyvňuje celú kolekciu.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -272,7 +272,7 @@ deck-config-maximum-interval-tooltip =
     trvanie. Čím menej dní nastavíte, tým väčšia bude vaša pracovná záťaž.
 deck-config-minimum-interval-tooltip = Minimálny interval daný opakovanej kartičke po odpovedaní `Znovu`.
 deck-config-custom-scheduling = Vlastné plánovanie
-deck-config-custom-scheduling-tooltip = Ovplyvní celú kolekciu. Používajte na vlastné riziko!
+deck-config-custom-scheduling-tooltip = Ovplyvňuje celú kolekciu. Používajte na vlastné riziko!
 
 ## Easy Days section.
 
@@ -422,6 +422,7 @@ deck-config-checking-for-improvement = Kontroluje sa pre zlepšenia...
 deck-config-optimizing-preset = Optimalizovanie predvoľby { $current_count }/{ $total_count }...
 deck-config-fsrs-params-optimal = Súčasné parametre FSRS sú optimálne. Je to očakávané v momente, keď parametre dobre sedia k vašej histórii opakovaní. Môžete vyskúšať optimalizovanie znovu po urobení viacerých opakovaní.
 deck-config-fsrs-params-no-reviews = Nenašli sa žiadne opakovania. Prosím skontrolujte či je táto predvoľba priradená ku všetkým balíčkom (vrátane podbalíčkov), ktoré chcete optimalizovať a skúste znova.
+deck-config-wait-for-audio = Čakať na skončenie zvukovej stopy
 deck-config-answer-again = Odpovedať znovu
 deck-config-answer-hard = Odpovedať ťažké
 deck-config-answer-good = Odpovedať dobré
