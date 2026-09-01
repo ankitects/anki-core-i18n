@@ -80,7 +80,7 @@ browsing-toggle-showing-cards-notes = Prepnúť zobrazenie kartičiek/poznámok
 browsing-toggle-mark = Prepnúť označenie
 browsing-toggle-suspend = Prepnúť vyradenie
 browsing-treat-input-as-regular-expression = Považovať vstup za regulárny výraz
-browsing-whole-collection = Celá zbierka
+browsing-whole-collection = Celá kolekcia
 browsing-you-must-have-at-least-one = Je potrebný aspoň jeden stĺpec.
 browsing-group =
     { $count ->

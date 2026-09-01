@@ -24,4 +24,5 @@ database-check-card-missing-note =
 
 ## Progress info
 
+database-check-checking-integrity = Kontrola kolekcie...
 database-check-title = Skontrolovať databázu

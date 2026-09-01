@@ -4,7 +4,7 @@ exporting-anki-collection-package = Balíček kolekcie Anki
 exporting-anki-deck-package = Balíček Anki
 exporting-cards-in-plain-text = Karty ako obyčajný text
 # used in the filename during the export of a collection package
-exporting-collection = zbierka
+exporting-collection = kolekcia
 exporting-collection-exported = Zbierka exportovaná.
 exporting-couldnt-save-file = Nemôžem uložiť súbor: { $val }
 exporting-export = Exportovať...
