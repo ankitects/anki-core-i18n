@@ -13,6 +13,7 @@ deck-config-used-by-decks =
        *[other] používané { $decks } balíčkami
     }
 deck-config-default-name = Predvolený
+deck-config-title = Nastavenia balíčka
 
 ## Daily limits section
 
