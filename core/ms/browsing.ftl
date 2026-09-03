@@ -22,6 +22,7 @@ browsing-cards-deleted =
 browsing-change-deck = Tukar Dek
 browsing-change-deck2 = Tukar Dek...
 browsing-change-note-type = Tukar Jenis Nota
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Tukar Jenis Nota...
 browsing-change-notetype = Tukar Jenis Nota
 browsing-clear-unused-tags = Buang Tag Tidak Digunakan
@@ -80,6 +81,7 @@ browsing-selected-notes-only = Nota pilihan sahaja
 browsing-shift-position-of-existing-cards = Anjak posisi kad sedia ada
 browsing-sidebar = Bar sisi
 browsing-sidebar-filter = Tapisan bar sisi
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Susun Medan
 browsing-sorting-on-this-column-is-not = Susun pada lajur ini tidak disokong. Sila pilih yang lain.
 browsing-start-position = Posisi mula:
@@ -143,6 +145,8 @@ browsing-sidebar-due-today = Tunggakan
 browsing-sidebar-untagged = Tiada Tag
 browsing-sidebar-overdue = Lebih Tunggakan
 browsing-row-deleted = (dipadam)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = Sekarang
 browsing-removed-unused-tags-count =
     { $count ->
        *[other] Buang { $count } tag tidak digunakan.
@@ -158,3 +162,5 @@ browsing-reparented-decks =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = K

@@ -1,5 +1,17 @@
 actions-add = Tambah
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Semua terpilih
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Mana-mana terpilih
 actions-cancel = Batal
 actions-choose = Pilih
@@ -11,6 +23,7 @@ actions-decks = Dek
 actions-decrement-value = Turun nilai
 actions-delete = Padam
 actions-export = Eksport
+actions-empty-cards = Kad Kosong
 actions-filter = Tapis
 actions-help = Bantuan
 actions-increment-value = Naik nilai
@@ -56,10 +69,12 @@ actions-previous-card-info = Info Kad Sebelumnya
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = Mod skrin penuh tidak disokong oleh driver video anda. Cuba tukar kepada yang lain daripada skrin tetapan.
-
-## Flags
-
 actions-flag-number = Tanda { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Merah
 actions-flag-orange = Jingga
 actions-flag-green = Hijau
@@ -67,6 +82,9 @@ actions-flag-blue = Biru
 actions-flag-pink = Merah Jambu
 actions-flag-turquoise = Firus
 actions-flag-purple = Ungu
+
+##
+
 actions-set-flag = Tetap Tanda
 actions-nothing-to-undo = Tiada untuk dibuat asal
 actions-nothing-to-redo = Tiada untuk dibuat semula

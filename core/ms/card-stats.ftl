@@ -27,8 +27,14 @@ card-stats-custom-data = Data Tersuai
 card-stats-fsrs-stability = Kestabilan
 card-stats-fsrs-difficulty = Kesukaran
 card-stats-fsrs-retrievability = Perolehan semula
+card-stats-fsrs-forgetting-curve-first-week = Minggu Pertama
+card-stats-fsrs-forgetting-curve-first-month = Bulan Pertama
+card-stats-fsrs-forgetting-curve-first-year = Tahun Pertama
 
 ## Window Titles
 
 card-stats-current-card = Kad Kini ({ $context })
 card-stats-previous-card = Kad Terdahulu ({ $context })
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+

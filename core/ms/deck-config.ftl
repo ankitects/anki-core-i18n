@@ -125,7 +125,7 @@ deck-config-bury-priority-tooltip =
      kad belajar berhari atau kad semakan tidak akan disorokkan, dan mungkin
      terdapat adik beradik semakan dan adik beradik baru dalam sesi yang sama.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Susunan Tunjuk
 deck-config-new-gather-priority = Susunan kumpul kad baru
@@ -145,12 +145,6 @@ deck-config-new-gather-priority-tooltip-2 =
     maka semua kad suatu nota ditunjuk dalam suatu sesi (e.g. kedua-dua kad front->back dan back->front)
     
     `Kad rawak`: kumpul kad secara rawak sepenuhnya.
-deck-config-new-gather-priority-deck = Dek
-deck-config-new-gather-priority-deck-then-random-notes = Dek kemudian nota rawak
-deck-config-new-gather-priority-position-lowest-first = Posisi menaik
-deck-config-new-gather-priority-position-highest-first = Posisi menurun
-deck-config-new-gather-priority-random-notes = Nota rawak
-deck-config-new-gather-priority-random-cards = Kad rawak
 deck-config-new-card-sort-order = Susunan kad baru
 deck-config-new-card-sort-order-tooltip-2 =
     `Jenis kad`: Tunjuk kad dalam susunan nombor jenis kad. Jika anda lumpuhkan adik beradik
@@ -170,11 +164,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     ikut susunan.
     
     `Rawak`: Kocok kad pungutan sepenuhnya
-deck-config-sort-order-card-template-then-random = Jenis kad, kemudian rawak
-deck-config-sort-order-random-note-then-template = Nota rawak, kemudian jenis kad
-deck-config-sort-order-random = Rawak
-deck-config-sort-order-template-then-gather = Jenis kad
-deck-config-sort-order-gather = Susunan pungutan
 deck-config-new-review-priority = Susunan baru/semakan
 deck-config-new-review-priority-tooltip = Bila untuk tunjuk kad baru berbanding kad semakan
 deck-config-interday-step-priority = Susunan belajar berhari/semakan
@@ -184,28 +173,64 @@ deck-config-interday-step-priority-tooltip =
     Had semakan masih digunakan dahulu kepada kad belajar berhari, kemudian kad semakan.
     Tetapan ini akan kawal susunan kad pungutan yang akan ditunjuk, tetapi kad belajar
     berhari akan sentiasa dipungut terlebih dahlulu.
-deck-config-review-mix-mix-with-reviews = Campur bersama semakan
-deck-config-review-mix-show-after-reviews = Tunjuk selepas semakan
-deck-config-review-mix-show-before-reviews = Tunjuk sebelum semakan
 deck-config-review-sort-order = Susunan semakan
 deck-config-review-sort-order-tooltip =
     Susunan lalai utamakan kad paling lama tunggu, maka jika anda ada semakan
     tertangguh, kad paling lama ditangguh akan ditunjuk dahulu. Jika kad tertangguh
     anda besar yang akan mengambil beberapa hari untuk selesaikan, atau mahu
     tunjuk kad dalam susunan subdek, susunan lain mungkin lebih baik.
-deck-config-sort-order-due-date-then-random = Tarikh tunggakan, kemudian rawak
-deck-config-sort-order-due-date-then-deck = Tarikh tunggakan, kemudian dek
-deck-config-sort-order-deck-then-due-date = Dek, kemudian tarikh tunggakan
-deck-config-sort-order-ascending-intervals = Selang menaik
-deck-config-sort-order-descending-intervals = Selang menurun
-deck-config-sort-order-ascending-ease = Longgaran menaik
-deck-config-sort-order-descending-ease = Longgaran menurun
-deck-config-sort-order-ascending-difficulty = Kesukaran menaik
-deck-config-sort-order-descending-difficulty = Kesukaran menurun
-deck-config-sort-order-relative-overdueness = Terlebih tunggak secara relatif
 deck-config-display-order-will-use-current-deck =
     Anki akan menggunakan susunan tunjuk daripada
     dek anda ulang kaji, dan bukan subdeknya.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Dek
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Dek kemudian nota rawak
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Posisi menaik
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Posisi menurun
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Nota rawak
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Kad rawak
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Jenis kad, kemudian rawak
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Nota rawak, kemudian jenis kad
+# Sort the cards randomly.
+deck-config-sort-order-random = Rawak
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Jenis kad
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = Susunan pungutan
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Campur bersama semakan
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Tunjuk selepas semakan
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Tunjuk sebelum semakan
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Tarikh tunggakan, kemudian rawak
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Tarikh tunggakan, kemudian dek
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Dek, kemudian tarikh tunggakan
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Selang menaik
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Selang menurun
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Longgaran menaik
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Longgaran menurun
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Kesukaran menaik
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Kesukaran menurun
 
 ## Timer section
 
@@ -218,6 +243,13 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     Dalam skrin semakan, tunjuk pemasa yang kira bilangan saat diambil untuk
     semak setiap kad.
+deck-config-stop-timer-on-answer = Berhenti pemasa apabila menjawab
+deck-config-stop-timer-on-answer-tooltip =
+    Sama ada masa dihentikan apabila jawapan ditunjukkan.
+    Ini tidak mengubah masa diambil.
+
+## Auto Advance section
+
 
 ## Audio section
 
@@ -230,10 +262,6 @@ deck-config-skip-question-when-replaying = Langkau soalan apabila main semula ja
 deck-config-always-include-question-audio-tooltip =
     Sama ada audio soalan sertai apabila tindakan main semula digunakan
     semasa melihat sisi jawapan kad.
-deck-config-stop-timer-on-answer = Berhenti pemasa apabila menjawab
-deck-config-stop-timer-on-answer-tooltip =
-    Sama ada masa dihentikan apabila jawapan ditunjukkan.
-    Ini tidak mengubah masa diambil.
 
 ## Advanced section
 
@@ -254,14 +282,27 @@ deck-config-hard-interval-tooltip = Pekali kepada selang semakan apabila menjawa
 deck-config-new-interval-tooltip = Pekali kepada selang semakan apabila menjawab `Ulang`.
 deck-config-minimum-interval-tooltip = Selang minimum diberikan kepada kad semakan apabila menjawab `ulang`.
 
+## Easy Days section.
+
+deck-config-easy-days-monday = Isnin
+deck-config-easy-days-tuesday = Selasa
+deck-config-easy-days-wednesday = Rabu
+deck-config-easy-days-thursday = Khamis
+deck-config-easy-days-friday = Jumaat
+deck-config-easy-days-saturday = Sabtu
+deck-config-easy-days-sunday = Ahad
+deck-config-easy-days-normal = Normal
+
 ## Adding/renaming
 
+deck-config-name-prompt = Nama
 
 ## Removing
 
 
 ## Other Buttons
 
+deck-config-save-button = Simpan
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
@@ -274,6 +315,9 @@ deck-config-minimum-interval-tooltip = Selang minimum diberikan kepada kad semak
 
 
 ## Messages related to the FSRS scheduler
+
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

@@ -5,6 +5,7 @@ importing-anki2-files-are-not-directly-importable = Fail .anki2 tidak boleh diim
 importing-ignored = <tidak pedulikan>
 importing-mapped-to = dipeta kepada <b>{ $val }</b>
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' ada { $found } field, tapi jangkaan ialah { $expected }
+importing-update-always = Selalu
 importing-note-added =
     { $count ->
        *[other] { $count } nota ditambah
@@ -21,4 +22,7 @@ importing-note-updated =
     { $count ->
        *[other] { $count } nota dikemas kini
     }
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
 importing-added = Ditambah
