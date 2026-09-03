@@ -1,5 +1,6 @@
 preferences-language = Bahasa
 preferences-mins = minit
+preferences-always = Selalu
 
 ## URL scheme related
 
