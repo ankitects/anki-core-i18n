@@ -170,6 +170,7 @@ deck-config-new-card-sort-order-tooltip-2 =
     secībā.¶
     ¶
     `Nejauši`: Parāda kartes nejaušā secībā.
+deck-config-new-review-priority = Jauna/pārskatīta kārtība
 
 ## Gather order and sort order of cards – Combobox entries
 
