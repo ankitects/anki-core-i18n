@@ -100,6 +100,7 @@ browsing-search-bar-hint = Αναζήτηση καρτών/σημειώσεων 
 browsing-search-facet-starters = Φιλτράρισμα κατά
 browsing-search-in = Αναζήτηση σε:
 browsing-search-quick = Γρήγορα φίλτρα
+browsing-search-quick-flagged = Σημασμένα
 browsing-search-recent = Πρόσφατα
 # Shown above browse results when the current search is invalid
 browsing-search-results-unchanged = Τα αποτελέσματα παραμένουν αμετάβλητα έως ότου η αναζήτηση θεωρηθεί έγκυρη

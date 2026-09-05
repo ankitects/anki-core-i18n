@@ -250,7 +250,7 @@ deck-config-revert-button-tooltip = Επαναφορά αυτής της ρύθ�
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Χρήση Anki 2.1.41+
+deck-config-description-new-handling2 = Εμφάνιση ως Markdown
 deck-config-description-new-handling-hint =
     Αντιμετωπίζει το input ως markdown και καθαρίζει το HTML input. Όταν είναι ενεργοποιημένο, η
     περιγραφή θα εμφανίζεται επίσης στην οθόνη συγχαρητηρίων.
@@ -396,6 +396,7 @@ deck-config-fsrs-good-fit = Το FSRS είναι καλά προσαρμοσμέ
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Χρήση Anki 2.1.41+
 deck-config-fsrs-simulator-radio-ratio = Χρόνος / Αναλογία απομνημόνευσης
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time } ανά απομνημονευμένη κάρτα
