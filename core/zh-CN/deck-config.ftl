@@ -302,7 +302,7 @@ deck-config-revert-button-tooltip = 将此设置重置为默认值。
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Anki 2.1.41+ 处理方式
+deck-config-description-new-handling2 = 以 Markdown 格式解析
 deck-config-description-new-handling-hint =
     输入将被视为 Markdown，而输入的 HTML 将被清除。
     启用后，描述也将显示在恭喜界面。
@@ -469,6 +469,7 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Anki 2.1.41+ 处理方式
 deck-config-fsrs-simulator-radio-ratio = 时间/记忆比
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time }每已记忆的卡片
