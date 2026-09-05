@@ -293,7 +293,7 @@ deck-config-revert-button-tooltip = Palauta tämä asetus oletusarvoonsa.
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Anki 2.1.41+:n mukainen käsittelytapa
+deck-config-description-new-handling2 = Tulkitse Markdownina
 deck-config-description-new-handling-hint =
     Käsittelee syötettä markdownina ja puhdistaa HTML-syötteen. Kun tämä on käytössä,
     kortin kuvaus näytetään myös onnitteluruudussa.
@@ -447,6 +447,7 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Anki 2.1.41+:n mukainen käsittelytapa
 deck-config-fsrs-simulator-radio-ratio = Suhdeluku: aika / ulkoa opittujen määrä
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time } per ulkoa opittu kortti
