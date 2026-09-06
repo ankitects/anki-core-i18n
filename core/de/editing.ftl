@@ -49,6 +49,11 @@ editing-show-duplicates = Duplikate anzeigen
 editing-subscript = Tiefstellen
 editing-superscript = Hochstellen
 editing-tags = Schlagwörter
+editing-tag-count =
+    { $count ->
+        [one] Schlagwort
+       *[other] Schlagwörter
+    }
 editing-tags-add = Schlagwort hinzufügen
 editing-tags-copy = Schlagwörter kopieren
 editing-tags-remove = Schlagwörter entfernen
