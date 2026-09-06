@@ -326,7 +326,6 @@ deck-config-revert-button-tooltip = Restaura aquest paràmetre al seu valor per 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Gestió d’Anki 2.1.41+
 deck-config-description-new-handling-hint =
     Tracta l'entrada com a Markdown i neteja l'entrada HTML. Quan aquesta opció
     està activada, la descripció també es mostrarà en la pantalla de felicitacions.
@@ -433,6 +432,7 @@ deck-config-checking-for-improvement = S’està optimitzant en funció de les m
 deck-config-optimizing-preset = S’esta optimitzant la configuració de baralla { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = Primer, activeu l’FSRS.
 deck-config-fsrs-params-optimal = Els paràmetres de l’FSRS són òptims.
+deck-config-fsrs-confirm-save-and-optimize = Es desaran els canvis que heu realitzat. Voleu continuar?
 deck-config-fsrs-params-no-reviews = No s’ha trobat cap repàs. Assegureu-vos que aquesta configuració està assignada a totes les baralles (també a les secundàries) que vulgueu optimitzar i torneu-ho a intentar.
 deck-config-wait-for-audio = Espera el so
 deck-config-show-reminder = Mostra un recordatori
@@ -461,9 +461,6 @@ deck-config-save-options-to-preset-confirm = Voleu substituir les opcions d’aq
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Memoritzades
-deck-config-fsrs-simulator-radio-ratio = Relació entre temps i targetes memoritzades
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time } per targeta memoritzada
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -485,6 +482,10 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Gestió d’Anki 2.1.41+
+deck-config-fsrs-simulator-radio-ratio = Relació entre temps i targetes memoritzades
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } per targeta memoritzada
 deck-config-unable-to-determine-desired-retention = No s’ha pogut determinar un nivell de retenció òptim.
 deck-config-predicted-minimum-recommended-retention = Retenció recomanada mínima: { $num }
 deck-config-compute-minimum-recommended-retention = Retenció recomanada mínima
