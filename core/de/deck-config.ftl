@@ -256,7 +256,7 @@ deck-config-revert-button-tooltip = Diese Einstellung auf den Standardwert zurü
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Neues Verhalten ab Anki 2.1.41 verwenden
+deck-config-description-new-handling2 = Als Markdown interpretieren
 deck-config-description-new-handling-hint = Behandelt Eingaben als Markdown und bereinigt HTML-Eingaben. Wenn aktiviert, wird die Beschreibung auch auf der Gratulationsseite angezeigt. Markdown wird in Anki-Version 2.1.40 und älter als Text angezeigt.
 
 ## Warnings shown to the user
@@ -286,6 +286,10 @@ deck-config-which-deck = Für welchen Stapel möchten Sie die Einstellungen anze
 
 deck-config-updating-cards = Kartenaktualisierung: { $current_cards_count }/{ $total_cards_count } …
 deck-config-invalid-parameters = Die angegebenen FSRS-Parameter sind ungültig. Lassen Sie das Feld leer, um die Standardparameter zu verwenden.
+deck-config-placeholder-parameters =
+    Standardparameter
+    (Nutze gelegentlich „{ deck-config-optimize-button }“, damit FSRS sich besser an dein Gedächtnis anpasst.)
+deck-config-manual-parameter-edit-warning = Die Parameter sollten ausschließlich über die Schaltfläche „Optimieren“ geändert werden. Von einer manuelle Bearbeitung wird dringend abgeraten.
 deck-config-not-enough-history = Zu wenige Wiederholungen um diese Aktion durchzuführen.
 deck-config-must-have-400-reviews =
     { $count ->
@@ -365,7 +369,8 @@ deck-config-percent-input = { $pct }%
 deck-config-checking-for-improvement = Optimieren …
 deck-config-optimizing-preset = Optimiere Stapelprofil { $current_count }/{ $total_count } …
 deck-config-fsrs-must-be-enabled = FSRS muss zunächst aktiviert werden.
-deck-config-fsrs-params-optimal = Die FSRS-Parameter sind bereits optimal.
+deck-config-fsrs-params-optimal = Die FSRS‑Parameter sind derzeit optimal. Dies tritt ein, wenn die Parameter gut an den Wiederholungsverlauf angepasst sind. Nach einiger Zeit kann erneut optimiert werden.
+deck-config-fsrs-confirm-save-and-optimize = Alle Änderungen werden gespeichert. Fortfahren?
 deck-config-fsrs-params-no-reviews = Keine Wiederholungen gefunden. Bitte prüfen Sie, ob dieses Stapelprofil allen Stapeln und Unterstapeln zugewiesen ist, die Sie optimieren möchten und versuchen Sie es anschließend erneut.
 deck-config-wait-for-audio = Auf Audio warten
 deck-config-show-reminder = Erinnerung anzeigen
@@ -394,9 +399,8 @@ deck-config-save-options-to-preset-confirm = Die Einstellungen im Stapelprofil m
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Abrufbare Karten
-deck-config-fsrs-simulator-radio-ratio = Zeitaufwand pro abrufbarer Karte
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time } pro abrufbarer Karte
+deck-config-fsrs-simulator-radio-efficiency = Effizienz
+deck-config-fsrs-simulator-ratio-tooltip2 = { $time } abrufbare Karten pro Stunden
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -416,6 +420,10 @@ deck-config-fsrs-good-fit = FSRS hat sich gut an Ihr Gedächtnis angepasst.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Neues Verhalten ab Anki 2.1.41 verwenden
+deck-config-fsrs-simulator-radio-ratio = Zeitaufwand pro abrufbarer Karte
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } pro abrufbarer Karte
 deck-config-unable-to-determine-desired-retention = Bestimmung des empfohlenen Mindestwerts für die Erinnerungsquote nicht möglich.
 deck-config-predicted-minimum-recommended-retention = Empfohlener Mindestwert für die Erinnerungsquote: { $num }
 deck-config-compute-minimum-recommended-retention = Empfohlener Mindestwert für die Erinnerungsquote

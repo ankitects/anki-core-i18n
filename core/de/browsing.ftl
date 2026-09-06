@@ -39,6 +39,22 @@ browsing-current-note-type = Aktueller Notiztyp:
 browsing-delete-notes = Notizen löschen
 browsing-duplicate = doppelt
 browsing-ease = Leichtigkeitsgrad
+# Button that clears the browse search
+browsing-empty-clear-search = Suche löschen
+# Title when the collection has no cards
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-collection-title =
+    { $notes-mode ->
+        [yes] Noch keine Notizen.
+       *[other] Noch keine Karten.
+    }
+# Title when a valid search matches nothing
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-no-match-title =
+    { $notes-mode ->
+        [yes] Keine passenden Notizen gefunden.
+       *[other] Keine passenden Karten gefunden.
+    }
 browsing-enter-tags-to-add = Folgende Schlagwörter hinzufügen:
 browsing-enter-tags-to-delete = Folgende Schlagwörter entfernen:
 browsing-filtered = (in Auswahlstapel)
@@ -81,7 +97,17 @@ browsing-reposition = Positionsnummer ändern …
 browsing-reposition-new-cards = Position neuer Karten ändern
 browsing-reschedule = Umplanen
 browsing-search-bar-hint = Karten/Notizen suchen (Suchbegriff eingeben, dann Eingabetaste drücken)
+browsing-search-facet-starters = Filtern nach
 browsing-search-in = Suchen in:
+browsing-search-quick = Schnellfilter
+browsing-search-quick-flagged = Mit Flagge
+browsing-search-quick-leeches = Lernbremsen
+browsing-search-recent = Zuletzt verwendet
+# Shown above browse results when the current search is invalid
+browsing-search-results-unchanged = Keine Aktualisierung der Ergebnisse, bis die Suche gültig ist.
+browsing-search-suggestions = Vorschläge
+browsing-search-syntax-mode = Syntaxmodus
+browsing-search-text-match = Suche "{ $query }"
 browsing-search-within-formatting-slow = Mit Formatierung suchen (langsam)
 browsing-select-deck = Stapel auswählen
 browsing-selected-notes-only = Nur ausgewählte Notizen
@@ -156,6 +182,20 @@ browsing-sidebar-due-today = Fällig
 browsing-sidebar-untagged = Nicht verschlagwortet
 browsing-sidebar-overdue = Überfällig
 browsing-row-deleted = (gelöscht)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = Jetzt
+# Status chip label in browse card rows
+browsing-leech = Lernbremse
+browsing-more-tags =
+    { $count ->
+        [one] 1 weiteres Schlagwort
+       *[other] { $count } weitere Schlagwörter
+    }
+browsing-leech-lapses =
+    { $count ->
+        [one] Lernbremse, { $count } Fehlversuch
+       *[other] Lernbremse, { $count } Fehlversuche
+    }
 browsing-removed-unused-tags-count =
     { $count ->
         [one] { $count } unbenutztes Schlagwort gelöscht.

@@ -51,8 +51,8 @@ editing-superscript = Hochstellen
 editing-tags = Schlagwörter
 editing-tag-count =
     { $count ->
-        [one] Schlagwort
-       *[other] Schlagwörter
+        [one] { $count } Schlagwort
+       *[other] { $count } Schlagwörter
     }
 editing-tags-add = Schlagwort hinzufügen
 editing-tags-copy = Schlagwörter kopieren
