@@ -392,6 +392,16 @@ deck-config-fsrs-simulator-ratio-tooltip2 = { $time } κάρτες που απο
 # Checkbox
 deck-config-health-check = Έλεγχος υγείας κατά τη βελτιστοποίηση
 # Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    Έλεγχος κατάστασης:
+    Το FSRS δυσκολεύεται να προβλέψει την απόδοσή σας όσον αφορά τη μνήμη. Συστάσεις:
+    
+    - Αναστείλετε ή αναδιατυπώστε τις κάρτες που ξεχνάτε συνεχώς.
+    - Χρησιμοποιείτε τα κουμπιά απαντήσεων με συνέπεια. Λάβετε υπόψη ότι το «Δύσκολο» είναι βαθμός επιτυχίας, όχι αποτυχίας.
+    - Κατανοήστε το υλικό πριν το απομνημονεύσετε.
+    
+    Αν ακολουθήσετε αυτές τις προτάσεις, η απόδοσή σας θα βελτιωθεί συνήθως τους επόμενους μήνες.
+# Message box showing the result of the health check
 deck-config-fsrs-good-fit = Το FSRS είναι καλά προσαρμοσμένο στη μνήμη σας.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
