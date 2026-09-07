@@ -252,7 +252,7 @@ deck-config-revert-button-tooltip = بۇ تەڭشەكنى كۆڭۈلدىكى ق�
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Anki 2.1.41+ بىر تەرەپ قىلىش ئۇسۇلى
+deck-config-description-new-handling2 = Markdown پىچىمىدا تەھلىل قىلىدۇ
 deck-config-description-new-handling-hint = markdown سۈپىتىدە كىرگۈزۈلىدۇ، كىرگۈزۈلگەن HTML تازىلىنىدۇ. قوزغىتىلغاندىن كېيىن، چۈشەندۈرۈشى مۇبارەكلەش ئېكرانىدا كۆرۈنىدۇ. Anki 2.1.40 ۋە ئۇنىڭدىن تۆۋەن نەشرىدە Markdown ساپ تېكىست شەكلىدە كۆرۈنىدۇ.
 
 ## Warnings shown to the user
@@ -408,6 +408,7 @@ deck-config-fsrs-good-fit = FSRS ئەستە ساقلاش ھالىتىڭىزگە 
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Anki 2.1.41+ بىر تەرەپ قىلىش ئۇسۇلى
 deck-config-fsrs-simulator-radio-ratio = ۋاقىت/ئەستە ساقلاش نىسبىتى
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time } ھەر كارتىنى ئەستە ساقلاش
