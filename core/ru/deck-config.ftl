@@ -267,7 +267,7 @@ deck-config-revert-button-tooltip = Сбросить параметр
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Обработка, как в Anki 2.1.41+
+deck-config-description-new-handling2 = Интерпретировать как Markdown
 deck-config-description-new-handling-hint =
     Считает ввод разметкой Markdown и очищает HTML-ввод. Если включена, описание также будет показано на экране с поздравлением.
     Markdown будет показан как текст в Anki версий не выше 2.1.40.
@@ -462,6 +462,7 @@ deck-config-fsrs-good-fit = FSRS хорошо адаптирован к ваше
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Обработка, как в Anki 2.1.41+
 deck-config-fsrs-simulator-radio-ratio = Соотношение время / запоминание
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time } на запоминание карты
