@@ -2,40 +2,41 @@ exporting-all-decks = すべてのデッキ
 exporting-anki-20-deck = Anki 2.0 デッキ
 exporting-anki-collection-package = Anki コレクションパッケージ
 exporting-anki-deck-package = Anki デッキパッケージ
-exporting-cards-in-plain-text = テキストファイル形式のカード
+exporting-cards-in-plain-text = カード (テキスト形式)
+# used in the filename during the export of a collection package
 exporting-collection = コレクション
 exporting-collection-exported = コレクションを書き出しました。
-exporting-colpkg-too-new = Ankiの最新バージョンにアップデートしてから、もう一度.colpkgファイルをインポートしてください。
-exporting-couldnt-save-file = ファイル { $val } を保存できませんでした
-exporting-export = エクスポート...
-exporting-export-format = <b>ファイルの形式</b>:
-exporting-include = <b>追加オプション</b>:
-exporting-include-html-and-media-references = HTMLとメディアの参照を含める
-exporting-include-media = メディアファイルを含める
-exporting-include-scheduling-information = スケジュール情報を含める
-exporting-include-deck-configs = デッキのプリセットを含める
+exporting-colpkg-too-new = Anki を最新版へ更新してから、.colpkg/.apkg ファイルをもう一度読み込んでください。
+exporting-couldnt-save-file = ファイルを保存できませんでした: { $val }
+exporting-export = 書き出す...
+exporting-export-format = <b>書き出し形式</b>:
+exporting-include = <b>含める内容</b>:
+exporting-include-html-and-media-references = HTML とメディアへの参照を含める
+exporting-include-media = メディアを含める
+exporting-include-scheduling-information = 復習予定の情報を含める
+exporting-include-deck-configs = デッキプリセットを含める
 exporting-include-tags = タグを含める
-exporting-support-older-anki-versions = Ankiの古いバージョンをサポート（処理時間およびデータサイズが増加）
-exporting-notes-in-plain-text = テキストファイル形式のノート
-exporting-selected-notes = 選択中のノート
+exporting-support-older-anki-versions = 以前のバージョンの Anki に対応する (処理が遅くなり、ファイルサイズが大きくなります)
+exporting-notes-in-plain-text = ノート (テキスト形式)
+exporting-selected-notes = 選択したノート
 exporting-card-exported =
     { $count ->
-       *[other] { $count }枚のカードを書き出しました。
+       *[other] カードを { $count } 枚書き出しました。
     }
 exporting-exported-media-file =
     { $count ->
-       *[other] { $count }のメディアファイルをエキスポート
+       *[other] メディアファイルを { $count } 個書き出しました。
     }
 exporting-note-exported =
     { $count ->
-       *[other] { $count }個のノートを書き出しました。
+       *[other] ノートを { $count } 件書き出しました。
     }
-exporting-exporting-file = ファイルをエクスポート中...
+exporting-exporting-file = ファイルを書き出しています...
 exporting-processed-media-files =
     { $count ->
-        [one] { $count }個のメディアファイルの処理が完了しました...
-       *[other] { $count }個のメディアファイルの処理が完了しました...
+        [one] メディアファイルを { $count } 個処理しました...
+       *[other] メディアファイルを { $count } 個処理しました...
     }
 exporting-include-deck = デッキ名を含める
 exporting-include-notetype = ノートタイプ名を含める
-exporting-include-guid = ユニークIDを含める
+exporting-include-guid = 一意の識別子を含める

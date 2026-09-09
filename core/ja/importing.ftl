@@ -1,120 +1,116 @@
-importing-failed-debug-info = インポートに失敗しました。デバッグ情報:
-importing-aborted = 中断: { $val }
-importing-added-duplicate-with-first-field = 最初のフィールドが重複したノートを追加しました: { $val }
-importing-all-supported-formats = サポートされているファイル形式 { $val }
-importing-allow-html-in-fields = フィールド内でHTMLを使う
-importing-anki-files-are-from-a-very = .ankiファイルはAnkiのとても古いバージョンのものです。それらのファイルは、Ankiのウェブサイトより入手可能なAnki 2.0を使用してインポートすることができます。
-importing-anki2-files-are-not-directly-importable = .anki2ファイルを直接インポートすることはできません。代わりに受信した.apkgまたは.zipファイルをインポートしてください。
-importing-appeared-twice-in-file = { $val } は二回ファイルに出てきました
-importing-by-default-anki-will-detect-the =
-    既定では、Ankiはフィールドを区切るタブやカンマなどの文字を識別します。
-    もしフィールドを区切る文字をAnkiがうまく識別できない場合は、ここにその区切り文字を入力してください。
-    タブ区切りを使用する場合は \t と入力してください。
+importing-failed-debug-info = 読み込みに失敗しました。デバッグ情報:
+importing-aborted = 中止しました: { $val }
+importing-added-duplicate-with-first-field = 先頭フィールドが次と同じ重複ノートを追加しました: { $val }
+importing-all-supported-formats = 対応しているすべての形式 { $val }
+importing-allow-html-in-fields = フィールド内の HTML を許可する
+importing-anki-files-are-from-a-very = .anki ファイルは非常に古い Anki の形式です。Anki ウェブサイトから入手できる Anki 2.0、またはアドオン 175027074 を使用して読み込めます。
+importing-anki2-files-are-not-directly-importable = .anki2 ファイルは直接読み込めません。代わりに、受け取った .apkg または .zip ファイルを読み込んでください。
+importing-appeared-twice-in-file = ファイル内で 2 回出現しました: { $val }
+importing-by-default-anki-will-detect-the = 通常、Anki はタブやコンマなど、フィールドを区切る文字を自動検出します。正しく検出されない場合は、ここで指定できます。タブ文字は “\t” と入力します。
 importing-cannot-merge-notetypes-of-different-kinds =
-    穴埋め問題のノートタイプは他のノートタイプに統合できません。
-    '{ importing-merge-notetypes }'を無効にすることでファイルをインポートすることはできます。
+    穴埋め問題のノートタイプと通常のノートタイプは統合できません。
+    { "[" }{ importing-merge-notetypes }] を無効にすれば、ファイルを読み込めます。
 importing-change = 変更
-importing-colon = コロン ( : )
-importing-comma = コンマ ( , )
-importing-empty-first-field = 最初のフィールドが空白：{ $val }
-importing-field-separator = フィールドの区切り
-importing-field-separator-guessed = フィールドの区切り
+importing-colon = コロン
+importing-comma = コンマ
+importing-empty-first-field = 先頭フィールドが空です: { $val }
+importing-field-separator = フィールド区切り文字
+importing-field-separator-guessed = フィールド区切り文字 (推定)
 importing-field-mapping = フィールドの割り当て
-importing-field-of-file-is = ファイルの<b>{ $val }</b>番目のフィールドは：
+importing-field-of-file-is = ファイル内のフィールド “<b>{ $val }</b>” の割り当て:
 importing-fields-separated-by = フィールドの区切り: { $val }
-importing-file-must-contain-field-column = ファイルには、ノートのフィールドに割り当てることができる列が少なくとも1つ含まれている必要があります。
-importing-file-version-unknown-trying-import-anyway = 不明のファイルバージョンですが、インポートを試みています。
-importing-first-field-matched = 最初のフィールドが一致しました: { $val }
+importing-file-must-contain-field-column = ファイルには、ノートのフィールドへ割り当て可能な列が 1 つ以上必要です。
+importing-file-version-unknown-trying-import-anyway = ファイルのバージョンを特定できません。読み込みを試みます。
+importing-first-field-matched = 先頭フィールドが一致しました: { $val }
 importing-identical = 同一
-importing-ignore-field = フィールドを無視する
-importing-ignore-lines-where-first-field-matches = 最初のフィールドが既存のノートと一致する行は無視する
-importing-ignored = <無視する>
-importing-import-even-if-existing-note-has = 最初のフィールドが既存のノートと同じであっても読み込む
-importing-import-options = インポートのオプション
-importing-importing-complete = インポートが完了しました。
-importing-invalid-file-please-restore-from-backup = ファイルが壊れています。バックアップから復元してください。
-importing-map-to = { $val } に割り当てる
-importing-map-to-tags = タグに割り当てる
-importing-mapped-to = <b>{ $val }</b> に割り当てる
-importing-mapped-to-tags = <b>タグ</b> に割り当てる
+importing-ignore-field = フィールドを無視
+importing-ignore-lines-where-first-field-matches = 先頭フィールドが既存ノートと一致する行を無視する
+importing-ignored = <無視>
+importing-import-even-if-existing-note-has = 既存ノートと先頭フィールドが同じでも読み込む
+importing-import-options = 読み込みオプション
+importing-importing-complete = 読み込みが完了しました。
+importing-invalid-file-please-restore-from-backup = ファイルが無効です。バックアップから復元してください。
+importing-map-to = { $val } へ割り当て
+importing-map-to-tags = タグへ割り当て
+importing-mapped-to = <b>{ $val }</b> へ割り当て済み
+importing-mapped-to-tags = <b>タグ</b> へ割り当て済み
 # the action of combining two existing note types to create a new one
-importing-merge-notetypes = ノートタイプを統合
+importing-merge-notetypes = ノートタイプを統合する
 importing-merge-notetypes-help =
-    このオプションがオンの場合、インポート先またはインポート元のノートタイプのスキーマが変更（※）されていれば、Ankiは変更前と変更後のノートタイプをそれぞれ保持するのではなく、一つのノートタイプに統合します。
+    有効にすると、自分またはデッキの作成者がノートタイプの構造を変更していた場合に、Anki は両方を残さず、2 つの版を統合します。
     
-    ※ ノートタイプのスキーマの変更とは、フィールドまたはカードタイプの追加・削除・並べ替え、またはソートフィールドの変更のことです。（これに該当しない変更の例：既存のカードタイプの表面のテンプレートの内容の変更）
+    構造変更とは、フィールドやテンプレートの追加・削除・並べ替え、または並べ替え用フィールドの変更を指します。既存テンプレートの表面を書き換えただけの場合は、構造変更に該当しません。
     
-    注意：ノートタイプの統合を行った場合、次回の同期で一方向同期（一方のデータベースをもう片方に上書きする同期）が必要となります。また、既存のノートが変更済みとしてマークされる可能性があります。
+    注意: この操作後は一方向同期が必要になり、既存ノートが変更済みとして扱われることがあります。
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 デッキ (*.db)
-importing-multicharacter-separators-are-not-supported-please = 複数文字のデリミタを使用することができません。１文字のみ入力してください。
-importing-new-deck-will-be-created = 新しいデッキを作成します：{ $name }
-importing-notes-added-from-file = ファイルから追加したノート: { $val }枚
-importing-notes-found-in-file = ファイル内にあるノート: { $val }枚
-importing-notes-skipped-as-theyre-already-in = すでにコレクション内に最新版が存在するためスキップされたノート: { $val }枚
-importing-notes-skipped-update-due-to-notetype = ノートでの更新を行いませんでした（既存のノートのノートタイプが変更されているため）: { $val }枚
-importing-notes-updated-as-file-had-newer = 既存のノートを更新しました（より新しい版がファイル内にあるため）: { $val }個
-importing-include-reviews = 学習履歴を含める
-importing-also-import-progress = 学習履歴もインポート
-importing-with-deck-configs = デッキのプリセットもインポート
+importing-multicharacter-separators-are-not-supported-please = 複数文字の区切りには対応していません。1 文字だけ入力してください。
+importing-new-deck-will-be-created = 新しいデッキを作成します: { $name }
+importing-notes-added-from-file = ファイルから追加したノート: { $val }
+importing-notes-found-in-file = ファイル内で見つかったノート: { $val }
+importing-notes-skipped-as-theyre-already-in = 最新の同一ノートがコレクションにあるため、スキップしたノート: { $val }
+importing-notes-skipped-update-due-to-notetype = 最初の読み込み以降にノートタイプが変更されたため、更新しなかったノート: { $val }
+importing-notes-updated-as-file-had-newer = ファイル側の版が新しいため、更新したノート: { $val }
+importing-include-reviews = 復習履歴を含める
+importing-also-import-progress = 学習進捗も読み込む
+importing-with-deck-configs = デッキプリセットも読み込む
 importing-updates = 更新
-importing-include-reviews-help = オンにすると、このデッキに（デッキ作成者の）以前の学習履歴が含まれている場合、その履歴もインポートします。オフにすると、すべてのカードを新規カードとしてインポートします。
+importing-include-reviews-help =
+    有効にすると、デッキの共有者が含めた過去の復習履歴も読み込みます。
+    無効にすると、すべてのカードを新規カードとして読み込み、“leech” タグと “marked” タグを削除します。
 importing-with-deck-configs-help =
-    オンにすると、デッキ作成者がデッキに設定した各オプションもすべてインポートします。
-    オフにすると、インポートするすべてのデッキにデフォルトのプリセットを適用します。
-importing-packaged-anki-deckcollection-apkg-colpkg-zip = パッケージ化されたAnkiデッキ／コレクション (*.apkg *.colpkg *.zip)
+    有効にすると、デッキの共有者が含めたデッキオプションも読み込みます。
+    無効にすると、すべてのデッキに既定のプリセットを割り当てます。
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = Anki デッキ/コレクションパッケージ (*.apkg *.colpkg *.zip)
 # the '|' character
-importing-pipe = パイプ ( | )
+importing-pipe = 縦線
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
 # $count is intended to be a large number (1000 and above)
-importing-preview-truncated = 最初の{ $count }列のみを表示しています。 これが正しくないと思われる場合は、フィールドの区切り文字を変更してみてください。
-importing-rows-had-num1d-fields-expected-num2d = 「{ $row }」には { $found } 個のフィールドがありました。予想では { $expected } 個でした。
-importing-selected-file-was-not-in-utf8 = 選択したファイルは UTF-8 形式ではありません。マニュアルのインポート (Importing) に関する項目をご覧ください。
-importing-semicolon = セミコロン ( ; )
+importing-preview-truncated = 最初の { $count } 列だけを表示しています。正しくない場合は、フィールド区切り文字を変更してください。
+importing-rows-had-num1d-fields-expected-num2d = “{ $row }” には { $found } 個のフィールドがありますが、必要なのは { $expected } 個です。
+importing-selected-file-was-not-in-utf8 = 選択したファイルは UTF-8 形式ではありません。マニュアルの読み込みに関する項目を参照してください。
+importing-semicolon = セミコロン
 importing-skipped = スキップ
 importing-tab = タブ
-importing-tag-modified-notes = 更新されたノートに付けるタグ：
-importing-text-separated-by-tabs-or-semicolons = テキスト(タブ区切りまたはセミコロン区切り) (*)
-importing-the-first-field-of-the-note = ノートタイプの最初のフィールドは割り当てなくてはなりません。
-importing-the-provided-file-is-not-a = 指定したファイルは正当な .apkg ファイルではありません。
-importing-this-file-does-not-appear-to = このファイルは正当な .apkgファイルではないようです。このエラーが AnkiWeb からダウンロードしたファイルで発生した場合、ダウンロードが失敗した可能性があります。再度ダウンロードしても この問題が続くようであれば、別のウェブブラウザからもう一度試してみてください。
-importing-this-will-delete-your-existing-collection = この処理は、既存のコレクションを削除し、今からインポートするファイルのデータに置き換えます。本当に実行しますか？
-importing-unable-to-import-from-a-readonly = 読み取り専用ファイルはインポートできません。
-importing-unknown-file-format = ファイルの種類が不明。
-importing-update-existing-notes-when-first-field = 最初のフィールドが一致した場合、既存のノートを更新する
-importing-updated = 更新
-importing-update-if-newer = 既存のものより新しい場合は行う
-importing-update-always = 常に行う
-importing-update-never = 常に行わない
+importing-tag-modified-notes = 変更したノートに付けるタグ:
+importing-text-separated-by-tabs-or-semicolons = タブまたはセミコロン区切りのテキスト (*)
+importing-the-first-field-of-the-note = ノートタイプの先頭フィールドを割り当てる必要があります。
+importing-the-provided-file-is-not-a = 指定されたファイルは有効な .apkg ファイルではありません。
+importing-this-file-does-not-appear-to = このファイルは有効な .apkg ファイルではないようです。AnkiWeb からダウンロードしたファイルでこのエラーが表示された場合、ダウンロードに失敗した可能性があります。もう一度試し、解決しない場合は別のブラウザーで試してください。
+importing-this-will-delete-your-existing-collection = 現在のコレクションを削除し、読み込むファイルのデータで置き換えます。よろしいですか？
+importing-unable-to-import-from-a-readonly = 読み取り専用ファイルからは読み込めません。
+importing-unknown-file-format = 不明なファイル形式です。
+importing-update-existing-notes-when-first-field = 先頭フィールドが一致する既存ノートを更新する
+importing-updated = 更新済み
+importing-update-if-newer = 読み込み元の方が新しい場合
+importing-update-always = 常に更新
+importing-update-never = 更新しない
 importing-update-notes = ノートを更新
-importing-update-notes-help = どういう場合にコレクション内の既存のノートを、それとマッチしたノートで更新するか、を設定します。デフォルト（`既存のものより新しい場合は行う`）では、マッチしたノートの方を最近変更している場合にのみ、既存のノートを更新します。
+importing-update-notes-help = コレクション内の既存ノートをどのような場合に更新するかを指定します。既定では、一致する読み込み元のノートの方が新しく変更されている場合だけ更新します。
 importing-update-notetypes = ノートタイプを更新
-importing-update-notetypes-help =
-    マッチしているコレクション内の既存のノートタイプをどういう場合に更新するか、を設定します。デフォルト（`既存のものより新しい場合は行う`）では、インポートするノートタイプを最近編集している場合にのみ、既存のノートタイプを更新します。
-    
-    カードタイプのテンプレート内のテキストまたはCSSスタイルの変更は常にインポートされますが、ノートタイプのスキーマ（例. フィールドの数や順序）の変更には、`{ importing-merge-notetypes }` オプションもオンにする必要があります。
+importing-update-notetypes-help = コレクション内の既存ノートタイプをどのような場合に更新するかを指定します。既定では、一致する読み込み元のノートタイプの方が新しく変更されている場合だけ更新します。テンプレートの本文とスタイルの変更は常に読み込めますが、フィールドの数や順序などの構造変更には [{ importing-merge-notetypes }] も有効にする必要があります。
 importing-note-added =
     { $count ->
-       *[other] { $count }個のノートを追加しました。
+       *[other] ノートを { $count } 件追加
     }
 importing-note-imported =
     { $count ->
-       *[other] { $count }個のノートをインポートしました。
+       *[other] ノートを { $count } 件読み込みました。
     }
 importing-note-unchanged =
     { $count ->
-       *[other] { $count }個のノートを変更しませんでした
+       *[other] 変更なし: { $count } 件
     }
 importing-note-updated =
     { $count ->
-       *[other] { $count }個のノートを更新しました。
+       *[other] ノートを { $count } 件更新
     }
 importing-processed-media-file =
     { $count ->
-       *[other] { $count }個のメディアファイルをインポートしました
+       *[other] メディアファイルを { $count } 個読み込みました
     }
-importing-importing-file = ファイルをインポート中...
-importing-extracting = データを抽出中...
-importing-gathering = データを収集中...
+importing-importing-file = ファイルを読み込んでいます...
+importing-extracting = データを展開しています...
+importing-gathering = データを収集しています...
 importing-failed-to-import-media-file = メディアファイルのインポートに失敗しました: { $debugInfo }
 importing-processed-notes =
     { $count ->
