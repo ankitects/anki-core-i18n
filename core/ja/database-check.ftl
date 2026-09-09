@@ -1,45 +1,45 @@
-database-check-corrupt = コレクションが壊れています。マニュアルをご覧ください。
-database-check-rebuilt = データベースを再構築し最適化しました。
-database-check-card-properties = 無効なプロパティを持っている{ $count }枚のカードを修正しました。
-database-check-card-last-review-time-empty = 以前学習した{ $count }枚のカードの情報を整理・補完（直近の学習日時の情報を、学習履歴を参照してカードに直接記録）しました。
-database-check-missing-templates = テンプレートがない{ $count }枚のカードを削除しました。
+database-check-corrupt = コレクションファイルが破損しています。自動バックアップから復元してください。
+database-check-rebuilt = データベースを再構築し、最適化しました。
+database-check-card-properties = 無効なカード情報を { $count } 件修正しました。
+database-check-card-last-review-time-empty = 最終復習日時をカード { $count } 枚に追加しました。
+database-check-missing-templates = テンプレートがないカードを { $count } 枚削除しました。
 database-check-field-count =
     { $count ->
-       *[other] 正しくないフィールド数をもつ{ $count }個のノートを修正しました。
+       *[other] フィールド数が正しくないノートを { $count } 件修正しました。
     }
 database-check-new-card-high-due =
     { $count ->
-       *[other] 位置（新規カード番号）が1,000,000以上の新規カードが{ $count }枚見つかりました。ブラウザ画面のメニューで該当カードの位置を変更することをおすすめします。
+       *[other] 位置番号が 1,000,000 以上の新規カードが { $count } 枚見つかりました。カード管理画面で新規カードの順番を変更することをおすすめします。
     }
-database-check-card-missing-note = ノートのないカードを{ $count }枚削除しました。
+database-check-card-missing-note = 対応するノートがないカードを { $count } 枚削除しました。
 database-check-duplicate-card-ords =
     { $count ->
-       *[other] テンプレートのないカードを{ $count }枚削除しました。
+       *[other] テンプレートが重複しているカードを { $count } 枚削除しました。
     }
 database-check-missing-decks =
     { $count ->
-       *[other] 見つからないデッキを{ $count }個修正しました。
+       *[other] 存在しないデッキへの参照を { $count } 件修正しました。
     }
 database-check-revlog-properties =
     { $count ->
-       *[other] 無効なプロパティをもつ{ $count }個のエントリーを修正しました。
+       *[other] 無効な情報を含む復習履歴を { $count } 件修正しました。
     }
 database-check-notes-with-invalid-utf8 =
     { $count ->
-       *[other] 無効なutf8の文字が含まれる{ $count }個のノートを修正しました。
+       *[other] 無効な UTF-8 文字を含むノートを { $count } 件修正しました。
     }
 database-check-fixed-invalid-ids =
     { $count ->
-       *[other] 未来の日時のタイムスタンプを持つ{ $count }個のオブジェクトを修正しました。
+       *[other] 未来の日時が設定されたオブジェクトを { $count } 件修正しました。
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = ひとつかそれ以上のノートタイプがみつかりません。そのノートタイプを使用したノートには、"db-check"で始まる新しいノートタイプが与えられましたが、フィールド名やカードデザインの情報は失われています。そのため、自動バックアップから復元することをおすすめします。
+database-check-notetypes-recovered = 1 つ以上のノートタイプが見つかりませんでした。それらを使用していたノートには “db-check” で始まる新しいノートタイプを割り当てましたが、フィールド名とカードのデザインは失われています。自動バックアップから復元した方がよい場合があります。
 
 ## Progress info
 
-database-check-checking-integrity = コレクションをチェック中...
-database-check-rebuilding = 再構築中...
-database-check-checking-cards = カードをチェック中...
-database-check-checking-notes = ノートをチェック中...
-database-check-checking-history = 履歴をチェック中...
-database-check-title = データベースをチェック
+database-check-checking-integrity = コレクションを確認しています...
+database-check-rebuilding = 再構築しています...
+database-check-checking-cards = カードを確認しています...
+database-check-checking-notes = ノートを確認しています...
+database-check-checking-history = 履歴を確認しています...
+database-check-title = データベースを検査

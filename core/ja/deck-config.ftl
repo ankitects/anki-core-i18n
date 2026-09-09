@@ -5,140 +5,80 @@
 
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
-deck-config-used-by-decks = { $decks }個のデッキで使用中
-deck-config-default-name = デフォルト
+deck-config-used-by-decks = { $decks } 個のデッキで使用
+deck-config-default-name = 既定
 deck-config-title = デッキオプション
 
 ## Daily limits section
 
-deck-config-daily-limits = 一日の上限
-deck-config-new-limit-tooltip =
-    一日に導入（＝学習を開始）する新規カードの最大枚数。
-    
-    導入する新規カードの枚数が増加するほど、それらのカードの初期の復習期日が短期間に密集しがちになり、過度な学習負荷となるおそれがあります。そのため、一日の新規カード導入枚数の上限は、一日の復習枚数の上限の１０分の１以下とすることをお勧めします。
-deck-config-review-limit-tooltip = 復習する期日に達しているカードの、一日に出題する最大枚数。
-deck-config-limit-deck-v3 = サブデッキを持つデッキを選択して学習する場合、例えばサブデッキＡから準備されるカードの最大枚数は、そのサブデッキＡ自体のオプションで設定されている最大枚数です。その上で、選択したデッキのオプションで設定されている最大枚数に従って（場合によってはサブデッキＡからのカードの枚数は減らされ）、選択したデッキ全体での表示枚数が決まります。
-deck-config-limit-new-bound-by-reviews = 一日の復習枚数の上限は、一日の新規カード導入枚数も制限します。例えば、一日の復習枚数の上限を200に設定し、期日を迎えたカードが190枚ある場合、その日に導入される新規カードは最大で10枚となります。また例えば、期日を迎えたカードの枚数が、一日の復習枚数の上限に達している場合、その日に新規カードは導入されません。
-deck-config-limit-interday-bound-by-reviews = この枚数には、文字通りの復習カードだけでなく、その時点のステップが日をまたいでいる習得中カード（または再習得中カード）も含まれます。この枚数のカードが準備されるときは、習得中または再習得中であるそれらのカードが優先的に集められ、その後に復習カードが集められます。
+deck-config-daily-limits = 1 日の上限
+deck-config-new-limit-tooltip = 利用できる新規カードがある場合に、1 日に学習を開始する新規カードの最大数です。新しい内容を学ぶと短期的な復習量が増えるため、通常は復習上限の 10 分の 1 以下にします。
+deck-config-review-limit-tooltip = 復習できるカードがある場合に、1 日に表示する復習カードの最大数です。
+deck-config-limit-deck-v3 = サブデッキを含むデッキを学習する場合、各サブデッキの上限によって、そのデッキから収集するカードの最大数が決まります。選択したデッキの上限によって、表示するカードの合計数が決まります。
+deck-config-limit-new-bound-by-reviews = 復習上限は新規カードの上限にも影響します。たとえば復習上限が 200 で、復習待ちが 190 枚ある場合、学習を開始する新規カードは最大 10 枚です。復習上限に達すると新規カードは表示されません。
+deck-config-limit-interday-bound-by-reviews = 復習上限は、日をまたぐ学習カードにも適用されます。上限を適用するときは、日をまたぐ学習カードを先に収集し、その後に復習カードを収集します。
 deck-config-tab-description =
-    - `プリセット`: この上限は、このプリセットを使用するすべてのデッキで共有されます。
-    - `このデッキ`: この上限は、このデッキにのみ適用されます。
-    - `今日だけ`: このデッキの上限を一時的に変更します。
-deck-config-new-cards-ignore-review-limit = 復習枚数の上限に関係なく新規カードを導入する
-deck-config-new-cards-ignore-review-limit-tooltip =
-    このオプションがオフ（デフォルト）の場合、復習枚数の上限は、新規カード導入枚数も制限します。例えば、復習期日を迎えたカードの枚数が、復習枚数の上限に達していたり、さらに多い場合、その日に新規カードは導入されません。
-    
-    このオプションがオンの場合、新規カード導入枚数は、復習枚数の上限によって制限されないようになります。つまり、期日を迎えたカードの枚数が、復習枚数の上限に達していたり、さらに多い場合でも、それはそれとして、新規カードが導入されます。
-deck-config-apply-all-parent-limits = 上限をメインデッキから適用
-deck-config-apply-all-parent-limits-tooltip =
-    このオプションがオフ（デフォルト）の場合、各枚数の上限には、学習を開始する際に選択したデッキの設定がまず適用され、その中のデッキ（サブデッキ）の設定も、選択したデッキの設定の範囲内で適用されます。さらに下位のサブデッキがある場合も同様に、上位のデッキの設定の範囲内で、下位のデッキの設定が適用されます。一方、選択したデッキより上位のデッキの設定は無視されます。
-    
-    このオプションがオンの場合、各枚数の上限には、学習を開始する際に選択したデッキについての最上位のデッキ（メインデッキ）の設定がまず適用され、その中のデッキ（サブデッキ）の設定も、メインデッキの設定の範囲内で適用されます。さらに下位のサブデッキがある場合も同様に、上位のデッキの設定の範囲内で、下位のデッキの設定が適用されます。「個々のサブデッキを選択して学習したいが、メインデッキで設定した枚数制限を守りたい」という場合に適した設定です。
-deck-config-affects-entire-collection = この設定はコレクション全体に一括で適用されます。
+    - [プリセット]: このプリセットを使用するすべてのデッキに上限を適用します。
+    - [このデッキ]: このデッキ専用の上限を設定します。
+    - [今日のみ]: このデッキの上限を一時的に変更します。
+deck-config-new-cards-ignore-review-limit = 新規カードを復習上限の対象外にする
+deck-config-new-cards-ignore-review-limit-tooltip = 通常、復習上限は新規カードにも適用され、復習上限に達すると新規カードは表示されません。有効にすると、復習上限にかかわらず新規カードを表示します。
+deck-config-apply-all-parent-limits = 最上位のデッキから上限を適用する
+deck-config-apply-all-parent-limits-tooltip = 通常、サブデッキから学習する場合は上位デッキの 1 日の上限が適用されません。有効にすると最上位デッキから上限を適用します。デッキ階層全体のカード数を制限しながら、個々のサブデッキを学習する場合に便利です。
+deck-config-affects-entire-collection = コレクション全体に適用されます。
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
 deck-config-shared-preset = プリセット
 deck-config-deck-only = このデッキ
-deck-config-today-only = 今日だけ
+deck-config-today-only = 今日のみ
 
 ## New Cards section
 
-deck-config-learning-steps = 習得ステップ
+deck-config-learning-steps = 学習ステップ
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = ステップの間隔は、分（例：`1m`）や日数（例：`2d`）で指定するのが一般的ですが、時間（例：`1h`）や秒（例：`30s`）で指定することも可能です。
-deck-config-learning-steps-tooltip =
-    １個以上のステップ（※）を、各ステップの間に半角スペースをはさんで入力します。
-    
-    ※ステップ：前の学習から一定の間隔をあけた習得学習（または再習得学習）のスケジュール。例えば「`10m`」は、「前の学習から10分（minutes）経過してから表示する」という意味。
-    
-    新規カードがあらかじめ最初のステップにある状態から習得学習を開始します。この最初のステップの間隔は、新規カードまたは習得中カードの学習で「`もう一度`」ボタンを押した場合に使用されます。デフォルトでは1分となっています。
-    
-    最初のステップで「`正解`」ボタンを押すと、2番目のステップに進みます。デフォルトではこのステップの間隔は10分となっており、10分経過後にカードが再び表示されるようスケジュールが組まれます。
-    
-    すべてのステップで`正解`すると、そのカードは`復習カード`となり、別の日に復習のため表示されるようスケジュールが組まれます。
-    
-    { -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip = 最後の習得ステップで「`正解`」ボタンが押された場合に、そのカードが再び表示されるまでの日数。
-deck-config-easy-interval-tooltip = 「`簡単`」ボタンが押され、習得中カードから復習カードへと直ちに切り替わった場合に、そのカードが再び表示されるまでの日数。
-deck-config-new-insertion-order = 配置順序
-deck-config-new-insertion-order-tooltip = 新規カードを追加したときにそのカードに割り当てる位置（新規カード番号）の決め方を選択できます。新規カード番号の数字が小さい順にカードは習得学習で表示されます。このオプションを変更すると、ただちに既存の新規カードの位置が更新されます。
-deck-config-new-insertion-order-sequential = 追加順
+-deck-config-delay-hint = 再表示までの時間は通常、分 (例: `1m`) または日 (例: `2d`) で指定します。時間 (例: `1h`) や秒 (例: `30s`) も使用できます。
+deck-config-learning-steps-tooltip = 再表示までの時間を 1 つ以上、半角スペースで区切って指定します。新規カードで [もう一度] を選択すると最初のステップが使われます (既定では 1 分)。[正解] を選択すると次のステップへ進みます (既定では 10 分)。すべてのステップを終えると復習カードになり、後日出題されます。{ -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip = 最後の学習ステップで [正解] を選択した後、カードを次に表示するまでの日数です。
+deck-config-easy-interval-tooltip = [簡単] を選択して初回の学習を終えた後、カードを次に表示するまでの日数です。
+deck-config-new-insertion-order = 追加位置
+deck-config-new-insertion-order-tooltip = 新規カードを追加したときに割り当てる位置番号を指定します。位置番号が小さいカードほど先に表示されます。この設定を変更すると、既存の新規カードの位置番号も自動的に更新されます。
+deck-config-new-insertion-order-sequential = 追加が古い順
 deck-config-new-insertion-order-random = ランダム
-deck-config-new-insertion-order-random-with-v3 = 現在ご利用中のV3スケジューラーでは、この設定を「追加順」のままにして、代わりに、「表示順序」カテゴリーの「新規カードを集める順序」オプションで順序を設定することをお勧めします。
+deck-config-new-insertion-order-random-with-v3 = V3 スケジューラーでは [追加が古い順] のままにし、代わりに新規カードの収集順を調整することをおすすめします。
 
 ## Lapses section
 
-deck-config-relearning-steps = 再習得ステップ
-deck-config-relearning-steps-tooltip =
-    通常、１個または複数個のステップ（※）を、各ステップの間に半角スペースをはさんで入力します。
-    
-    ※ステップ：前の学習から一定の間隔をあけた習得学習（または再習得学習）のスケジュール。例えば「`10m`」は、「前の学習から10分（minutes）経過してから表示する」という意味。
-    
-    デフォルト（「`10m`」）では、復習カードで「`もう一度`」ボタンを押すと、そのカードは再習得中カードとして10分後に再び表示されます。ステップが入力されていない場合は、そのカードは再習得ステップに入らずに復習間隔が変更されます。
-    
-    { -deck-config-delay-hint }
-deck-config-leech-threshold-tooltip =
-    復習時に何回間違えれば（＝復習カードに何回「`もう一度`」ボタンを押せば）「leech」（苦戦、忘却多発）の状態だと判定して「leech」のタグを付けるか、を設定します。
-    
-    苦戦（忘却多発）の状態のカードは、あなたの時間をたくさん消費しています。内容を書き直す、削除する、印象に残る覚え方を工夫するなど、何らかの対策を行うことをおすすめします。
+deck-config-relearning-steps = 再学習ステップ
+deck-config-relearning-steps-tooltip = 再表示までの時間を半角スペースで区切って指定します。既定では、復習カードで [もう一度] を選択すると 10 分後に再出題されます。空欄にすると、再学習のステップには移らず、復習間隔だけが変更されます。{ -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip = 復習カードで [もう一度] を何回選ぶと、定着しにくいカードと判定するかを指定します。忘却を繰り返すカードは、内容を書き直す、削除する、覚えやすい手掛かりを加えるなどの見直しをおすすめします。
 # See actions-suspend-card and scheduling-tag-only for the wording
-deck-config-leech-action-tooltip =
-    `タグのみ`：そのノートに「leech」というタグを付け、注意を喚起するためにポップアップを表示します。
-    
-    `カードを休止`：上記の操作に加えて、カードの表示を無期限で休止します。手動で休止を解除するまではカードを学習画面に表示しません。
+deck-config-leech-action-tooltip = [タグのみ]: ノートに `leech` タグを追加し、通知を表示します。
 
 ## Burying section
 
-deck-config-bury-title = 兄弟カードの非表示
-deck-config-bury-new-siblings = 兄弟関係の新規カードを同じ日に表示しない
-deck-config-bury-review-siblings = 兄弟関係の復習カードを同じ日に表示しない
-deck-config-bury-interday-learning-siblings = 兄弟関係の習得中カードで、ステップが日をまたいでいる場合は、同じ日に表示しない
-deck-config-bury-new-tooltip =
-    学習したカードと兄弟関係のカード（※）があり、そのカードが`新規`カードである場合、そのカードを表示する順番がきたとしても同じ日には表示を行わず、翌日から表示を再開します。
-    
-    ※ 兄弟関係のカード：同じノートから作られたカード。例えば、裏表反転カード。
-deck-config-bury-review-tooltip =
-    学習したカードと兄弟関係のカード（※）があり、そのカードが`復習`カードである場合、そのカードを表示する期日に達していても同じ日には表示を行わず、翌日から表示を再開します。
-    
-    ※ 兄弟関係のカード：同じノートから作られたカード。例えば、裏表反転カード。
-deck-config-bury-interday-learning-tooltip =
-    学習したカードと兄弟関係のカード（※）があり、そのカードが`習得中`カードである場合、そのカードの現時点のステップの間隔が日をまたいでいる場合（つまり、ステップの間隔が比較的大きいので、学習タイミングを遅らせる影響が比較的小さい場合）は、同じ日には表示を行わず、翌日から表示を再開します。
-    
-    ※ 兄弟関係のカード：同じノートから作られたカード。例えば、裏表反転カード。
+deck-config-bury-title = 関連カードの出題を分ける
+deck-config-bury-new-siblings = 関連する新規カードを同じ日に表示しない
+deck-config-bury-review-siblings = 関連する復習カードを同じ日に表示しない
+deck-config-bury-interday-learning-siblings = 日をまたぐ関連学習カードを同じ日に表示しない
+deck-config-bury-new-tooltip = 同じノートから作られたほかの新規カード (表面と裏面を入れ替えたカードや、同じ文章の別の穴埋めなど) を、次の日付切り替わりまで出題しないようにします。
+deck-config-bury-review-tooltip = 同じノートから作られたほかの復習カードを、次の日付切り替わりまで出題しないようにします。
+deck-config-bury-interday-learning-tooltip = 同じノートから作られ、学習ステップが日をまたいでいるほかのカードを、次の日付切り替わりまで出題しないようにします。
 deck-config-bury-priority-tooltip =
-    Ankiは学習画面に表示するカードを準備する際、準備リストにまず「現時点のステップが日をまたいでいない（＝ステップの間隔が比較的短く、当日中に再び学習する必要性が高い）習得中/再習得中カード」を並べ、次に「現時点のステップが日をまたいでいる習得中/再習得中カード」、その次に復習カード、最後に新規カードを並べます。この並び方をもとに、どのカードを表示し、どのカードを当日は非表示にするかが次のように決まります：
+    Anki は、当日中に再表示する学習カード、日をまたぐ学習カード、復習カード、新規カードの順に収集します。この順序は、関連カードを同じ日に表示しない処理にも影響します。
     
-    - すべての非表示オプションが有効になっている場合、リスト内の兄弟どうしのうち、最も先に並んでいるカードのみが表示されます。例えば、リスト内のある復習カードとある新規カードが兄弟どうしの場合、復習カードの方が先に並んでいるので、復習カードが表示され、新規カードは当日は非表示となります。
-    - リスト内の兄弟どうしのうちで後ろに並んでいるカードの非表示を解除したとしても、先に並んでいる別の種類のカードが代わりに非表示になるということはありません。例えばリスト内の、ある復習カードとある新規カードが兄弟どうしの場合、たとえ新規カードの非表示を解除して学習したとしても、代わりに復習カードが非表示になってしまうことはありません。つまりこの場合は、兄弟どうしである復習カードと新規カードの両方が同じ日に表示されることになります。
+    - すべての設定を有効にすると、この順序で最も早く収集された関連カードだけが表示されます。たとえば、関連する復習カードと新規カードがある場合は、復習カードが優先されます。
+    - 後から収集される種類のカードによって、先に収集される種類のカードが除外されることはありません。たとえば、新規カードに対する設定を無効にして新規カードを学習しても、関連する日をまたぐ学習カードや復習カードは除外されず、同じ学習中に両方が表示されることがあります。
 
 ## Gather order and sort order of cards
 
-deck-config-ordering-title = 表示順序
-deck-config-new-gather-priority = 新規カードを集める順序
-deck-config-new-gather-priority-tooltip-2 =
-    `デッキの並び順（上から）`: 選択したデッキとその中のサブデッキのうち、デッキリストで上に並んでいるデッキからカードを集めていきます。つまり、最初は選択したデッキ自体のカードを集めて、次に、一番上のサブデッキのカードを集めて、という順序です。各デッキ内のカードを集める順序は、`位置（新規カード番号）の昇順`（次項参照）となります。集めている途中で一日の上限枚数に達した場合は、そのデッキより下に並んでいるデッキのカードは集めません。この順序を選択すると、大規模なコレクションでも比較的早くカードを集めることができます。なお、優先したいサブデッキがある場合は、例えば各サブデッキの名前の先頭に数字を付けるなどして、そのサブデッキを上の方に並べ変えるとよいでしょう。
-    
-    `位置（新規カード番号）の昇順`: 追加時に各カードに割り当てられた位置（＝新規カード番号）の数字が小さい順にカードを集めます。通常は、各カード中で最初に追加したカード（最古のカード）から集められていきます。
-    
-    `位置（新規カード番号）の降順`: 追加時に各カードに割り当てられた位置（＝新規カード番号）の数字が大きい順にカードを集めます。通常は、各カード中で最後に追加したカード（最新のカード）から集められていきます。
-    
-    `ランダム（ノート単位）`: ランダムに選んだノートからカードを集めます。「兄弟関係のカードの非表示」オプションがオフになっている場合は、同じノートから作成されたカード（例えば、《表面→裏面》カードと《裏面→表面》カード）がすべて同じセッションで表示されます。
-    
-    `ランダム（カード単位）`: 完全にランダムにカードを集めます。
-deck-config-new-card-sort-order = 集めた新規カードを並べる順序
-deck-config-new-card-sort-order-tooltip-2 =
-    `カードタイプ順`: 「カード 1」「カード 2」といったカードタイプごとにグループ分けをし、カードタイプの数字順に、グループごとにカードを表示していきます。同じカードタイプどうしのカードは、集めたときの順序で表示されます。「兄弟関係のカードの非表示」カテゴリの各オプションを無効にしている場合は、例えば、カードタイプが「カード 1」である《表面→裏面》カードをすべて表示してから、カードタイプが「カード 2」である《裏面→表面》カードを表示していきます。兄弟関係のカード（＝同じノートから作られたカード）どうしを同じセッションで表示したいが、近づけすぎないようにもしたい、という場合に適した設定です。
-    
-    `集めたときの順序`: カードを集めたときのままの順序で表示します。「兄弟関係のカードの非表示」カテゴリの各オプションを無効にしている場合、通常、兄弟関係のカードどうしは連続して表示されます。
-    
-    `カードタイプ順→ランダム`: 「カードタイプ順」と同じくカードタイプの数字順にグループ分けをしますが、各カードタイプのグループ内のカードをランダムな並びで表示します。カードを集めるときに「位置（新規カード番号）の昇順」で古いカードを優先的に集めた上で、この設定にすることによって、それらのカードをランダムな並びで表示し、兄弟関係のカードどうしを近づけすぎずに表示することができます。
-    
-    `ランダム（ノート単位）→カードタイプ順`: ノートをランダムに並べ、ノートがカードを複数持つ場合（つまり、兄弟関係のカードがある場合）はそれらのカードをカードタイプ順に表示します。
-    
-    `ランダム（カード単位）`: 集めたカードを完全にランダムな並びで表示します。
-deck-config-new-review-priority = 新規カード表示のタイミング
+deck-config-ordering-title = 表示順
+deck-config-new-gather-priority = 新規カードの収集順
+deck-config-new-gather-priority-tooltip-2 = [デッキ順]: 上から順に各サブデッキのカードを収集します。各サブデッキ内では位置番号の小さい順に収集します。選択したデッキの 1 日の上限に達すると、すべてのサブデッキを確認する前に収集を終了する場合があります。大きなコレクションで最も高速な方法であり、上にあるサブデッキを優先できます。
+deck-config-new-card-sort-order = 新規カードの表示順
+deck-config-new-card-sort-order-tooltip-2 = [カードタイプ順、次に収集順]: カードタイプ番号順に表示し、同じカードタイプ内では収集順に表示します。関連カードを同じ日に表示しない設定が無効な場合、裏面→表面のカードより前に、すべての表面→裏面のカードが表示されます。同じノートのカードを同じ学習回に表示しつつ、互いに近づけすぎない場合に便利です。
+deck-config-new-review-priority = 新規カードと復習カードの表示順
 deck-config-new-review-priority-tooltip = 新規カードを、復習カードとの関連でいつ表示するのか選択できます。
 deck-config-interday-step-priority = 日をまたいだステップの習得中（再習得中）カード表示のタイミング
 deck-config-interday-step-priority-tooltip =
@@ -308,7 +248,6 @@ deck-config-revert-button-tooltip = この設定をデフォルトに戻す
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Markdown記法を有効にする (Anki 2.1.41以降で有効)
 deck-config-description-new-handling-hint =
     Markdown形式の文字列として扱い、HTML形式の入力は無視します。このオプションをオンにすると、「おめでとうございます」の画面でもこの説明文が表示されます。
     
@@ -459,9 +398,6 @@ deck-config-save-options-to-preset-confirm = 現在このシミュレーター�
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = 記憶維持
-deck-config-fsrs-simulator-radio-ratio = 1枚あたりの記憶維持コスト
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = 1枚あたり { $time } のコスト（学習時間）で、指定期間の間、記憶を維持
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -483,6 +419,10 @@ deck-config-fsrs-good-fit = 現在のFSRSパラメータは、あなた個人の
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Markdown記法を有効にする (Anki 2.1.41以降で有効)
+deck-config-fsrs-simulator-radio-ratio = 1枚あたりの記憶維持コスト
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = 1枚あたり { $time } のコスト（学習時間）で、指定期間の間、記憶を維持
 deck-config-unable-to-determine-desired-retention = 有益な目標正答率の下限を推定できませんでした
 deck-config-predicted-minimum-recommended-retention = 有益な目標正答率の下限: { $num }
 deck-config-compute-minimum-recommended-retention = 有益な目標正答率の下限
