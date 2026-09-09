@@ -158,38 +158,44 @@ browsing-sidebar-flags = フラグ
 browsing-today = 今日
 browsing-tooltip-card-modified = 復習、フラグの変更、デッキの移動などで、カードが最後に変更された日時です。
 browsing-tooltip-note-modified = フィールド内容やタグの編集などで、ノートが最後に変更された日時です。
-browsing-tooltip-card = カードのカードテンプレート名
-browsing-tooltip-cards = ノートが持つカードの枚数
-browsing-tooltip-notetype = ノートのノートタイプ名
-browsing-tooltip-question = カードの表（おもて）側。カードテンプレートのエディタでカスタマイズすることができます。
-browsing-tooltip-answer = カードの裏側。カードテンプレートのエディタでカスタマイズすることができます。
-browsing-studied-today = 今日学習した
-browsing-added-today = 今日追加した
-browsing-again-today = 今日間違えた（「もう一度」と回答した）
-browsing-edited-today = 今日編集した
-browsing-sidebar-first-review = 今日学習を開始した
-browsing-sidebar-rescheduled = 今日スケジュールを変更した
-browsing-sidebar-due-today = 今日が期日
+browsing-tooltip-card = カードに使用されているカードテンプレートの名前です。
+browsing-tooltip-cards = ノートから生成されたカードの枚数です。
+browsing-tooltip-notetype = ノートに使用されているノートタイプの名前です。
+browsing-tooltip-question = カードの表面です。カードテンプレートエディターで変更できます。
+browsing-tooltip-answer = カードの裏面です。カードテンプレートエディターで変更できます。
+browsing-studied-today = 学習済み
+browsing-added-today = 追加済み
+browsing-again-today = もう一度
+browsing-edited-today = 編集済み
+browsing-sidebar-first-review = 初回復習
+browsing-sidebar-rescheduled = 復習予定を変更済み
+browsing-sidebar-due-today = 今日が期限
 browsing-sidebar-untagged = タグなし
-browsing-sidebar-overdue = 今日延滞中（期日が昨日以前）
-browsing-row-deleted = (削除)
+browsing-sidebar-overdue = 期限超過
+browsing-row-deleted = (削除済み)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = 今すぐ
+# Status chip label in browse card rows
+browsing-leech = 定着しにくいカード
+browsing-more-tags = ほか { $count } 個のタグ
+browsing-leech-lapses = 定着しにくいカード (忘却 { $count } 回)
 browsing-removed-unused-tags-count =
     { $count ->
-       *[other] どのノートにも使用されていないタグを{ $count }個削除しました。
+       *[other] 未使用のタグを { $count } 個削除しました。
     }
 browsing-changed-new-position =
     { $count ->
-       *[other] 新規カードの位置を{ $count }枚変更しました。
+       *[other] { $count } 枚の新規カードの位置を変更しました。
     }
 browsing-reparented-decks =
     { $count ->
-       *[other] { $count }個のデッキ名を変更しました。
+       *[other] { $count } 個のデッキ名を変更しました。
     }
 browsing-sidebar-card-state-review = 復習
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = C
+browsing-card-initial = { "" }
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = N
+browsing-note-initial = { "" }
