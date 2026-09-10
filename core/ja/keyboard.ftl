@@ -1,2 +1,2 @@
-keyboard-ctrl = Ctrl キー
-keyboard-shift = Shift キー
+keyboard-ctrl = Ctrl
+keyboard-shift = Shift

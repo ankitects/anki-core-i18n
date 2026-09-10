@@ -111,110 +111,102 @@ importing-processed-media-file =
 importing-importing-file = ファイルを読み込んでいます...
 importing-extracting = データを展開しています...
 importing-gathering = データを収集しています...
-importing-failed-to-import-media-file = メディアファイルのインポートに失敗しました: { $debugInfo }
+importing-failed-to-import-media-file = メディアファイルを読み込めませんでした: { $debugInfo }
 importing-processed-notes =
     { $count ->
-       *[other] { $count }個のノートを追加しています...
+       *[other] ノートを { $count } 件処理しました...
     }
 importing-processed-cards =
     { $count ->
-       *[other] { $count }枚のカードの処理が完了しました...
+       *[other] カードを { $count } 枚処理しました...
     }
-importing-existing-notes = 既存のノート
+importing-existing-notes = 既存ノート
 # "Existing notes: Duplicate" (verb)
-importing-duplicate = 重複を許す
+importing-duplicate = 新規ノートとして追加
 # "Existing notes: Preserve" (verb)
-importing-preserve = 維持
+importing-preserve = 変更しない
 # "Existing notes: Update" (verb)
 importing-update = 更新
-importing-tag-all-notes = すべてのノートにタグ
-importing-tag-updated-notes = 更新したノートにタグ
+importing-tag-all-notes = すべてのノートに付けるタグ
+importing-tag-updated-notes = 更新したノートに付けるタグ
 importing-file = ファイル
 # "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
-importing-match-scope = 重複チェックの範囲
+importing-match-scope = 照合範囲
 # Used with the 'match scope' option
 importing-notetype-and-deck = ノートタイプとデッキ
 importing-cards-added =
     { $count ->
-        [one] { $count }枚のカードを追加しました。
-       *[other] { $count }枚のカードを追加しました。
+        [one] カードを { $count } 枚追加しました。
+       *[other] カードを { $count } 枚追加しました。
     }
-importing-file-empty = 選択したファイルが空です。
+importing-file-empty = 選択したファイルは空です。
 importing-notes-added =
     { $count ->
-       *[other] { $count }個のノートを新規ノートとしてインポートしました。
+       *[other] 新しいノートを { $count } 件読み込みました。
     }
 importing-notes-updated =
     { $count ->
-       *[other] { $count }個のノートは、既存のノートを更新するために使用しました。
+       *[other] 読み込んだ { $count } 件のノートで既存ノートを更新しました。
     }
 importing-existing-notes-skipped =
     { $count ->
-       *[other] { $count }個のノートは同じノートがすでにコレクション内に存在します。
+       *[other] { $count } 件のノートはすでにコレクションにあります。
     }
 importing-notes-failed =
     { $count ->
-        [one] { $count }個のノートはインポートできませんでした。
-       *[other] { $count }個のノートはインポートできませんでした。
+        [one] { $count } 件のノートを読み込めませんでした。
+       *[other] { $count } 件のノートを読み込めませんでした。
     }
 importing-conflicting-notes-skipped =
     { $count ->
-       *[other] { $count }個のノートはインポートしませんでした。（ノートタイプが変更されたため）
+       *[other] ノートタイプが変更されているため、{ $count } 件のノートを読み込みませんでした。
     }
 importing-conflicting-notes-skipped2 =
     { $count ->
-       *[other] { $count }個のノートはインポートしませんでした。（ノートタイプが変更されており、かつ、「{ importing-merge-notetypes }」のオプションがオフになっているため）
+       *[other] ノートタイプが変更され、[{ importing-merge-notetypes }] が無効なため、{ $count } 件のノートを読み込みませんでした。
     }
-importing-import-log = インポート ログ
-importing-no-notes-in-file = ノートがファイル内で見つかりませんでした。
+importing-import-log = 読み込みログ
+importing-no-notes-in-file = ファイル内にノートがありません。
 importing-notes-found-in-file2 =
     { $notes ->
-       *[other] { $notes }個のノートがファイル内で見つかりました。処理の内訳は下記の通りです。
+       *[other] ファイル内に { $notes } 件のノートが見つかりました。結果は次のとおりです。
     }
 importing-show = 表示
 importing-details = 詳細
 importing-status = 状態
-importing-duplicate-note-added = 重複しているノートを追加しました
-importing-added-new-note = 新規ノートとして追加しました
-importing-existing-note-skipped = このノートのインポートをスキップしました（このノートの最新版がコレクション内にすでに存在するため）
-importing-note-skipped-update-due-to-notetype = このノートでの更新を行いませんでした（既存のノートのノートタイプが変更されているため）
-importing-note-skipped-update-due-to-notetype2 = このノートでの更新を行いませんでした（ノートタイプが変更されており、かつ、「{ importing-merge-notetypes }」がオフになっているため）
-importing-note-updated-as-file-had-newer = 既存のノートを更新しました（より新しい版がファイル内にあるため）
-importing-note-skipped-due-to-missing-notetype = このノートのインポートをスキップしました（ノートタイプが不明なため）
-importing-note-skipped-due-to-missing-deck = このノートのインポートをスキップしました（デッキが不明なため）
-importing-note-skipped-due-to-empty-first-field = このノートのインポートをスキップしました（最初のフィールドが空のため）
+importing-duplicate-note-added = 重複ノートを追加しました。
+importing-added-new-note = 新しいノートを追加しました。
+importing-existing-note-skipped = 最新の同一ノートがコレクションにあるため、スキップしました。
+importing-note-skipped-update-due-to-notetype = 最初の読み込み以降にノートタイプが変更されたため、ノートを更新しませんでした。
+importing-note-skipped-update-due-to-notetype2 = 最初の読み込み以降にノートタイプが変更され、[{ importing-merge-notetypes }] が無効なため、ノートを更新しませんでした。
+importing-note-updated-as-file-had-newer = ファイル側の版が新しいため、ノートを更新しました。
+importing-note-skipped-due-to-missing-notetype = ノートタイプが見つからないため、ノートをスキップしました。
+importing-note-skipped-due-to-missing-deck = デッキが見つからないため、ノートをスキップしました。
+importing-note-skipped-due-to-empty-first-field = 先頭フィールドが空のため、ノートをスキップしました。
 importing-field-separator-help =
-    テキストファイル内で各フィールドを区切っている文字。フィールドが正しく区切られているかどうかは、このオプションの下方に表示されるプレビューで確認できます。
-    
-    この文字自体をフィールド内に表示したい場合、そのフィールドをCSVの一般的な書式に従って引用符で囲む必要があることに注意してください。LibreOfficeのような表計算ソフトは自動的にこれを行います。
-    
-    テキストファイルのファイルヘッダーによって特定の区切り文字の使用が強制されている場合は、変更できません。
-    一方、テキストファイルにファイルヘッダーがない場合は、Ankiはそのテキストの内容から区切り文字を推測し、選択します。プレビューを確認して、その選択が誤っていると思われる場合は、適切な別の区切り文字を選択してください。
-importing-allow-html-in-fields-help =
-    ファイルにHTMLの書式が含まれている場合は、このオプションをオンにしてください。
-    
-    例えば、ファイルに '&lt;br&gt;' という文字列が含まれている場合、このオプションをオンにすると、カード上ではその箇所を改行して表示します。オフにすると、その文字列 '&lt;br&gt;' をそのまま表示します。
+    テキストファイル内でフィールドを区切る文字です。プレビューで、フィールドが正しく分割されているか確認できます。
+    この文字自体がフィールド内に含まれる場合は、CSV 規格に従ってそのフィールドを引用符で囲む必要があります。LibreOffice などの表計算ソフトでは自動的に処理されます。
+    ファイルヘッダーで特定の区切り文字が指定されている場合は変更できません。ファイルヘッダーがない場合、Anki が区切り文字を推定します。
+importing-allow-html-in-fields-help = ファイルに HTML 書式が含まれる場合は有効にしてください。たとえば “&lt;br&gt;” という文字列はカード上で改行として表示されます。無効にすると、“&lt;br&gt;” という文字がそのまま表示されます。
 importing-notetype-help =
-    インポートして新たに追加するノートのノートタイプを設定します。また、既存のノートで更新の対象となるのは、このノートタイプのノートに限られます。
-    
-    ファイル内の各フィールドがノートタイプのどのフィールドに対応するかは、次のカテゴリ「フィールドの割り当て」で選択できます。
-importing-deck-help = インポートして新たに追加するノートの追加先となるデッキを設定します。
+    新しく読み込むノートには、このノートタイプが設定されます。また、このノートタイプを持つ既存ノートだけが更新対象になります。
+    割り当てツールを使って、ファイル内の各フィールドをノートタイプのどのフィールドへ対応させるか選択できます。
+importing-deck-help = 読み込んだカードはこのデッキに配置されます。
 importing-existing-notes-help =
-    インポートしたノートが既存のノートと一致した場合の処置を設定します。
-    
-    - `{ importing-update }`: 既存のノートを更新します。
-    - `{ importing-preserve }`: 何も行いません。既存のノートが維持されます。
-    - `{ importing-duplicate }`: 既存のノートを維持し、インポートしたノートを新規ノートとして追加します。
-importing-match-scope-help = デフォルトでは、既存のノートの重複チェックは、同じノートタイプを持つノートを対象としています。このオプションにより、同じデッキのカードを持つノートという制限を追加することができます。
-importing-tag-all-notes-help = 指定したタグを、新たにインポートしたノートと更新したノートの両方に付けます。
-importing-tag-updated-notes-help = 指定したタグを、更新したノートに付けます。
+    読み込むノートが既存ノートと一致した場合の処理です。
+    - [{ importing-update }]: 既存ノートを更新します。
+    - [{ importing-preserve }]: 何もしません。
+    - [{ importing-duplicate }]: 新しいノートを作成します。
+importing-match-scope-help = 同じノートタイプの既存ノートだけを重複確認の対象にします。さらに、同じデッキにカードがあるノートだけに限定することもできます。
+importing-tag-all-notes-help = 新しく読み込むノートと更新するノートの両方に、これらのタグを追加します。
+importing-tag-updated-notes-help = 更新するノートに、これらのタグを追加します。
 importing-overview = 概要
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-importing-importing-collection = コレクションをインポート中...
-importing-unable-to-import-filename = { $filename }をインポートできません：このファイルのタイプはサポートされていません。
-importing-notes-that-could-not-be-imported = ノートタイプが変更されたためインポートできなかったノート：{ $val }
-importing-added = 追加済
+importing-importing-collection = コレクションを読み込んでいます...
+importing-unable-to-import-filename = { $filename } を読み込めません: 対応していないファイル形式です。
+importing-notes-that-could-not-be-imported = ノートタイプが変更されているため読み込めなかったノート: { $val }
+importing-added = 追加済み
 importing-pauker-18-lesson-paugz = Pauker 1.8 レッスン (*.pau.gz)
-importing-supermemo-xml-export-xml = Supermemo 用の XML 形式 (*.xml)
+importing-supermemo-xml-export-xml = SuperMemo XML 書き出し形式 (*.xml)

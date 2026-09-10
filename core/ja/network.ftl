@@ -1,5 +1,5 @@
 network-offline = インターネット接続を確認してください。
-network-timeout = 接続がタイムアウトしました。別のネットワークを使用して再度お試しください。
-network-proxy-auth = プロキシの認証が必要です。
-network-other = ネットワークのエラーが発生しました。
-network-details = エラー詳細：{ $details }
+network-timeout = 接続がタイムアウトしました。もう一度試してください。頻繁にタイムアウトする場合は、別のネットワーク接続を試してください。
+network-proxy-auth = プロキシーの認証が必要です。
+network-other = ネットワークエラーが発生しました。
+network-details = エラーの詳細: { $details }

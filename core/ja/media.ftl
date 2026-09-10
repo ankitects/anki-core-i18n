@@ -1,7 +1,7 @@
-media-error-executing = { $val } 実行中にエラーが発生しました。
-media-error-running = { $val } を実行中にエラー
-media-for-security-reasons-is-not = セキュリティ上の理由から'{ $val }' をカードに使用できません。使用するには、別のパッケージにこの命令を配置して、代わりの LaTeX ヘッダを持たせたパッケージをインポートします。
-media-generated-file = 作成されたファイル: { $val }
-media-have-you-installed-latex-and-dvipngdvisvgm = この機能を使用するには、LaTeX と、dvipng または dvisvgm がインストールされている必要があります。
-media-recordingtime = 記録中...<br>時間： { $secs }
-media-sound-and-video-on-cards-will = カード上の音声と動画は、mpvまたはmplayerがインストールされていないと再生できません。
+media-error-executing = { $val } の実行中にエラーが発生しました。
+media-error-running = { $val } の起動中にエラーが発生しました。
+media-for-security-reasons-is-not = セキュリティ上の理由により、カード上で “{ $val }” を使用することはできません。別のパッケージにコマンドを置き、そのパッケージを LaTeX ヘッダーで読み込むことで使用できます。
+media-generated-file = 生成したファイル: { $val }
+media-have-you-installed-latex-and-dvipngdvisvgm = LaTeX と dvipng/dvisvgm はインストールされていますか？
+media-recordingtime = 録音しています...<br>時間: { $secs }
+media-sound-and-video-on-cards-will = mpv または mplayer をインストールするまで、カード上の音声と動画は動作しません。
