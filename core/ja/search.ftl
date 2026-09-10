@@ -4,36 +4,36 @@
 ## It's ok to change quotes outside of backticks however, eg:
 ## "`{ $context }`" => 「`{ $context }`」
 
-search-invalid-search = 無効な検索:{ $reason }
-search-misplaced-and = 検索で`and`が使用されていますが、２つの検索条件を接続していません。その文字列自体を検索したい場合は、二重引用符で囲んでください：`"and"`
-search-misplaced-or = 検索で`or`が使用されていますが、２つの検索用語を接続していません。その文字列自体を検索したい場合は、二重引用符で囲んでください：`"or"`
+search-invalid-search = 検索が無効です: { $reason }
+search-misplaced-and = `and` がありますが、2 つの検索条件をつないでいません。この単語自体を検索するには、二重引用符で囲んでください: `"and"`。
+search-misplaced-or = `or` がありますが、2 つの検索条件をつないでいません。この単語自体を検索するには、二重引用符で囲んでください: `"or"`。
 # Here, the ellipsis "..." may be localised.
-search-empty-group = 検索で`(...)`が使用されていますが、カッコ内に検索するものがありません。カッコ自体を検索したい場合は、二重引用符で囲んでください：`"( )"`
-search-unopened-group = 検索で`)`が使用されていますが、それに先立つ`(`がみつかりません。`)`の記号自体を検索したい場合は、二重引用符で囲むか手前にバックスラッシュをつけてください：`")"` または `\)`
-search-unclosed-group = 検索で`(`が使用されていますが、それに続く`)`がみつかりません。`(`の記号自体を検索したい場合は、二重引用符で囲むか手前にバックスラッシュをつけてください：`"("` または `\(`
-search-empty-quote = 検索で二重引用符`""`が使用されていますが、引用符内に検索するものがありません。二重引用符の記号自体を検索したい場合は、手前にバックスラッシュをつけてください：`\"\"`
-search-unclosed-quote = 　検索で二重引用符`"`が使用されていますが、それを閉じるもう片方がみつかりません。`"`の記号自体を検索したい場合は、手前にバックスラッシュをつけてください：`\"`
-search-missing-key = 検索でコロン`:`が使用されていますが、その手前にキーワードがありません。`:`の記号自体を検索したい場合は、手前にバックスラッシュをつけてください：`\:`
-search-unknown-escape = エスケープシーケンス`{ $val }`は定義されていません。バックスラッシュ`\`自体を検索したい場合は、前にもう一つ付け加えてください：`\\`
-search-invalid-argument = `{ $term }` に無効な引数 '`{ $argument }`'が使用されています。
-search-invalid-flag-2 = `flag:`に続けて有効なフラグ番号を入力してください：`1` (赤) `2` (橙) `3` (緑) `4` (青) `5` (ピンク), `6` (ターコイズ), `7` (紫)  `0` (フラグなし)
-search-invalid-prop-operator = `prop:{ $val }`の後には、以下の比較演算子のうちのいずれかが続く必要があります：`=`, `!=`, `<`, `>`, `<=` , `>=`
+search-empty-group = グループ `(...)` がありますが、括弧内に検索条件がありません。括弧自体を検索するには、二重引用符で囲んでください: `"( )"`。
+search-unopened-group = 閉じ括弧 `)` がありますが、その前に対応する開き括弧 `(` がありません。`)` 自体を検索するには、二重引用符で囲むか、直前にバックスラッシュを付けてください: `")"` または `\)`。
+search-unclosed-group = 開き括弧 `(` がありますが、その後に対応する閉じ括弧 `)` がありません。`(` 自体を検索するには、二重引用符で囲むか、直前にバックスラッシュを付けてください: `"("` または `\(`。
+search-empty-quote = 二重引用符 `""` がありますが、その間に検索条件がありません。二重引用符自体を検索するには、それぞれの直前にバックスラッシュを付けてください: `\"\"`。
+search-unclosed-quote = 二重引用符 `"` が閉じられていません。二重引用符自体を検索するには、直前にバックスラッシュを付けてください: `\"`。
+search-missing-key = コロン `:` がありますが、その前に検索キーワードがありません。`:` 自体を検索するには、直前にバックスラッシュを付けてください: `\:`。
+search-unknown-escape = エスケープシーケンス `{ $val }` は定義されていません。バックスラッシュ `\` 自体を検索するには、もう 1 つバックスラッシュを付けてください: `\\`。
+search-invalid-argument = `{ $term }` に無効な引数 `{ $argument }` が指定されています。
+search-invalid-flag-2 = `flag:` の後には、有効なフラグ番号を指定してください: `1` (赤)、`2` (オレンジ)、`3` (緑)、`4` (青)、`5` (ピンク)、`6` (ターコイズ)、`7` (紫)、`0` (フラグなし)。
+search-invalid-prop-operator = `prop:{ $val }` の後には、比較演算子 `=`、`!=`、`<`、`>`、`<=`、`>=` のいずれかを指定してください。
 search-invalid-other = 入力ミスがないか確認してください。
 
 ## eg. expected a number in "due>5x", but found "5x"
 
-search-invalid-number = "`{ $context }`"の数字であるべき箇所に "`{ $provided }`"が入力されています。
-search-invalid-whole-number = "`{ $context }`"の整数であるべき箇所に"`{ $provided }`"が入力されています。
-search-invalid-positive-whole-number = "`{ $context }`"の正の整数であるべき箇所に "`{ $provided }`"が入力されています。
-search-invalid-negative-whole-number = "`{ $context }`"の0かそれ未満の整数であるべき箇所に"`{ $provided }`"が入力されています。
-search-invalid-answer-button = "`{ $context }`"の回答ボタン1-4の間であるべき箇所に"`{ $provided }`"が入力されています。
+search-invalid-number = “`{ $context }`” には数値が必要ですが、“`{ $provided }`” が指定されています。
+search-invalid-whole-number = “`{ $context }`” には整数が必要ですが、“`{ $provided }`” が指定されています。
+search-invalid-positive-whole-number = “`{ $context }`” には正の整数が必要ですが、“`{ $provided }`” が指定されています。
+search-invalid-negative-whole-number = “`{ $context }`” には 0 以下の整数が必要ですが、“`{ $provided }`” が指定されています。
+search-invalid-answer-button = “`{ $context }`” には 1 から 4 の解答ボタン番号が必要ですが、“`{ $provided }`” が指定されています。
 
 ## Column labels in browse screen
 
-search-note-modified = ノート更新日時
-search-card-modified = カード更新日時
+search-note-modified = ノートの更新日時
+search-card-modified = カードの更新日時
 
 ##
 
 # Tooltip for search lines outside browser
-search-view-in-browser = ブラウザで見る
+search-view-in-browser = カード管理で表示

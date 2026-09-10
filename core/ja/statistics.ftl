@@ -1,50 +1,50 @@
 # The date a card will be ready to review
-statistics-due-date = 期日
+statistics-due-date = 期限 / 位置
 # The count of cards waiting to be reviewed
 statistics-due-count = 復習
 # Shown in the Due column of the Browse screen when the card is a new card
-statistics-due-for-new-card = 新規#{ $number }
+statistics-due-for-new-card = 新規 (位置 { $number })
 
 ## eg 16.8s (3.6 cards/minute)
 
-statistics-cards-per-min = { $cards-per-minute }枚 / 分
-statistics-average-answer-time = { $average-seconds }秒 ({ statistics-cards-per-min })
+statistics-cards-per-min = 1 分あたり { $cards-per-minute } 枚
+statistics-average-answer-time = { $average-seconds } 秒 ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
 
-statistics-in-time-span-seconds = { $amount }秒
-statistics-in-time-span-minutes = { $amount }分
-statistics-in-time-span-hours = { $amount }時間
-statistics-in-time-span-days = { $amount }日後
-statistics-in-time-span-months = { $amount }か月後
-statistics-in-time-span-years = { $amount }年後
+statistics-in-time-span-seconds = { $amount } 秒間で
+statistics-in-time-span-minutes = { $amount } 分間で
+statistics-in-time-span-hours = { $amount } 時間で
+statistics-in-time-span-days = { $amount } 日間で
+statistics-in-time-span-months = { $amount } か月間で
+statistics-in-time-span-years = { $amount } 年間で
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    今日は{ statistics-cards }のカードを{ $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    }で学習しています ( { $secs-per-card }秒 / 枚 )
+    { $unit ->
+        [seconds] 今日は { statistics-in-time-span-seconds } { statistics-cards }のカードを学習しました (1 枚あたり { $secs-per-card } 秒)。
+        [minutes] 今日は { statistics-in-time-span-minutes } { statistics-cards }のカードを学習しました (1 枚あたり { $secs-per-card } 秒)。
+        [hours] 今日は { statistics-in-time-span-hours } { statistics-cards }のカードを学習しました (1 枚あたり { $secs-per-card } 秒)。
+        [days] 今日は { statistics-in-time-span-days } { statistics-cards }のカードを学習しました (1 枚あたり { $secs-per-card } 秒)。
+        [months] 今日は { statistics-in-time-span-months } { statistics-cards }のカードを学習しました (1 枚あたり { $secs-per-card } 秒)。
+       *[years] 今日は { statistics-in-time-span-years } { statistics-cards }のカードを学習しました (1 枚あたり { $secs-per-card } 秒)。
+    }
 
 ##
 
-statistics-cards = { $cards }枚
-statistics-notes = ノート{ $notes }個
+statistics-cards = { $cards } 枚
+statistics-notes = { $notes } 件のノート
 # a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews = { $reviews }枚
+statistics-reviews = { $reviews } 回の復習
 # This fragment of the tooltip in the FSRS simulation
 # diagram (Deck options -> FSRS) shows the total number of
 # cards that can be recalled or retrieved on a specific date.
-statistics-memorized = { $memorized }枚の記憶を維持
+statistics-memorized = 覚えていると推定されるカード: { $memorized } 枚
 statistics-today-title = 今日
-statistics-today-again-count = 間違えた回数:
+statistics-today-again-count = [もう一度] の回数:
 statistics-today-type-counts = 習得中: { $learnCount }枚、復習: { $reviewCount }枚、再習得中: { $relearnCount }枚、フィルター抽出: { $filteredCount }枚
 statistics-today-no-cards = 今日はまだ1枚もカードを学習していません。
 statistics-today-no-mature-cards = 今日は習熟期のカードを復習していません
