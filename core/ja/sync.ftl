@@ -50,29 +50,32 @@ sync-account-required =
 sync-sanity-check-failed = [データベースを検査] を実行してから、もう一度同期してください。問題が続く場合は、環境設定で一方向の同期を強制してください。
 sync-clock-off = 同期できません。コンピューターの時刻が正しく設定されていません。
 # “details” expands to a string such as “300.14 MB > 300.00 MB”
-sync-upload-too-large = あなたのコレクションはAnkiWebに送信するには容量が大きすぎます。必要のないデッキを削除した後（それらをエクスポートして別の場所に保存しておくこともできます）「データベースをチェック」機能を使用し、ファイルの容量を小さくしてください。（{ $details }）
-sync-sign-in = サインイン
-sync-ankihub-dialog-heading = AnkiHub ログイン
-sync-ankihub-username-label = ユーザー名 または メールアドレス:
-sync-ankihub-login-failed = 現在入力されている認証情報でAnkiHubにログインできません
-sync-ankihub-addon-installation = AnkiHubアドオンのインストール
+sync-upload-too-large =
+    コレクションファイルが大きすぎるため、AnkiWeb に送信できません。不要なデッキを削除してから [データベースを検査] を実行すると、ファイルサイズを縮小できます。削除するデッキを残しておきたい場合は、先に書き出してください。
+    
+    { $details } (非圧縮時)
+sync-sign-in = ログイン
+sync-ankihub-dialog-heading = AnkiHub へのログイン
+sync-ankihub-username-label = ユーザー名またはメールアドレス:
+sync-ankihub-login-failed = 入力された情報では AnkiHub にログインできませんでした。
+sync-ankihub-addon-installation = AnkiHub アドオンのインストール
 
 ## Buttons
 
 sync-media-log-button = メディアログ
-sync-abort-button = 中断
+sync-abort-button = 中止
 sync-download-from-ankiweb = AnkiWeb からダウンロード
-sync-upload-to-ankiweb = AnkiWeb にアップロード
+sync-upload-to-ankiweb = AnkiWeb へアップロード
 sync-cancel-button = キャンセル
 
 ## Normal sync progress
 
-sync-downloading-from-ankiweb = AnkiWebからダウンロード中...
-sync-uploading-to-ankiweb = AnkiWebにアップロード中...
-sync-syncing = 同期中...
-sync-checking = チェック中...
-sync-connecting = 接続中...
-sync-added-updated-count = 追加/変更： { $up }↑ { $down }↓
+sync-downloading-from-ankiweb = AnkiWeb からダウンロードしています...
+sync-uploading-to-ankiweb = AnkiWeb へアップロードしています...
+sync-syncing = 同期しています...
+sync-checking = 確認しています...
+sync-connecting = 接続しています...
+sync-added-updated-count = 追加/変更: { $up }↑ { $down }↓
 sync-log-in-button = ログイン
 sync-log-out-button = ログアウト
 sync-collection-complete = コレクションの同期が完了しました。

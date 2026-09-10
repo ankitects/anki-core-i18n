@@ -38,8 +38,8 @@ deck-config-today-only = 今日のみ
 
 deck-config-learning-steps = 学習ステップ
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = 再表示までの時間は通常、分 (例: `1m`) または日 (例: `2d`) で指定します。時間 (例: `1h`) や秒 (例: `30s`) も使用できます。
-deck-config-learning-steps-tooltip = 再表示までの時間を 1 つ以上、半角スペースで区切って指定します。新規カードで [もう一度] を選択すると最初のステップが使われます (既定では 1 分)。[正解] を選択すると次のステップへ進みます (既定では 10 分)。すべてのステップを終えると復習カードになり、後日出題されます。{ -deck-config-delay-hint }
+-deck-config-delay-hint = 待ち時間は通常、分 (例: `1m`) または日 (例: `2d`) で指定します。時間 (例: `1h`) と秒 (例: `30s`) も使用できます。
+deck-config-learning-steps-tooltip = 待ち時間を 1 つ以上、半角スペースで区切って指定します。新規カードで [もう一度] を選択すると最初のステップが使われます (既定では 1 分)。[正解] を選択すると次のステップへ進みます (既定では 10 分)。すべてのステップを終えると復習カードになり、後日出題されます。{ -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = 最後の学習ステップで [正解] を選択した後、カードを次に表示するまでの日数です。
 deck-config-easy-interval-tooltip = [簡単] を選択して初回の学習を終えた後、カードを次に表示するまでの日数です。
 deck-config-new-insertion-order = 追加位置
@@ -51,10 +51,13 @@ deck-config-new-insertion-order-random-with-v3 = V3 スケジューラーでは 
 ## Lapses section
 
 deck-config-relearning-steps = 再学習ステップ
-deck-config-relearning-steps-tooltip = 再表示までの時間を半角スペースで区切って指定します。既定では、復習カードで [もう一度] を選択すると 10 分後に再出題されます。空欄にすると、再学習のステップには移らず、復習間隔だけが変更されます。{ -deck-config-delay-hint }
+deck-config-relearning-steps-tooltip = 待ち時間を半角スペースで区切って指定します。既定では、復習カードで [もう一度] を選択すると 10 分後に再出題されます。空欄にすると、再学習のステップには移らず、復習間隔だけが変更されます。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip = 復習カードで [もう一度] を何回選ぶと、定着しにくいカードと判定するかを指定します。忘却を繰り返すカードは、内容を書き直す、削除する、覚えやすい手掛かりを加えるなどの見直しをおすすめします。
 # See actions-suspend-card and scheduling-tag-only for the wording
-deck-config-leech-action-tooltip = [タグのみ]: ノートに `leech` タグを追加し、通知を表示します。
+deck-config-leech-action-tooltip =
+    { "[" }タグのみ]: ノートに `leech` タグを追加し、通知を表示します。
+    
+    { "[" }カードを休止]: タグの追加に加え、手動で休止を解除するまでカードを出題しません。
 
 ## Burying section
 
@@ -75,9 +78,27 @@ deck-config-bury-priority-tooltip =
 
 deck-config-ordering-title = 表示順
 deck-config-new-gather-priority = 新規カードの収集順
-deck-config-new-gather-priority-tooltip-2 = [デッキ順]: 上から順に各サブデッキのカードを収集します。各サブデッキ内では位置番号の小さい順に収集します。選択したデッキの 1 日の上限に達すると、すべてのサブデッキを確認する前に収集を終了する場合があります。大きなコレクションで最も高速な方法であり、上にあるサブデッキを優先できます。
+deck-config-new-gather-priority-tooltip-2 =
+    { "[" }デッキ順]: 上から順に各サブデッキのカードを収集します。各サブデッキ内では位置番号の小さい順に収集します。選択したデッキの 1 日の上限に達すると、すべてのサブデッキを確認する前に収集を終了する場合があります。大きなコレクションで最も高速な方法であり、上にあるサブデッキを優先できます。
+    
+    { "[" }位置番号が小さい順]: 位置番号の小さい順に収集します。通常は、先に追加されたカードから順に収集されます。
+    
+    { "[" }位置番号が大きい順]: 位置番号の大きい順に収集します。通常は、後から追加されたカードから順に収集されます。
+    
+    { "[" }ノートをランダム]: ノートをランダムに選び、そのノートに属するすべてのカードを収集します。
+    
+    { "[" }カードをランダム]: カードをランダムな順序で収集します。
 deck-config-new-card-sort-order = 新規カードの表示順
-deck-config-new-card-sort-order-tooltip-2 = [カードタイプ順、次に収集順]: カードタイプ番号順に表示し、同じカードタイプ内では収集順に表示します。関連カードを同じ日に表示しない設定が無効な場合、裏面→表面のカードより前に、すべての表面→裏面のカードが表示されます。同じノートのカードを同じ学習回に表示しつつ、互いに近づけすぎない場合に便利です。
+deck-config-new-card-sort-order-tooltip-2 =
+    { "[" }カードタイプ順、次に収集順]: カードタイプ番号順に表示し、同じカードタイプ内では収集順に表示します。関連カードを同じ日に表示しない設定が無効な場合、裏面→表面のカードより前に、すべての表面→裏面のカードが表示されます。同じノートのカードを同じ学習回に表示しつつ、互いに近づけすぎない場合に便利です。
+    
+    { "[" }収集順]: 収集した順序のまま表示します。関連カードを同じ日に表示しない設定が無効な場合、通常は同じノートのカードが連続して表示されます。
+    
+    { "[" }カードタイプ順、次にランダム]: カードタイプ番号順に表示し、同じカードタイプ内ではランダムに表示します。関連カード同士を近づけず、かつランダム順で表示したい場合に便利です。
+    
+    { "[" }ノートをランダム、次にカードタイプ順]: ノートをランダムに選び、そのノートのすべてのカードをカードタイプ順に表示します。
+    
+    { "[" }ランダム]: カードをランダム順に表示します。
 deck-config-new-review-priority = 新規カードと復習カードの表示順
 deck-config-new-review-priority-tooltip = 復習カードに対して新規カードをいつ表示するかを指定します。
 deck-config-interday-step-priority = 日をまたぐ学習カードと復習カードの表示順
@@ -367,21 +388,14 @@ deck-config-fsrs-good-fit = 診断結果: FSRS で記憶の傾向を正確に予
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-deck-config-description-new-handling = Markdown記法を有効にする (Anki 2.1.41以降で有効)
-deck-config-fsrs-simulator-radio-ratio = 1枚あたりの記憶維持コスト
+deck-config-description-new-handling = Markdown として扱う (Anki 2.1.41 以降)
+deck-config-fsrs-simulator-radio-ratio = 学習時間/覚えているカード数
 # $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = 1枚あたり { $time } のコスト（学習時間）で、指定期間の間、記憶を維持
-deck-config-unable-to-determine-desired-retention = 有益な目標正答率の下限を推定できませんでした
-deck-config-predicted-minimum-recommended-retention = 有益な目標正答率の下限: { $num }
-deck-config-compute-minimum-recommended-retention = 有益な目標正答率の下限
-deck-config-compute-optimal-retention-tooltip4 =
-    このツールは、最も学習効率の高い（＝最高水準の学習成果を、できるだけ少ない学習時間・学習回数で達成する）`目標正答率`を推定します。
-    
-    この値は、あなたが`目標正答率`の値を調整する際の参考値とすることができます。
-    
-    「学習時間や学習回数が増えてもかまわないから、実際の正答率をさらに高くしたい」という場合は、この値よりも高い値を`目標正答率`として設定するのもよいでしょう。
-    
-    この値よりも低い値を`目標正答率`として設定するのはおすすめしません。復習間隔が大きくなりすぎて正答を思い出しにくくなり、かえって学習の負担が高くなると予想されるためです。
+deck-config-fsrs-simulator-ratio-tooltip = 覚えているカード 1 枚あたりの学習時間: { $time }
+deck-config-unable-to-determine-desired-retention = 推奨される最低保持率を算出できませんでした。
+deck-config-predicted-minimum-recommended-retention = 推奨される最低保持率: { $num }
+deck-config-compute-minimum-recommended-retention = 推奨される最低保持率
+deck-config-compute-optimal-retention-tooltip4 = このツールは、限られた時間で最も多くの内容を覚えられる目標保持率を求めます。算出された値は、目標保持率を決める際の目安になります。学習時間を増やしてでも思い出せる割合を高めたい場合は、より高い値を選んでも構いません。最低値より低く設定すると、忘却が増えて学習量もかえって増えるため、おすすめしません。
 deck-config-plotted-on-x-axis = NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 deck-config-a-100-day-interval =
     { $days ->
