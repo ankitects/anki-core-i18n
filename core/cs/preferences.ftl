@@ -82,6 +82,7 @@ preferences-shortcut-placeholder = Vypnete zadáním nepoužívané klávesy neb
 preferences-third-party-services = Služby třetích stran
 preferences-ankihub-not-logged-in = V současné době nejste přihlášen k AnkiHub.
 preferences-ankiweb-intro = AnkiWeb je bezplatná služba, která vám umožní synchronizovat vaše data kartiček ve všech vašich zařízeních a poskytuje způsob, jak data obnovit, pokud se vaše zařízení rozbije nebo ztratí.
+preferences-experimental-features-tab = Experimenty
 
 ## URL scheme related
 
