@@ -284,13 +284,13 @@ deck-config-minimum-interval-tooltip = Selang minimum diberikan kepada kad semak
 
 ## Easy Days section.
 
-deck-config-easy-days-monday = Isnin
-deck-config-easy-days-tuesday = Selasa
-deck-config-easy-days-wednesday = Rabu
-deck-config-easy-days-thursday = Khamis
-deck-config-easy-days-friday = Jumaat
-deck-config-easy-days-saturday = Sabtu
-deck-config-easy-days-sunday = Ahad
+deck-config-easy-days-monday = Isn
+deck-config-easy-days-tuesday = Sel
+deck-config-easy-days-wednesday = Rab
+deck-config-easy-days-thursday = Kha
+deck-config-easy-days-friday = Jum
+deck-config-easy-days-saturday = Sab
+deck-config-easy-days-sunday = Ahd
 deck-config-easy-days-normal = Normal
 
 ## Adding/renaming
