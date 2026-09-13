@@ -345,6 +345,8 @@ deck-config-invalid-parameters = FSRS 인자가 유효하지 않습니다. 기�
 deck-config-weights = FSRS 인자
 deck-config-compute-optimal-weights = FSRS 인자를 최적화하기
 deck-config-optimize-button = 최적화
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (느림)
 deck-config-compute-button = 계산
 deck-config-ignore-before = 이전에 리뷰된 카드들을 무시하기
 deck-config-time-to-optimize = 오랫동안 최적화되지 않았습니다 - 모든 사전 설정을 최적화하세요.
@@ -369,7 +371,13 @@ deck-config-fsrs-simulator-experimental = FSRS 시물레이터 (실험적 기능
 deck-config-fsrs-desired-retention-help-me-decide-experimental = 결정을 도와주세요(실험적)
 deck-config-simulate = 시뮬레이션 하기
 deck-config-clear-last-simulate = 시뮬레이션 초기화
+deck-config-advanced-settings = 고급 설정
+deck-config-smooth-graph = 부드러운 그래프
 deck-config-save-options-to-preset = 변경사항을 사전설정으로 저장
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = 기억됨
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
