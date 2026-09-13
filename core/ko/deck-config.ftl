@@ -276,7 +276,7 @@ deck-config-minimum-interval-tooltip = 카드를 '다시'로 평가할 때 복�
 deck-config-custom-scheduling = 사용자 정의 스케줄링
 deck-config-custom-scheduling-tooltip = 컬렉션 전체에 영향을 미칩니다. 위험을 인지하고 사용하시기 바랍니다!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = 쉬어가는 요일
 deck-config-easy-days-monday = 월요일
@@ -290,6 +290,7 @@ deck-config-easy-days-normal = 보통
 deck-config-easy-days-reduced = 감소
 deck-config-easy-days-minimum = 최소
 deck-config-easy-days-no-normal-days = 적어도 하루는 '{ deck-config-easy-days-normal }'로 설정되어야 합니다.
+deck-config-easy-days-change = FSRS 옵션에서 { deck-config-reschedule-cards-on-change }가 활성화되지 않는 한, 기존 복습 일정은 조정되지 않습니다.
 
 ## Adding/renaming
 
@@ -317,7 +318,6 @@ deck-config-revert-button-tooltip = 이 설정을 기본값으로 복원
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Anki 2.1.41+ 다루기
 deck-config-description-new-handling-hint =
     입력을 마크다운으로 처리하고 HTML 입력을 정리합니다. 활성화하면
     설명이 축하 화면에도 나타납니다.
@@ -344,13 +344,15 @@ deck-config-invalid-parameters = FSRS 인자가 유효하지 않습니다. 기�
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS 인자
 deck-config-compute-optimal-weights = FSRS 인자를 최적화하기
-deck-config-compute-minimum-recommended-retention = 추천하는 유지율을 최소화
 deck-config-optimize-button = 최적화
 deck-config-compute-button = 계산
 deck-config-ignore-before = 이전에 리뷰된 카드들을 무시하기
+deck-config-time-to-optimize = 오랫동안 최적화되지 않았습니다 - 모든 사전 설정을 최적화하세요.
 deck-config-evaluate-button = 평가
 deck-config-desired-retention = 목표 기억률
 deck-config-historical-retention = 기억률 추정
+deck-config-reschedule-cards-on-change = 기존 복습 일정 변경하기
+deck-config-reschedule-cards-warning = 원하는 유지율(retention) 설정에 따라 학습해야 할 카드가 대량으로 발생할 수 있으므로, SM-2 방식에서 처음 전환할 때는 이 옵션을 사용하지 않는 것이 좋습니다. 이 옵션은 각 카드에 복습 기록을 추가하여 전체 컬렉션의 크기를 증가시키므로 신중하게 사용해야 합니다.
 deck-config-please-save-your-changes-first = 변경사항을 저장해주세요.
 deck-config-percent-input = { $pct }%
 deck-config-fsrs-must-be-enabled = FSRS를 활성화해야 합니다.
@@ -364,11 +366,25 @@ deck-config-days-to-simulate = 시뮬레이션 할 기간
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS 시물레이터 (실험적 기능)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = 결정을 도와주세요(실험적)
 deck-config-simulate = 시뮬레이션 하기
 deck-config-clear-last-simulate = 시뮬레이션 초기화
+deck-config-save-options-to-preset = 변경사항을 사전설정으로 저장
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+# Checkbox
+deck-config-health-check = 최적화 시 상태 확인
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    상태 확인:
+    FSRS가 사용자의 기억력에 잘 적용되었습니다.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Anki 2.1.41+ 다루기
+deck-config-compute-minimum-recommended-retention = 추천하는 유지율을 최소화
 deck-config-bury-if-new = 새카드만 미루기
 deck-config-bury-if-new-or-review = 새카드 및 복습카드 미루기
+deck-config-health-check-tooltip1 = FSRS가 기억 패턴에 적응하는 데 어려움을 겪을 경우 경고가 표시됩니다.
 deck-config-optimize-all-tip = "저장" 옆에 있는 드롭다운 버튼을 눌러 모든 사전 설정을 한 번에 최적화할 수 있습니다.
