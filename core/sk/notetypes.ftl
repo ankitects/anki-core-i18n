@@ -3,6 +3,7 @@
 notetypes-front-field = Predná strana
 notetypes-back-field = Zadná strana
 notetypes-add-reverse-field = Pridať zadnú stranu karty
+notetypes-back-extra-field = Dodatočná zadná strana.
 
 ## Default note type names
 
@@ -33,3 +34,7 @@ notetypes-type = Typ
 
 ## Image Occlusion
 
+notetypes-occlusion = Oklúzia
+notetypes-occlusion-mask = Maska
+notetypes-occlusion-note = Poznámka
+notetypes-comments-field = Komentáre
