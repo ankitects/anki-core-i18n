@@ -34,7 +34,13 @@ notetypes-type = Typ
 
 ## Image Occlusion
 
+notetypes-image = Obrázok
 notetypes-occlusion = Oklúzia
 notetypes-occlusion-mask = Maska
 notetypes-occlusion-note = Poznámka
 notetypes-comments-field = Komentáre
+notetypes-hide-all-guess-one = Schovať všetky, hádať jeden
+notetypes-hide-one-guess-one = Schovať jeden, hádať jeden
+notetype-error-no-image-to-show = Chýba obrázok na zobrazenie.
+notetypes-io-select-image = Vyberte obrázok
+notetypes-io-paste-image-from-clipboard = Prilepiť obrázok zo schránky
