@@ -37,6 +37,7 @@ decks-please-select-something = Prosím, vyberte niečo.
 decks-repeat-failed-cards-after = Zopakovať chybné kartičky potom
 decks-study = Študovať
 decks-study-deck = Balíček na štúdium
+decks-filtered-deck-search-empty = Žiadna kartička nezodpovedá zadanému hľadaniu. Niektoré kartičky mohli byť vyradené, lebo sú v inom filtrovanom balíčku alebo vyradené bokom.
 
 ## Sort order of cards
 

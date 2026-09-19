@@ -4,3 +4,7 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = Viac informácií
+# This message is shown when the front side of the card is blank,
+# either due to a badly-designed template, or because required fields
+# are missing.
+card-template-rendering-empty-front = Predná strana tejto kartičky je prázdna.

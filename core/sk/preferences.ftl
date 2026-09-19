@@ -17,6 +17,7 @@ preferences-scheduling = Preplánovať
 preferences-show-learning-cards-with-larger-steps = Zobraziť karty na učenie s väčšími krokmi pred opakovaniami
 preferences-show-next-review-time-above-answer = Zobraziť čas budúceho opakovania nad tlačidlami odpovedí
 preferences-show-play-buttons-on-cards-with = Zobrazovať tlačidlá prehrávania na kartách, ktoré obsahujú zvuk
+preferences-show-remaining-card-count = Zobraziť zostávajúci počet kartičiek
 preferences-some-settings-will-take-effect-after = Niektoré nastavenia sa prejavia až po reštarte Anki.
 preferences-synchronize-audio-and-images-too = Synchronizovať zvuk aj obrázky
 preferences-timebox-time-limit = Limit pre časový box

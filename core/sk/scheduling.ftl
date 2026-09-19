@@ -83,6 +83,13 @@ scheduling-next-learn-due =
                *[other] Nasledujúca kartička na učenie bude pripravená za { $amount } hodín.
             }
     }
+scheduling-learn-remaining =
+    { $remaining ->
+        [one] Je tu jedna zostávajúca karta na skúšanie na dnes.
+        [few] Sú tu { $remaining } zostávajúce karty na skúšanie na dnes.
+        [many] Sú tu { $remaining } zostávajúce karty na skúšanie na dnes.
+       *[other] Je tu { $remaining } zostávajúcich kariet na skúšanie na dnes.
+    }
 scheduling-congratulations-finished = Blahoželáme! Nateraz ste tento balíček dokončili.
 scheduling-today-review-limit-reached =
     Bol dosiahnutý denný limit, ale stále zostávajú nejaké karty na opakovanie.

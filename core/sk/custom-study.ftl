@@ -32,7 +32,7 @@ custom-study-choose-tags = Vybrať štítky
 ##
 
 custom-study-ok = OK
-custom-study-no-cards-matched-the-criteria-you = Žiadna karta nezodpovedá zadaným kritériam.
+custom-study-no-cards-matched-the-criteria-you = Žiadna kartička nezodpovedá zadaným kritériám.
 custom-study-custom-study-session = Vlastné štúdium
 
 ## inside the Selective Study window, accessible by selecting "Study by card state or tag" and then clicking "Choose Tags"

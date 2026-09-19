@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = prázdne
 card-templates-front-template = Šablóna prednej strany
 card-templates-back-template = Šablóna zadnej strany
 card-templates-template-styling = Štýl
