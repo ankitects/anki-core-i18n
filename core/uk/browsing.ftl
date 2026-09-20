@@ -42,6 +42,8 @@ browsing-current-note-type = Поточний тип нотатки:
 browsing-delete-notes = Видалити нотатки
 browsing-duplicate = дублікат
 browsing-ease = Легкість
+# Button that clears the browse search
+browsing-empty-clear-search = Очистити пошук
 browsing-enter-tags-to-add = Введіть мітки, які треба додати до виділених карток
 browsing-enter-tags-to-delete = Введіть мітки для видалення з виділених карток
 browsing-filtered = (відфільтровано)
