@@ -362,7 +362,7 @@ deck-config-revert-button-tooltip = Повернути цей параметр �
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Робота з Anki 2.1.41 та вище
+deck-config-description-new-handling2 = Вважати за Markdown
 deck-config-description-new-handling-hint =
     Вважає введені дані за розмітку markdown та очищає HTML формат. При
     увімкненні, опис також з'являтиметься на екрані налаштувань.
@@ -397,6 +397,10 @@ deck-config-which-deck = Для якої колоди показати нала�
 
 deck-config-updating-cards = Оновлюю картки: { $current_cards_count } / { $total_cards_count }...
 deck-config-invalid-parameters = Вказано неправильні параметри ВПІП. Для типових значень залиште поля порожніми.
+deck-config-placeholder-parameters =
+    Типові параметри
+    (Періодичне натискання "{ deck-config-optimize-button }" дозволяє ВПІП краще пристосуватися до пам'яті)
+deck-config-manual-parameter-edit-warning = Параметри слід змінювати за допомогою кнопки оптимізації. Переконливо радимо не редагувати вручну.
 deck-config-not-enough-history = Історія пригадувань недостатня для виконання операції.
 deck-config-must-have-400-reviews =
     { $count ->
@@ -498,6 +502,7 @@ deck-config-checking-for-improvement = Перевірка наявності в�
 deck-config-optimizing-preset = Оптимізація { $current_count } з { $total_count } конфігурацій...
 deck-config-fsrs-must-be-enabled = Спершу слід увімкнути ВПІП.
 deck-config-fsrs-params-optimal = Схоже, що параметри ВПІП є оптимальними.
+deck-config-fsrs-confirm-save-and-optimize = Ця дія збереже всі зміни. Ви певні?
 deck-config-fsrs-params-no-reviews = Пригадування не знайдено. Перевірте, що конфігурацію вказано для всіх колод які слід оптимізувати (з підколодами) і спробуйте ще раз.
 deck-config-wait-for-audio = Чекати кінця аудіо
 deck-config-show-reminder = Показати нагадування
@@ -526,9 +531,8 @@ deck-config-save-options-to-preset-confirm = Замістити налаштув
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Запам'ятовано
-deck-config-fsrs-simulator-radio-ratio = Співвідношення часу та запам'ятовування
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time } на запам'ятовану картку
+deck-config-fsrs-simulator-radio-efficiency = Ефективність
+deck-config-fsrs-simulator-ratio-tooltip2 = { $time } опрацьованих карток за годину
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -548,6 +552,10 @@ deck-config-fsrs-good-fit = ВПІП добре налаштовано до Ва
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Робота з Anki 2.1.41 та вище
+deck-config-fsrs-simulator-radio-ratio = Співвідношення часу та запам'ятовування
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } на запам'ятовану картку
 deck-config-unable-to-determine-desired-retention = Неможливо визначити мінімальну рекомендовану затримку.
 deck-config-predicted-minimum-recommended-retention = Найменша рекомендована затримка: { $num }
 deck-config-compute-minimum-recommended-retention = Найменша рекомендована затримка

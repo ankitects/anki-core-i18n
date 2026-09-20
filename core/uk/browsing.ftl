@@ -44,6 +44,20 @@ browsing-duplicate = дублікат
 browsing-ease = Легкість
 # Button that clears the browse search
 browsing-empty-clear-search = Очистити пошук
+# Title when the collection has no cards
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-collection-title =
+    { $notes-mode ->
+        [yes] Немає нотаток
+       *[other] Немає карток
+    }
+# Title when a valid search matches nothing
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-no-match-title =
+    { $notes-mode ->
+        [yes] Жодна нотатка не відповідає критеріям пошуку
+       *[other] Жодна картка не відповідає критеріям пошуку
+    }
 browsing-enter-tags-to-add = Введіть мітки, які треба додати до виділених карток
 browsing-enter-tags-to-delete = Введіть мітки для видалення з виділених карток
 browsing-filtered = (відфільтровано)
@@ -86,7 +100,17 @@ browsing-reposition = Змінити розташування...
 browsing-reposition-new-cards = Змінити розташування нових карток
 browsing-reschedule = Змінити розклад
 browsing-search-bar-hint = Пошук карток/нотаток (введіть текст та натисніть Ентер)
+browsing-search-facet-starters = Фільтрувати за
 browsing-search-in = Шукати в:
+browsing-search-quick = Швидкі фільтри
+browsing-search-quick-flagged = З прапорцями
+browsing-search-quick-leeches = Приставучі
+browsing-search-recent = Нещодавні
+# Shown above browse results when the current search is invalid
+browsing-search-results-unchanged = Результати зміняться при правильних критеріях пошуку
+browsing-search-suggestions = Пропозиції
+browsing-search-syntax-mode = Режим синтаксису
+browsing-search-text-match = Шукаю "{ $query }"
 browsing-search-within-formatting-slow = Шукати серед форматування (повільно)
 browsing-select-deck = Оберіть колоду
 browsing-selected-notes-only = Лише вибрані нотатки
@@ -171,6 +195,22 @@ browsing-sidebar-due-today = Пригадати
 browsing-sidebar-untagged = Без мітки
 browsing-sidebar-overdue = Прострочено
 browsing-row-deleted = (видалено)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = Зараз
+# Status chip label in browse card rows
+browsing-leech = Приставуча
+browsing-more-tags =
+    { $count ->
+        [one] ще одна мітка
+        [few] ще { $count } мітки
+       *[many] ще { $count } міток
+    }
+browsing-leech-lapses =
+    { $count ->
+        [one] Приставуча { $count } коло
+        [few] Приставуча { $count } кола
+       *[many] Приставуча { $count } кіл
+    }
 browsing-removed-unused-tags-count =
     { $count ->
         [one] Видалено { $count } невживану мітку.

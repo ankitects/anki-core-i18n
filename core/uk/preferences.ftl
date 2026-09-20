@@ -40,7 +40,9 @@ preferences-theme-follow-system = Системні налаштування
 preferences-theme-light = Світла
 preferences-theme-dark = Темна
 preferences-v3-scheduler = Планувальник V3
+preferences-updates = Оновлення
 preferences-check-for-updates = Перевіряти наявність оновлень
+preferences-check-for-addon-updates = Перевірити наявність оновлень для додатків
 preferences-ignore-accents-in-search = Не зважати на діакрітичні знаки (повільніше)
 preferences-backup-explanation =
     Anki періодично робить резервні копії колекції. Для копій, старших 2 днів, 
@@ -82,6 +84,7 @@ preferences-ankihub-not-logged-in = Не здійснено вхід до AnkiHu
 preferences-ankiweb-intro = AnkiWeb це безкоштовний сервіс, який зберігає та синхронізує картки між пристроями та дозволяє їх відновити при поломці чи втраті пристрою.
 preferences-ankihub-intro = AnkiHub забезпечує спільне редагування колод та інші засоби навчання. Щоб отримати доступ слід оформити платну підписку.
 preferences-third-party-description = Сторонні сервіси не пов'язані з Anki і їх робота не гарантована. Доступ до таких сервісів може бути платним.
+preferences-experimental-features-tab = Досліди
 
 ## URL scheme related
 

@@ -49,6 +49,12 @@ editing-show-duplicates = Показати дублікати
 editing-subscript = Нижній індекс
 editing-superscript = Верхній індекс
 editing-tags = Мітки
+editing-tag-count =
+    { $count ->
+        [one] { $count } мітка
+        [few] { $count } мітки
+       *[many] { $count } міток
+    }
 editing-tags-add = Додати мітку
 editing-tags-copy = Копіювати мітки
 editing-tags-remove = Видалити мітки
