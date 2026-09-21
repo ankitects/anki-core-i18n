@@ -348,7 +348,6 @@ deck-config-revert-button-tooltip = Restaure esta configuración a su valor pred
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Manejo de Anki 2.1.41+
 deck-config-description-new-handling-hint =
     Trata la entrada como Markdown y limpia la entrada HTML. Cuando está habilitado, 
     la descripción también se mostrará en la pantalla de felicitaciones. Markdown 
@@ -409,7 +408,7 @@ deck-config-fsrs-tooltip =
     Afecta a toda la colección.
     
     FSRS (Free Spaced Repetition Scheduler), o en español "Programador de repetición espaciada libre" es una alternativa al viejo programador, SM-2 (SuperMemo 2) de Anki.
-    Determinando más precisamente la probailidad de olvidarse una tarjeta, te puede ayudar a recordar más material en la misma cantidad de tiempo. Este ajuste se comparte con todos los preajustes.
+    Determinando más precisamente la probabilidad de olvidarse una tarjeta, te puede ayudar a recordar más material en la misma cantidad de tiempo. Este ajuste se comparte con todos los preajustes.
 deck-config-desired-retention-tooltip = Por defecto, Anki programa las tarjetas de modo que tengas una probabilidad del 90% de recordarlas cuando aparezcan para repasarlas. Si aumentas este valor, Anki mostrará las tarjetas más frequentemente para aumentar la probabilidad de que te acuerdes de ellas. Si reduces el valor, Anki mostrará las tarjetas menos frequentemente, y te olvidarás más de ellas. Ten prudencia cuando ajustes el valor - valores más altos aumentarán tu carga de trabajo, y valores más bajos pueden desmotivarte, dado que te olvidas de mucha información.
 deck-config-desired-retention-tooltip2 = Los valores de carga de trabajo que han sido proporcionados por la caja de información son estimaciones aproximadas. Para aumentar la precisión, usa el simulador.
 deck-config-historical-retention-tooltip =
@@ -485,6 +484,7 @@ deck-config-fsrs-simulator-radio-memorized = Memorizado
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Manejo de Anki 2.1.41+
 deck-config-fsrs-simulator-radio-ratio = Proporción de Tiempo / Tarjetas memorizadas
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time } por carta memorizada
