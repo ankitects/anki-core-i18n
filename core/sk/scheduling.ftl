@@ -101,7 +101,7 @@ scheduling-today-new-limit-reached =
 scheduling-buried-cards-found = Jedna alebo viaceré karty boli zakopané a budú zobrazené zajtra. Môžete { $unburyThem } ak si ich prajete ihneď zobraziť.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
-scheduling-unbury-them = ich odkopať
+scheduling-unbury-them = ich odhrabať
 scheduling-how-to-custom-study = Ak si želáte študovať poza obvyklý plán, môžete použiť funkciu { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."

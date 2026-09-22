@@ -37,7 +37,7 @@ studying-suspend-note = Vyradiť poznámku
 studying-this-is-a-special-deck-for = Toto je špeciálny balíček na štúdium mimo bežného plánu.
 studying-to-review = Na opakovanie
 studying-type-answer-unknown-field = Napíšte odpoveď: neznáme pole { $val }
-studying-unbury = Vyhrabať
+studying-unbury = Odhrabať
 studying-what-would-you-like-to-unbury = Čo by ste chceli vyhrabať?
 studying-you-havent-recorded-your-voice-yet = Zatiaľ ste nenahrali svoj hlas.
 

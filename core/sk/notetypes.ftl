@@ -1,3 +1,5 @@
+notetypes-change-note-type-ctrlandn = Zmeniť typ poznámky (Ctrl+N)
+
 ## Default field names in newly created note types
 
 notetypes-front-field = Predná strana
