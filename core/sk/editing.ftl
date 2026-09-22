@@ -1,6 +1,8 @@
 editing-add-media = Pridať médiá
 editing-an-error-occurred-while-opening = Pri otváraní { $val } došlo k chybe
 editing-cards = Karty
+editing-cloze-deletion = Doplňovačka (nová kartička)
+editing-cloze-deletion-repeat = Doplňovačka (rovnaká kartička)
 editing-couldnt-record-audio-have-you-installed = Nebolo možné nahrať zvuk. Máte nainštalovaný „lame“?
 editing-customize-fields = Prispôsobiť pole
 editing-cut = Vystrihnúť

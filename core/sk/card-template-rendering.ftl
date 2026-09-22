@@ -4,6 +4,8 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = Viac informácií
+card-template-rendering-browser-front-side-problem = Šablóna prednej strany pre prehliadač má problém:
+card-template-rendering-browser-back-side-problem = Šablóna zadnej strany pre prehliadač má problém:
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
