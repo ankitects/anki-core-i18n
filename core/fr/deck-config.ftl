@@ -289,7 +289,7 @@ deck-config-confirm-remove-name = Supprimer { $name } ?
 ## Other Buttons
 
 deck-config-save-button = Sauvegarder
-deck-config-save-to-all-subdecks = Sauvegarder pour tout les sous-paquets
+deck-config-save-to-all-subdecks = Sauvegarder pour tous les sous-paquets
 deck-config-save-and-optimize = Optimiser tous les préréglages
 deck-config-revert-button-tooltip = Restaurer les paramètres par défauts.
 
