@@ -277,12 +277,12 @@ deck-config-easy-days-change = Les révisions existantes ne seront pas re-planif
 
 deck-config-add-group = Ajouter un préréglage
 deck-config-name-prompt = Nom
-deck-config-rename-group = Renommer la présélection
-deck-config-clone-group = clonage Présélection
+deck-config-rename-group = Renommer le préréglage
+deck-config-clone-group = Cloner le préréglage
 
 ## Removing
 
-deck-config-remove-group = supprimer la présélection
+deck-config-remove-group = Supprimer le préréglage
 deck-config-will-require-full-sync = La modification demandée nécessitera une synchronisation à sens unique. Si vous avez effectué des modifications sur un autre appareil et que vous ne les avez pas encore synchronisées avec cet appareil, veuillez le faire avant de poursuivre.
 deck-config-confirm-remove-name = Supprimer { $name } ?
 
@@ -296,10 +296,10 @@ deck-config-revert-button-tooltip = Restaurer les paramètres par défauts.
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Gestion d'Anki 2.1.41+
+deck-config-description-new-handling2 = Interpréter en Markdown
 deck-config-description-new-handling-hint =
     Traite les entrées comme du markdown, et nettoie les entrées HTML. Lorsqu'elle est activée, la description s'affichera également sur l'écran de félicitations.
-    Markdown apparaîtra comme du texte sur Anki 2.1.40 et plus.
+    Le markdown apparaîtra comme du texte sur Anki 2.1.40 et plus.
 
 ## Warnings shown to the user
 
@@ -328,6 +328,10 @@ deck-config-which-deck = Pour quel paquet souhaitez-vous afficher les options ?
 
 deck-config-updating-cards = Mise à jour des cartes : { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Les paramètres FSRS fournis sont invalides. Laissez les vides pour utiliser les paramètres par défaut.
+deck-config-placeholder-parameters =
+    Paramètres par défaut
+    (Cliquez sur "{ deck-config-optimize-button }" périodiquement pour que FSRS s'adapte mieux à votre mémoire)
+deck-config-manual-parameter-edit-warning = Les paramètres ne doivent être modifiés qu'avec le bouton "Optimiser". Les changer manuellement est fortement déconseillé.
 deck-config-not-enough-history = L'historique des révisions est insuffisant pour effectuer cette opération.
 deck-config-must-have-400-reviews =
     { $count ->
@@ -414,6 +418,7 @@ deck-config-checking-for-improvement = Vérification des améliorations...
 deck-config-optimizing-preset = Optimisation des préréglages { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Le FSRS doit être préalablement activé.
 deck-config-fsrs-params-optimal = Les paramètres du FSRS semblent actuellement être optimaux.
+deck-config-fsrs-confirm-save-and-optimize = Cela sauvegardera tous les autres changements effectués. Êtes-vous sûr ?
 deck-config-fsrs-params-no-reviews = Aucune révision trouvée. Merci de vérifier que ce préréglage est assigné à tous les paquets que vous souhaitez optimiser (sous-paquets compris) et réessayez.
 deck-config-wait-for-audio = Attendre l'audio
 deck-config-show-reminder = Afficher le rappel
@@ -442,9 +447,7 @@ deck-config-save-options-to-preset-confirm = Écraser les options de votre prér
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Mémorisées
-deck-config-fsrs-simulator-radio-ratio = Ratio Temps / Cartes mémorisées
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time } par carte mémorisée
+deck-config-fsrs-simulator-radio-efficiency = Efficacité
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -465,6 +468,10 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Gestion d'Anki 2.1.41+
+deck-config-fsrs-simulator-radio-ratio = Ratio Temps / Cartes mémorisées
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } par carte mémorisée
 deck-config-unable-to-determine-desired-retention = Impossible de déterminer la rétention optimale.
 deck-config-predicted-minimum-recommended-retention = Rétention minimum recommandée: { $num }
 deck-config-compute-minimum-recommended-retention = Rétention minimum recommandée
