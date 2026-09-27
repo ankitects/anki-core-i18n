@@ -7,7 +7,7 @@ preferences-language = Langue
 preferences-interrupt-current-audio-when-answering = Interrompre l’audio en cours de lecture lors de la réponse
 preferences-learn-ahead-limit = Réviser en avance de
 preferences-mins = minute(s)
-preferences-network = Réseau
+preferences-network = Synchronisation
 preferences-next-day-starts-at = Le jour suivant démarre à
 preferences-media-is-not-backed-up = Le média n'est pas synchronisé. Veuillez créer effectuer une sauvegarde régulière de votre dossier Anki pour éviter tout problème
 preferences-on-next-sync-force-changes-in = À la prochaine synchronisation, forcer les changements dans une direction.
@@ -40,7 +40,9 @@ preferences-theme-follow-system = Suivre le système
 preferences-theme-light = Clair
 preferences-theme-dark = Sombre
 preferences-v3-scheduler = Planificateur V3
+preferences-updates = Mises à jour
 preferences-check-for-updates = Vérifier les mises à jour du programme
+preferences-check-for-addon-updates = Vérifier les mises à jour des greffons
 preferences-ignore-accents-in-search = Ignorer les accents lors de la recherche (plus lent)
 preferences-backup-explanation =
     Anki sauvegarde périodiquement votre collection. Lorsque les sauvegardes ont plus de 2 jours,
@@ -82,6 +84,7 @@ preferences-ankihub-not-logged-in = Actuellement déconnecté d'AnkiHub.
 preferences-ankiweb-intro = AnkiWeb est un service gratuit qui vous permet de synchroniser les données de vos flashcards sur tous vos appareils et de les récupérer en cas de panne ou de perte de votre appareil.
 preferences-ankihub-intro = AnkiHub permet l'édition collaborative de paquets et offre des outils d'étude supplémentaires. Un abonnement payant est nécessaire pour accéder à certaines fonctionnalités.
 preferences-third-party-description = Les services tiers ne sont pas affiliés avec ni endossés par Anki. L'utilisation de ces services peut nécessiter un paiement.
+preferences-experimental-features-tab = Expérimental
 
 ## URL scheme related
 

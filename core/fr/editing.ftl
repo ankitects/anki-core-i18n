@@ -49,6 +49,11 @@ editing-show-duplicates = Afficher les doublons
 editing-subscript = Indice
 editing-superscript = Exposant
 editing-tags = Étiquettes
+editing-tag-count =
+    { $count ->
+        [one] { $count } étiquette
+       *[other] { $count } étiquettes
+    }
 editing-tags-add = Ajouter une étiquette
 editing-tags-copy = Copier des étiquettes
 editing-tags-remove = Enlever des étiquettes
@@ -63,7 +68,7 @@ editing-expand = Étendre
 editing-collapse = Réduire
 editing-expand-field = Développer le champ
 editing-collapse-field = Réduire le champ
-editing-underline-text = Souligné
+editing-underline-text = Souligner
 editing-unordered-list = Liste non ordonnée
 editing-warning-cloze-deletions-will-not-work = Attention, le texte à trous ne fonctionnera pas tant que vous ne changez pas le type de carte en « Texte à trous » (en haut de la fenêtre).
 editing-mathjax-preview = Aperçu MathJax

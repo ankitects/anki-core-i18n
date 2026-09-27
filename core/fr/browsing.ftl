@@ -39,8 +39,24 @@ browsing-current-note-type = Type de note actuel
 browsing-delete-notes = Supprimer les notes
 browsing-duplicate = doublon
 browsing-ease = Facilité
+# Button that clears the browse search
+browsing-empty-clear-search = Effacer la recherche
+# Title when the collection has no cards
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-collection-title =
+    { $notes-mode ->
+        [yes] Pas encore de notes
+       *[other] Pas encore de cartes
+    }
+# Title when a valid search matches nothing
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-no-match-title =
+    { $notes-mode ->
+        [yes] Aucune note ne correspond
+       *[other] Aucune carte ne correspond
+    }
 browsing-enter-tags-to-add = Saisir les étiquettes à ajouter :
-browsing-enter-tags-to-delete = Supprimer via les étiquettes :
+browsing-enter-tags-to-delete = Saisir les étiquettes à supprimer :
 browsing-filtered = (filtrée)
 browsing-find = <b>Trouver</b> :
 browsing-find-and-replace = Chercher et remplacer
@@ -81,7 +97,17 @@ browsing-reposition = Repositionner...
 browsing-reposition-new-cards = Repositionner les nouvelles cartes
 browsing-reschedule = Replanifier
 browsing-search-bar-hint = Rechercher des cartes/notes (tapez du texte, puis pressez Entrée)
+browsing-search-facet-starters = Filtrer par
 browsing-search-in = Rechercher dans :
+browsing-search-quick = Filtres rapides
+browsing-search-quick-flagged = Marquée
+browsing-search-quick-leeches = Sangsues
+browsing-search-recent = Récent
+# Shown above browse results when the current search is invalid
+browsing-search-results-unchanged = Résultats inchangés tant que la recherche n'est pas valide
+browsing-search-suggestions = Suggestions
+browsing-search-syntax-mode = Mode syntaxe
+browsing-search-text-match = Chercher "{ $query }"
 browsing-search-within-formatting-slow = Rechercher avec le formatage (lent)
 browsing-select-deck = Choisir le paquet
 browsing-selected-notes-only = Uniquement les notes sélectionnées
@@ -156,6 +182,20 @@ browsing-sidebar-due-today = Dû
 browsing-sidebar-untagged = Sans étiquette
 browsing-sidebar-overdue = En retard
 browsing-row-deleted = (supprimé)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = Maintenant
+# Status chip label in browse card rows
+browsing-leech = Sangsue
+browsing-more-tags =
+    { $count ->
+        [one] 1 étiquette de plus
+       *[other] { $count } étiquettes de plus
+    }
+browsing-leech-lapses =
+    { $count ->
+        [one] Sangsue, { $count } échec
+       *[other] Sangsue, { $count } échecs
+    }
 browsing-removed-unused-tags-count =
     { $count ->
         [one] { $count } étiquette non utilisée supprimée.
