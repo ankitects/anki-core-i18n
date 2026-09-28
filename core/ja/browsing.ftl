@@ -26,7 +26,7 @@ browsing-change-note-type = ノートタイプを変更
 # Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = ノートタイプを変更...
 browsing-change-notetype = ノートタイプを変更
-browsing-clear-unused-tags = 未使用のタグを消去
+browsing-clear-unused-tags = 使用されていないタグを削除
 browsing-confirm-saved-search-overwrite = “{ $name }” という保存済み検索はすでに存在します。上書きしますか？
 browsing-created = 作成日時
 browsing-current-deck = 現在のデッキ

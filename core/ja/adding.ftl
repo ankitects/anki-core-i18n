@@ -1,5 +1,5 @@
 adding-add-shortcut-ctrlandenter = 追加 (ショートカット: Ctrl+Enter)
-adding-added = 追加済み
+adding-added = 追加しました
 adding-discard-current-input = 現在の入力内容を破棄しますか？
 adding-keep-editing = 編集を続ける
 adding-edit = “{ $val }” を編集
