@@ -40,7 +40,7 @@ deck-config-learning-steps = 習得ステップ
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = 待ち時間は通常、分 (例: `1m`) または日 (例: `2d`) で指定します。時間 (例: `1h`) と秒 (例: `30s`) も使用できます。
 deck-config-learning-steps-tooltip = 待ち時間を 1 つ以上、半角スペースで区切って指定します。新規カードで [もう一度] を選択すると最初のステップが使われます (既定では 1 分)。[正解] を選択すると次のステップへ進みます (既定では 10 分)。すべてのステップを終えると復習カードになり、後日出題されます。{ -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip = 最後の学習ステップで [正解] を選択した後、カードを次に表示するまでの日数です。
+deck-config-graduating-interval-tooltip = 最後の習得ステップで [正解] を選択した後、カードを次に表示するまでの日数です。
 deck-config-easy-interval-tooltip = [簡単] を選択して初回の学習を終えた後、カードを次に表示するまでの日数です。
 deck-config-new-insertion-order = 追加位置
 deck-config-new-insertion-order-tooltip = 新規カードを追加したときに割り当てる位置番号を指定します。位置番号が小さいカードほど先に表示されます。この設定を変更すると、既存の新規カードの位置番号も自動的に更新されます。
@@ -50,8 +50,8 @@ deck-config-new-insertion-order-random-with-v3 = V3 スケジューラーでは 
 
 ## Lapses section
 
-deck-config-relearning-steps = 再学習ステップ
-deck-config-relearning-steps-tooltip = 待ち時間を半角スペースで区切って指定します。既定では、復習カードで [もう一度] を選択すると 10 分後に再出題されます。空欄にすると、再学習のステップには移らず、復習間隔だけが変更されます。{ -deck-config-delay-hint }
+deck-config-relearning-steps = 再習得ステップ
+deck-config-relearning-steps-tooltip = 待ち時間を半角スペースで区切って指定します。既定では、復習カードで [もう一度] を選択すると 10 分後に再出題されます。空欄にすると、再習得のステップには移らず、復習間隔だけが変更されます。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip = 復習カードで [もう一度] を何回選ぶと、定着しにくいカードと判定するかを指定します。忘却を繰り返すカードは、内容を書き直す、削除する、覚えやすい手掛かりを加えるなどの見直しをおすすめします。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
@@ -64,15 +64,15 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = 関連カードの出題を分ける
 deck-config-bury-new-siblings = 関連する新規カードを同じ日に表示しない
 deck-config-bury-review-siblings = 関連する復習カードを同じ日に表示しない
-deck-config-bury-interday-learning-siblings = 日をまたぐ関連学習カードを同じ日に表示しない
+deck-config-bury-interday-learning-siblings = 関連する、日をまたぐ習得中カードを同じ日に表示しない
 deck-config-bury-new-tooltip = 同じノートから作られたほかの新規カード (表面と裏面を入れ替えたカードや、同じ文章の別の穴埋めなど) を、次の日付切り替わりまで出題しないようにします。
 deck-config-bury-review-tooltip = 同じノートから作られたほかの復習カードを、次の日付切り替わりまで出題しないようにします。
-deck-config-bury-interday-learning-tooltip = 同じノートから作られ、学習ステップが日をまたいでいるほかのカードを、次の日付切り替わりまで出題しないようにします。
+deck-config-bury-interday-learning-tooltip = 同じノートから作られ、習得ステップが日をまたいでいるほかのカードを、次の日付切り替わりまで出題しないようにします。
 deck-config-bury-priority-tooltip =
-    Anki は、当日中に再表示する学習カード、日をまたぐ学習カード、復習カード、新規カードの順に収集します。この順序は、関連カードを同じ日に表示しない処理にも影響します。
+    Anki は、当日中に再表示する習得中カード、日をまたぐ習得中カード、復習カード、新規カードの順に収集します。この順序は、関連カードを同じ日に表示しない処理にも影響します。
     
     - すべての設定を有効にすると、この順序で最も早く収集された関連カードだけが表示されます。たとえば、関連する復習カードと新規カードがある場合は、復習カードが優先されます。
-    - 後から収集される種類のカードによって、先に収集される種類のカードが除外されることはありません。たとえば、新規カードに対する設定を無効にして新規カードを学習しても、関連する日をまたぐ学習カードや復習カードは除外されず、同じ学習中に両方が表示されることがあります。
+    - 後から収集される種類のカードによって、先に収集される種類のカードが除外されることはありません。たとえば、新規カードに対する設定を無効にして新規カードを学習しても、関連する日をまたぐ習得中カードや復習カードは除外されず、同じ学習中に両方が表示されることがあります。
 
 ## Gather order and sort order of cards
 
@@ -101,8 +101,8 @@ deck-config-new-card-sort-order-tooltip-2 =
     { "[" }ランダム]: カードをランダム順に表示します。
 deck-config-new-review-priority = 新規カードと復習カードの表示順
 deck-config-new-review-priority-tooltip = 復習カードに対して新規カードをいつ表示するかを指定します。
-deck-config-interday-step-priority = 日をまたぐ学習カードと復習カードの表示順
-deck-config-interday-step-priority-tooltip = 日をまたぐ学習カードまたは再学習カードを、復習カードに対していつ表示するかを指定します。復習上限は、日をまたぐ学習カードへ先に適用され、その後に復習カードへ適用されます。この設定は収集後の表示順だけを変更し、カードの収集は常に日をまたぐ学習カードから行われます。
+deck-config-interday-step-priority = 日をまたぐ習得中カードと復習カードの表示順
+deck-config-interday-step-priority-tooltip = 日をまたぐ習得中カードまたは再習得中カードを、復習カードに対していつ表示するかを指定します。復習上限は、日をまたぐ習得中カードへ先に適用され、その後に復習カードへ適用されます。この設定は収集後の表示順だけを変更し、カードの収集は常に日をまたぐ習得中カードから行われます。
 deck-config-review-sort-order = 復習カードの表示順
 deck-config-review-sort-order-tooltip = 既定の順序では、待機期間が最も長いカードを優先します。復習がたまっている場合、長く待っているカードから表示されます。解消に数日以上かかる大量の復習がある場合や、サブデッキ順で表示したい場合は、ほかの表示順が適することがあります。
 deck-config-display-order-will-use-current-deck = Anki は、サブデッキではなく、学習対象として選択したデッキの表示順を使用します。
@@ -258,7 +258,7 @@ deck-config-reviews-too-low =
     }
 deck-config-learning-step-above-graduating-interval = 習得ステップ終了後の間隔は、最後の習得ステップ以上にすることをお勧めします。
 deck-config-good-above-easy = [簡単] の間隔は、習得ステップ後の間隔以上にすることをお勧めします。
-deck-config-relearning-steps-above-minimum-interval = 忘却後の最小間隔は、最後の再学習ステップ以上にしてください。
+deck-config-relearning-steps-above-minimum-interval = 忘却後の最小間隔は、最後の再習得ステップ以上にすることをお勧めします。
 deck-config-maximum-answer-secs-above-recommended = 1 問あたりの時間を短くすると、Anki は復習をより効率よくスケジュールできます。
 deck-config-too-short-maximum-interval = 最大間隔を 6 か月未満にすることは推奨されません。
 deck-config-ignore-before-info = 約 { $included }/{ $totalCards } 枚のカードを FSRS パラメーターの最適化に使用します。
