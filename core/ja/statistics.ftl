@@ -38,7 +38,7 @@ statistics-studied-today =
 statistics-cards = { $cards } 枚
 statistics-notes = { $notes } 件のノート
 # a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews = { $reviews } 回の復習
+statistics-reviews = { $reviews } 枚
 # This fragment of the tooltip in the FSRS simulation
 # diagram (Deck options -> FSRS) shows the total number of
 # cards that can be recalled or retrieved on a specific date.
@@ -47,12 +47,12 @@ statistics-today-title = 今日
 statistics-today-again-count = [もう一度] の回数:
 statistics-today-type-counts = 習得中: { $learnCount }、復習: { $reviewCount }、再習得中: { $relearnCount }、フィルターデッキ: { $filteredCount }
 statistics-today-no-cards = 今日はまだカードを学習していません。
-statistics-today-no-mature-cards = 今日は定着カードを学習していません。
-statistics-today-correct-mature = 定着カードの正解数: { $correct }/{ $total } ({ $percent }%)
+statistics-today-no-mature-cards = 今日は習熟期のカードを復習していません
+statistics-today-correct-mature = 習熟期の復習の正答率: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = 合計
 statistics-counts-new-cards = 新規
-statistics-counts-young-cards = 定着前
-statistics-counts-mature-cards = 定着
+statistics-counts-young-cards = 復習 [未習熟期]
+statistics-counts-mature-cards = 復習 [習熟期]
 statistics-counts-suspended-cards = 休止
 statistics-counts-buried-cards = 今日の学習から除外
 statistics-counts-filtered-cards = フィルターデッキ
@@ -85,9 +85,9 @@ statistics-true-retention-total = 全体
 statistics-true-retention-count = 回数
 statistics-true-retention-retention = 保持率
 # This will usually be the same as statistics-counts-young-cards
-statistics-true-retention-young = 定着前
+statistics-true-retention-young = 復習 [未習熟期]
 # This will usually be the same as statistics-counts-mature-cards
-statistics-true-retention-mature = 定着
+statistics-true-retention-mature = 復習 [習熟期]
 statistics-true-retention-all = すべて
 statistics-true-retention-today = 今日
 statistics-true-retention-yesterday = 昨日
@@ -187,7 +187,7 @@ statistics-hours-range = { $hourStart }:00-{ $hourEnd }:00
 statistics-hours-correct = 正解: { $correct }/{ $total } ({ $percent }%)
 statistics-hours-correct-info = → ([もう一度] 以外)
 # the emoji depicts the graph displaying this number
-statistics-hours-reviews = 📊 復習 { $reviews } 回
+statistics-hours-reviews = 📊 { $reviews }回
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 正解率 { $percent }% ({ $reviews } 回)
 statistics-hours-title = 時間帯別
@@ -232,7 +232,7 @@ statistics-amount-of-total-with-percentage = { $total } 中 { $amount } ({ $perc
 statistics-average-over-period = 期間内の平均
 statistics-reviews-per-day =
     { $count ->
-       *[other] 1 日あたり { $count } 回の復習
+       *[other] { $count } 枚 / 日
     }
 statistics-minutes-per-day =
     { $count ->
