@@ -61,9 +61,9 @@ statistics-counts-relearning-cards = 재학습 카드
 statistics-counts-title = 카드 개수
 statistics-counts-separate-suspended-buried-cards = 일시중단/미뤄진 카드 제외하기
 
-## True Retention represents your actual retention rate from past reviews, in
-## comparison to the "desired retention" parameter of FSRS, which forecasts
-## future retention. True Retention is the percentage of all reviewed cards
+## Retention represents your actual retention from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -106,7 +106,6 @@ statistics-card-ease-title = 카드 ease
 statistics-card-difficulty-title = 카드 난이도
 statistics-card-stability-title = 카드 안정성
 statistics-card-stability-subtitle = 기억 확률이 90%가 될 때까지의 지연
-statistics-average-stability = 평균 안정성
 statistics-card-retrievability-title = 카드 기억 확률
 statistics-card-ease-subtitle = ease가 낮을수록 카드가 더 자주 등장합니다.
 statistics-card-difficulty-subtitle2 = 난이도가 높을수록, 안정성이 천천히 증가합니다.
@@ -186,11 +185,13 @@ statistics-elapsed-time-years = { $amount }년
 ##
 
 statistics-average-for-days-studied = 공부기간 동안 평균
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = 전체
 statistics-days-studied = 공부기간
 statistics-average-answer-time-label = 평균 답변 시간
 statistics-average = 평균
-statistics-average-interval = 평균 복습간격
 statistics-due-tomorrow = 내일 만기
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $total }개 중 { $amount }개 ({ $percent }%)
@@ -207,8 +208,15 @@ statistics-cards-per-day =
     { $count ->
        *[other] { $count } 카드/일
     }
-statistics-average-ease = 평균 ease
 statistics-average-retrievability = 평균 카드 기억 확률
 statistics-save-pdf = PDF로 저장
 statistics-saved = 저장됨.
 statistics-stats = 통계
+statistics-title = 통계
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = 평균 안정성
+statistics-average-interval = 평균 복습간격
+statistics-average-ease = 평균 ease
