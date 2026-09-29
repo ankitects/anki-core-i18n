@@ -16,7 +16,7 @@ deck-config-new-limit-tooltip = 利用できる新規カードがある場合に
 deck-config-review-limit-tooltip = 復習できるカードがある場合に、1 日に表示する復習カードの最大数です。
 deck-config-limit-deck-v3 = サブデッキを含むデッキを学習する場合、各サブデッキの上限によって、そのデッキから収集するカードの最大数が決まります。選択したデッキの上限によって、表示するカードの合計数が決まります。
 deck-config-limit-new-bound-by-reviews = 復習上限は新規カードの上限にも影響します。たとえば復習上限が 200 で、復習待ちが 190 枚ある場合、学習を開始する新規カードは最大 10 枚です。復習上限に達すると新規カードは表示されません。
-deck-config-limit-interday-bound-by-reviews = 復習上限は、日をまたぐ学習カードにも適用されます。上限を適用するときは、日をまたぐ学習カードを先に収集し、その後に復習カードを収集します。
+deck-config-limit-interday-bound-by-reviews = 復習上限は、日をまたぐ習得中カードにも適用されます。上限を適用するときは、日をまたぐ習得中カードを先に収集し、その後に復習カードを収集します。
 deck-config-tab-description =
     - [プリセット]: このプリセットを使用するすべてのデッキに上限を適用します。
     - [このデッキ]: このデッキ専用の上限を設定します。
@@ -36,7 +36,7 @@ deck-config-today-only = 今日のみ
 
 ## New Cards section
 
-deck-config-learning-steps = 学習ステップ
+deck-config-learning-steps = 習得ステップ
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = 待ち時間は通常、分 (例: `1m`) または日 (例: `2d`) で指定します。時間 (例: `1h`) と秒 (例: `30s`) も使用できます。
 deck-config-learning-steps-tooltip = 待ち時間を 1 つ以上、半角スペースで区切って指定します。新規カードで [もう一度] を選択すると最初のステップが使われます (既定では 1 分)。[正解] を選択すると次のステップへ進みます (既定では 10 分)。すべてのステップを終えると復習カードになり、後日出題されます。{ -deck-config-delay-hint }
@@ -256,8 +256,8 @@ deck-config-reviews-too-low =
     { $cards ->
        *[other] 1 日に新規カードを { $cards } 枚追加する場合、復習上限は { $expected } 以上にすることをおすすめします。
     }
-deck-config-learning-step-above-graduating-interval = 初回学習後の間隔は、最後の学習ステップ以上にしてください。
-deck-config-good-above-easy = [簡単] の間隔は、初回学習後の間隔以上にしてください。
+deck-config-learning-step-above-graduating-interval = 習得ステップ終了後の間隔は、最後の習得ステップ以上にすることをお勧めします。
+deck-config-good-above-easy = [簡単] の間隔は、習得ステップ後の間隔以上にすることをお勧めします。
 deck-config-relearning-steps-above-minimum-interval = 忘却後の最小間隔は、最後の再学習ステップ以上にしてください。
 deck-config-maximum-answer-secs-above-recommended = 1 問あたりの時間を短くすると、Anki は復習をより効率よくスケジュールできます。
 deck-config-too-short-maximum-interval = 最大間隔を 6 か月未満にすることは推奨されません。

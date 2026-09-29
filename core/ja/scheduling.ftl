@@ -27,13 +27,13 @@ scheduling-time-span-years = { $amount } 年
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
     { $unit ->
-        [seconds] 次の学習カードは、{ $amount } 秒後に学習できるようになります。
-        [minutes] 次の学習カードは、{ $amount } 分後に学習できるようになります。
-       *[hours] 次の学習カードは、{ $amount } 時間後に学習できるようになります。
+        [seconds] { $amount }秒後に再び課題となる習得中カードがあります。
+        [minutes] { $amount }分後に再び課題となる習得中カードがあります。
+       *[hours] { $amount }時間後に再び課題となる習得中カードがあります。
     }
 scheduling-learn-remaining =
     { $remaining ->
-       *[other] 今日中にもう一度表示される学習中のカードが { $remaining } 枚あります。
+       *[other] 今日中に再び課題となる習得中カードは、今のところ全部で{ $remaining }枚です。
     }
 scheduling-congratulations-finished = お疲れさまでした。現時点でこのデッキの学習は終了です。
 scheduling-today-review-limit-reached =
@@ -75,7 +75,7 @@ scheduling-easy-bonus = [簡単] のボーナス
 scheduling-easy-interval = [簡単] の間隔
 scheduling-end = (終了)
 scheduling-general = 一般
-scheduling-graduating-interval = 初回学習後の間隔
+scheduling-graduating-interval = 習得ステップ後の間隔
 scheduling-hard-interval = [難しい] の間隔
 scheduling-ignore-answer-times-longer-than = 次の時間を超えた解答時間を無視する
 scheduling-interval-modifier = 間隔の倍率

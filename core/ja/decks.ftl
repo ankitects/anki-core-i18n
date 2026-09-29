@@ -16,7 +16,7 @@ decks-filter-2 = 絞り込み 2
 ## column names on the main "Decks" window 
 
 decks-deck = デッキ
-decks-learn-header = 学習中
+decks-learn-header = 習得中
 decks-review-header = 復習
 
 ##
