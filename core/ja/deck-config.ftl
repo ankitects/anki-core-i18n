@@ -163,8 +163,8 @@ deck-config-sort-order-retrievability-descending = 思い出せる確率が高�
 ## Timer section
 
 deck-config-timer-title = タイマー
-deck-config-maximum-answer-secs = 解答時間の上限 (秒)
-deck-config-maximum-answer-secs-tooltip = 1 回の復習で記録する最大秒数です。席を離れた場合など、解答時間がこの値を超えると、設定した上限の時間として記録されます。
+deck-config-maximum-answer-secs = 回答時間の上限 (秒)
+deck-config-maximum-answer-secs-tooltip = 1 枚のカードの学習で記録する最大秒数です。席を離れた場合など、評価を回答するまでの時間がこの時間を超えると、この時間が回答時間として記録されます。
 deck-config-show-answer-timer-tooltip = 学習画面で、各カードの学習にかかった時間を計測するタイマーを表示します。
 deck-config-stop-timer-on-answer = 解答表示時に画面上のタイマーを停止する
 deck-config-stop-timer-on-answer-tooltip = 解答を表示したときに画面上のタイマーを停止するかどうかを指定します。統計には影響しません。

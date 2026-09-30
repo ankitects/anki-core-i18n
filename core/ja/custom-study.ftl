@@ -26,7 +26,6 @@ custom-study-select = デッキから
 # As in "select {amount} cards from the deck"
 custom-study-cards-from-the-deck = 枚のカードを選ぶ
 custom-study-new-cards-only = 新規カードのみ
-custom-study-due-cards-only = 期限を迎えたカードのみ
 custom-study-all-review-cards-in-random-order = すべての復習カードをランダム順で学習
 custom-study-all-cards-in-random-order-dont = すべてのカードをランダム順で学習 (復習予定は変更しない)
 custom-study-choose-tags = タグを選択
