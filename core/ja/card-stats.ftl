@@ -1,9 +1,9 @@
 card-stats-added = 追加日時
-card-stats-first-review = 初回復習
+card-stats-first-review = 最初の学習日
 card-stats-latest-review = 最終復習
 card-stats-interval = 復習間隔
 card-stats-ease = 間隔係数
-card-stats-review-count = 復習回数
+card-stats-review-count = 学習回数
 card-stats-lapse-count = 忘却回数
 card-stats-average-time = 平均解答時間
 card-stats-total-time = 合計解答時間
