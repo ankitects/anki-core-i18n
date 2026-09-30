@@ -49,6 +49,11 @@ editing-show-duplicates = Mostra i duplicati
 editing-subscript = Pedice
 editing-superscript = Apice
 editing-tags = Etichette
+editing-tag-count =
+    { $count ->
+        [one] { $count } tag
+       *[other] { $count } tag
+    }
 editing-tags-add = Aggiungi etichetta
 editing-tags-copy = Copia etichette
 editing-tags-remove = Rimuovi etichette

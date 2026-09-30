@@ -338,7 +338,7 @@ deck-config-revert-button-tooltip = Ripristina questa impostazione al suo valore
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Gestione Anki 2.1.41+
+deck-config-description-new-handling2 = Interpreta come Markdown
 deck-config-description-new-handling-hint =
     Tratta l'input come Markdown, e cancella l'input HTML. Quando abilitato, la descrizione sarà mostrata anche sulla schermata di congratulazioni.
     Markdown apparirà come testo su versioni di Anki inferiori o uguali a 2.1.40.
@@ -371,7 +371,6 @@ deck-config-which-deck = Per quale mazzo desideri visualizzare le opzioni?
 deck-config-updating-cards = Aggiornamento delle carte in corso: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = I parametri FSRS inseriti non sono validi. Lascia il campo vuoto per usare quelli predefiniti.
 deck-config-not-enough-history = La mole della storia delle ripetizioni è insufficiente per eseguire questa operazione.
-deck-config-unable-to-determine-desired-retention = Impossibile determinare una ritenzione ottimale.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Trovata solo { $count } ripetizione. È necessario avere almeno 400 ripetizioni per questa operazione.
@@ -380,7 +379,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parametri FSRS
 deck-config-compute-optimal-weights = Ottimizza i parametri FSRS
-deck-config-compute-minimum-recommended-retention = Ritenzione minima consigliata
 deck-config-optimize-button = Ottimizza
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (lento)
@@ -393,7 +391,6 @@ deck-config-historical-retention = Ritenzione storica
 deck-config-smaller-is-better = Numeri più bassi indicano stime di memoria migliori.
 deck-config-steps-too-large-for-fsrs = Quando FSRS è abilitato, è sconsigliato usare passi di (re)apprendimento intergiornalieri (cioè ≥ 1 giorno).
 deck-config-get-params = Ottieni parametri
-deck-config-predicted-minimum-recommended-retention = Ritenzione minima consigliata: { $num }
 deck-config-complete = { $num }% completo.
 deck-config-iterations = Iterazione: { $count }...
 deck-config-reschedule-cards-on-change = Ripianifica le carte in caso di modifica
@@ -452,15 +449,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     Non è necessario ottimizzare i parametri frequentemente ma è sufficiente farlo una volta ogni qualche mese.
     
     Per impostazione predefinita, i parametri vengono calcolati in base alla cronologia delle ripetizioni di tutti i mazzi che utilizzano la preimpostazione attuale. Tuttavia è possibile decidere quali carte sono utilizzate per l'ottimizzazione agendo sul contenuto della casella di ricerca.
-deck-config-compute-optimal-retention-tooltip4 =
-    Questo strumento cerca di trovare il valore di ritenzione
-    che permette di apprendere la maggior quantità di materiale
-    nel minor tempo possibile. Il numero calcolato può essere utile come riferimento
-    per decidere a quale valore impostare la ritenzione desiderata.
-    È possibile scegliere un valore di ritenzione desiderata più alto,
-    qualora si sia disposti a passare più tempo a studiare a fronte di un tasso di ritenzione più elevato. Non è invece consigliato impostare
-    un valore di ritenzione desiderata inferiore al minimo,
-    in quanto comporta una mole di lavoro maggiore, a causa del tasso elevato di oblio (dimenticanza nel tempo).
 deck-config-please-save-your-changes-first = Per favore salva prima le modifiche.
 deck-config-workload-factor-change =
     Carico di lavoro approssimativo: { $factor }x
@@ -502,14 +490,10 @@ deck-config-smooth-graph = Grafico smussato
 deck-config-suspend-leeches = Sospendi carte sanguisuga
 deck-config-save-options-to-preset = Applica modifiche alla preimpostazione
 deck-config-save-options-to-preset-confirm = Sovrascrivere le opzioni nella preimpostazione attuale con quelle del simulatore?
-deck-config-plotted-on-x-axis = (rappresentata sull'asse x)
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Memorizzate
-deck-config-fsrs-simulator-radio-ratio = Rapporto tra durata e carte memorizzate
-# $time here is pre-formatted e.g. "10 Seconds" 
-deck-config-fsrs-simulator-ratio-tooltip = { $time } per carta memorizzata
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -532,6 +516,23 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Gestione Anki 2.1.41+
+deck-config-fsrs-simulator-radio-ratio = Rapporto tra durata e carte memorizzate
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } per carta memorizzata
+deck-config-unable-to-determine-desired-retention = Impossibile determinare una ritenzione ottimale.
+deck-config-predicted-minimum-recommended-retention = Ritenzione minima consigliata: { $num }
+deck-config-compute-minimum-recommended-retention = Ritenzione minima consigliata
+deck-config-compute-optimal-retention-tooltip4 =
+    Questo strumento cerca di trovare il valore di ritenzione
+    che permette di apprendere la maggior quantità di materiale
+    nel minor tempo possibile. Il numero calcolato può essere utile come riferimento
+    per decidere a quale valore impostare la ritenzione desiderata.
+    È possibile scegliere un valore di ritenzione desiderata più alto,
+    qualora si sia disposti a passare più tempo a studiare a fronte di un tasso di ritenzione più elevato. Non è invece consigliato impostare
+    un valore di ritenzione desiderata inferiore al minimo,
+    in quanto comporta una mole di lavoro maggiore, a causa del tasso elevato di oblio (dimenticanza nel tempo).
+deck-config-plotted-on-x-axis = (rappresentata sull'asse x)
 deck-config-a-100-day-interval =
     { $days ->
         [one] Un intervallo di 100 giorni diventerà di { $days } giorno.

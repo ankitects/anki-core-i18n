@@ -40,7 +40,9 @@ preferences-theme-follow-system = Seguire il sistema
 preferences-theme-light = Chiaro
 preferences-theme-dark = Scuro
 preferences-v3-scheduler = Pianificatore V3
+preferences-updates = Aggiornamenti
 preferences-check-for-updates = Verifica la presenza di aggiornamenti per il programma
+preferences-check-for-addon-updates = Controlla aggiornamenti add-on
 preferences-ignore-accents-in-search = Ignora accenti nelle ricerche (più lento)
 preferences-backup-explanation =
     Anki esegue periodicamente il backup della collezione. Trascorsi 2 giorni dall'ultimo backup,
@@ -82,6 +84,7 @@ preferences-ankihub-not-logged-in = Non sei connesso ad AnkiHub.
 preferences-ankiweb-intro = AnkiWeb è un servizio gratuito che ti permette di mantenere sincronizzati i dati delle flashcard su tutti i dispositivi e permette di ripristinare i dati in caso di danneggiamento o perdita del dispositivo.
 preferences-ankihub-intro = AnkiHub permette la modifica collaborativa dei mazzi e fornisce strumenti di studio aggiuntivi. Per utilizzare alcune funzionalità è necessario un abbonamento a pagamento.
 preferences-third-party-description = I servizi di terze parti non sono affiliati né sostenuti da Anki e potrebbero richiedere un pagamento per l'utilizzo.
+preferences-experimental-features-tab = Esperimenti
 
 ## URL scheme related
 
