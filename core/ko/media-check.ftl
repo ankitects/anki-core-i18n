@@ -49,7 +49,7 @@ media-check-delete-unused-complete =
     { $count ->
        *[other] { $count }개의 파일이
     } 휴지통으로 이동됨.
-media-check-trash-emptied = 이제 쓰레기통이 비었습니다.
+media-check-trash-emptied = 휴지통을 비웠습니다.
 media-check-trash-restored = 삭제 파일을 미디어 폴더로 복구함.
 
 ## Rendering LaTeX
@@ -61,7 +61,7 @@ media-check-all-latex-rendered = 모든 LaTeX가 렌더링 됨.
 media-check-delete-unused = Delete Unused
 media-check-render-latex = LaTeX 렌더링
 # button to permanently delete media files from the trash folder
-media-check-empty-trash = Empty Trash
+media-check-empty-trash = 휴지통 비우기
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = 삭제 파일 복구
 media-check-check-media-action = 미디어 검사
