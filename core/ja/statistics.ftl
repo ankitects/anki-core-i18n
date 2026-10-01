@@ -75,7 +75,7 @@ statistics-counts-separate-suspended-buried-cards = 休止中のカードと今�
 ##      window is certain sizes.
 
 statistics-true-retention-title = 保持率
-statistics-true-retention-subtitle = 復習間隔が 1 日以上のカードで、[もう一度] 以外と解答した割合です。
+statistics-true-retention-subtitle = 復習間隔が 1 日以上のカードで、[もう一度] 以外と回答した割合です。
 statistics-true-retention-tooltip = FSRS を使用している場合、実際の保持率は目標保持率に近づくと見込まれます。1 日分のデータは変動が大きいため、月単位のデータで確認することをおすすめします。
 statistics-true-retention-range = 期間
 statistics-true-retention-pass = 正解
@@ -135,9 +135,9 @@ statistics-future-due-title = 今後の復習予定
 statistics-future-due-subtitle = 今後、復習期限を迎えるカードの枚数です。
 statistics-added-title = 追加
 statistics-added-subtitle = 追加した新規カードの枚数です。
-statistics-reviews-count-subtitle = カードに解答した回数です。
-statistics-reviews-time-subtitle = 問題の解答にかかった時間です。
-statistics-answer-buttons-title = 解答ボタン
+statistics-reviews-count-subtitle = カードに回答した回数です。
+statistics-reviews-time-subtitle = カードの学習にかかった時間です。
+statistics-answer-buttons-title = 回答ボタン
 # eg Button: 4
 statistics-answer-buttons-button-number = ボタン
 # eg Times pressed: 123
@@ -217,7 +217,7 @@ statistics-average-for-days-studied = 学習した日の平均
 # total of all existing items.
 statistics-total = 合計
 statistics-days-studied = 学習日数
-statistics-average-answer-time-label = 平均解答時間
+statistics-average-answer-time-label = 平均回答時間
 statistics-average = 平均
 statistics-median-interval = 復習間隔の中央値
 statistics-due-tomorrow = 明日が復習期限

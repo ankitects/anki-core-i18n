@@ -47,7 +47,7 @@ studying-what-would-you-like-to-unbury = どのカードを今日の学習に戻
 studying-you-havent-recorded-your-voice-yet = まだ自分の声を録音していません。
 studying-card-studied-in-minute = { $minutes } 分で { $cards } 枚のカードを学習しました。
 studying-question-time-elapsed = 問題の制限時間を超えました
-studying-answer-time-elapsed = 解答の制限時間を超えました
+studying-answer-time-elapsed = 回答する時間になりました
 
 ## OBSOLETE; you do not need to translate this
 

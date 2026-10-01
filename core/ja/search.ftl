@@ -26,7 +26,7 @@ search-invalid-number = “`{ $context }`” には数値が必要ですが、�
 search-invalid-whole-number = “`{ $context }`” には整数が必要ですが、“`{ $provided }`” が指定されています。
 search-invalid-positive-whole-number = “`{ $context }`” には正の整数が必要ですが、“`{ $provided }`” が指定されています。
 search-invalid-negative-whole-number = “`{ $context }`” には 0 以下の整数が必要ですが、“`{ $provided }`” が指定されています。
-search-invalid-answer-button = “`{ $context }`” には 1 から 4 の解答ボタン番号が必要ですが、“`{ $provided }`” が指定されています。
+search-invalid-answer-button = “`{ $context }`” には 1 から 4 の回答ボタン番号が必要ですが、“`{ $provided }`” が指定されています。
 
 ## Column labels in browse screen
 
