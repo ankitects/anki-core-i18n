@@ -20,6 +20,7 @@ preferences-please-restart-anki-to-complete-language = 言語の変更を完了�
 preferences-preferences = 環境設定
 preferences-scheduling = スケジュール
 preferences-show-learning-cards-with-larger-steps = 復習より先に、間隔の長い習得中カードを表示する
+preferences-show-next-review-time-above-answer = 回答ボタンの上に次回の学習までの時間を表示する
 preferences-spacebar-rates-card = スペースキー (または Enter キー) でもカードに解答する
 preferences-show-play-buttons-on-cards-with = 音声付きカードに再生ボタンを表示する
 preferences-show-remaining-card-count = 残りのカード枚数を表示する

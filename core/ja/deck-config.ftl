@@ -198,9 +198,9 @@ deck-config-maximum-interval-tooltip = 復習カードを次に表示するま�
 deck-config-starting-ease-tooltip = 新規カードが復習段階へ移った直後の間隔係数です。既定値の 2.5 では、[正解] を選ぶと次の復習間隔が前回のおよそ 2.5 倍になります。
 deck-config-easy-bonus-tooltip = 復習カードを [簡単] と評価したとき、間隔へ追加で掛ける倍率です。
 deck-config-interval-modifier-tooltip = すべての復習間隔に掛ける倍率です。値を少し下げると全体の間隔が短くなり、上げると長くなります。変更する前にマニュアルを確認してください。
-deck-config-hard-interval-tooltip = [難しい] と解答したとき、復習間隔へ掛ける倍率です。
-deck-config-new-interval-tooltip = [もう一度] と解答したとき、復習間隔へ掛ける倍率です。
-deck-config-minimum-interval-tooltip = [もう一度] と解答した後、復習カードに設定する最小間隔です。
+deck-config-hard-interval-tooltip = [難しい] と回答したとき、復習間隔へ掛ける倍率です。
+deck-config-new-interval-tooltip = [もう一度] と回答したとき、復習間隔へ掛ける倍率です。
+deck-config-minimum-interval-tooltip = [もう一度] と回答した後、復習カードに設定する最小間隔です。
 deck-config-custom-scheduling = カスタムスケジューリング
 deck-config-custom-scheduling-tooltip = コレクション全体に適用されます。内容を十分に理解した上で使用してください。
 
@@ -316,7 +316,6 @@ deck-config-reschedule-cards-on-change-tooltip =
 deck-config-reschedule-cards-warning =
     目標保持率によっては、大量のカードが期限を迎える可能性があります。そのため、SM-2 から初めて切り替えるときは推奨しません。
     各カードに復習履歴が追加され、コレクションの容量も増えるため、必要な場合だけ使用してください。
-deck-config-ignore-before-tooltip-2 = 指定すると、その日より前に復習したカードを FSRS パラメーターの最適化から除外します。他人のスケジュール情報を読み込んだ場合や、解答ボタンの使い方を変更した場合に便利です。
 deck-config-compute-optimal-weights-tooltip2 = [現在のプリセットを最適化] を選択すると、FSRS が復習履歴を分析し、記憶の傾向と学習内容に適したパラメーターを求めます。デッキごとに感じる難しさが大きく異なる場合は、適したパラメーターも異なるため、別々のプリセットを割り当てることをおすすめします。頻繁な最適化は不要で、数か月に 1 回で十分です。
     
     既定では、現在のプリセットを使用するすべてのデッキの復習履歴から計算します。最適化の対象を変えたい場合は、計算前に検索条件を調整できます。
@@ -341,9 +340,6 @@ deck-config-fsrs-confirm-save-and-optimize = ほかの変更内容も保存さ�
 deck-config-fsrs-params-no-reviews = 復習履歴が見つかりませんでした。最適化するすべてのデッキ (サブデッキを含む) にこのプリセットが割り当てられていることを確認し、もう一度実行してください。
 deck-config-wait-for-audio = 音声の終了を待つ
 deck-config-show-reminder = リマインダーを表示
-deck-config-answer-again = [もう一度] で解答
-deck-config-answer-hard = [難しい] で解答
-deck-config-answer-good = [正解] で解答
 deck-config-days-to-simulate = シミュレーション日数
 deck-config-desired-retention-below-optimal = 目標保持率が最適値を下回っています。値を上げることをおすすめします。
 # Description of the y axis in the FSRS simulation
@@ -379,7 +375,7 @@ deck-config-fsrs-bad-fit-warning =
     FSRS で記憶の傾向を正確に予測できていません。次の点を見直してください。
     
     - 何度も忘れるカードは、休止するか内容を書き直してください。
-    - 解答ボタンは一貫した基準で選択してください。[難しい] は、不正解ではなく、思い出せた場合に使用する評価です。
+    - 回答ボタンは一貫した基準で選択してください。[難しい] は、不正解ではなく、思い出せた場合に使用する評価です。
     - 暗記する前に、内容を理解してください。
     
     これらを続けると、通常は数か月で予測精度が向上します。

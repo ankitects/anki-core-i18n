@@ -163,7 +163,7 @@ statistics-cards-due =
     { $cards ->
        *[other] 期限を迎えるカード: { $cards } 枚
     }
-statistics-backlog-checkbox = 未消化分
+statistics-backlog-checkbox = 延滞込み
 statistics-intervals-title = 復習間隔
 statistics-intervals-subtitle = 復習カードが次に表示されるまでの間隔です。
 statistics-intervals-day-range =

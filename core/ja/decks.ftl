@@ -2,7 +2,7 @@
 
 decks-limit-to = 上限
 decks-cards-selected-by = 枚、選択順
-decks-reschedule-cards-based-on-my-answers = このデッキでの解答に基づいて復習予定を組み直す
+decks-reschedule-cards-based-on-my-answers = このデッキでの回答に基づいて復習予定を組み直す
 decks-enable-second-filter = 2 つ目の絞り込みを有効にする
 decks_create_even_if_empty = 空でもこのデッキを作成/更新する
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
@@ -35,7 +35,7 @@ decks-minutes = 分
 decks-new-deck-name = 新しいデッキ名:
 decks-no-deck = (デッキなし)
 decks-please-select-something = 項目を選択してください。
-decks-repeat-failed-cards-after = [もう一度] と解答したカードの再出題間隔
+decks-repeat-failed-cards-after = [もう一度] と回答したカードの再出題間隔
 decks-study = 学習
 decks-study-deck = デッキを学習
 decks-filtered-deck-search-empty = 指定した検索に一致するカードがありません。別のフィルターデッキに入っているカードや、休止中のカードは除外されている可能性があります。
