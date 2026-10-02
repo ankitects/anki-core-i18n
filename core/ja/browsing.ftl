@@ -26,7 +26,7 @@ browsing-change-note-type = ノートタイプを変更
 # Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = ノートタイプを変更...
 browsing-change-notetype = ノートタイプを変更
-browsing-clear-unused-tags = 使用されていないタグを削除
+browsing-clear-unused-tags = 使用していないタグを削除
 browsing-confirm-saved-search-overwrite = “{ $name }” という保存済み検索はすでに存在します。上書きしますか？
 browsing-created = 作成日時
 browsing-current-deck = 現在のデッキ
@@ -181,7 +181,7 @@ browsing-more-tags = ほか { $count } 個のタグ
 browsing-leech-lapses = 定着しにくいカード (忘却 { $count } 回)
 browsing-removed-unused-tags-count =
     { $count ->
-       *[other] 未使用のタグを { $count } 個削除しました。
+       *[other] 使用していないタグを { $count } 個削除しました。
     }
 browsing-changed-new-position =
     { $count ->
