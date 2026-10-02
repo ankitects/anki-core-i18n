@@ -9,7 +9,7 @@ media-check-trash-count =
        *[other] ごみ箱: { $count } 個、{ $megs } MB
     }
 media-check-missing-count = 不足ファイル: { $count } 個
-media-check-unused-count = 未使用ファイル: { $count } 個
+media-check-unused-count = 使用されていないファイル: { $count } 個
 media-check-renamed-count = 名前を変更したファイル: { $count } 個
 media-check-oversize-count = 100 MB 超: { $count } 個
 media-check-subfolder-count = サブフォルダー: { $count } 個
@@ -32,7 +32,7 @@ media-check-renamed-file = 名前を変更: { $old } → { $new }
 media-check-oversize-file = 100 MB 超: { $filename }
 media-check-subfolder-file = フォルダー: { $filename }
 media-check-missing-file = 不足: { $filename }
-media-check-unused-file = 未使用: { $filename }
+media-check-unused-file = 使用なし: { $filename }
 
 ##
 
@@ -45,7 +45,7 @@ media-check-checked = { $count } 個を確認しました...
 
 ## Deleting unused media
 
-media-check-delete-unused-confirm = 未使用のメディアを削除しますか？
+media-check-delete-unused-confirm = どのカードにも使用されていないメディアファイルを削除します。よろしいですか？
 media-check-files-remaining = 残り { $count } 個です。
 media-check-delete-unused-complete = { $count } 個のファイルをごみ箱へ移動しました。
 media-check-trash-emptied = ごみ箱を空にしました。
@@ -57,7 +57,7 @@ media-check-all-latex-rendered = すべての LaTeX 画像を生成しました�
 
 ## Buttons
 
-media-check-delete-unused = 未使用ファイルを削除
+media-check-delete-unused = 不使用ファイルを削除
 media-check-render-latex = LaTeX を生成
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = ごみ箱を空にする
