@@ -143,7 +143,7 @@ statistics-answer-buttons-button-number = ボタン
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = 選択回数
 statistics-answer-buttons-subtitle = 各ボタンを選択した回数です。
-statistics-reviews-title = 復習
+statistics-reviews-title = 学習
 statistics-reviews-time-checkbox = 時間
 statistics-in-days-single =
     { $days ->
