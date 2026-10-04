@@ -75,11 +75,11 @@ scheduling-learn-remaining =
 scheduling-congratulations-finished = Parabéns! Remataches esta baralla por agora.
 scheduling-today-review-limit-reached =
     O límite de revisión para hoxe foi acadado, pero aínda hai cartas
-    pendentes de ser revisadas. Para unha óptima memoria, considere
+    pendentes de ser revisadas. Para unha óptima memoria, considera
     incrementar o límite diario nas opcións.
 scheduling-today-new-limit-reached =
     Hai máis tarxetas dispoñíbeis, pero xa alcanzaches o límite diario.
-    Podes incrementar o límite nas opcións, pero ten en conta: 
+    Podes incrementar o límite nas opcións, pero ten en conta que,
     cantas máis tarxetas introduzas, máis alta será a túa carga de
     traballo a curto prazo.
 scheduling-buried-cards-found = Unha ou máis tarxetas foron agochadas e amosaranse mañá. Podes { $unburyThem } se prefires repasalas agora.
