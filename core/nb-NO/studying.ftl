@@ -34,6 +34,27 @@ studying-to-review = TIl å gjennomgå
 studying-unbury = Vis frem
 studying-what-would-you-like-to-unbury = Hva ønsker du å vise frem?
 studying-you-havent-recorded-your-voice-yet = Du har ikke tatt opp din egen stemme ennå.
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one]
+                    { $cards } kort pugget på
+                    ett minutt.
+               *[other]
+                    { $cards } kort pugget på
+                    { $minutes } minutter.
+            }
+       *[other]
+            { $minutes ->
+                [one]
+                    { $cards } kort pugget på
+                    ett minutt.
+               *[other]
+                    { $cards } kort pugget på
+                    { $minutes } minutter.
+            }
+    }
 
 ## OBSOLETE; you do not need to translate this
 
