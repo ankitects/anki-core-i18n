@@ -14,7 +14,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = 複習後，卡片將自動返回原牌組。
 studying-continue = 繼續
-studying-counts-differ = 由於你啟用了推遲選項，牌組列表中的卡片數量與此處不同。部分卡片已被排除，且可能有其他卡片補上位置。
+studying-counts-differ = 由於你啟用了推遲選項，牌組清單中的卡片數量與此處不同。部分卡片已被排除，且可能有其他卡片補上位置。
 studying-delete-note = 刪除筆記
 studying-deleting-this-deck-from-the-deck = 如果在牌組清單中刪除這個牌組，剩下的所有卡片將返回原牌組。
 studying-easy = 簡單
