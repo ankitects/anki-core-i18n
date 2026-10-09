@@ -112,7 +112,7 @@ statistics-counts-separate-suspended-buried-cards = Separar tarxetas suspensas/a
 
 statistics-true-retention-title = Retención
 statistics-true-retention-subtitle = Taxa de tarxetas atinadas cun intervalo ≥ 1 día.
-statistics-true-retention-tooltip = Se estás a usar FSRS, a túa retención real debería estar próxima á retención desexada. Ten en conta que os datos dun só día poden ser ruidosos e pouco representativos, porén é mellor atender os datos mensuais.
+statistics-true-retention-tooltip = Se estás a usar FSRS, a túa retención real debería estar próxima á retención desexada. Ten en conta que os datos dun só día poden ser ruidosos e pouco representativos, polo cal é mellor atender os datos mensuais.
 statistics-true-retention-range = Intervalo
 statistics-true-retention-pass = Atinadas
 statistics-true-retention-fail = Falladas
