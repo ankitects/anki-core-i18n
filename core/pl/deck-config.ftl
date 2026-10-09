@@ -301,7 +301,7 @@ deck-config-revert-button-tooltip = Przywróć to ustawienie do domyślnej warto
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Obsługa Anki 2.1.41+
+deck-config-description-new-handling2 = Interpretuj jako Markdown
 deck-config-description-new-handling-hint =
     Traktuje dane wejściowe jako markdown i usuwa dane wejściowe HTML. Jeśli opcja jest włączona, opis będzie także wyświetlany na ekranie z gratulacjami.
     Markdown pojawia się jako tekst w wersjach Anki 2.1.40 i starszych.
@@ -482,6 +482,7 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Obsługa Anki 2.1.41+
 deck-config-fsrs-simulator-radio-ratio = Stosunek czasu do zapamiętania
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time } na jedną zapamiętaną kartę
