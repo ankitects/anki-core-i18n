@@ -49,7 +49,7 @@ decks-order-added = 追加順
 # Combobox entry: Sort the cards by the date they were added, in descending order (newest to oldest)
 decks-latest-added-first = 追加が新しい順
 # Combobox entry: Sort the cards by due date, in ascending order (oldest due date to newest)
-decks-order-due = 期限順
+decks-order-due = 期日の早い順
 # Combobox entry: Sort the cards by the number of lapses, in descending order (most lapses to least lapses)
 decks-most-lapses = 忘却回数の多い順
 # Combobox entry: Sort the cards by the interval, in ascending order (shortest to longest)
@@ -61,7 +61,7 @@ decks-oldest-seen-first = 最終表示が古い順
 # Combobox entry: Sort the cards in random order
 decks-random = ランダム
 # Combobox entry: Sort the cards by relative overdueness, in descending order (most overdue to least overdue)
-decks-relative-overdueness = 忘れている可能性が高い順
+decks-relative-overdueness = 期日超過の割合が大きい順
 
 ## These strings are no longer used - you do not need to translate them if they
 ## are not already translated.

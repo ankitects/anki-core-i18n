@@ -1,5 +1,5 @@
 # The date a card will be ready to review
-statistics-due-date = 期限 / 位置
+statistics-due-date = 期日 / 位置
 # The count of cards waiting to be reviewed
 statistics-due-count = 復習
 # Shown in the Due column of the Browse screen when the card is a new card
