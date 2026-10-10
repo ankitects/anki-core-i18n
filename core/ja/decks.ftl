@@ -1,7 +1,7 @@
 ## In the options window of a filtered deck
 
 decks-limit-to = 上限
-decks-cards-selected-by = 枚、選択順
+decks-cards-selected-by = 枚を、次の順に抜き出す:
 decks-reschedule-cards-based-on-my-answers = このデッキでの回答に基づいて復習予定を組み直す
 decks-enable-second-filter = 2 つ目の絞り込みを有効にする
 decks_create_even_if_empty = 空でもこのデッキを作成/更新する
