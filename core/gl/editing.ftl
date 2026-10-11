@@ -49,6 +49,11 @@ editing-show-duplicates = Amosar os duplicados
 editing-subscript = Subíndice
 editing-superscript = Superíndice
 editing-tags = Etiquetas
+editing-tag-count =
+    { $count ->
+        [one] { $count } etiqueta
+       *[other] { $count } etiquetas
+    }
 editing-tags-add = Engadir etiqueta
 editing-tags-copy = Copiar etiquetas
 editing-tags-remove = Eliminar etiquetas

@@ -37,6 +37,7 @@ importing-rows-had-num1d-fields-expected-num2d = «{ $row }» ten { $found } cam
 importing-selected-file-was-not-in-utf8 = O ficheiro seleccionado no está en formato UTF-8. Vexa a sección «importación» do manual.
 importing-semicolon = Punto e coma
 importing-tab = Tabulación
+importing-tag-modified-notes = Etiquetar as notas modificadas:
 importing-text-separated-by-tabs-or-semicolons = Texto separado por tabuladores ou punto e coma (*)
 importing-the-first-field-of-the-note = O primeiro campo do tipo de nota debe ser asignado a algo.
 importing-the-provided-file-is-not-a = O arquivo proporcionado non é un arquivo .apkg válido.
@@ -68,6 +69,8 @@ importing-note-updated =
         [one] { $count } nota actualizada
        *[other] { $count } notas actualizadas
     }
+importing-tag-all-notes = Etiquetar todas as notas
+importing-tag-updated-notes = Etiquetar as notas actualizadas
 importing-cards-added =
     { $count ->
         [one] Engadiuse { $count } tarxeta.
