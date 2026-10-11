@@ -129,7 +129,7 @@ scheduling-set-due-date-prompt-hint =
     3-7 = 3 日後から 7 日後までの間でランダムに選択
 scheduling-set-due-date-done =
     { $cards ->
-       *[other] { $cards } 枚のカードの復習日を設定しました。
+       *[other] { $cards } 枚のカードの復習日を指定しました。
     }
 scheduling-graded-cards-done = { $cards } 枚のカードを評価しました。
 scheduling-forgot-cards =

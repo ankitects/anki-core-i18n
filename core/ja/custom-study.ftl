@@ -16,7 +16,7 @@ custom-study-days = 日
 custom-study-review-ahead = 先取りして復習する
 custom-study-review-ahead-by = 何日先まで復習するか:
 custom-study-preview-new-cards = 新規カードをプレビューする
-custom-study-preview-new-cards-added-in-the = 新規カードをプレビューする期間 (追加からの日数):
+custom-study-preview-new-cards-added-in-the = 今日を含め何日間のうちに追加したカードをプレビューするか:
 
 ## options for the "study by card state or tag" subsection
 
