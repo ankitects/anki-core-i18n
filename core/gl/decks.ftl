@@ -39,6 +39,8 @@ decks-repeat-failed-cards-after = Repetir as tarxetas falladas despois
 decks-study = Estudar
 decks-study-deck = Estudar baralla
 decks-filtered-deck-search-empty = Non se encontraron tarxetas coincidentes coa procura. Algunhas tarxetas puideron ser excluídas por estar suspendidas ou noutra baralla filtrada.
+decks-choose-deck = Escoller baralla
+decks-target-deck-ctrlandd = Baralla de destino (Ctrl+D)
 
 ## Sort order of cards
 

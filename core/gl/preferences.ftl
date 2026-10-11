@@ -32,6 +32,7 @@ preferences-timebox-time-limit = Intervalos temporais de estudo
 preferences-user-interface-size = Tamaño da interface de usuario
 preferences-when-adding-default-to-current-deck = Ao engadir, facelo na baralla predeterminada
 preferences-you-can-restore-backups-via-fileswitch = Podes restaurar as túas copias de seguranza en Ficheiro > Cambiar perfil.
+preferences-legacy-timezone-handling = Xestión antiga dos fusos horarios (con erros, pero necesaria para o AnkiDroid 2.14 ou anterior)
 preferences-default-search-text = Texto de busca predeterminado
 preferences-default-search-text-example = por exemplo: "deck:current"
 preferences-theme = Tema
@@ -77,6 +78,7 @@ preferences-import-export = Importar/Exportar
 preferences-network-timeout = Tempo de espera da rede
 preferences-reset-window-sizes = Restabelecer o tamaño das xanelas
 preferences-reset-window-sizes-complete = Restabelecéronse os tamaños e localizacións das xanelas.
+preferences-shortcut-placeholder = Introduce un atallo de teclado que non estea en uso ou deixa o campo baleiro para desactivalo.
 preferences-third-party-services = Servizos de terceiros
 preferences-ankihub-not-logged-in = Non iniciaches sesión no AnkiHub.
 preferences-ankiweb-intro = AnkiWeb é un servizo de balde que che permite sincronizar as tarxetas entre dispositivos e recuperar os datos en situación de perda ou avaría.
@@ -88,6 +90,9 @@ preferences-experimental-features-tab = Experimentos
 
 preferences-url-schemes = Protocolos URL
 preferences-url-scheme-prompt = Protocolos de URL permitidos (separados por espazos):
+preferences-url-scheme-warning =
+    Bloqueouse un intento de abrir `{ $link }`, o que podería supoñer un problema de seguranza.
+    Se confías en quen creou a baralla e queres continuar, podes engadir `{ $scheme }` aos esquemas de URL permitidos.
 preferences-url-scheme-allow-once = Permitir esta vez
 preferences-url-scheme-always-allow = Permitir sempre
 

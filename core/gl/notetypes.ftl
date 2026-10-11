@@ -1,4 +1,6 @@
 notetypes-notetype = Tipo de nota
+notetypes-choose-note-type = Escoller o tipo de nota
+notetypes-change-note-type-ctrlandn = Cambiar o tipo de nota (Ctrl+N)
 
 ## Default field names in newly created note types
 

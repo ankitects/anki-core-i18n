@@ -6,6 +6,7 @@ exporting-cards-in-plain-text = Tarxetas en texto simple
 # used in the filename during the export of a collection package
 exporting-collection = colección
 exporting-collection-exported = Colección exportada.
+exporting-colpkg-too-new = Actualiza o Anki á versión máis recente e, deseguido, volve importar o ficheiro .colpkg/.apkg.
 exporting-couldnt-save-file = Non foi posíbel gardar o ficheiro: { $val }
 exporting-export = Exportar...
 exporting-export-format = <b>Formato de exportación</b>:
@@ -17,15 +18,27 @@ exporting-include-deck-configs = Incluír perfil de estudo da baralla
 exporting-include-tags = Incluír etiquetas
 exporting-support-older-anki-versions = Compatibilidad con versións anteriores do Anki (lento e ficheiros máis grandes)
 exporting-notes-in-plain-text = Notas en texto simple
+exporting-selected-notes = Notas seleccionadas
 exporting-card-exported =
     { $count ->
         [one] { $count } tarxeta exportada.
        *[other] { $count } tarxetas exportadas.
     }
+exporting-exported-media-file =
+    { $count ->
+        [one] Exportouse { $count } ficheiro multimedia
+       *[other] Exportáronse { $count } ficheiros multimedia
+    }
 exporting-note-exported =
     { $count ->
         [one] { $count } nota exportada.
        *[other] { $count } notas exportadas.
+    }
+exporting-exporting-file = Exportando ficheiro...
+exporting-processed-media-files =
+    { $count ->
+        [one] Procesouse { $count } ficheiro multimedia...
+       *[other] Procesáronse { $count } ficheirosmultimedia...
     }
 exporting-include-deck = Incluír nome da baralla
 exporting-include-notetype = Incluír nome do tipo de nota

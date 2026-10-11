@@ -62,7 +62,24 @@ deck-config-today-only = Só hoxe
 ## New Cards section
 
 deck-config-learning-steps = Etapas de aprendizaxe
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = As demoras adoitan indicarse en minutos (p. ex., `1m`) ou en días (p. ex., `2d`), pero tamén se admiten horas (p. ex., `1h`) e segundos (p. ex., `30s`).
+deck-config-learning-steps-tooltip =
+    Unha ou máis demoras separadas por espazos. A primeira demora úsase
+    cando premes o botón `De novo` nunha tarxeta nova e, por defecto, é de 1 minuto.
+    O botón `Ben` fai avanzar ao seguinte paso, que por defecto é de 10 minutos.
+    Unha vez superados todos os pasos, a tarxeta convértese en tarxeta de repaso
+    e aparecerá outro día. { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip =
+    O número de días que hai que esperar antes de volver a mostrar unha tarxeta despois de premer
+    o botón `Ben` no último paso de aprendizaxe.
+deck-config-easy-interval-tooltip =
+    O número de días que hai que esperar antes de volver a mostrar unha tarxeta, despois de premer
+    o botón `Doado` para eliminala inmediatamente da aprendizaxe.
 deck-config-new-insertion-order = Orde de inserción
+deck-config-new-insertion-order-tooltip =
+    Controla a posición que reciben as tarxetas novas ao engadilas. 
+    As tarxetas cunha posición máis baixa amosaranse primeiro ao estudar. Se cambias esta opción, a posición das tarxetas novas xa existentes actualizarase automaticamente.
 deck-config-new-insertion-order-sequential = Secuencial (tarxetas máis antigas primeiro)
 deck-config-new-insertion-order-random = Ao chou
 
@@ -229,12 +246,28 @@ deck-config-get-params = Obter parámetros
 deck-config-complete = { $num }% completado.
 deck-config-iterations = Iteración: { $count }...
 deck-config-reschedule-cards-on-change = Reprogramar as tarxetas tras un cambio
+deck-config-fsrs-tooltip =
+    Afecta a toda a colección.
+    O Free Spaced Repetition Scheduler (FSRS) é unha alternativa ao antigo algoritmo SuperMemo 2 (SM-2) do Anki.
+    Ao determinar con máis precisión a probabilidade de que esquezas unha tarxeta, pode axudarche a lembrar
+    máis materia no mesmo tempo. Esta opción compártese entre todos os perfís de estudo.
+deck-config-weights-tooltip2 =
+    Os parámetros do FSRS afectan á forma en que se programan as tarxetas. O Anki comezará cos parámetros
+    predeterminados. Podes usar a opción de abaixo para optimizar os parámetros e axustalos mellor ao teu
+    rendemento nas barallas que usan este perfil de estudo.
+deck-config-compute-optimal-weights-tooltip2 =
+    Ao premer o botón Optimizar, o FSRS analizará o teu historial de repasos e xerará os parámetros óptimos para a túa memoria e para o contido que estudas. Se as túas barallas varían moito en dificultade subxectiva, recoméndase asignarlles perfís de estudo diferentes, xa que os parámetros das barallas fáciles e das difíciles serán distintos.
+    Non fai falta optimizar os parámetros a miúdo: abonda con facelo unha vez cada poucos meses.
+    Por defecto, os parámetros calcularanse a partir do historial de repasos de todas as barallas que usan o perfil de estudo actual. Se queres cambiar as tarxetas que se usan para optimizar os parámetros, podes axustar a busca
+    antes de calculalos.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% de { $reviews } repaso
        *[other] { $pct }% de { $reviews } repasos
     }
 deck-config-percent-input = { $pct }%
+deck-config-optimizing-preset = Optimizando o perfil de estudo { $current_count }/{ $total_count }...
+deck-config-fsrs-params-no-reviews = Non se atopou ningún repaso. Asegúrate de que este perfil de estudo estea asignado a todas as barallas (incluídas as barallas secundarias) que queres optimizar e téntao de novo.
 deck-config-wait-for-audio = Esperar polo son
 deck-config-show-reminder = Amosar recordatorio
 deck-config-answer-again = Responder de novo
@@ -244,6 +277,7 @@ deck-config-answer-good = Responder ben
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = Simulador de FSRS (experimental)
+deck-config-fsrs-simulate-save-preset = Despois de optimizar, garda o perfil de estudo da baralla antes de executar o simulador.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Axúdame a decidir (experimental)
 deck-config-simulate = Simular
 deck-config-clear-last-simulate = Limpar última simulación
@@ -251,6 +285,7 @@ deck-config-fsrs-simulator-radio-count = Repasos
 deck-config-advanced-settings = Configuración avanzada
 deck-config-suspend-leeches = Samesugas suspensas
 deck-config-save-options-to-preset = Gardar cambios no perfil de estudo
+deck-config-save-options-to-preset-confirm = Queres sobrescribir as opcións do teu perfil de estudo actual coas que están definidas agora no simulador?
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -264,4 +299,19 @@ deck-config-fsrs-simulator-ratio-tooltip = { $time } por tarxeta memorizada
 deck-config-unable-to-determine-desired-retention = Non se puido determinar unha retención mínima recomendada.
 deck-config-predicted-minimum-recommended-retention = Retención mínima recomendada: { $num }
 deck-config-compute-minimum-recommended-retention = Retención mínima recomendada
+deck-config-health-check-tooltip2 = A comprobación do estado só se realiza ao usar «Optimizar o perfil de estudo actual».
 deck-config-predicted-optimal-retention = Retención mínima recomendada: { $num }
+deck-config-weights-tooltip =
+    Os parámetros do FSRS afectan á forma en que se programan as tarxetas. O Anki comezará cos parámetros
+    predeterminados. Cando acumules máis de 1000 repasos, poderás usar a opción de abaixo para optimizar os
+    parámetros e axustalos mellor ao teu rendemento nas barallas que usan este perfil de estudo.
+deck-config-compute-optimal-weights-tooltip =
+    Cando completes máis de 1000 repasos no Anki, poderás usar o botón Optimizar para analizar o teu historial
+    de repasos e xerar automaticamente os parámetros óptimos para a túa memoria e para o contido que estudas.
+    Se tes barallas que varían moito en dificultade, recoméndase asignarlles perfís de estudo diferentes, xa que os
+    parámetros das barallas fáciles e das difíciles serán distintos. Non fai falta optimizar os parámetros a miúdo:
+    abonda con facelo unha vez cada poucos meses.
+    Por defecto, os parámetros calcularanse a partir do historial de repasos de todas as barallas que usan o perfil de
+    estudo actual. Se queres cambiar as tarxetas que se usan para optimizar os parámetros, podes axustar a busca
+    antes de calculalos.
+deck-config-optimize-all-tip = Podes optimizar todos os perfís de estudo á vez co botón despregable que hai xunto a «Gardar».

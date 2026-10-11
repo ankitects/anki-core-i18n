@@ -30,6 +30,10 @@ importing-mapped-to-tags = asignado a <b>etiquetas</b>
 # the action of combining two existing note types to create a new one
 importing-merge-notetypes = Combinar tipos de nota
 importing-notes-added-from-file = Notas engadidas desde o ficheiro: { $val }
+importing-with-deck-configs = Importar os perfís de estudo das barallas
+importing-with-deck-configs-help =
+    Se activas esta opción, tamén se importarán as opcións de baralla que incluíse quen
+    compartiu a baralla. Se non, todas as barallas terán o perfil de estudo predeterminado.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Baralla comprimida do Anki ou colección (*.apkg *.colpkg *.zip)
 # the '|' character
 importing-pipe = Canalización
