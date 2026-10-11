@@ -16,8 +16,41 @@ deck-config-title = Opcións da baralla
 ## Daily limits section
 
 deck-config-daily-limits = Límites diarios
+deck-config-new-limit-tooltip =
+    O número máximo de tarxetas novas que se presentan nun día, se hai tarxetas novas dispoñíbeis.
+    Como o material novo aumenta a túa carga de repasos a curto prazo, normalmente debería ser
+    polo menos 10 veces menor que o teu límite de repasos.
+deck-config-review-limit-tooltip =
+    O número máximo de tarxetas de repaso que se mostran nun día,
+    se hai tarxetas listas para repasar.
+deck-config-limit-deck-v3 =
+    Ao estudar unha baralla que contén barallas secundarias, os límites definidos en cada baralla
+    secundaria controlan o número máximo de tarxetas que se toman desa baralla en concreto.
+    Os límites da baralla seleccionada controlan o total de tarxetas que se amosarán.
+deck-config-limit-new-bound-by-reviews =
+    O límite de repasos afecta ao límite de tarxetas novas. Por exemplo, se o teu
+    límite de repasos é de 200 e tes 190 repasos pendentes, introduciranse como
+    máximo 10 tarxetas novas. Se xa alcanzaches o límite de repasos, non se amosará
+    ningunha tarxeta nova.
+deck-config-limit-interday-bound-by-reviews =
+    O límite de repasos tamén afecta ás tarxetas en aprendizaxe entre días. Ao aplicar o límite,
+    tómanse primeiro as tarxetas en aprendizaxe entre días e despois as tarxetas de repaso.
+deck-config-tab-description =
+    - `Perfil de estudo`: o límite aplícase a todas as barallas que usan este perfil de estudo.
+    - `Esta baralla`: o límite é específico desta baralla.
+    - `Só hoxe`: cambia temporalmente o límite desta baralla.
 deck-config-new-cards-ignore-review-limit = As novas tarxetas ignoran o límite de repasos
+deck-config-new-cards-ignore-review-limit-tooltip =
+    Por defecto, o límite de repasos tamén se aplica ás tarxetas novas e non se amosará
+    ningunha tarxeta nova cando se alcance o límite de repasos. Se activas esta opción,
+    amosaranse tarxetas novas independentemente do límite de repasos.
 deck-config-apply-all-parent-limits = Os límites comezan coa baralla superior
+deck-config-apply-all-parent-limits-tooltip =
+    Por defecto, os límites diarios dunha baralla de nivel superior non se aplican se estudas desde unha
+    das súas barallas secundarias. Se activas esta opción, os límites aplicaranse a partir da baralla de
+    primeiro nivel, o que pode ser útil se queres estudar barallas secundarias de forma individual mentres
+    aplicas un límite total de tarxetas a toda a árbore de barallas.
+deck-config-affects-entire-collection = Afecta a toda a colección.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
