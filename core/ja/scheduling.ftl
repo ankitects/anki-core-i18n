@@ -119,7 +119,9 @@ scheduling-deck-updated =
     }
 scheduling-set-due-date-prompt =
     { $cards ->
-       *[other] 何日後に { $cards } 枚のカードを表示しますか？
+       *[other]
+            何日後にカードを表示しますか？
+            　
     }
 scheduling-set-due-date-prompt-hint =
     0 = 今日
