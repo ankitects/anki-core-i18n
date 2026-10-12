@@ -11,12 +11,12 @@ custom-study-increase-todays-review-card-limit = 今日の復習カード上限�
 custom-study-increase-todays-review-limit-by = 今日の復習上限を増やす枚数:
 custom-study-available-review-cards-2 = 学習できる復習カード: { $countString }
 custom-study-review-forgotten-cards = 忘れたカードを復習する
-custom-study-review-cards-forgotten-in-last = 忘れたカードを復習する対象期間 (過去の日数):
+custom-study-review-cards-forgotten-in-last = (今日を含め) 何日の間に [もう一度] と回答したカードを復習するか:
 custom-study-days = 日
 custom-study-review-ahead = 先取りして復習する
 custom-study-review-ahead-by = 何日先まで復習するか:
 custom-study-preview-new-cards = 新規カードをプレビューする
-custom-study-preview-new-cards-added-in-the = 今日を含め何日の間に追加したカードをプレビューするか:
+custom-study-preview-new-cards-added-in-the = (今日を含め) 何日の間に追加した新規カードをプレビューするか:
 
 ## options for the "study by card state or tag" subsection
 
