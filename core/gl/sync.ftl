@@ -19,7 +19,11 @@ sync-media-log-title = Rexistro de sincronización de multimedia
 
 ## Error messages / dialogs
 
+sync-conflict = Non se pode sincronizar máis dunha copia do Anki ao mesmo tempo. Agarda uns minutos e téntao de novo.
+sync-server-error = O AnkiWeb tivo un problema. Téntea de novo dentro duns minutos.
+sync-client-too-old = A túa versión do Anki é demasiado antiga. Actualiza á versión máis recente para continuar sincronizando.
 sync-wrong-pass = O ID de AnkiWeb ou o contrasinal son incorrectos; téntao de novo.
+sync-resync-required = Sincroniza de novo. Se esta mensaxe segue aparecendo, escribe no sitio de soporte.
 sync-must-wait-for-end = O Anki estase sincronizando neste momento. Espera a que sincronización remate e téntao de novo.
 sync-confirm-empty-download = A colección local non ten tarxetas. Queres descargalas dende o AnkiWeb?
 sync-confirm-empty-upload = A colección do AnkiWeb non ten tarxetas. Queres substituílas pola colección local?
@@ -41,10 +45,18 @@ sync-password-label = Constrasinal:
 sync-account-required =
     <h1>Requírese unha conta</h1>
     Requírese unha conta gratuíta para manter a súa colección sincronizada. <a href="{ $link }">Rexístrese</a> e introduza os seus datos embaixo.
+sync-sanity-check-failed = Usa a función «Comprobar base de datos» e volve sincronizar. Se os problemas continúan, forza unha sincronización nun só sentido na pantalla de preferencias.
+sync-clock-off = Non se puido sincronizar: o reloxo do teu dispositivo non ten a hora correcta.
+# “details” expands to a string such as “300.14 MB > 300.00 MB”
+sync-upload-too-large =
+    O ficheiro da túa colección é demasiado grande para envialo ao AnkiWeb. Podes reducir o seu tamaño eliminando as barallas que non necesites (se queres, podes exportalas antes) e usando despois «Comprobar base de datos» para compactar o ficheiro.
+    
+    { $details } (sen comprimir)
 sync-sign-in = Iniciar sesión
 sync-ankihub-dialog-heading = Iniciar sesión no AnkiHub
 sync-ankihub-username-label = Usuario ou correo electrónico:
 sync-ankihub-login-failed = Non se puido iniciar sesión no AnkiHub coas credencias fornecidas.
+sync-ankihub-addon-installation = Instalación do complemento AnkiHub
 
 ## Buttons
 
