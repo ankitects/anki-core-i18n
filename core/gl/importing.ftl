@@ -96,6 +96,12 @@ importing-update-notes-help =
     Cando actualizar unha nota existente na túa colección. Por defecto, só se fai
     se a nota importada se modificou máis recentemente.
 importing-update-notetypes = Actualizar tipos de nota
+importing-update-notetypes-help =
+    Cando actualizar un tipo de nota existente na túa colección. Por defecto, só se fai
+    se o tipo de nota importado se modificou máis recentemente. Os cambios no texto
+    e no estilo dos modelos pódense importar sempre, pero para os cambios de esquema
+    (p. ex., se cambiou o número ou a orde dos campos) tamén cómpre activar a opción
+    «{ importing-merge-notetypes }».
 importing-note-added =
     { $count ->
         [one] { $count } nota engadida
@@ -116,24 +122,134 @@ importing-note-updated =
         [one] { $count } nota actualizada
        *[other] { $count } notas actualizadas
     }
+importing-processed-media-file =
+    { $count ->
+        [one] Importouse { $count } ficheiro multimedia
+       *[other] Importáronse { $count } ficheiros multimedia
+    }
+importing-importing-file = Importando ficheiro...
+importing-extracting = Extraendo datos...
+importing-gathering = Recompilando datos...
+importing-failed-to-import-media-file = Non se puido importar o ficheiro multimedia: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+        [one] Procesouse { $count } nota...
+       *[other] Procesáronse { $count } notas...
+    }
+importing-processed-cards =
+    { $count ->
+        [one] Procesouse { $count } tarxeta...
+       *[other] Procesáronse { $count } tarxetas...
+    }
+importing-existing-notes = Notas existentes
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Duplicar
+# "Existing notes: Preserve" (verb)
+importing-preserve = Conservar
+# "Existing notes: Update" (verb)
+importing-update = Actualizar
 importing-tag-all-notes = Etiquetar todas as notas
 importing-tag-updated-notes = Etiquetar as notas actualizadas
+importing-file = Ficheiro
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Ámbito de coincidencia
+# Used with the 'match scope' option
+importing-notetype-and-deck = Tipo de nota e baralla
 importing-cards-added =
     { $count ->
         [one] Engadiuse { $count } tarxeta.
        *[other] Engadíronse { $count } tarxetas.
     }
+importing-file-empty = O ficheiro que seleccionaches está baleiro.
 importing-notes-added =
     { $count ->
         [one] Importouse { $count } nota.
        *[other] Importáronse { $count } notas.
     }
+importing-notes-updated =
+    { $count ->
+        [one] Usouse { $count } nota para actualizar as existentes.
+       *[other] Usáronse { $count } notas para actualizar as existentes.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } nota xa está na túa colección.
+       *[other] { $count } notas xa están na túa colección.
+    }
+importing-notes-failed =
+    { $count ->
+        [one] Non se puido importar { $count } nota.
+       *[other] Non se puideron importar { $count } notas.
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] Non se importou { $count } nota porque o seu tipo de nota cambiou.
+       *[other] Non se importaron { $count } notas porque o seu tipo de nota cambiou.
+    }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] Non se importou { $count } nota porque o seu tipo de nota cambiou e a opción «{ importing-merge-notetypes }» non estaba activada.
+       *[other] Non se importaron { $count } notas porque o seu tipo de nota cambiou e a opción «{ importing-merge-notetypes }» non estaba activada.
+    }
+importing-import-log = Rexistro de importación
+importing-no-notes-in-file = Non se atoparon notas no ficheiro.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] Atopouse { $notes } nota no ficheiro:
+       *[other] Atopáronse { $notes } notas no ficheiro:
+    }
+importing-show = Amosar
+importing-details = Detalles
+importing-status = Estado
 importing-duplicate-note-added = Engadiuse unha nota duplicada.
 importing-added-new-note = Engadiuse unha nota nova.
+importing-existing-note-skipped = Nota omitida porque xa hai unha copia actualizada na túa colección
+importing-note-skipped-update-due-to-notetype = Nota non actualizada porque o tipo de nota se modificou desde que a importaches por primeira vez
+importing-note-skipped-update-due-to-notetype2 = Nota non actualizada porque o tipo de nota se modificou desde que a importaches por primeira vez e a opción «{ importing-merge-notetypes }» non estaba activada
+importing-note-updated-as-file-had-newer = Nota actualizada porque o ficheiro tiña unha versión máis recente
+importing-note-skipped-due-to-missing-notetype = Nota omitida porque faltaba o seu tipo de nota
+importing-note-skipped-due-to-missing-deck = Nota omitida porque faltaba a súa baralla
+importing-note-skipped-due-to-empty-first-field = Nota omitida porque o seu primeiro campo está baleiro
+importing-field-separator-help =
+    O carácter que separa os campos no ficheiro de texto. Podes usar a vista previa
+    para comprobar se os campos están ben separados. 
+    
+    Ten en conta que, se este carácter aparece dentro dalgún campo, ese campo debe
+    ir entre comiñas segundo o estándar CSV. Os programas de follas de cálculo como
+    o LibreOffice fano automaticamente. 
+    
+    Non se pode cambiar se o ficheiro de texto obriga a usar un separador concreto
+    mediante unha cabeceira. Se o ficheiro non ten cabeceira, o Anki tentará adiviñar
+    cal é o separador.
+importing-allow-html-in-fields-help =
+    Activa esta opción se o ficheiro contén formato HTML. Por exemplo, se o ficheiro contén
+    a cadea «&lt;br&gt;», aparecerá como un salto de liña na tarxeta. En cambio, se esta opción
+    está desactivada, amosaranse literalmente os caracteres «&lt;br&gt;».
+importing-notetype-help =
+    As notas importadas terán este tipo de nota e só se actualizarán as notas existentes
+    que teñan este tipo de nota. 
+    
+    Podes escoller que campos do ficheiro corresponden a cada campo do tipo de nota
+    coa ferramenta de asociación.
+importing-deck-help = As tarxetas importadas colocaranse nesta baralla.
+importing-existing-notes-help =
+    Que facer se unha nota importada coincide cunha existente.
+    
+    - `{ importing-update }`: actualizar a nota existente.
+    - `{ importing-preserve }`: non facer nada.
+    - `{ importing-duplicate }`: crear unha nota nova.
+importing-match-scope-help =
+    Só se comprobaran duplicados entre as notas existentes co mesmo tipo de nota.
+    Ademais, pódese restrinxir ás notas que teñan tarxetas na mesma baralla.
+importing-tag-all-notes-help = Estas etiquetas engadiranse tanto ás notas novas importadas como ás actualizadas.
+importing-tag-updated-notes-help = Estas etiquetas engadiranse a todas as notas actualizadas.
+importing-overview = Resumo
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = Importando colección...
+importing-unable-to-import-filename = Non se puido importar { $filename }: tipo de ficheiro non compatíbel
+importing-notes-that-could-not-be-imported = Notas que non se puideron importar porque o tipo de nota cambiou: { $val }
 importing-added = Engadida
 importing-pauker-18-lesson-paugz = Lección Pauker 1.8 (*.pau.gz)
 importing-supermemo-xml-export-xml = Supermemo XML (*.xml)

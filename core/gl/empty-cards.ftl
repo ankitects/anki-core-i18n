@@ -1,4 +1,4 @@
-empty-cards-for-note-type = Tarxetas baleiras para { $notetype }:
+empty-cards-for-note-type = Tarxetas baleiras en { $notetype }:
 empty-cards-count-line = Hai { $empty_count } de { $existing_count } tarxetas baleiras ({ $template_names }).
 empty-cards-window-title = Tarxetas baleiras
 empty-cards-preserve-notes-checkbox = Manter notas sen tarxetas válidas
