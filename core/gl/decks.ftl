@@ -30,7 +30,7 @@ decks-delete-deck = Eliminar baralla
 # a button that links to AnkiWeb for browsing shared decks
 decks-get-shared = Obter barallas compartidas
 # import deck from file
-decks-import-file = Importar un ficheiro
+decks-import-file = Importar ficheiro
 decks-minutes = minutos
 decks-new-deck-name = Nome da nova baralla:
 decks-no-deck = [sen baralla]
