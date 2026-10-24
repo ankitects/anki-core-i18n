@@ -46,7 +46,7 @@ scheduling-buried-cards-found = 今日の学習から除外されたカードが
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = 今日の学習に戻す
-scheduling-how-to-custom-study = 通常の復習予定とは別に学習する場合は、{ $customStudy } を利用できます。
+scheduling-how-to-custom-study = 通常の予定とは別に学習する場合は、{ $customStudy } を利用できます。
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = カスタム学習
