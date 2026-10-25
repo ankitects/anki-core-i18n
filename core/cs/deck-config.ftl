@@ -334,7 +334,6 @@ deck-config-revert-button-tooltip = Obnovit toto nastavení na výchozí hodnotu
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Anki 2.1.41+ zpracování
 deck-config-description-new-handling-hint =
     Považuje vstup za markdown a čistí HTML vstup. Když je 
     povoleno, popis se také zobrazí na obrazovce gratulace.
@@ -480,6 +479,8 @@ deck-config-save-options-to-preset-confirm = Přepsat nastavení v aktuální p�
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Zapamatováno
+deck-config-fsrs-simulator-radio-efficiency = Účinnost
+deck-config-fsrs-simulator-ratio-tooltip2 = { $time } zapamatovaných karet za hodinu
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -502,6 +503,7 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = Anki 2.1.41+ zpracování
 deck-config-fsrs-simulator-radio-ratio = Poměr čas / zapamatováno
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time } na zapamatovanou kartu
