@@ -82,10 +82,29 @@ deck-config-new-insertion-order-tooltip =
     As tarxetas cunha posición máis baixa amosaranse primeiro ao estudar. Se cambias esta opción, a posición das tarxetas novas xa existentes actualizarase automaticamente.
 deck-config-new-insertion-order-sequential = Secuencial (tarxetas máis antigas primeiro)
 deck-config-new-insertion-order-random = Ao chou
+deck-config-new-insertion-order-random-with-v3 =
+    Co planificador v3 é mellor deixar isto en secuencial e axustar no seu
+    lugar a orde de recollida das tarxetas novas.
 
 ## Lapses section
 
 deck-config-relearning-steps = Etapas de reaprendizaxe
+deck-config-relearning-steps-tooltip =
+    Cero ou máis demoras, separadas por espazos. Por defecto, ao premer o
+    botón De novo nunha tarxeta de repaso, esta volverá amosarse 10
+    minutos despois. Se non se indica ningunha demora, cambiarase o
+    intervalo da tarxeta sen entrar en reaprendizaxe. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    O número de veces que hai que premer De novo nunha tarxeta de repaso
+    antes de que se marque como sambesuga. As samesugas son tarxetas
+    que consomen moito do teu tempo, e cando unha tarxeta se marca como
+    samesuga, é boa idea reescribila, eliminala ou pensar nunha regra
+    mnemotécnica que che axude a lembrala.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    Só etiquetar: engade a etiqueta ‘leech’ á nota e amosa unha xanela emerxente.
+    
+    Suspender tarxeta: ademais de etiquetar a nota, oculta a tarxeta ata que se lle retire a suspensión manualmente.
 
 ## Burying section
 
@@ -93,11 +112,42 @@ deck-config-bury-title = Agochar
 deck-config-bury-new-siblings = Agochar as tarxetas relacionadas novas
 deck-config-bury-review-siblings = Agochar as tarxetas relacionadas por repasar
 deck-config-bury-interday-learning-siblings = Agochar as tarxetas relacionadas entre días
+deck-config-bury-new-tooltip =
+    Indica se outras tarxetas novas da mesma nota (p. ex., tarxetas inversas ou aniñadas adxacentes)
+    se adiarán ata o vindeiro día.
+deck-config-bury-review-tooltip = Indica se outras tarxetas de repaso da mesma nota se adiarán ata o vindeiro día.
+deck-config-bury-interday-learning-tooltip =
+    Indica se outras tarxetas en aprendizaxe da mesma nota con intervalos > 1 día
+    se adiarán ata o vindeiro día.
+deck-config-bury-priority-tooltip =
+    Cando o Anki recolle tarxetas, primeiro recolle as tarxetas en aprendizaxe
+    dentro do día, despois as tarxetas en aprendizaxe entre días, despois as
+    tarxetas de repaso e, por último, as tarxetas novas. Isto afecta a como se
+    agochan as tarxetas:
+    
+    - Se tes activadas todas as opcións para agochar, amosarase a tarxeta
+    irmá que apareza antes nesa lista. Por exemplo, unha tarxeta de repaso
+    amosarase con preferencia a unha tarxeta nova.
+    - As tarxetas irmás que aparecen máis tarde na lista non poden agochar
+    tipos de tarxeta anteriores. Por exemplo, se desactivas a opción de
+    agochar as tarxetas novas e estudas unha tarxeta nova, esta non
+    agochará ningunha tarxeta en aprendizaxe entre días nin de repaso, e
+    poderías ver unha tarxeta irmá de repaso e outra nova na mesma sesión.
 
 ## Gather order and sort order of cards
 
 deck-config-ordering-title = Orde de visualización
 deck-config-new-gather-priority = Recompilación das tarxetas novas
+deck-config-new-gather-priority-tooltip-2 =
+    `Baralla`: recolle tarxetas de cada baralla secundaria por orde, empezando pola parte superior. As tarxetas de cada baralla secundaria recóllense por posición ascendente. Se se acada o límite diario da baralla seleccionada, a recollida pode deterse antes de comprobar todas as barallas secundarias. Esta orde é a máis rápida en coleccións grandes e permíteche priorizar as barallas secundarias que están máis preto da parte superior.
+    
+    `Posición ascendente`: recolle as tarxetas por posición ascendente (n.º de programación), que normalmente significa que primeiro van as engadidas hai máis tempo. 
+    
+    `Posición descendente`: recolle as tarxetas por posición descendente (n.º de programación), que normalmente significa que primeiro van as engadidas máis recentemente. 
+    
+    `Notas ao chou`: escolle notas ao chou e despois recolle todas as súas tarxetas.
+    
+    `Tarxetas ao chou`: recolle as tarxetas nunha orde aleatoria.
 deck-config-new-card-sort-order = Clasificación das tarxetas novas
 deck-config-new-review-priority = Orde das tarxetas novas ao repasar
 deck-config-interday-step-priority = Orde das tarxetas en aprendizaxe ao repasar
