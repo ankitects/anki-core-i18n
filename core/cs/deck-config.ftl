@@ -305,9 +305,9 @@ deck-config-easy-days-thursday = Čtvrtek
 deck-config-easy-days-friday = Pátek
 deck-config-easy-days-saturday = Sobota
 deck-config-easy-days-sunday = Neděle
-deck-config-easy-days-normal = Normální
-deck-config-easy-days-reduced = Snížené
-deck-config-easy-days-minimum = Minimální
+deck-config-easy-days-normal = Běžný
+deck-config-easy-days-reduced = Snížený
+deck-config-easy-days-minimum = Mizivý
 deck-config-easy-days-no-normal-days = Alespoň jeden den by měl být nastaven na '{ deck-config-easy-days-normal }'.
 deck-config-easy-days-change = Stávající opakování nebudou přeplánována, pokud '{ deck-config-reschedule-cards-on-change }' není povoleno v nastavení FSRS.
 
