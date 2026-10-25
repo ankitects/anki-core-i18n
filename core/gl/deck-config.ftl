@@ -91,20 +91,20 @@ deck-config-new-insertion-order-random-with-v3 =
 deck-config-relearning-steps = Etapas de reaprendizaxe
 deck-config-relearning-steps-tooltip =
     Cero ou máis demoras, separadas por espazos. Por defecto, ao premer o
-    botón De novo nunha tarxeta de repaso, esta volverá amosarse 10
+    botón `De novo` nunha tarxeta de repaso, esta volverá amosarse 10
     minutos despois. Se non se indica ningunha demora, cambiarase o
     intervalo da tarxeta sen entrar en reaprendizaxe. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    O número de veces que hai que premer De novo nunha tarxeta de repaso
+    O número de veces que hai que premer `De novo` nunha tarxeta de repaso
     antes de que se marque como sambesuga. As samesugas son tarxetas
     que consomen moito do teu tempo, e cando unha tarxeta se marca como
     samesuga, é boa idea reescribila, eliminala ou pensar nunha regra
     mnemotécnica que che axude a lembrala.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    Só etiquetar: engade a etiqueta ‘leech’ á nota e amosa unha xanela emerxente.
+    `Só etiquetar`: engade a etiqueta ‘leech’ á nota e amosa unha xanela emerxente.
     
-    Suspender tarxeta: ademais de etiquetar a nota, oculta a tarxeta ata que se lle retire a suspensión manualmente.
+    `Suspender tarxeta`: ademais de etiquetar a nota, oculta a tarxeta ata que se lle retire a suspensión manualmente.
 
 ## Burying section
 
@@ -113,11 +113,11 @@ deck-config-bury-new-siblings = Agochar as tarxetas relacionadas novas
 deck-config-bury-review-siblings = Agochar as tarxetas relacionadas por repasar
 deck-config-bury-interday-learning-siblings = Agochar as tarxetas relacionadas entre días
 deck-config-bury-new-tooltip =
-    Indica se outras tarxetas novas da mesma nota (p. ex., tarxetas inversas ou aniñadas adxacentes)
+    Indica se outras tarxetas `novas` da mesma nota (p. ex., tarxetas inversas ou aniñadas adxacentes)
     se adiarán ata o vindeiro día.
-deck-config-bury-review-tooltip = Indica se outras tarxetas de repaso da mesma nota se adiarán ata o vindeiro día.
+deck-config-bury-review-tooltip = Indica se outras tarxetas de `repaso` da mesma nota se adiarán ata o vindeiro día.
 deck-config-bury-interday-learning-tooltip =
-    Indica se outras tarxetas en aprendizaxe da mesma nota con intervalos > 1 día
+    Indica se outras tarxetas en `aprendizaxe` da mesma nota con intervalos > 1 día
     se adiarán ata o vindeiro día.
 deck-config-bury-priority-tooltip =
     Cando o Anki recolle tarxetas, primeiro recolle as tarxetas en aprendizaxe
@@ -149,9 +149,26 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `Tarxetas ao chou`: recolle as tarxetas nunha orde aleatoria.
 deck-config-new-card-sort-order = Clasificación das tarxetas novas
+deck-config-new-card-sort-order-tooltip-2 =
+    `Tipo de tarxeta, logo orde de recompilación`: amosa as tarxetas ordenadas por tipo de tarxeta. As tarxetas dun mesmo tipo amósanse na orde en que se recolleron. Se tes desactivada a opción de agochar as tarxetas irmás, isto garante que se vexan todas as tarxetas anverso→reverso antes que calquera tarxeta reverso→anverso. Isto é útil para que todas as tarxetas dunha mesma nota se amosen na mesma sesión, pero non demasiado preto unhas doutras.
+    
+    `Orde de recompilación`: amosa as tarxetas exactamente tal e como se recolleron. Se está desactivada a opción de agochar as tarxetas irmás, normalmente isto fará que todas as tarxetas dunha nota se vexan unha detrás doutra.
+    
+    `Tipo de tarxeta, logo ao chou`: amosa as tarxetas ordenadas por tipo de tarxeta. As tarxetas dun mesmo tipo amósanse nunha orde aleatoria. Esta orde é útil se non queres que as tarxetas irmás aparezan demasiado preto unhas doutras, pero queres que as tarxetas aparezan nunha orde aleatoria.
+    
+    `Nota ao chou, logo tipo de tarxeta`: escolle notas ao chou e despois amosa todas as súas tarxetas por orde.
+    
+    `Ao chou`: amosa as tarxetas nunha orde aleatoria.
 deck-config-new-review-priority = Orde das tarxetas novas ao repasar
+deck-config-new-review-priority-tooltip = Cando amosar as tarxetas novas en relación coas tarxetas de repaso.
 deck-config-interday-step-priority = Orde das tarxetas en aprendizaxe ao repasar
+deck-config-interday-step-priority-tooltip =
+    Cando amosar as tarxetas en (re)aprendizaxe que pasan dun día a outro.
+    
+    O límite de repasos aplícase sempre primeiro ás tarxetas en aprendizaxe entre días e despois ás tarxetas de repaso. Esta opción controla a orde en que se amosan as tarxetas recollidas, pero as tarxetas en aprendizaxe entre días recolleranse sempre primeiro.
 deck-config-review-sort-order = Clasificación dos repasos
+deck-config-review-sort-order-tooltip = A orde predeterminada prioriza as tarxetas que levan máis tempo esperando, de xeito que, se tes repasos acumulados, as que levan máis tempo esperando aparecerán primeiro. Se acumulaches tantos repasos que necesitarás varios días para rematalos, ou se queres ver as tarxetas na orde das barallas secundarias, quizais prefiras as ordes alternativas.
+deck-config-display-order-will-use-current-deck = O Anki usará a orde de visualización da baralla que selecciones para estudar, e non a das barallas secundarias que poida ter.
 
 ## Gather order and sort order of cards – Combobox entries
 
@@ -210,6 +227,8 @@ deck-config-sort-order-retrievability-descending = Recuperabilidade decrecente
 
 deck-config-timer-title = Temporizador
 deck-config-maximum-answer-secs = Tempo máximo de resposta en segundos
+deck-config-maximum-answer-secs-tooltip = Número máximo de segundos que se rexistran nun só repaso. Se unha resposta supera este tempo (por exemplo, porque te afastaches da pantalla), o tempo empregado rexistrarase como o límite que estableciches.
+deck-config-show-answer-timer-tooltip = Na pantalla de estudo, amosa un temporizador que conta o tempo que tardas en estudar cada tarxeta.
 deck-config-stop-timer-on-answer = Deter o temporizador ao responder
 
 ## Auto Advance section
