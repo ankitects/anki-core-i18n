@@ -359,11 +359,8 @@ deck-config-reschedule-cards-on-change = Replanifier les cartes lors d'un change
 deck-config-fsrs-tooltip =
     Affecte toute la collection.
     
-    Le programmateur FSRS (Free Spaced Repetition Scheduler en anglais) est une alternative à l'ancien programmateur SuperMemo 2 (SM 2) d'Anki.
-    En déterminant déterminant plus précisément quand vous êtes susceptible d'oublier, il peut vous aider à vous souvenir de plus de choses sur une même période de temps. Ce paramètre est partagé par tous les préréglages de paquets.
-    
-    Si vous avez déjà utilisé la version "planification personnalisée" du FSRS, veuillez faire en sorte
-    d'effacer toute saisie dans cette section avant d'activer cette option.
+    Le programmateur FSRS (Free Spaced Repetition Scheduler en anglais) est une alternative à l'ancien programmateur SuperMemo 2 (SM-2) d'Anki.
+    En déterminant plus précisément quand vous êtes susceptible d'oublier, il peut vous aider à vous souvenir de plus de choses sur une même période de temps. Ce paramètre est partagé par tous les préréglages de paquets.
 deck-config-desired-retention-tooltip =
     La valeur par défaut de 0,9 planifie les cartes de manière à ce que vous ayez 90 % de chances de vous en souvenir lorsqu'elles apparaîtront de nouveau.
     Si vous augmentez cette valeur, Anki affichera les cartes plus fréquemment afin d'augmenter les chances que vous vous en souveniez. Si vous diminuez cette valeur, Anki montrera les cartes moins fréquemment, et vous en oublierez davantage. 
