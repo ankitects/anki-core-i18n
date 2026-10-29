@@ -6,7 +6,7 @@
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks = { $decks } 個のデッキで使用
-deck-config-default-name = 既定
+deck-config-default-name = デフォルト
 deck-config-title = デッキオプション
 
 ## Daily limits section

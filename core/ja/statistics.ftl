@@ -3,7 +3,7 @@ statistics-due-date = 期日 / 位置
 # The count of cards waiting to be reviewed
 statistics-due-count = 復習
 # Shown in the Due column of the Browse screen when the card is a new card
-statistics-due-for-new-card = 新規 (位置 { $number })
+statistics-due-for-new-card = 新規 [位置 { $number }]
 
 ## eg 16.8s (3.6 cards/minute)
 
