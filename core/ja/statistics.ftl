@@ -25,12 +25,12 @@ statistics-in-time-span-years = { $amount } 年間で
 # version unmodified.
 statistics-studied-today =
     { $unit ->
-        [seconds] 今日は { statistics-in-time-span-seconds } { statistics-cards }のカードを学習しました (1 枚あたり { $secs-per-card } 秒)。
-        [minutes] 今日は { statistics-in-time-span-minutes } { statistics-cards }のカードを学習しました (1 枚あたり { $secs-per-card } 秒)。
-        [hours] 今日は { statistics-in-time-span-hours } { statistics-cards }のカードを学習しました (1 枚あたり { $secs-per-card } 秒)。
-        [days] 今日は { statistics-in-time-span-days } { statistics-cards }のカードを学習しました (1 枚あたり { $secs-per-card } 秒)。
-        [months] 今日は { statistics-in-time-span-months } { statistics-cards }のカードを学習しました (1 枚あたり { $secs-per-card } 秒)。
-       *[years] 今日は { statistics-in-time-span-years } { statistics-cards }のカードを学習しました (1 枚あたり { $secs-per-card } 秒)。
+        [seconds] 今日は { statistics-cards }のカードを { statistics-in-time-span-seconds }で学習しています ( { $secs-per-card } 秒 / 枚 )
+        [minutes] 今日は { statistics-cards }のカードを { statistics-in-time-span-minutes }で学習しています ( { $secs-per-card } 秒 / 枚 )
+        [hours] 今日は { statistics-cards }のカードを { statistics-in-time-span-hours }で学習しています ( { $secs-per-card } 秒 / 枚 )
+        [days] 今日は { statistics-cards }のカードを { statistics-in-time-span-days }で学習しています ( { $secs-per-card } 秒 / 枚 )
+        [months] 今日は { statistics-cards }のカードを { statistics-in-time-span-months }で学習しています ( { $secs-per-card } 秒 / 枚 )
+       *[years] 今日は { statistics-cards }のカードを { statistics-in-time-span-years }で学習しています ( { $secs-per-card } 秒 / 枚 )
     }
 
 ##
