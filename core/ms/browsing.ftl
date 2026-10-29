@@ -33,6 +33,13 @@ browsing-current-note-type = Jenis nota kini:
 browsing-delete-notes = Padam Nota
 browsing-duplicate = pendua
 browsing-ease = Longgaran
+# Title when the collection has no cards
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-collection-title =
+    { $notes-mode ->
+        [yes] Belum ada nota
+       *[other] Belum ada kad
+    }
 browsing-enter-tags-to-add = Masukkan tag untuk tambah:
 browsing-enter-tags-to-delete = Masukkan tag untuk padam:
 browsing-filtered = (ditapis)
@@ -77,6 +84,7 @@ browsing-reschedule = Jadual Semula
 browsing-search-bar-hint = Cari kad/nota (taip teks, kemudian tekan Enter)
 browsing-search-in = Cari dalam:
 browsing-search-within-formatting-slow = Cari dalam format (lambat)
+browsing-select-deck = Pilih Dek
 browsing-selected-notes-only = Nota pilihan sahaja
 browsing-shift-position-of-existing-cards = Anjak posisi kad sedia ada
 browsing-sidebar = Bar sisi
