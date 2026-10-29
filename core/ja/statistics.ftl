@@ -13,8 +13,8 @@ statistics-average-answer-time = { $average-seconds } 秒 ({ statistics-cards-pe
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
 
-statistics-in-time-span-seconds = { $amount } 秒間で
-statistics-in-time-span-minutes = { $amount } 分間で
+statistics-in-time-span-seconds = { $amount } 秒で
+statistics-in-time-span-minutes = { $amount } 分で
 statistics-in-time-span-hours = { $amount } 時間で
 statistics-in-time-span-days = { $amount } 日間で
 statistics-in-time-span-months = { $amount } か月間で
@@ -25,12 +25,12 @@ statistics-in-time-span-years = { $amount } 年間で
 # version unmodified.
 statistics-studied-today =
     { $unit ->
-        [seconds] 今日は { statistics-cards }のカードを { statistics-in-time-span-seconds }で学習しています ( { $secs-per-card } 秒 / 枚 )
-        [minutes] 今日は { statistics-cards }のカードを { statistics-in-time-span-minutes }で学習しています ( { $secs-per-card } 秒 / 枚 )
-        [hours] 今日は { statistics-cards }のカードを { statistics-in-time-span-hours }で学習しています ( { $secs-per-card } 秒 / 枚 )
-        [days] 今日は { statistics-cards }のカードを { statistics-in-time-span-days }で学習しています ( { $secs-per-card } 秒 / 枚 )
-        [months] 今日は { statistics-cards }のカードを { statistics-in-time-span-months }で学習しています ( { $secs-per-card } 秒 / 枚 )
-       *[years] 今日は { statistics-cards }のカードを { statistics-in-time-span-years }で学習しています ( { $secs-per-card } 秒 / 枚 )
+        [seconds] 今日は { statistics-cards }のカードを { statistics-in-time-span-seconds }学習しています ( { $secs-per-card } 秒 / 枚 )
+        [minutes] 今日は { statistics-cards }のカードを { statistics-in-time-span-minutes }学習しています ( { $secs-per-card } 秒 / 枚 )
+        [hours] 今日は { statistics-cards }のカードを { statistics-in-time-span-hours }学習しています ( { $secs-per-card } 秒 / 枚 )
+        [days] 今日は { statistics-cards }のカードを { statistics-in-time-span-days }学習しています ( { $secs-per-card } 秒 / 枚 )
+        [months] 今日は { statistics-cards }のカードを { statistics-in-time-span-months }学習しています ( { $secs-per-card } 秒 / 枚 )
+       *[years] 今日は { statistics-cards }のカードを { statistics-in-time-span-years }学習しています ( { $secs-per-card } 秒 / 枚 )
     }
 
 ##
