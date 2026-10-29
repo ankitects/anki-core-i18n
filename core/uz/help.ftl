@@ -4,15 +4,15 @@
 ## Header/footer
 
 # Link to more detailed information in the manual
-help-for-more-info = Batafsil maʼlumot uchun qoʻllanmada { $link }ni koʻring.
+help-for-more-info = Batafsil maʼlumot uçun qöllanmada { $link }ni köring.
 # Tooltip for links to the manual
-help-open-manual-chapter = Qoʻllanmada { $name }ni ochish
+help-open-manual-chapter = Qöllanmada { $name }ni oçiş
 help-ok = OK
 
 ## Body
 
 # Newly introduced settings may not have an explanation yet
 help-no-explanation =
-    Voy! Hozircha bu sozlama uchun tushuntirish yoʻq koʻrinadi.
-    
-    Siz bizga { $link } orqali ushbu yordam sahifasini toʻldirishda yordam bera olasiz.
+    Voy! Hozirça bu sozlama uçun tuşuntiriş yöq körinadi.
+
+    Siz bizga { $link } orqali uşbu yordam sahifasini töldirişda yordam bera olasiz.

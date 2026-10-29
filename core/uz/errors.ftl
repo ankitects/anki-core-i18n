@@ -1,14 +1,14 @@
-errors-parse-number-fail = Son yaroqsiz yoki diapazondan tashqarida.
-errors-filtered-parent-deck = Filtrlangan dasta ostdastalarga ega boʻlishi mumkin emas.
-errors-filtered-deck-required = Bu amalni faqat filtrlangan dastalarda ishlatish mumkin.
-errors-100-tags-max = Koʻpi bilan 100 ta tegni tanlash mumkin. Siz istamagan teglar oʻrniga istalgan teglarni belgilashingiz odatda ancha osonroq va agar usttegni tanlasangiz, ostteglarni tanlashning hojati yoʻq.
+errors-parse-number-fail = Son yaroqsiz yoki diapazondan taşqarida.
+errors-filtered-parent-deck = Filtrlangan dasta ostdastalarga ega bölişi mumkin emas.
+errors-filtered-deck-required = Bu amalni faqat filtrlangan dastalarda işlatiş mumkin.
+errors-100-tags-max = Köpi bilan 100 ta tegni tanlaş mumkin. Siz istamagan teglar örniga istalgan teglarni belgilaşingiz odatda ança osonroq va agar usttegni tanlasangiz, ostteglarni tanlaşning hojati yöq.
 errors-multiple-notetypes-selected = Faqat bitta turdagi qaydlarni tanlang.
-errors-please-check-database = Maʼlumotlar bazasini tekshirish amalini ishlatgandan soʻng qayta urinib koʻring.
-errors-please-check-media = Media fayllarni tekshirish amalini ishlatgandan soʻng qayta urinib koʻring.
-errors-collection-too-new = Bu kolleksiyani ochish uchun Ankiʼni yangiroq versiyasi talab qilinadi.
-errors-invalid-ids = Ushbu dastada kelajakdagi vaqt belgilari mavjud. Dasta muallifi bilan bogʻlaning va muammoni hal qilishlarini soʻrang.
-errors-inconsistent-db-state = Maʼlumotlar bazasi mos kelmaydigan holatda. Maʼlumotlar bazasini tekshirish amalini ishlating.
-errors-no-updates-available = Yangilanishlar yoʻq.
+errors-please-check-database = Maʼlumotlar bazasini tekşiriş amalini işlatgandan söng qayta urinib köring.
+errors-please-check-media = Media fayllarni tekşiriş amalini işlatgandan söng qayta urinib köring.
+errors-collection-too-new = Bu kolleksiyani oçiş uçun Ankiʼni yangiroq versiyasi talab qilinadi.
+errors-invalid-ids = Uşbu dastada kelajakdagi vaqt belgilari mavjud. Dasta muallifi bilan boğlaning va muammoni hal qilişlarini sörang.
+errors-inconsistent-db-state = Maʼlumotlar bazasi mos kelmaydigan holatda. Maʼlumotlar bazasini tekşiriş amalini işlating.
+errors-no-updates-available = Yangilanişlar yöq.
 
 ## Card Rendering
 
