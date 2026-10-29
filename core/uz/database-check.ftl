@@ -1,5 +1,5 @@
 database-check-corrupt = Kolleksiya fayli buzilgan. Avtomatik zaxiradan qayta tiklang.
-database-check-rebuilt = Maʼlumotlar bazasi qayta qurildi va optimallashtirildi.
+database-check-rebuilt = Maʼlumotlar bazasi qayta qurildi va optimallaştirildi.
 database-check-card-properties =
     { $count ->
         [one] { $count } ta yaroqsiz karta xususiyatlari tuzatildi.
@@ -7,43 +7,43 @@ database-check-card-properties =
     }
 database-check-card-last-review-time-empty =
     { $count ->
-        [one] { $count } ta kartaga oxirgi takrorlash vaqti  qoʻshildi.
-       *[other] { $count } ta kartaga oxirgi takrorlash vaqti  qoʻshildi.
+        [one] { $count } ta kartaga oxirgi takrorlaş vaqti  qöşildi.
+       *[other] { $count } ta kartaga oxirgi takrorlaş vaqti  qöşildi.
     }
 database-check-missing-templates =
     { $count ->
-        [one] Shabloni yoʻq { $count } ta karta oʻchirildi.
-       *[other] Shabloni yoʻq { $count } ta karta oʻchirildi.
+        [one] Şabloni yöq { $count } ta karta öçirildi.
+       *[other] Şabloni yöq { $count } ta karta öşirildi.
     }
 database-check-field-count =
     { $count ->
-        [one] Notoʻgʻri maydonlar soniga ega { $count } ta qayd tuzatildi.
-       *[other] Notoʻgʻri maydonlar soniga ega { $count } ta qayd tuzatildi.
+        [one] Notöğri maydonlar soniga ega { $count } ta qayd tuzatildi.
+       *[other] Notöğri maydonlar soniga ega { $count } ta qayd tuzatildi.
     }
 database-check-new-card-high-due =
     { $count ->
-        [one] Muddati >= 1,000,000 boʻlgan { $count } ta yangi karta topildi. Ularni oʻrnilarini koʻrib chiqish oynasida oʻzgartirganiz maʼqul.
+        [one] Muddati >= 1,000,000 bölgan { $count } ta yangi karta topildi. Ularni örnilarini körib çiqiş oynasida özgartirganiz maʼqul.
        *[other] { "" }
     }
 database-check-card-missing-note =
     { $count ->
-        [one] { $count } ta qaydsiz karta oʻchirildi.
-       *[other] { $count } ta qaydsiz karta oʻchirildi.
+        [one] { $count } ta qaydsiz karta öçirildi.
+       *[other] { $count } ta qaydsiz karta öçirildi.
     }
 database-check-duplicate-card-ords =
     { $count ->
-        [one] Shabloni takrorlangan { $count } ta karta oʻchirildi.
-       *[other] Shabloni takrorlangan { $count } ta karta oʻchirildi.
+        [one] Şabloni takrorlangan { $count } ta karta öçirildi.
+       *[other] Şabloni takrorlangan { $count } ta karta öçirildi.
     }
 database-check-missing-decks =
     { $count ->
-        [one] { $count } ta yoʻq dasta tuzatildi.
-       *[other] { $count } ta yoʻq dasta tuzatildi.
+        [one] { $count } ta yöq dasta tuzatildi.
+       *[other] { $count } ta yöq dasta tuzatildi.
     }
 database-check-revlog-properties =
     { $count ->
-        [one] Xususiyatli yaroqsiz { $count } ta takrorlash yozuvlari tuzatildi.
-       *[other] Xususiyatli yaroqsiz { $count } ta takrorlash yozuvlari tuzatildi.
+        [one] Xususiyatli yaroqsiz { $count } ta takrorlaş yozuvlari tuzatildi.
+       *[other] Xususiyatli yaroqsiz { $count } ta takrorlaş yozuvlari tuzatildi.
     }
 database-check-notes-with-invalid-utf8 =
     { $count ->
@@ -52,17 +52,17 @@ database-check-notes-with-invalid-utf8 =
     }
 database-check-fixed-invalid-ids =
     { $count ->
-        [one] Vaqti belgisi kelajakda boʻlgan  { $count } ta obyekt tuzatildi.
-       *[other] Vaqti belgisi kelajakda boʻlgan  { $count } ta obyekt tuzatildi.
+        [one] Vaqti belgisi kelajakda bölgan  { $count } ta obyekt tuzatildi.
+       *[other] Vaqti belgisi kelajakda bölgan  { $count } ta obyekt tuzatildi.
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = Bir yoki bir nechta qayd turlari yoʻq. Ulardan foydalangan qaydlarga "db-check" bilan boshlangan yangi qayd turlari berildi, ammo maydon nomlari va kartalar tuzilishi yoʻqolgan, shuning uchun avtomatik zaxiradan qayta tiklaganingiz maʼqul.
+database-check-notetypes-recovered = Bir yoki bir neçta qayd turlari yöq. Ulardan foydalangan qaydlarga "db-çeck" bilan boşlangan yangi qayd turlari berildi, ammo maydon nomlari va kartalar tuzilişi yöqolgan, şuning uçun avtomatik zaxiradan qayta tiklaganingiz maʼqul.
 
 ## Progress info
 
-database-check-checking-integrity = Kolleksiya tekshirilmoqda...
+database-check-checking-integrity = Kolleksiya tekşirilmoqda...
 database-check-rebuilding = Qayta qurilmoqda...
-database-check-checking-cards = Kartalar tekshirilmoqda...
-database-check-checking-notes = Qaydlar tekshirilmoqda...
-database-check-checking-history = Tarix tekshirilmoqda...
-database-check-title = Maʼlumotlar bazasini tekshirish
+database-check-checking-cards = Kartalar tekşirilmoqda...
+database-check-checking-notes = Qaydlar tekşirilmoqda...
+database-check-checking-history = Tarix tekşirilmoqda...
+database-check-title = Maʼlumotlar bazasini tekşiriş

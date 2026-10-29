@@ -1,98 +1,98 @@
-preferences-automatically-sync-on-profile-openclose = Profilni ochilganda/yopilganda avtomatik sinxronlash
+preferences-automatically-sync-on-profile-openclose = Profilni oçilganda/yopilganda avtomatik sinxronlaş
 preferences-backups = Zaxiralar
-preferences-change-deck-depending-on-note-type = Qayd turiga qarab dastani oʻzgartirish
-preferences-changes-will-take-effect-when-you = Oʻzgarishlar Ankiʼni qayta ishga tushirganizdan keyin kuchga kiradi.
-preferences-hours-past-midnight = soat (kechasi)
+preferences-change-deck-depending-on-note-type = Qayd turiga qarab dastani özgartiriş
+preferences-changes-will-take-effect-when-you = Özgarişlar Ankiʼni qayta işga tuşirganizdan keyin kuçga kiradi.
+preferences-hours-past-midnight = soat (keçasi)
 preferences-language = Til
-preferences-interrupt-current-audio-when-answering = Javob berayotganda joriy audioni toʻxtatish
-preferences-learn-ahead-limit = Oldindan oʻrganish limiti
+preferences-interrupt-current-audio-when-answering = Javob berayotganda joriy audioni töxtatiş
+preferences-learn-ahead-limit = Oldindan örganiş limiti
 preferences-mins = daqiqa
 preferences-network = Sinxronizatsiya
-preferences-next-day-starts-at = Keyingi kunning boshlanishini
-preferences-media-is-not-backed-up = Media fayllar zaxiralanmagan. Xavfsiz boʻlish uchun Anki jildingizning vaqti-vaqti bilan zaxiralang.
-preferences-on-next-sync-force-changes-in = Keyingi sinxronlashda, oʻzgarishlarni bir tomonlama majburiy sinxronlash
-preferences-paste-clipboard-images-as-png = Buferdagi rasmlarni PNG sifatida qoʻyish
-preferences-paste-without-shift-key-strips-formatting = Shift tugmasisiz qoʻyish matn formatlashini olib tashlaydi
-preferences-generate-latex-images-automatically = LaTeX rasmlarini hosil qilish (xavfsizlik xatari bor)
-preferences-latex-generation-disabled = LaTeX rasmlarini hosil qilish sozlamalarda oʻchirilgan
-preferences-periodically-sync-media = Media fayllarni vaqti-vaqti bilan sinxronlash
-preferences-please-restart-anki-to-complete-language = Til oʻzgarishini yakunlash uchun Ankiʼni qayta ishga tushiring.
+preferences-next-day-starts-at = Keyingi kunning boşlanişini
+preferences-media-is-not-backed-up = Media fayllar zaxiralanmagan. Xavfsiz böliş uçun Anki jildingizning vaqti-vaqti bilan zaxiralang.
+preferences-on-next-sync-force-changes-in = Keyingi sinxronlaşda, özgarişlarni bir tomonlama majburiy sinxronlaş
+preferences-paste-clipboard-images-as-png = Buferdagi rasmlarni PNG sifatida qöyiş
+preferences-paste-without-shift-key-strips-formatting = Şift tugmasisiz qöyiş matn formatlaşini olib taşlaydi
+preferences-generate-latex-images-automatically = LaTeX rasmlarini hosil qiliş (xavfsizlik xatari bor)
+preferences-latex-generation-disabled = LaTeX rasmlarini hosil qiliş sozlamalarda öçirilgan
+preferences-periodically-sync-media = Media fayllarni vaqti-vaqti bilan sinxronlaş
+preferences-please-restart-anki-to-complete-language = Til özgarişini yakunlaş uçun Ankiʼni qayta işga tuşiring.
 preferences-preferences = Sozlamalar
-preferences-scheduling = Rejalashtirish
-preferences-show-learning-cards-with-larger-steps = Takrorlashdan oldin bosqichi katta boʻlgan kartalarni koʻrsatich
-preferences-show-next-review-time-above-answer = Keyingi takrorlash vaqtini javob tugmalari ustida koʻrsatish
-preferences-spacebar-rates-card = Boʻshliq tugmasi (yoki enter) kartaga javob beradi
-preferences-show-play-buttons-on-cards-with = Audio bor kartalarda ijro tugmalarini koʻrsatish
-preferences-show-remaining-card-count = Qolgan kartalar sonini koʻrsatish
-preferences-some-settings-will-take-effect-after = Baʼzi sozlamalar Ankiʼni qayta ishga tushirganizda kuchga kiradi.
+preferences-scheduling = Rejalaştiriş
+preferences-show-learning-cards-with-larger-steps = Takrorlaşdan oldin bosqiçi katta bölgan kartalarni körsatiç
+preferences-show-next-review-time-above-answer = Keyingi takrorlaş vaqtini javob tugmalari ustida körsatiş
+preferences-spacebar-rates-card = Böşliq tugmasi (yoki enter) kartaga javob beradi
+preferences-show-play-buttons-on-cards-with = Audio bor kartalarda ijro tugmalarini körsatiş
+preferences-show-remaining-card-count = Qolgan kartalar sonini körsatiş
+preferences-some-settings-will-take-effect-after = Baʼzi sozlamalar Ankiʼni qayta işga tuşirganizda kuçga kiradi.
 preferences-tab-synchronisation = Sinxronizatsiya
-preferences-synchronize-audio-and-images-too = Audio va rasmlarni ham sinxronlash
+preferences-synchronize-audio-and-images-too = Audio va rasmlarni ham sinxronlaş
 preferences-login-successful-sync-now = Tizimga kirildi. Sozlamalarni saqlab sinxronlansinmi?
 preferences-timebox-time-limit = Vaqt limiti
-preferences-user-interface-size = Foydalanuvchi interfeysi oʻlchami
-preferences-when-adding-default-to-current-deck = Birlamchi sifatida joriy dastaga qoʻshish
-preferences-you-can-restore-backups-via-fileswitch = Zaxira nusxalarini Fayl > Profilni almashtirish orqali tiklashingiz mumkin.
-preferences-legacy-timezone-handling = Eski vaqt mintaqasini boshqarish funksiyasi (xatoliklar boʻlishi mumkin, ammo AnkiDroid { "<=" } 2.14 uchun zarur)
-preferences-default-search-text = Birlamchi qidiruv matni
+preferences-user-interface-size = Foydalanuvçi interfeysi ölçami
+preferences-when-adding-default-to-current-deck = Birlamçi sifatida joriy dastaga qöşiş
+preferences-you-can-restore-backups-via-fileswitch = Zaxira nusxalarini Fayl > Profilni almaştiriş orqali tiklaşingiz mumkin.
+preferences-legacy-timezone-handling = Eski vaqt mintaqasini boşqariş funksiyasi (xatoliklar bölişi mumkin, ammo AnkiDroid { "<=" } 2.14 uçun zarur)
+preferences-default-search-text = Birlamçi qidiruv matni
 preferences-default-search-text-example = masalan 'deck:current '
 preferences-theme = Tema
-preferences-theme-follow-system = Tizimga rioya qilish
-preferences-theme-light = Yorugʻ
-preferences-theme-dark = Qorongʻu
-preferences-v3-scheduler = V3 rejalashtiruvchi
-preferences-check-for-updates = Dastur yangilanishlarini tekshirish
-preferences-ignore-accents-in-search = Qidiruvda diakritik belgilarni inobatga olmaslik (sekin ishlaydi)
+preferences-theme-follow-system = Tizimga rioya qiliş
+preferences-theme-light = Yoruğ
+preferences-theme-dark = Qoronğu
+preferences-v3-scheduler = V3 rejalaştiruvçi
+preferences-check-for-updates = Dastur yangilanişlarini tekşiriş
+preferences-ignore-accents-in-search = Qidiruvda diakritik belgilarni inobatga olmaslik (sekin işlaydi)
 preferences-backup-explanation =
     Anki vaqti-vaqti bilan kolleksiyangizni zaxiralab turadi. Zaxira nusxalari 2 kundan ortiq turgandan keyin,
-    Anki diskda boʻsh joy yaratish uchun ularni baʼzilarini oʻchirib tashlaydi.
-preferences-daily-backups = Saqlash uchun kunlik zaxira nusxalar soni:
-preferences-weekly-backups = Saqlash uchun haftalik zaxira nusxalar soni:
-preferences-monthly-backups = Saqlash uchun oylik zaxira nusxalar soni:
-preferences-minutes-between-backups = Avtomatik zaxiralash orasidagi vaqt (daqiqalarda):
-preferences-reduce-motion = Animatsiyalarni kamaytirish
-preferences-reduce-motion-tooltip = Foydalanuvchi interfeysining turli xil animatsiyalari va oʻtishlarini oʻchirib qoʻyish
-preferences-custom-sync-url = Oʻz sinxronlash serveri
-preferences-custom-sync-url-disclaimer = Ilgʻor foydalanuvchilar uchun - qoʻllanmaga qarang.
-preferences-hide-top-bar-during-review = Takrorlash paytida yuqoridagi panelni yashirish
-preferences-hide-bottom-bar-during-review = Takrorlash paytida pastdagi panelni yashirish
+    Anki diskda böş joy yaratiş uçun ularni baʼzilarini öçirib taşlaydi.
+preferences-daily-backups = Saqlaş uçun kunlik zaxira nusxalar soni:
+preferences-weekly-backups = Saqlaş uçun haftalik zaxira nusxalar soni:
+preferences-monthly-backups = Saqlaş uçun oylik zaxira nusxalar soni:
+preferences-minutes-between-backups = Avtomatik zaxiralaş orasidagi vaqt (daqiqalarda):
+preferences-reduce-motion = Animatsiyalarni kamaytiriş
+preferences-reduce-motion-tooltip = Foydalanuvçi interfeysining turli xil animatsiyalari va ötişlarini öçirib qöyiş
+preferences-custom-sync-url = Öz sinxronlaş serveri
+preferences-custom-sync-url-disclaimer = Ilğor foydalanuvçilar uçun - qöllanmaga qarang.
+preferences-hide-top-bar-during-review = Takrorlaş paytida yuqoridagi panelni yaşiriş
+preferences-hide-bottom-bar-during-review = Takrorlaş paytida pastdagi panelni yaşiriş
 preferences-always = Har doim
 preferences-full-screen-only = Faqat butun ekran rejimida
-preferences-appearance = Koʻrinish
+preferences-appearance = Köriniş
 preferences-general = Umumiy
 preferences-style = Stil
-preferences-review = Takrorlash
+preferences-review = Takrorlaş
 preferences-answer-keys = Javob tugmalari
-preferences-distractions = Diqqatni jamlash
+preferences-distractions = Diqqatni jamlaş
 preferences-minimalist-mode = Minimalist rejimi
-preferences-minimalist-mode-tooltip = Interfeysni yanada ixchamroq/soddaroq qilish
-preferences-editing = Tahrirlash
+preferences-minimalist-mode-tooltip = Interfeysni yanada ixçamroq/soddaroq qiliş
+preferences-editing = Tahrirlaş
 preferences-browsing = Karta brauzeri
-preferences-default-deck = Birlamchi dasta
+preferences-default-deck = Birlamçi dasta
 preferences-account = AnkiWeb akkaunti
 preferences-note = Qayd
-preferences-scheduler = Rejalashtiruvchi
-preferences-user-interface = Foydalanuvchi interfeysi
+preferences-scheduler = Rejalaştiruvçi
+preferences-user-interface = Foydalanuvçi interfeysi
 preferences-import-export = Import/eksport
-preferences-network-timeout = Tarmoq kutish vaqti
-preferences-reset-window-sizes = Oyna oʻlchamlarini qayta tiklash
-preferences-reset-window-sizes-complete = Oyna oʻlchamlari va joylashuvlari qayta tiklandi
-preferences-shortcut-placeholder = Ishlatilmagan klaviatura yorligʻini kiriting yoki oʻchirish uchun boʻsh qoldiring.
-preferences-third-party-services = Uchinchi tomon xizmatlari
+preferences-network-timeout = Tarmoq kutiş vaqti
+preferences-reset-window-sizes = Oyna ölçamlarini qayta tiklaş
+preferences-reset-window-sizes-complete = Oyna ölçamlari va joylaşuvlari qayta tiklandi
+preferences-shortcut-placeholder = Işlatilmagan klaviatura yorliğini kiriting yoki öçiriş uçun böş qoldiring.
+preferences-third-party-services = Uçinçi tomon xizmatlari
 preferences-ankihub-not-logged-in = Hozirda AnkiHubʼga kirmagansiz.
-preferences-ankiweb-intro = AnkiWeb bepul xizmat boʻlib, flesh-karta maʼlumotlarini qurilmalaringiz orasida sinxronlash imkonini beradi. Qurilmangiz buzilsa yoki yoʻqolib qolsa, maʼlumotlarni qayta tiklash imkonini beradi.
-preferences-ankihub-intro = AnkiHub boshqalar bilan birgalikda dasta tahrirlash imkoniyati va qoʻshimcha oʻrganish vositalarini taqdim etadi. Muayyan funksiyalarni ishlatish uchun pulli obuna talab qilinadi.
-preferences-third-party-description = Uchinchi tomon xizmatlari Anki bilan aloqasi yoʻq va Anki tomonidan qoʻllab-quvvatlanmagan. Ushbu xizmatlardan foydalanish toʻlov talab qilishi mumkin.
+preferences-ankiweb-intro = AnkiWeb bepul xizmat bölib, fleş-karta maʼlumotlarini qurilmalaringiz orasida sinxronlaş imkonini beradi. Qurilmangiz buzilsa yoki yöqolib qolsa, maʼlumotlarni qayta tiklaş imkonini beradi.
+preferences-ankihub-intro = AnkiHub boşqalar bilan birgalikda dasta tahrirlaş imkoniyati va qöşimça örganiş vositalarini taqdim etadi. Muayyan funksiyalarni işlatiş uçun pulli obuna talab qilinadi.
+preferences-third-party-description = Uçinçi tomon xizmatlari Anki bilan aloqasi yöq va Anki tomonidan qöllab-quvvatlanmagan. Uşbu xizmatlardan foydalaniş tölov talab qilişi mumkin.
 
 ## URL scheme related
 
 preferences-url-schemes = URL sxemalar
-preferences-url-scheme-prompt = Ruxsat etilgan URL sxemalar (boʻshliq bilan ajrating):
+preferences-url-scheme-prompt = Ruxsat etilgan URL sxemalar (böşliq bilan ajrating):
 preferences-url-scheme-warning =
-    `{ $link }` ni ochishga urinish bloklandi, bu xavfsizlik muammosi boʻlishi mumkin.
-    
-    Agar siz dasta muallifiga ishonsangiz va davom etishni istasangiz, `{ $scheme }` ni ruxsat etilgan URL sxemalaringizga qoʻshishingiz mumkin.
-preferences-url-scheme-allow-once = Bir martta ruxsat berish
-preferences-url-scheme-always-allow = Har doim ruxsat berish
+    `{ $link }` ni oçişga uriniş bloklandi, bu xavfsizlik muammosi bölişi mumkin.
+
+    Agar siz dasta muallifiga işonsangiz va davom etişni istasangiz, `{ $scheme }` ni ruxsat etilgan URL sxemalaringizga qöşişingiz mumkin.
+preferences-url-scheme-allow-once = Bir martta ruxsat beriş
+preferences-url-scheme-always-allow = Har doim ruxsat beriş
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
