@@ -1,0 +1,9 @@
+change-notetype-current = მიმდინარე
+change-notetype-new = ახალი
+change-notetype-nothing = (არაფერი)
+change-notetype-collapse = აკეცვა
+change-notetype-expand = ჩამოშლა
+change-notetype-will-discard-content = მოაცილებს შემდეგი ველების შემცველობას:
+change-notetype-will-discard-cards = წაიშლება შემდეგი ბარათები:
+change-notetype-fields = ველები
+change-notetype-templates = შაბლონები

@@ -40,3 +40,15 @@ card-templates-on = (ჩართ)
 card-templates-remove-card-type = ბარათის ტიპის წაშლა...
 card-templates-rename-card-type = ბარათის ტიპის სახელის გადარქმევა...
 card-templates-reposition-card-type = ბარათის ტიპის გადაადგილება...
+card-templates-card-count =
+    { $count ->
+        [one] { $count } ბარათი
+       *[other] { $count } ბარათი
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [one] ეს შექმნის { $count } ბარათს. გააგრძელებთ?
+       *[other] ეს შექმნის { $count } ბარათს. გააგრძელებთ?
+    }
+card-templates-type-boxes-warning = თითოეული ბარათის შაბლონისთვის მხარდაჭერილია, მხოლოდ, ერთი აკრეფის ველი.
+card-templates-restore-to-default = ნაგულისხმევზე აღდგენა
