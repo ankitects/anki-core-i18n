@@ -29,8 +29,8 @@ custom-study-select = მონიშვნა
 # As in "select {amount} cards from the deck"
 custom-study-cards-from-the-deck =
     { $count ->
-        [one] ბარათი დაფიდან
-       *[other] ბარათი დაფიდან
+        [one] ბარათი დასტიდან
+       *[other] ბარათი დასტიდან
     }
 custom-study-new-cards-only = მხოლოდ ახალი ბარათები
 custom-study-due-cards-only = მხოლოდ მათი დრომოსული ბარათები

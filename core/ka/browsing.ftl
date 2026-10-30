@@ -14,7 +14,7 @@ browsing-buried = ჩაფლული
 browsing-card = ბარათი
 browsing-cards = ბარათები
 browsing-card-list = ბარათების სია
-browsing-cards-cant-be-manually-moved-into = ბარათებს გაფილტრულ დაფაზე ხელით ვერ გადაიტანთ.
+browsing-cards-cant-be-manually-moved-into = ბარათებს გაფილტრულ დასტაზე ხელით ვერ გადაიტანთ.
 browsing-cards-deleted =
     { $count ->
         [one] { $count } ბართი წაიშალა.
@@ -25,8 +25,8 @@ browsing-cards-deleted-with-deckname =
         [one] { $count } ბართი წაიშალა { $deck_name }-დან.
        *[other] { $count } ბართი წაიშალა { $deck_name }-დან.
     }
-browsing-change-deck = დაფის შეცვლა
-browsing-change-deck2 = დაფის შეცვლა...
+browsing-change-deck = დასტის შეცვლა
+browsing-change-deck2 = დასტის შეცვლა...
 browsing-change-note-type = შენიშვნის ტიპის შეცვლა
 # Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = შენიშვნის ტიპის შეცვლა...
@@ -34,7 +34,7 @@ browsing-change-notetype = შენიშვნის ტიპის შეც
 browsing-clear-unused-tags = გამოუყენებელი ჭდეების გასუფთავება
 browsing-confirm-saved-search-overwrite = შენახული ძებნა სახელით { $name } უკვე არსებობს. გნებავთ მისი თავზე გადაწერა?
 browsing-created = შეიქმნა
-browsing-current-deck = მიმდინარე დაფა
+browsing-current-deck = მიმდინარე დასტა
 browsing-current-note-type = მიმდინარე შენიშვნის ტიპი:
 browsing-delete-notes = შენიშვნების წაშლა
 browsing-duplicate = დუბლიკატი
@@ -74,7 +74,7 @@ browsing-learning = (სწავლა)
 browsing-line-size = <b>ხაზის ზომა</b>:
 browsing-manage-note-types = შენიშვნის ტიპების მართვა
 browsing-move-cards = ბარათების გადატანა
-browsing-move-cards-to-deck = ბარათების გადატანა დაფაზე:
+browsing-move-cards-to-deck = ბარათების გადატანა დასტაზე:
 browsing-new = (ახალი)
 browsing-new-note-type = ახალი შენიშვნის ტიპი:
 browsing-no-flag = ალმის გარეშე
@@ -109,7 +109,7 @@ browsing-search-suggestions = მინიშნებები
 browsing-search-syntax-mode = სინტაქსის რეჟიმი
 browsing-search-text-match = "{ $query }"-ის ძებნა
 browsing-search-within-formatting-slow = ძებნა დაფორმატებაში (ნელი)
-browsing-select-deck = აირჩიეთ დაფა
+browsing-select-deck = აირჩიეთ დასტა
 browsing-selected-notes-only = მხოლოდ მონიშნული შენიშვნები
 browsing-shift-position-of-existing-cards = არსებული ბარათების პოზიციის წანაცვლება
 browsing-sidebar = გვერდითი პანელი
@@ -157,7 +157,7 @@ browsing-sidebar-expand = ჩამოშლა
 browsing-sidebar-collapse = აკეცვა
 browsing-sidebar-expand-children = შვილების ჩამოშლა
 browsing-sidebar-collapse-children = შვილების აკეცვა
-browsing-sidebar-decks = დაფები
+browsing-sidebar-decks = დასტები
 browsing-sidebar-tags = ჭდეები
 browsing-sidebar-notetypes = შენიშვნის ტიპები
 browsing-sidebar-saved-searches = შენახული ძებნები
@@ -204,8 +204,8 @@ browsing-changed-new-position =
     }
 browsing-reparented-decks =
     { $count ->
-        [one] სახელი შეეცვალა { $count } დაფას.
-       *[other] სახელი შეეცვალა { $count } დაფას.
+        [one] სახელი შეეცვალა { $count } დასტას.
+       *[other] სახელი შეეცვალა { $count } დასტას.
     }
 browsing-sidebar-card-state-review = მიმოხილვა
 
