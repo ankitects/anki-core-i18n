@@ -20,18 +20,48 @@ deck-config-today-only = მხოლოდ დღეს
 
 ## New Cards section
 
+deck-config-learning-steps = სწავლის ნაბიჯები
+deck-config-new-insertion-order = ჩასმის მიმდევრობა
+deck-config-new-insertion-order-sequential = მიმდევრობით (ჯერ ყველაზე ძველი ბარათები)
+deck-config-new-insertion-order-random = შემთხვევით
 
 ## Lapses section
 
+deck-config-relearning-steps = თავიდან სწავლის ნაბიჯები
 
 ## Burying section
 
+deck-config-bury-title = ჩაფვლა
 
 ## Gather order and sort order of cards
 
+deck-config-ordering-title = ჩვენების მიმდევრობა
+deck-config-new-gather-priority = ახალი ბარათის მოგროვების მიმდევრობა
+deck-config-new-card-sort-order = ახალი ბარათის დალაგების მიმდევრობა
+deck-config-new-review-priority = ახალი/მიმოხილვის მნიმდევრობა
+deck-config-new-review-priority-tooltip = სად იქნება ნაჩვენები ახალი ბარათები მიმოხილვის ბარათებთან ფარდობით.
+deck-config-review-sort-order = მიმოხილვის დალაგების მიმდევრობა
 
 ## Gather order and sort order of cards – Combobox entries
 
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = დასტა
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = დასტა, შემდეგ შემთხვევითი შენიშვნები
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = აღმავალი პოზიცია
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = დაღმავალი პოზიცია
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = შემთხვევითი შენიშვნები
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = შემთხვევითი ბარათები
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = ბარათის ტიპი, შემდეგ შემთხვევითი
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = შემთხვევითი შენიშვნა, შემდეგ ბარათის ტიპი
+# Sort the cards randomly.
+deck-config-sort-order-random = შემთხვევით
 
 ## Timer section
 
