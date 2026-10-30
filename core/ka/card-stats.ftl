@@ -24,9 +24,24 @@ card-stats-review-log-type-relearn = თავიდან სწავლა
 card-stats-review-log-type-filtered = გაფილტრული
 card-stats-review-log-type-manual = ხელით
 card-stats-review-log-type-rescheduled = გეგმა გადატანილია
+card-stats-review-log-elapsed-time = გასული დრო
+card-stats-no-card = (საჩვენებელი ბარათის გარეშე)
+card-stats-custom-data = მორგებული მონაცემები
+card-stats-fsrs-stability = სტაბილურობა
+card-stats-fsrs-difficulty = სირთულე
+card-stats-fsrs-retrievability = გახსენებადობა
+card-stats-fsrs-forgetting-curve-title = დავიწყების მრუდი
+card-stats-fsrs-forgetting-curve-first-week = პირველი კვირა
+card-stats-fsrs-forgetting-curve-first-month = პირველი თვე
+card-stats-fsrs-forgetting-curve-first-year = პირველი წელი
+card-stats-fsrs-forgetting-curve-all-time = მთელი დრო
+card-stats-fsrs-forgetting-curve-desired-retention = სასურველი შენარჩუნება
 
 ## Window Titles
 
+card-stats-current-card = მიმდინარე ბარათი ({ $context })
+card-stats-previous-card = წინა ბარათი ({ $context })
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+card-stats-fsrs-forgetting-curve-probability-of-recalling = გახსენების ალბათობა
