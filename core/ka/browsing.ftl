@@ -187,6 +187,31 @@ browsing-more-tags =
         [one] კიდევ 1 ჭდე
        *[other] კიდევ { $count } ჭდე
     }
+browsing-leech-lapses =
+    { $count ->
+        [one] წურბელა, დავიწყებულია { $count }-ხელ
+       *[other] წურბელა, დავიწყებულია { $count }-ჯერ
+    }
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] წაიშალა { $count } გამოუყენებელი ჭდე.
+       *[other] წაიშალა { $count } გამოუყენებელი ჭდე.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] შეიცვალა { $count } ახალი ბარათის პოზიცია.
+       *[other] შეიცვალა { $count } ახალი ბარათის პოზიცია.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] სახელი შეეცვალა { $count } დაფას.
+       *[other] სახელი შეეცვალა { $count } დაფას.
+    }
+browsing-sidebar-card-state-review = მიმოხილვა
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = ბ
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = შ
