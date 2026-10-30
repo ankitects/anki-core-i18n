@@ -89,6 +89,104 @@ browsing-please-give-your-filter-a-name = დაარქვით თქვე�
 browsing-preview-selected-card = მონიშნული ბარათის მინიატურა ({ $val })
 browsing-question = კითხვა
 browsing-queue-bottom = რიგში ჩასმა ბოლოში: { $val }
+browsing-queue-top = რიგის თავში: { $val }
+browsing-randomize-order = მიმდევრობის შემთხვევითობა
+browsing-remove-tags = ჭდეების წაშლა...
+browsing-replace-with = <b>ჩანაცვლება რით</b>:
+browsing-reposition = პოზიციის შეცვლა...
+browsing-reposition-new-cards = ახალი ბარათების პოზიციის შეცვლა
+browsing-reschedule = თავიდან დაგეგმვა
+browsing-search-bar-hint = ბარათების/შენიშვნების ძებნა (აკრიფეთ ტექსტი და დააჭირეთ ღილაკს 'Enter')
+browsing-search-facet-starters = ფილტრის პირობა
+browsing-search-in = ძებნა სად:
+browsing-search-quick = სწრაფი ფილტრები
+browsing-search-quick-flagged = ალმიანი
+browsing-search-quick-leeches = წურბელები
+browsing-search-recent = უახლესი
+# Shown above browse results when the current search is invalid
+browsing-search-results-unchanged = შედეგები უცვლელია, სანამ ძებნა სწორია
+browsing-search-suggestions = მინიშნებები
+browsing-search-syntax-mode = სინტაქსის რეჟიმი
+browsing-search-text-match = "{ $query }"-ის ძებნა
+browsing-search-within-formatting-slow = ძებნა დაფორმატებაში (ნელი)
+browsing-select-deck = აირჩიეთ დაფა
+browsing-selected-notes-only = მხოლოდ მონიშნული შენიშვნები
+browsing-shift-position-of-existing-cards = არსებული ბარათების პოზიციის წანაცვლება
+browsing-sidebar = გვერდითი პანელი
+browsing-sidebar-filter = გვერდითი პანელის ფილტრი
+# The field that is used for sorting (sort is an adjective here, not a verb)
+browsing-sort-field = დალაგების ველი
+browsing-sorting-on-this-column-is-not = ამ სვეტზე დალაგება მხარდაჭერილი არაა. აირჩიეთ სხვა.
+browsing-start-position = დაწყების პოზიცია:
+browsing-step = ნაბიჯი:
+browsing-suspended = შეჩერებულია
+browsing-tag-duplicates = ჭდის დუბლიკატები
+browsing-tag-rename-warning-empty = ჭდეს, რომელსაც მინიშნებები არ აქვს, სახელს ვერ გადაარქმევთ.
+browsing-target-field = სამიზნე ველი:
+browsing-toggle-bury = ჩამარხვის გადართვა
+browsing-toggle-showing-cards-notes = ბარათების/შენიშვნების გადართვა
+browsing-toggle-mark = მარკერის გადართვა
+browsing-toggle-suspend = შეჩერების გადართვა
+browsing-treat-input-as-regular-expression = შეყვანის აღქმა რეგგამოსად
+browsing-update-saved-search = განახლება მიმდინარე ძებნით
+browsing-whole-collection = მთელი კოლექცია
+browsing-window-title-notes = დათვალიერება (მონიშნულია { $selected } შენიშვნა { $total }-დან)
+browsing-you-must-have-at-least-one = სულ ცოტა, ერთი სვეტი უნდა გქონდეთ.
+browsing-group =
+    { $count ->
+        [one] { $count } ჯგუფი
+       *[other] { $count } ჯგუფი
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } შენიშვნა
+       *[other] { $count } შენიშვნა
+    }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } შენიშვნა განახლდა.
+       *[other] { $count } შენიშვნა განახლდა.
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } ბარათი განახლდა.
+       *[other] { $count } ბარათი განახლდა.
+    }
+browsing-window-title = დათვალიერაბა (მონიშნულია { $selected } ბარათი { $total }-დან)
+browsing-sidebar-expand = ჩამოშლა
+browsing-sidebar-collapse = აკეცვა
+browsing-sidebar-expand-children = შვილების ჩამოშლა
+browsing-sidebar-collapse-children = შვილების აკეცვა
+browsing-sidebar-decks = დაფები
+browsing-sidebar-tags = ჭდეები
+browsing-sidebar-notetypes = შენიშვნის ტიპები
+browsing-sidebar-saved-searches = შენახული ძებნები
+browsing-sidebar-save-current-search = მიმდინარე ძებნის შენახვა
+browsing-sidebar-card-state = ბარათის მდგომარეობა
+browsing-sidebar-flags = ალმები
+browsing-today = დღეს
+browsing-tooltip-card = ბარათის შაბლონის სახელი
+browsing-tooltip-cards = ბარათების რაოდენობა, რომელსაც შენიშვნა შეიცავს
+browsing-tooltip-notetype = შენიშვნის ტიპის სახელი
+browsing-studied-today = შესწავლილია
+browsing-added-today = დამატებულია
+browsing-again-today = კიდევ ერთხელ
+browsing-edited-today = ჩასწორებულია
+browsing-sidebar-first-review = პირველი მიმოხილვა
+browsing-sidebar-rescheduled = გეგმა გადატანილია
+browsing-sidebar-due-today = გეგმის დრო
+browsing-sidebar-untagged = ჭდის გარეშე
+browsing-sidebar-overdue = ვადაგადაცილებულია
+browsing-row-deleted = (წაშლილია)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = ახლა
+# Status chip label in browse card rows
+browsing-leech = წურბელა
+browsing-more-tags =
+    { $count ->
+        [one] კიდევ 1 ჭდე
+       *[other] კიდევ { $count } ჭდე
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
