@@ -10,6 +10,8 @@ custom-study-cards =
        *[other] ბარათი
     }
 custom-study-available-new-cards-2 = ხელმისაწვდომი ახალი ბარათები: { $countString }
+custom-study-available-review-cards-2 = ხელმისაწვდომ მიმოხილვის ბარათები: { $countString }
+custom-study-review-forgotten-cards = დავიწყებული ბარათების მიმოხილვა
 
 ## options for the "study by card state or tag" subsection
 
