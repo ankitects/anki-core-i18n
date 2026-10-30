@@ -1,0 +1,12 @@
+adding-add-shortcut-ctrlandenter = დამატება (მალსახმობი: Ctrl+Enter)
+adding-added = დამატებულია
+adding-discard-current-input = მოცილდეს ახლა შეყვანილი?
+adding-keep-editing = ჩასწორების გაგრძელება
+adding-edit = "{ $val }"-ის ჩასწორება
+adding-history = ისტორია
+adding-note-deleted = (შენიშვნა წაიშალა)
+adding-shortcut = მალსახმობი: { $val }
+adding-the-first-field-is-empty = პირველი ველი ცარიელია
+adding-you-have-a-cloze-deletion-note = თქვენ გაქვთ კლოუზის შენიშვის ტიპი, მაგრამ კლოუზი არ წაგიშლიათ. გააგრძელებთ?
+adding-cloze-outside-cloze-notetype = კლოუზის წაშლა, მხოლოდ, კლოუზის ტიპის შენისვნებზე შეგიძლიათ.
+adding-cloze-outside-cloze-field = კლოუზი წაშლეის გამოყენება, მხოლოდ, ველებზე შეგიძლიათ, რომლებიც 'კლოუზის' ფილტრის იყენებენ. ჩვეულებრივ, ეს პირველი ველია.

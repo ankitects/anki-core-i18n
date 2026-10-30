@@ -61,11 +61,37 @@ actions-update-note = შენიშვნის განახლება
 actions-update-card = ბარათის განახლება
 actions-update-deck = დაფის განახლება
 actions-forget-card = ბარათის ჩამოყრა
+actions-build-filtered-deck = დაფის აგება
+actions-add-notetype = შენიშვნის ტიპის დამატება
+actions-remove-notetype = შენიშვნის ტიპის წაშლა
+actions-update-notetype = შენიშვნის ტიპის განახლება
+actions-update-config = კონფიგურაციის განახლება
+actions-card-info = ინფორმაცია ბარათის შესახებ
+actions-previous-card-info = წინა ბარათის ინფორმაცია
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action } ...
+actions-fullscreen-unsupported = სრულეკრანიანი რეჟიმი მხარდაუჭერელია თქვენი ვიდეოდრაივერის მიერ. სცადეთ, სხვაზე გადართოთ მორგების ეკრანიდან.
+actions-flag-number = ალამი { $number }
 
 ## The same translation may used for two independent actions:
 ## searching for cards with a flag of the specified color, and
 ## toggling the flag of the specified color on a card.
 
+actions-flag-red = წითელი
+actions-flag-orange = ნარინჯისფერი
+actions-flag-green = მწვანე
+actions-flag-blue = ლურჯი
+actions-flag-pink = ვარისფერი
+actions-flag-turquoise = ფირუზისფერი
+actions-flag-purple = იისფერი
 
 ##
 
+actions-set-flag = ალმის დაყენება
+actions-nothing-to-undo = გასაუქმებელი არაფერია
+actions-nothing-to-redo = გასამეორებელი არაფერია
+actions-auto-advance = წინ ავტომატური წაწევა
+actions-auto-advance-activated = ავტომატური წინწაწევა ჩართულია
+actions-auto-advance-deactivated = ავტომატური წინწაწევა გამორთულია
+actions-processing = მუშავდება...
