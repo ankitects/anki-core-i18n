@@ -115,8 +115,8 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Случайная запись, затем тип карточки`: Отбирает записи в случайном порядке, затем показывает все связанные карточки по порядку.
     
     `Случайный`: Полностью перетасовывает отобранные карточки.
-deck-config-new-review-priority = Порядок новых (к повторяемым)
-deck-config-new-review-priority-tooltip = Когда показывать новые карточки по отношению к повторяемым.
+deck-config-new-review-priority = Порядок новых и повторяемых
+deck-config-new-review-priority-tooltip = Где разполагать новые карточки относительно повторяемых.
 deck-config-interday-step-priority = Порядок перенесённых
 deck-config-interday-step-priority-tooltip =
     Когда показывать изучаемые и переучиваемые, которые переносятся на следующий день.
@@ -132,9 +132,9 @@ deck-config-new-gather-priority-deck = По колоде
 # Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
 deck-config-new-gather-priority-deck-then-random-notes = По колоде, потом случайный
 # Gather new cards ordered by position number, ascending (lowest to highest).
-deck-config-new-gather-priority-position-lowest-first = По возрастанию № позиции
+deck-config-new-gather-priority-position-lowest-first = По возрастанию номеров
 # Gather new cards ordered by position number, descending (highest to lowest).
-deck-config-new-gather-priority-position-highest-first = По убыванию № позиции
+deck-config-new-gather-priority-position-highest-first = По убыванию номеров
 # Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
 deck-config-new-gather-priority-random-notes = Случайные записи
 # Gather new cards randomly.
