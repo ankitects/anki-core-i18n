@@ -45,3 +45,4 @@ custom-study-ok = OK
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+custom-study-available-new-cards = ხელმისაწვდომი ახალი ბარათები: { $count }
