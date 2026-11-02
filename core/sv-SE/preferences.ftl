@@ -96,7 +96,7 @@ preferences-url-scheme-always-allow = Tillåt alltid
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-preferences-basic = Grundläggande
+preferences-basic = Enkel
 preferences-reviewer = Repeterare
 preferences-media = Media
 preferences-not-logged-in = För närvarande ej inloggad till AnkiWeb.

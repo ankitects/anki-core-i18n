@@ -10,10 +10,10 @@ notetypes-back-extra-field = Baksida Extra
 
 ## Default note type names
 
-notetypes-basic-name = Grundläggande
-notetypes-basic-reversed-name = Bas (och omvänt kort)
-notetypes-basic-optional-reversed-name = Bas (valbart omvänt kort)
-notetypes-basic-type-answer-name = Bas (skriv in svaret)
+notetypes-basic-name = Enkel
+notetypes-basic-reversed-name = Enkel (och omvänt kort)
+notetypes-basic-optional-reversed-name = Enkel (valfritt omvänt kort)
+notetypes-basic-type-answer-name = Enkel (skriv in svaret)
 notetypes-cloze-name = Lucktext
 
 ## Default card template names
