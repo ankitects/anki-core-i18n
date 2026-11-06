@@ -1,111 +1,111 @@
-browsing-add-notes = Qayd qoʻshish...
-browsing-add-tags2 = Teg qoʻshish...
-browsing-add-to-selected-notes = Tanlangan qaydlarga qoʻshish
-browsing-remove-from-selected-notes = Tanlangan qaydlardan oʻchirish
+browsing-add-notes = Qayd qöşiş...
+browsing-add-tags2 = Teg qöşiş...
+browsing-add-to-selected-notes = Tanlangan qaydlarga qöşiş
+browsing-remove-from-selected-notes = Tanlangan qaydlardan öçiriş
 browsing-addon = Kengaytma
-browsing-all-fields = Barcha maydonlar
+browsing-all-fields = Barça maydonlar
 browsing-answer = Javob
 browsing-any-flag = Har qanday bayroq
-browsing-average-ease = Oʻrtacha osonlik
-browsing-average-interval = Oʻrtacha interval
-browsing-browser-appearance = Karta brauzeri koʻrinishi
+browsing-average-ease = Örtaça osonlik
+browsing-average-interval = Örtaça interval
+browsing-browser-appearance = Karta brauzeri körinişi
 browsing-browser-options = Karta brauzeri parametrlari
-browsing-buried = Koʻmilgan
+browsing-buried = Kömilgan
 browsing-card = Karta
 browsing-cards = Kartalar
-browsing-card-list = Kartalar roʻyxati
-browsing-cards-cant-be-manually-moved-into = Kartalarni filtrlangan dastaga qoʻlda koʻchirib boʻlmaydi.
+browsing-card-list = Kartalar röyxati
+browsing-cards-cant-be-manually-moved-into = Kartalarni filtrlangan dastaga qölda köçirib bölmaydi.
 browsing-cards-deleted =
     { $count ->
-        [one] { $count } ta karta oʻchirildi.
-       *[other] { $count } ta karta oʻchirildi.
+        [one] { $count } ta karta öçirildi.
+       *[other] { $count } ta karta öçirildi.
     }
 browsing-cards-deleted-with-deckname =
     { $count ->
-        [one] { $deck_name } dastasidan { $count } ta karta oʻchirildi.
-       *[other] { $deck_name } dastasidan { $count } ta karta oʻchirildi.
+        [one] { $deck_name } dastasidan { $count } ta karta öçirildi.
+       *[other] { $deck_name } dastasidan { $count } ta karta öçirildi.
     }
-browsing-change-deck = Dastasini oʻzgartirish
-browsing-change-deck2 = Dastasini oʻzgartirish...
-browsing-change-note-type = Qayd turini oʻzgartirish
+browsing-change-deck = Dastasini özgartiriş
+browsing-change-deck2 = Dastasini özgartiriş...
+browsing-change-note-type = Qayd turini özgartiriş
 # Action in a context menu (right mouse-click on a card type)
-browsing-change-note-type2 = Qayd turini oʻzgartirish...
-browsing-change-notetype = Qayd turini oʻzgartirish
-browsing-clear-unused-tags = Ishlatilmagan teglarni oʻchirish
-browsing-confirm-saved-search-overwrite = { $name } nomli saqlangan qidiruv allaqachon mavjud. Uni almashtirmoqchimisiz?
+browsing-change-note-type2 = Qayd turini özgartiriş...
+browsing-change-notetype = Qayd turini özgartiriş
+browsing-clear-unused-tags = Işlatilmagan teglarni öçiriş
+browsing-confirm-saved-search-overwrite = { $name } nomli saqlangan qidiruv allaqaçon mavjud. Uni almaştirmoqçimisiz?
 browsing-created = Yaratildi
 browsing-current-deck = Joriy dasta
 browsing-current-note-type = Joriy qayd turi:
-browsing-delete-notes = Qaydlarni oʻchirish
+browsing-delete-notes = Qaydlarni öçiriş
 browsing-duplicate = nusxa
 browsing-ease = Osonlik
-browsing-enter-tags-to-add = Qoʻshish uchun teglarni kiriting:
-browsing-enter-tags-to-delete = Oʻchirish uchun teglarni kiriting:
+browsing-enter-tags-to-add = Qöşiş uçun teglarni kiriting:
+browsing-enter-tags-to-delete = Öçiriş uçun teglarni kiriting:
 browsing-filtered = (filtrlangan)
-browsing-find = <b>Topish</b>:
-browsing-find-and-replace = Topish va almashtirish
-browsing-find-duplicates = Nusxalarni topish
-browsing-first-card = Birinchi karta
+browsing-find = <b>Topiş</b>:
+browsing-find-and-replace = Topiş va almaştiriş
+browsing-find-duplicates = Nusxalarni topiş
+browsing-first-card = Birinçi karta
 browsing-flag = Bayroq
-browsing-font = <b>Shrift</b>:
-browsing-font-size = <b>Shrift oʻlchami</b>:
+browsing-font = <b>Şrift</b>:
+browsing-font-size = <b>Şrift ölçami</b>:
 browsing-found-as-across-bs = { $whole }dan { $part } topildi.
 browsing-ignore-case = Registr hisobga olinmasin
-browsing-in = <b>Ichida</b>:
+browsing-in = <b>Içida</b>:
 browsing-interval = Interval
 browsing-last-card = Oxirgi karta
-browsing-learning = (oʻrganilmoqda)
-browsing-line-size = <b>Qator oʻlchami</b>:
-browsing-manage-note-types = Qayd turlarini boshqarish
-browsing-move-cards = Kartalarni koʻchirish
-browsing-move-cards-to-deck = Kartalarni dastaga koʻchirish:
+browsing-learning = (örganilmoqda)
+browsing-line-size = <b>Qator ölçami</b>:
+browsing-manage-note-types = Qayd turlarini boşqariş
+browsing-move-cards = Kartalarni köçiriş
+browsing-move-cards-to-deck = Kartalarni dastaga köçiriş:
 browsing-new = (yangi)
 browsing-new-note-type = Yangi qayd turi:
-browsing-no-flag = Bayroq yoʻq
-browsing-no-selection = Hech qanday karta yoki qayd tanlanmagan.
+browsing-no-flag = Bayroq yöq
+browsing-no-selection = Heç qanday karta yoki qayd tanlanmagan.
 browsing-note = Qayd
 browsing-notes = Qaydlar
 browsing-optional-filter = Ixtiyoriy filtr:
-browsing-override-back-template = Orqa shablonni almashtirish:
-browsing-override-font = Shriftni almashtirish:
-browsing-override-front-template = Oldi shablonni almashtirish:
-browsing-please-give-your-filter-a-name = Filtringizga nom qoʻying:
-browsing-preview-selected-card = Tanlangan kartalarga razm solish ({ $val })
+browsing-override-back-template = Orqa şablonni almaştiriş:
+browsing-override-font = Şriftni almaştiriş:
+browsing-override-front-template = Oldi şablonni almaştiriş:
+browsing-please-give-your-filter-a-name = Filtringizga nom qöying:
+browsing-preview-selected-card = Tanlangan kartalarga razm soliş ({ $val })
 browsing-question = Savol
 browsing-queue-bottom = Navbat oxiri: { $val }
-browsing-queue-top = Navbat boshi: { $val }
+browsing-queue-top = Navbat boşi: { $val }
 browsing-randomize-order = Tasodifiy tartib
-browsing-remove-tags = Teglarni oʻchirish...
-browsing-replace-with = <b>Quyidagi bilan almashtirish</b>:
-browsing-reposition = Oʻrnini oʻzgartirish...
-browsing-reposition-new-cards = Yangi kartalar oʻrnini oʻzgartirish
-browsing-reschedule = Qayta rejalashtirish
-browsing-search-bar-hint = Kartalar/qaydlarni qidirish (matn kiritib Enter bosing)
-browsing-search-in = Quyidagida qidirish:
-browsing-search-within-formatting-slow = Formatlash bilan qidirish (sekin)
-browsing-select-deck = Dastani tanlash
+browsing-remove-tags = Teglarni öçiriş...
+browsing-replace-with = <b>Quyidagi bilan almaştiriş</b>:
+browsing-reposition = Örnini özgartiriş...
+browsing-reposition-new-cards = Yangi kartalar örnini özgartiriş
+browsing-reschedule = Qayta rejalaştiriş
+browsing-search-bar-hint = Kartalar/qaydlarni qidiriş (matn kiritib Enter bosing)
+browsing-search-in = Quyidagida qidiriş:
+browsing-search-within-formatting-slow = Formatlaş bilan qidiriş (sekin)
+browsing-select-deck = Dastani tanlaş
 browsing-selected-notes-only = Faqat tanlangan qaydlar
-browsing-shift-position-of-existing-cards = Mavjud kartalar oʻrnini siljitish
+browsing-shift-position-of-existing-cards = Mavjud kartalar örnini siljitiş
 browsing-sidebar = Yon panel
 browsing-sidebar-filter = Yon panel filtri
 # The field that is used for sorting (sort is an adjective here, not a verb)
-browsing-sort-field = Saralash maydoni
-browsing-sorting-on-this-column-is-not = Ushbu ustunda saralash qoʻllab-quvvatlanmagan. Boshqasini tanlang.
-browsing-start-position = Boshlangʻich oʻrin:
+browsing-sort-field = Saralaş maydoni
+browsing-sorting-on-this-column-is-not = Uşbu ustunda saralaş qöllab-quvvatlanmagan. Boşqasini tanlang.
+browsing-start-position = Boşlanğiç örin:
 browsing-step = Qadam:
-browsing-suspended = Toʻxtatilgan
-browsing-tag-duplicates = Nusxalarni teglash
-browsing-tag-rename-warning-empty = Qaydsiz teg nomini oʻzgartira olmaysiz.
-browsing-target-field = Nishondagi maydon:
-browsing-toggle-bury = Koʻmishni yoqish/oʻchirish
-browsing-toggle-showing-cards-notes = Kartalar/qaydlar yoqish/oʻchirish
-browsing-toggle-mark = Belgi qoʻyish/oʻchirish
-browsing-toggle-suspend = Toʻxtatishni yoqish/oʻchirish
-browsing-treat-input-as-regular-expression = Kiritishni muntazam ifoda sifatida qabul qilish
-browsing-update-saved-search = Joriy qidiruv bilan yangilash
+browsing-suspended = Töxtatilgan
+browsing-tag-duplicates = Nusxalarni teglaş
+browsing-tag-rename-warning-empty = Qaydsiz teg nomini özgartira olmaysiz.
+browsing-target-field = Nişondagi maydon:
+browsing-toggle-bury = Kömişni yoqiş/öçiriş
+browsing-toggle-showing-cards-notes = Kartalar/qaydlar yoqiş/öçiriş
+browsing-toggle-mark = Belgi qöyiş/öçiriş
+browsing-toggle-suspend = Töxtatişni yoqiş/öçiriş
+browsing-treat-input-as-regular-expression = Kiritişni muntazam ifoda sifatida qabul qiliş
+browsing-update-saved-search = Joriy qidiruv bilan yangilaş
 browsing-whole-collection = Butun kolleksiya
-browsing-window-title-notes = Koʻrib chiqish ({ $total } ta qayddan { $selected } tasi tanlandi)
-browsing-you-must-have-at-least-one = Kamida bitta ustun boʻlishi kerak.
+browsing-window-title-notes = Körib çiqiş ({ $total } ta qayddan { $selected } tasi tanlandi)
+browsing-you-must-have-at-least-one = Kamida bitta ustun bölişi kerak.
 browsing-group =
     { $count ->
         [one] { $count } ta guruh
@@ -126,52 +126,52 @@ browsing-cards-updated =
         [one] { $count } ta karta yangilandi.
        *[other] { $count } ta karta yangilandi.
     }
-browsing-window-title = Koʻrib chiqish ({ $total } ta kartadan { $selected } tasi tanlandi)
-browsing-sidebar-expand = Yoyish
-browsing-sidebar-collapse = Yigʻish
-browsing-sidebar-expand-children = Shoʻbalarni yoyish
-browsing-sidebar-collapse-children = Shoʻbalarni yigʻish
+browsing-window-title = Körib çiqiş ({ $total } ta kartadan { $selected } tasi tanlandi)
+browsing-sidebar-expand = Yoyiş
+browsing-sidebar-collapse = Yiğiş
+browsing-sidebar-expand-children = Şöbalarni yoyiş
+browsing-sidebar-collapse-children = Şöbalarni yiğiş
 browsing-sidebar-decks = Dastalar
 browsing-sidebar-tags = Teglar
 browsing-sidebar-notetypes = Qayd turlari
 browsing-sidebar-saved-searches = Saqlangan qidiruvlar
-browsing-sidebar-save-current-search = Joriy qidiruvni saqlash
+browsing-sidebar-save-current-search = Joriy qidiruvni saqlaş
 browsing-sidebar-card-state = Karta holati
 browsing-sidebar-flags = Bayroqlar
 browsing-today = Bugun
-browsing-tooltip-card-modified = Kartaga kiritilgan oxirgi oʻzgarishlar vaqti (takrorlashlar, bayroqlar va dastasini oʻzgartirishlar)
-browsing-tooltip-note-modified = Qaydga oxirgi marta kiritilgan oʻzgarishlar vaqti (maydonlar tarkibi yoki teglarni tahrirlash)
-browsing-tooltip-card = Karta shablonini nomi
+browsing-tooltip-card-modified = Kartaga kiritilgan oxirgi özgarişlar vaqti (takrorlaşlar, bayroqlar va dastasini özgartirişlar)
+browsing-tooltip-note-modified = Qaydga oxirgi marta kiritilgan özgarişlar vaqti (maydonlar tarkibi yoki teglarni tahrirlaş)
+browsing-tooltip-card = Karta şablonini nomi
 browsing-tooltip-cards = Qayddagi kartalar soni
 browsing-tooltip-notetype = Qayd turini nomi
-browsing-tooltip-question = Kartani oldi tomoni. Karta shablon muharririda sozlash mumkin
-browsing-tooltip-answer = Kartani orqa tomoni. Karta shablon muharririda sozlash mumkin
-browsing-studied-today = Oʻrganilgan
-browsing-added-today = Qoʻshilgan
+browsing-tooltip-question = Kartani oldi tomoni. Karta şablon muharririda sozlaş mumkin
+browsing-tooltip-answer = Kartani orqa tomoni. Karta şablon muharririda sozlaş mumkin
+browsing-studied-today = Örganilgan
+browsing-added-today = Qöşilgan
 browsing-again-today = Qaytadan
 browsing-edited-today = Tahrirlangan
-browsing-sidebar-first-review = Birinchi takrorlash
-browsing-sidebar-rescheduled = Qayta rejalashtirildi
+browsing-sidebar-first-review = Birinçi takrorlaş
+browsing-sidebar-rescheduled = Qayta rejalaştirildi
 browsing-sidebar-due-today = Muddat
-browsing-sidebar-untagged = Tegi yoʻq
-browsing-sidebar-overdue = Muddati oʻtgan
-browsing-row-deleted = (oʻchirilgan)
+browsing-sidebar-untagged = Tegi yöq
+browsing-sidebar-overdue = Muddati ötgan
+browsing-row-deleted = (öçirilgan)
 browsing-removed-unused-tags-count =
     { $count ->
-        [one] { $count } ta ishlatilmagan teg oʻchirildi.
-       *[other] { $count } ta ishlatilmagan teg oʻchirildi.
+        [one] { $count } ta işlatilmagan teg öçirildi.
+       *[other] { $count } ta işlatilmagan teg öçirildi.
     }
 browsing-changed-new-position =
     { $count ->
-        [one] { $count } ta yangi karta oʻrni oʻzgartirildi.
-       *[other] { $count } ta yangi kartalar oʻrni oʻzgartirildi.
+        [one] { $count } ta yangi karta örni özgartirildi.
+       *[other] { $count } ta yangi kartalar örni özgartirildi.
     }
 browsing-reparented-decks =
     { $count ->
-        [one] { $count } ta dastani nomi oʻzgartirildi.
-       *[other] { $count } ta dastani nomi oʻzgartirildi.
+        [one] { $count } ta dastani nomi özgartirildi.
+       *[other] { $count } ta dastani nomi özgartirildi.
     }
-browsing-sidebar-card-state-review = Takrorlash
+browsing-sidebar-card-state-review = Takrorlaş
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

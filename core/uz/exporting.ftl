@@ -1,21 +1,21 @@
-exporting-all-decks = Barcha dastalar
+exporting-all-decks = Barça dastalar
 exporting-anki-20-deck = Anki 2.0 dastasi
 exporting-anki-collection-package = Anki kolleksiya paketi
 exporting-anki-deck-package = Anki dasta paketi
 exporting-cards-in-plain-text = Kartalar oddiy matnda
 exporting-collection = kolleksiya
 exporting-collection-exported = Kolleksiya eksport qilindi
-exporting-colpkg-too-new = Oxirig Anki versiyasiga yangilang, soʻng .colpkg/.apkg faylini qayta import qiling.
-exporting-couldnt-save-file = Faylni saqlab boʻlmadi: { $val }
-exporting-export = Eksport qilish...
+exporting-colpkg-too-new = Oxirig Anki versiyasiga yangilang, söng .colpkg/.apkg faylini qayta import qiling.
+exporting-couldnt-save-file = Faylni saqlab bölmadi: { $val }
+exporting-export = Eksport qiliş...
 exporting-export-format = <b>Eksport formati</b>:
-exporting-include = <b>Ichida</b>:
-exporting-include-html-and-media-references = HTML va media fayllarga havolalar ichida
-exporting-include-media = Media fayllar ichida
-exporting-include-scheduling-information = Rejalashtirish maʼlumotlari ichida
-exporting-include-deck-configs = Dasta andozalari ichida
-exporting-include-tags = Teglar ichida
-exporting-support-older-anki-versions = Eski Anki versiyalarini qoʻllab quvvatlash (sekin ishlaydi/fayllar hajmi katta)
+exporting-include = <b>Içida</b>:
+exporting-include-html-and-media-references = HTML va media fayllarga havolalar içida
+exporting-include-media = Media fayllar içida
+exporting-include-scheduling-information = Rejalaştiriş maʼlumotlari içida
+exporting-include-deck-configs = Dasta andozalari içida
+exporting-include-tags = Teglar içida
+exporting-support-older-anki-versions = Eski Anki versiyalarini qöllab quvvatlaş (sekin işlaydi/fayllar hajmi katta)
 exporting-notes-in-plain-text = Qaydlar oddiy matnda
 exporting-selected-notes = Tanlangan qaydlar
 exporting-card-exported =
@@ -36,9 +36,9 @@ exporting-note-exported =
 exporting-exporting-file = Fayl eksport qilinmoqda...
 exporting-processed-media-files =
     { $count ->
-        [one] { $count } ta media fayl qayta ishlandi...
-       *[other] { $count } ta media fayl qayta ishlandi...
+        [one] { $count } ta media fayl qayta işlandi...
+       *[other] { $count } ta media fayl qayta işlandi...
     }
-exporting-include-deck = Dasta nomi ichida
-exporting-include-notetype = Qayd turi nomi ichida
-exporting-include-guid = Noyob identifikatori ichida
+exporting-include-deck = Dasta nomi içida
+exporting-include-notetype = Qayd turi nomi içida
+exporting-include-guid = Noyob identifikatori içida
