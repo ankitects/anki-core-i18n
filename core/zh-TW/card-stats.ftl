@@ -39,7 +39,7 @@ card-stats-fsrs-forgetting-curve-desired-retention = 期望留存比率
 
 ## Window Titles
 
-card-stats-current-card = 當前卡片（{ $context }）
+card-stats-current-card = 目前卡片（{ $context }）
 card-stats-previous-card = 上一張卡片（{ $context }）
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

@@ -1,6 +1,6 @@
 adding-add-shortcut-ctrlandenter = 新增（快速鍵：Ctrl+Enter）
 adding-added = 已新增
-adding-discard-current-input = 要捨棄當前輸入嗎？
+adding-discard-current-input = 要捨棄目前的輸入嗎？
 adding-keep-editing = 繼續編輯
 adding-edit = 編輯「{ $val }」
 adding-history = 歷程記錄

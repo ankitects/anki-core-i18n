@@ -47,7 +47,7 @@ scheduling-learn-remaining =
     { $remaining ->
        *[other] { $remaining } 張學習中的卡片將於今天到期。
     }
-scheduling-congratulations-finished = 恭喜！你已學完此牌組當前的內容。
+scheduling-congratulations-finished = 恭喜！你目前已完成此牌組的學習。
 scheduling-today-review-limit-reached = 已經達到今天的複習上限，但還有卡片尚待複習。若要保持最佳記憶效果，請在選項中增加每日上限。
 scheduling-today-new-limit-reached = 還有尚未學習的新卡片，但今日學習數量已達上限。你可以在選項中增加每日上限，但請注意，學習更多新卡片將增加近期複習量。
 scheduling-buried-cards-found = 有卡片被推遲到明天顯示。如果你想要立即學習這些卡片，可以{ $unburyThem }。
@@ -120,7 +120,7 @@ scheduling-steps-in-minutes = 學習階段（分鐘）
 scheduling-steps-must-be-numbers = 學習階段值必須為數字。
 scheduling-tag-only = 僅加上標籤
 scheduling-the-default-configuration-cant-be-removed = 無法刪除預設的設定。
-scheduling-your-changes-will-affect-multiple-decks = 此更動將會影響多個牌組，若你只想更改當前牌組，請先新增一個選項群組。
+scheduling-your-changes-will-affect-multiple-decks = 此更動將會影響多個牌組，若你只想更改目前牌組，請先新增一個選項群組。
 scheduling-deck-updated =
     { $count ->
        *[other] 已更新 { $count } 個牌組。

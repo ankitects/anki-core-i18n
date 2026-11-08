@@ -14,12 +14,12 @@ deck-config-title = 牌組選項
 deck-config-daily-limits = 每日上限
 deck-config-new-limit-tooltip = 有新卡片可學習時，當天的新卡片數量上限。學習新內容會加重你的短期複習量，因此該選項通常應設定為複習上限的 10% 或更少。
 deck-config-review-limit-tooltip = 有複習卡可學習時，當天的複習卡數量上限。
-deck-config-limit-deck-v3 = 開始學習牌組時，如果牌組含有子牌組，則將依每個子牌組的上限，分別抽取相應數量的卡片。所選牌組的上限為當前學習卡片數。
+deck-config-limit-deck-v3 = 開始學習牌組時，如果牌組含有子牌組，各子牌組的上限會分別決定從該子牌組收集的卡片數量。所選牌組的上限決定最終顯示的卡片總數。
 deck-config-limit-new-bound-by-reviews = 複習上限會影響新卡片上限。若複習上限設為 200，且有 190 張卡片待複習，則最多只會顯示 10 張新卡片。若已達到或超出複習上限，則不會再顯示新卡片。
 deck-config-limit-interday-bound-by-reviews = 複習上限也會影響跨天學習卡片。套用上限時，跨天學習卡片會被優先擷取，再算入複習卡。
 deck-config-tab-description =
     - `預設組`：所有使用此預設組的牌組的上限。
-    - `當前牌組`：當前牌組的上限。
+    - `目前牌組`：當前牌組的上限。
     - `僅限今天`：暫時更改當前牌組的的上限。
 deck-config-new-cards-ignore-review-limit = 新卡片不受複習上限影響
 deck-config-new-cards-ignore-review-limit-tooltip = 根據預設，新卡片也會計入複習上限，因此當複習次數達到上限時，新卡片也不會再顯示。啟用此選項後，新卡片將不再計入複習上限。
@@ -31,7 +31,7 @@ deck-config-affects-entire-collection = 影響整個集合。
 ## as longer text will not fit on small screens.
 
 deck-config-shared-preset = 預設組
-deck-config-deck-only = 當前牌組
+deck-config-deck-only = 目前牌組
 deck-config-today-only = 僅限今天
 
 ## New Cards section
@@ -90,15 +90,15 @@ deck-config-new-gather-priority-tooltip-2 =
     `隨機卡片`：依隨機順序收集卡片。
 deck-config-new-card-sort-order = 新卡片排序順序
 deck-config-new-card-sort-order-tooltip-2 =
-    `卡片類型→收集順序`：依卡片類型的序號順序來顯示卡片。當停用推遲關聯卡片時，所有「正面→背面」卡片都會在所有「背面→正面」卡片之前顯示。若要在單次學習中顯示同一則筆記的所有卡片，此選項可以幫你拉開關聯卡片間的距離。
+    `卡片類型→收集順序`：依卡片類型的序號順序顯示卡片。停用推遲關聯卡片時，所有「正面→背面」卡片都會先於「背面→正面」卡片顯示。要在單次學習中顯示同一則筆記的所有卡片時，此選項可避免關聯卡片太接近。
     
-    `收集順序`：依收集順序顯示卡片。當停用推遲關聯卡片時，此選項通常會讓同一則筆記的所有卡片連續出現。
+    `收集順序`：依收集順序顯示卡片。停用推遲關聯卡片時，此選項通常會讓同一則筆記的所有卡片連續出現。
     
-    `卡片類型→隨機`：與 `卡片類型` 類似，但會在卡片類型序號相同的卡片之間隨機排序。若你把卡片收集順序設定為 `遞增順序` 來收集較舊的卡片，此選項可以打亂這些卡片的順序，同時同一則筆記的各卡片間的距離也不會太接近。
+    `卡片類型→隨機`：依卡片類型的序號順序顯示卡片，序號相同的卡片則以隨機順序顯示。此選項可避免關聯卡片太接近，同時保持順序隨機。
     
-    `隨機筆記→卡片類型`：隨機挑選筆記，然後順序顯示所有關聯卡片。
+    `隨機筆記→卡片類型`：隨機挑選筆記，再依卡片類型順序顯示該筆記的所有卡片。
     
-    `隨機`：完全隨機顯示收集的卡片。
+    `隨機`：以隨機順序顯示卡片。
 deck-config-new-review-priority = 新卡片/複習卡順序
 deck-config-new-review-priority-tooltip = 新卡片與複習卡顯示的先後順序。
 deck-config-interday-step-priority = 跨天學習/複習卡順序
@@ -175,9 +175,9 @@ deck-config-stop-timer-on-answer-tooltip = 顯示答案後是否停止螢幕上�
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = 問題面顯示時長（秒）
-deck-config-seconds-to-show-question-tooltip-3 = 啟用自動前進時，套用問題面動作前需要等待的秒數。設定為 0 來停用。
+deck-config-seconds-to-show-question-tooltip-3 = 啟用「自動前進」時，套用問題面動作前需要等待的秒數。設定為 0 來停用。
 deck-config-seconds-to-show-answer = 答案面顯示時長（秒）
-deck-config-seconds-to-show-answer-tooltip-2 = 啟用自動前進時，套用答案面動作前需要等待的秒數。設定為 0 來停用。
+deck-config-seconds-to-show-answer-tooltip-2 = 啟用「自動前進」時，套用答案面動作前需要等待的秒數。設定為 0 來停用。
 deck-config-question-action-show-answer = 顯示答案
 deck-config-question-action-show-reminder = 顯示提醒
 deck-config-question-action = 問題面動作
@@ -283,7 +283,7 @@ deck-config-must-have-400-reviews = 只找到了 { $count } 筆複習記錄。�
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS 參數
 deck-config-compute-optimal-weights = 最佳化 FSRS 參數
-deck-config-optimize-button = 最佳化當前預設組
+deck-config-optimize-button = 最佳化目前預設組
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text }（較慢）
 deck-config-compute-button = 計算
@@ -327,14 +327,14 @@ deck-config-ignore-before-tooltip-2 = 設定後，最佳化 FSRS 參數時將無
 deck-config-compute-optimal-weights-tooltip2 =
     按下「最佳化」按鈕後，FSRS 將分析你的複習歷程，為你的記憶和學習內容產生最佳參數。如果各牌組難度差距過大，則建議為各牌組單獨設定預設組，因為難度不同的牌組需要使用不同的參數。參數無需頻繁最佳化，幾個月一次即可。
     
-    根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習歷程。在計算參數前，你可以透過調整搜尋條件來更改要用於最佳化參數的卡片。
+    根據預設，最佳化參數時會根據所有使用目前預設組的牌組的複習歷程來計算。計算前可以透過調整搜尋條件來更改要用於最佳化參數的卡片。
 deck-config-please-save-your-changes-first = 請先儲存更動。
 deck-config-workload-factor-change =
     預估工作量：{ $factor } 倍
     （與 { $previousDR }% 期望留存比率相比）
 deck-config-workload-factor-unchanged = 數值越高，卡片出現的頻率就越高。
-deck-config-desired-retention-too-low = 當前期望留存比率過低，將導致間隔過長。
-deck-config-desired-retention-too-high = 當前期望留存比率過高，將導致間隔過短。
+deck-config-desired-retention-too-low = 目前的期望留存比率過低，將導致間隔過長。
+deck-config-desired-retention-too-high = 目前的期望留存比率過高，將導致間隔過短。
 deck-config-percent-of-reviews =
     { $reviews ->
        *[other] 進度：{ $pct }%，共 { $reviews } 次複習
@@ -344,7 +344,7 @@ deck-config-percent-input = { $pct }%
 deck-config-checking-for-improvement = 正在檢查改善情況...
 deck-config-optimizing-preset = 正在最佳化預設組 { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = 必須先啟用 FSRS。
-deck-config-fsrs-params-optimal = 當前 FSRS 參數已為最佳。
+deck-config-fsrs-params-optimal = 目前的 FSRS 參數已為最佳。
 deck-config-fsrs-confirm-save-and-optimize = 將儲存你對其他選項所做的任何更動。確定嗎？
 deck-config-fsrs-params-no-reviews = 找不到複習記錄。請確保所有需要最佳化的牌組（含子牌組）都正在使用此預設組，然後再試一次。
 deck-config-wait-for-audio = 等待音訊播放
@@ -369,7 +369,7 @@ deck-config-advanced-settings = 進階設定
 deck-config-smooth-graph = 平滑圖表
 deck-config-suspend-leeches = 擱置低效卡
 deck-config-save-options-to-preset = 儲存更動到預設組
-deck-config-save-options-to-preset-confirm = 要用模擬器中設定的選項覆寫當前預設組選項嗎？
+deck-config-save-options-to-preset-confirm = 要用模擬器中設定的選項覆寫目前的預設組選項嗎？
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -423,9 +423,9 @@ deck-config-bury-tooltip =
     
     停用時，一則筆記的多張卡片有機會在同一天出現。啟用時，Anki 會自動*暫停*關聯卡片，直到下一天前都不會出現。此選項可讓你選擇在回答時要暫停哪些種類的卡片。
     
-    使用 V3 排程器時，跨天學習卡片也可以被暫停。跨天學習卡片是指當前學習階段為一天或更多的卡片。
-deck-config-seconds-to-show-question-tooltip = 啟用自動前進時，顯示答案前需要等待的秒數。設定為 0 來停用。
-deck-config-answer-action-tooltip = 自動前進到下一張卡片之前要為當前卡片執行的動作。
+    使用 V3 排程器時，跨天學習卡片也可以被暫停。跨天學習卡片是指目前學習階段為一天或更多的卡片。
+deck-config-seconds-to-show-question-tooltip = 啟用「自動前進」時，顯示答案前需要等待的秒數。設定為 0 來停用。
+deck-config-answer-action-tooltip = 自動前進到下一張卡片之前要為目前卡片執行的動作。
 deck-config-wait-for-audio-tooltip = 等待音訊播放結束後再自動顯示答案或前進到下一道問題。
 deck-config-ignore-before-tooltip = 設定後，最佳化及評估 FSRS 參數時將無視在所選日期前做出的複習。此選項在你匯入了他人的排程資料，或改變了各回答按鈕的用法時，相當實用。
 deck-config-compute-optimal-retention-tooltip = 這個工具將假設你一開始有 0 張卡片，並將嘗試計算在給出的時間範圍內，你所記內容能夠留存的數量。你的輸入值將對預估的留存比率產生很大的影響，因此如果預估留存比率與 0.9 相差較大，可能是因為相對於你要學習的卡片的數量，你過多/過少分配了每天的時間。此數值可供參考，但不建議複製到「期望留存比率」欄位中。
@@ -437,10 +437,10 @@ deck-config-weights-tooltip = FSRS 參數會影響卡片排程。一開始 Anki 
 deck-config-compute-optimal-weights-tooltip =
     當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷程，並自動產生對你的記憶和學習內容最佳的參數。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，參數也會不一樣。參數無需頻繁最佳化，幾個月一次即可。
     
-    根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習歷程。你可以在計算參數前調整搜尋條件，更改要用來最佳化參數的卡片。
+    根據預設，最佳化參數時會計算所有使用目前預設組的牌組的複習歷程。你可以在計算參數前調整搜尋條件，更改要用來最佳化參數的卡片。
 deck-config-compute-optimal-retention-tooltip2 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存比率。設定期望留存比率時可參考此數值。若你不在乎多花時間學習，可以透過提高期望留存比率來提升記憶效果。期望留存比率低於最小值只會增加你的工作量而沒有好處，因此不建議設定過低。
 deck-config-compute-optimal-retention-tooltip3 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存比率。為了準確模擬學習過程，此功能需要至少 400 次複習。設定期望留存比率時可參考計算出的數值。若你不在乎多花時間學習，可以透過提高期望留存比率來提升記憶效果。期望留存比率低於最小值會導致遺忘率過高，從而加大你的工作量，因此不建議設定過低。
-deck-config-seconds-to-show-question-tooltip-2 = 啟用自動前進時，顯示答案前需要等待的秒數。設定為 0 來停用。
+deck-config-seconds-to-show-question-tooltip-2 = 啟用「自動前進」時，顯示答案前需要等待的秒數。設定為 0 來停用。
 deck-config-invalid-weights = 參數必須設定為 17 個以半形逗號分隔的數字，或留白以使用預設值。
 deck-config-fsrs-on-all-clients = 請確保你的所有用戶端版本都不低於 Anki(Mobile) 23.10 或 AnkiDroid 2.17。若你的用戶端中有部分為較早版本，則 FSRS 將無法正常運作。
 deck-config-optimize-all-tip = 你可以在「儲存」按鈕旁的下拉式選單中一次最佳化所有預設組。

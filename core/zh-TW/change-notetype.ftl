@@ -1,5 +1,5 @@
-change-notetype-current = 當前欄位
-change-notetype-new = 新的欄位
+change-notetype-current = 目前欄位
+change-notetype-new = 新欄位
 change-notetype-nothing = （無）
 change-notetype-collapse = 摺疊
 change-notetype-expand = 展開
