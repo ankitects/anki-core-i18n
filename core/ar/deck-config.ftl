@@ -387,6 +387,10 @@ deck-config-which-deck = ما الرزمة التي تريد عرض خيارات
 
 deck-config-updating-cards = تحديث البطاقات: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = عوامل FSRS المزودة غير صالحة. أبق الحقل فارغًا لاستخدام العوامل الافتراضية.
+deck-config-placeholder-parameters =
+    العوامل الافتراضية
+    (اضغط "{ deck-config-optimize-button }" للسماح لـFSRS بالتأقلم لذاكرتك بشكل أفضل دوريًا)
+deck-config-manual-parameter-edit-warning = يجب تعديل العوامل الافتراضية فقط باستخدام زر التحسين. لا ينصح بتعديلها يدويًا أبدًا.
 deck-config-not-enough-history = محفوظات المراجعة غير كافية لتنفيذ هذه العملية.
 deck-config-must-have-400-reviews =
     { $count ->
@@ -512,6 +516,8 @@ deck-config-save-options-to-preset-confirm = هل تريد استبدال الخ
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = المحفوظ
+deck-config-fsrs-simulator-radio-efficiency = الفعالية
+deck-config-fsrs-simulator-ratio-tooltip2 = { $time } بطاقة محفوظة كل ساعة
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
