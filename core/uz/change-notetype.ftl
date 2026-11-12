@@ -1,13 +1,13 @@
 change-notetype-current = Joriy
 change-notetype-new = Yangi
-change-notetype-nothing = (Hech nima)
-change-notetype-collapse = Yigʻish
-change-notetype-expand = Yoyish
-change-notetype-will-discard-content = Quyidagi maydonlar tarkibini tashlab yuboradi:
-change-notetype-will-discard-cards = Quyidagi kartalarni oʻchiradi:
+change-notetype-nothing = (Heç nima)
+change-notetype-collapse = Yiğiş
+change-notetype-expand = Yoyiş
+change-notetype-will-discard-content = Quyidagi maydonlar tarkibini taşlab yuboradi:
+change-notetype-will-discard-cards = Quyidagi kartalarni öçiradi:
 change-notetype-fields = Maydonlar
-change-notetype-templates = Shablonlar
+change-notetype-templates = Şablonlar
 change-notetype-to-from-cloze =
-    Boʻshliqni toʻldirish qayd turiga yoki turidan oʻzgartirilganda, karta raqamlari oʻzgarishsiz qoladi.
-    
-    Oddiy qayd turiga oʻtsangiz va boʻshliqlar soni mavjud karta shablonlariga qaraganda koʻproq boʻlsa, har qanday qoʻshimcha kartalar olib oʻchiriladi.
+    Böşliqni töldiriş qayd turiga yoki turidan özgartirilganda, karta raqamlari özgarişsiz qoladi.
+
+    Oddiy qayd turiga ötsangiz va böşliqlar soni mavjud karta şablonlariga qaraganda köproq bölsa, har qanday qöşimça kartalar olib öçiriladi.
