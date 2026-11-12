@@ -47,6 +47,22 @@ browsing-current-note-type = نوع الملحوظة الحالي:
 browsing-delete-notes = حذف الملحوظات
 browsing-duplicate = مكرر
 browsing-ease = سهولة
+# Button that clears the browse search
+browsing-empty-clear-search = مسح البحث
+# Title when the collection has no cards
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-collection-title =
+    { $notes-mode ->
+        [yes] لا ملحوظات بعد
+       *[other] لا بطاقات بعد
+    }
+# Title when a valid search matches nothing
+# $notes-mode is "yes" when browsing notes instead of cards
+browsing-empty-no-match-title =
+    { $notes-mode ->
+        [yes] لا ملحوظات تتطابق مع البحث
+       *[other] لا بطاقات تتطابق مع البحث
+    }
 browsing-enter-tags-to-add = أدخل الوسوم التي تريد إضافتها:
 browsing-enter-tags-to-delete = أدخل الوسوم التي تريد حذفها:
 browsing-filtered = (مفلترة)
@@ -89,7 +105,17 @@ browsing-reposition = تغيير الموضع...
 browsing-reposition-new-cards = تغيير موضع البطاقات الجديدة
 browsing-reschedule = إعادة جدولة
 browsing-search-bar-hint = بحث في البطاقات/الملحوظات (أدخل نصًا، ثم اضغط Enter)
+browsing-search-facet-starters = فلترة حسب
 browsing-search-in = بحث في:
+browsing-search-quick = فلاتر سريعة
+browsing-search-quick-flagged = مؤشّرة
+browsing-search-quick-leeches = بطاقات مستعصية
+browsing-search-recent = مؤخرًا
+# Shown above browse results when the current search is invalid
+browsing-search-results-unchanged = النتائج لا تتغير حتى يصبح البحث صالحًا
+browsing-search-suggestions = اقتراحات
+browsing-search-syntax-mode = وضع البحث
+browsing-search-text-match = بحث "{ $query }"
 browsing-search-within-formatting-slow = البحث خلال المحتوى المنسق (بطيء)
 browsing-select-deck = تحديد الرزمة
 browsing-selected-notes-only = الملحوظات المحددة فقط
@@ -180,6 +206,10 @@ browsing-sidebar-due-today = مستحقة
 browsing-sidebar-untagged = غير موسوم
 browsing-sidebar-overdue = متأخر
 browsing-row-deleted = (محذوف)
+# Compact due text in browse card rows when a card is overdue or due today
+browsing-due-now = الآن
+# Status chip label in browse card rows
+browsing-leech = مستعصية
 browsing-more-tags =
     { $count ->
         [zero] لا وسم إضافي
@@ -188,6 +218,15 @@ browsing-more-tags =
         [few] { $count } وسوم إضافية
         [many] { $count } وسم إضافي
        *[other] { $count } وسم إضافي
+    }
+browsing-leech-lapses =
+    { $count ->
+        [zero] مستعصية، لا سقطات
+        [one] مستعصية، سقطة واحدة
+        [two] مستعصية، سقطتان
+        [few] مستعصية، { $count } سقطات
+        [many] مستعصية، { $count } سقطة
+       *[other] مستعصية، { $count } سقطات
     }
 browsing-removed-unused-tags-count =
     { $count ->

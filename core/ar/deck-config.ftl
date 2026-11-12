@@ -346,7 +346,7 @@ deck-config-revert-button-tooltip = استرجاع قيمة الإعداد ال�
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = طريقة أنكي 2.1.41+
+deck-config-description-new-handling2 = معالجة Markdown
 deck-config-description-new-handling-hint =
     عامل النص بلغة Markdown، ونظّف مدخلات HTML. سيظهر الوصف
     في شاشة التهنئة أيضًا عندما يكون هذا الخيار مفعلًا.
@@ -534,6 +534,7 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-description-new-handling = طريقة أنكي 2.1.41+
 deck-config-fsrs-simulator-radio-ratio = العلاقة بين الوقت والبطاقات المحفوظة
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time } لكل بطاقة محفوظة
