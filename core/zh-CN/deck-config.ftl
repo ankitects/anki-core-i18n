@@ -60,8 +60,8 @@ deck-config-graduating-interval-tooltip = 在最后一个学习阶段选择「�
 deck-config-easy-interval-tooltip = 当选择「简单」直接跳过学习后，再次展示卡片的间隔天数。
 deck-config-new-insertion-order = 插入位置
 deck-config-new-insertion-order-tooltip =
-    控制添加新卡片的位置（到期 #）。
-    学习时将先展示到期数字较小的卡片。
+    控制添加新卡片的位置（到期序号）。
+    学习时将先展示到期序号较小的卡片。
     更改此选项将自动更新现存新卡片的位置。
 deck-config-new-insertion-order-sequential = 顺序插入（旧卡片在前）
 deck-config-new-insertion-order-random = 随机插入
@@ -103,18 +103,18 @@ deck-config-bury-priority-tooltip =
 
 deck-config-ordering-title = 展示顺序
 deck-config-new-gather-priority = 新卡片抽取顺序
-deck-config-new-gather-priority-tooltip-2 =
-    「按牌组顺序」：从顶部开始，按顺序从每个牌组的顶部开始抽取卡片。
-    每个子牌组中的卡片按升序抽取。如达到所选牌组的单日上限，则可能没有检查所有的子牌组。
-    对于大型牌组，此方式是最快的，并可优先处理处于顶部的子牌组。
+deck-config-new-gather-priority-tooltip-3 =
+    「按牌组顺序」：从顶部开始，按顺序从每个子牌组中抽取卡片。每个子牌组的卡片按位置升序抽取。如果已达到所选牌组的单日上限，则可能在检查完所有子牌组之前停止抽取。此顺序在大型集合中速度最快，并允许你优先处理更靠近顶部的子牌组。
     
-    「按位置升序」：按升序位置（due #）抽取卡片，旧卡片优先。
+    「按牌组顺序，再随机排列笔记」：类似于「随机排列笔记」，但像「按牌组顺序」那样按顺序遍历子牌组，在每个子牌组内随机选取笔记，并抽取这些笔记的所有卡片。
     
-    「按位置降序」：按降序位置（due #）抽取卡片，新卡片优先。
+    「按位置升序」：按升序位置（到期序号）抽取卡片，通常是旧卡片优先。
     
-    「随机排列笔记」：先随机排列选取的笔记，再从中抽取卡片。
+    「按位置降序」：按降序位置（到期序号）抽取卡片，通常是新卡片优先。
     
-    「随机排列卡片」：随机地抽取卡片。
+    「随机排列笔记」：先随机排列选取的笔记，再抽取其所有卡片。
+    
+    「随机排列卡片」：以随机顺序抽取卡片。
 deck-config-new-card-sort-order = 新卡片排列顺序
 deck-config-new-card-sort-order-tooltip-2 =
     「先按卡片模板，再按抽取顺序」：按照卡片模板的顺序显示卡片。
