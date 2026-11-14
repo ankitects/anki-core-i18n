@@ -47,7 +47,7 @@ sync-password-label = Hasło:
 sync-account-required =
     <h1>Wymagane konto</h1>
     Wymagane jest posiadanie darmowego konta, aby Twoja kolekcja mogła być synchronizowana. <a href="{ $link }">Zarejestruj</a> konto, a następnie wprowadź poniżej swoje dane.
-sync-sanity-check-failed = Użyj opcji Sprawdź bazę danych, a następnie zsynchronizuj ponownie. Jeśli problem nie ustępuje wymuś w ustawieniach synchronizację w jedną stronę.
+sync-sanity-check-failed = Użyj opcji Sprawdź bazę danych, a następnie zsynchronizuj ponownie. Jeśli problem nie ustępuje, wymuś w ustawieniach synchronizację w jedną stronę.
 sync-clock-off = Nie można zsynchronizować - twój zegar nie ma ustawionego poprawnego czasu.
 # “details” expands to a string such as “300.14 MB > 300.00 MB”
 sync-upload-too-large =

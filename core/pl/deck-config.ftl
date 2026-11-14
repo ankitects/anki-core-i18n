@@ -118,8 +118,11 @@ deck-config-bury-priority-tooltip =
 
 deck-config-ordering-title = Kolejność wyświetlania
 deck-config-new-gather-priority = Kolejność zbierania nowych kart
-deck-config-new-gather-priority-tooltip-2 =
+deck-config-new-gather-priority-tooltip-3 =
     `Talia`: Karty są zbierane z każdej talii podrzędnej w kolejności, zaczynając od góry. Karty z każdej talii podrzędnej są zbierane w rosnącej pozycji. Jeśli dzienny limit wybranej talii został osiągnięty, zbieranie kart może zakończyć się przed sprawdzeniem wszystkich talii podrzędnych. Ta kolejność jest najszybsza w przypadku dużych kolekcji i pozwala prioretyzować talie podrzędne, które znajdują się na górze.
+    
+    `Talia, potem losowe notatki`: Podobnie jak `Losowe notatki`,  ale przechodzi przez podtalie w kolejności,¶
+    jak `Talia` , wybierając  notatki losowo spośród każdej podtalii zbierając wszystkie ich karty.
     
     `Pozycja rosnąco`: Karty są zbierane w pozycji rosnącej (due #), co  oznacza zazwyczaj, że najpierw zbierane są karty dodane najdawniej.
     
