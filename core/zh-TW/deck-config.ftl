@@ -78,14 +78,16 @@ deck-config-bury-priority-tooltip =
 
 deck-config-ordering-title = 顯示順序
 deck-config-new-gather-priority = 新卡片收集順序
-deck-config-new-gather-priority-tooltip-2 =
+deck-config-new-gather-priority-tooltip-3 =
     `牌組順序`：依子牌組順序，由上至下收集卡片。子牌組中的卡片依遞增順序收集。若所選牌組已達每日上限，收集卡片時可能不會檢查到順序較後的牌組。此選項在較大的集合中速度最快，並讓你能夠優先學習順序較前的子牌組。
+    
+    `牌組→隨機筆記`：依子牌組順序，先從各子牌組中隨機選取筆記，然後收集每則筆記中的所有卡片。請參見 `牌組順序` 和 `隨機筆記`。
     
     `順序遞增`：依遞增順序（到期序號 #）收集卡片，通常為舊卡片優先。
     
     `順序遞減`：依遞減順序（到期序號 #）收集卡片，通常為新卡片優先。
     
-    `隨機筆記`：隨機選取筆記，然後收集筆記中所有卡片。
+    `隨機筆記`：隨機選取筆記，然後收集每則筆記中的所有卡片。
     
     `隨機卡片`：依隨機順序收集卡片。
 deck-config-new-card-sort-order = 新卡片排序順序
