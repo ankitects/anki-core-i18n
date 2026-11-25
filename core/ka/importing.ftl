@@ -38,6 +38,7 @@ importing-include-reviews = მიმოხილვების ჩასმა
 importing-also-import-progress = ყველა სწავლის მიმდინარეობის შემოტანა
 importing-with-deck-configs = ყველა დასტის პრესეტის შემოტანა
 importing-updates = განახლებები
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = Anki-ის შეკუმშული დაფა/კოლექცია (*.apkg *.colpkg *.zip)
 # the '|' character
 importing-pipe = ვერტიკალური ტირე
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -165,6 +166,10 @@ importing-details = დეტალები
 importing-status = სტატუსი
 importing-duplicate-note-added = დამატებულია გამეორებული შენიშვნა
 importing-added-new-note = დამატებულია ახალი შენიშვნა
+importing-note-updated-as-file-had-newer = არაფერი განახლდა, რადგან ფაილის ვერსია უფრო ახალია
+importing-note-skipped-due-to-missing-notetype = შენიშვნა გამოტოვებულია, რადგან მისი ტიპი აღმოჩენილი არაა
+importing-note-skipped-due-to-missing-deck = შენიშვნა გამოტოვებულია, რადგან მისი დაფა მითითებული არაა
+importing-note-skipped-due-to-empty-first-field = შენიშვნა გამოტოვებულია, რადგან მისი პირველი ველი ცარიელია
 importing-overview = გადახედვა
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
