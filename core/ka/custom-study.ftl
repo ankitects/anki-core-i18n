@@ -40,15 +40,24 @@ custom-study-cards-from-the-deck =
 custom-study-new-cards-only = მხოლოდ ახალი ბარათები
 custom-study-due-cards-only = მხოლოდ მათი დრომოსული ბარათები
 custom-study-all-review-cards-in-random-order = მიმოხილვის ბარათების დამატება შემთხვევითი მიმდევრობით
+custom-study-all-cards-in-random-order-dont = ყველა ბარათი შემთხვევითი მიმდევრობით (გადაგეგმვის გარეშე)
 custom-study-choose-tags = აირჩიეთ ჭდეები
 
 ##
 
 custom-study-ok = OK
+custom-study-no-cards-matched-the-criteria-you = შეყვანილ პირობას ბარათები არ ემთხვევა.
+custom-study-must-rename-deck = ჯერ გადაარქვით სახელი არსებულ მორგებულ მეცადინეობის დაფას.
+custom-study-custom-study-session = მორგებული მეცადინეობის სესია
+custom-study-available-child-count = ({ $count } ქვედაფებში)
 
 ## inside the Selective Study window, accessible by selecting "Study by card state or tag" and then clicking "Choose Tags"
 
+custom-study-selective-study = არჩევადი მეცადინეობა
+custom-study-require-one-or-more-of-these = ამ ერთი ან მეტი ჭდის მოთხოვნა:
+custom-study-select-tags-to-exclude = აირჩიეთ ამოსაღები ჭდეები:
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 custom-study-available-new-cards = ხელმისაწვდომი ახალი ბარათები: { $count }
+custom-study-available-review-cards = ხელმისაწვდომი მიმოხილვის ბარათები: { $count }
