@@ -166,9 +166,12 @@ deck-config-description-new-handling2 = ინტერპრეტაცია 
 
 ## Selecting a deck
 
+deck-config-which-deck = რომელი დაფისთვის გნებავთ პარამეტრების ჩვენება?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = ბარათების განახლება: { $current_cards_count } / { $total_cards_count } ...
+deck-config-not-enough-history = ამ ოპერაციის ჩასატარებლად მიმოხილვის ისტორია საკმარისია არაა.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS-ის მორგება
 deck-config-compute-optimal-weights = FSRS-ის მორგების ოპტიმიზაცია
@@ -180,6 +183,7 @@ deck-config-ignore-before = ადრე მიმოხილული ბა�
 deck-config-evaluate-button = ამოხსნა
 deck-config-desired-retention = სასურველი შენარჩუნება
 deck-config-historical-retention = ისტორიული შენარჩუნება
+deck-config-smaller-is-better = რაც მცირეა ისტორია, მით უკეთ ეტევა ის თქვენი მიმოხილვის ისტორიაში.
 deck-config-get-params = პარამეტრების მიღება
 deck-config-complete = { $num }% დასრულდა
 deck-config-iterations = იტერაცია: { $count }...
@@ -205,6 +209,7 @@ deck-config-days-to-simulate = დღეების რაოდენობა
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS-ის სიმულატორი (ექპერიმენტული)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = მომეხმარეთ, გადავწყვიტო (ექსპერიმენტული)
 deck-config-additional-new-cards-to-simulate = დამატებითი ახალი ბარათები სიმულაციისთვის
 deck-config-simulate = სიმულაცია
 deck-config-clear-last-simulate = ბოლო სიმულაციის გასუფთავება
@@ -248,3 +253,5 @@ deck-config-fsrs-simulator-y-axis-title-count = რაოდენობა/დ�
 deck-config-fsrs-simulator-y-axis-title-memorized = დამახსოვრებულია ჯამში
 deck-config-bury-if-new = დამარხვა, თუ ახალია
 deck-config-bury-if-new-or-review = დამარხვა, თუ ახალია, ან მიმოხილვაა
+deck-config-compute-optimal-retention = მინ. რეკომენდებული შენარჩუნების გამოთვლა
+deck-config-predicted-optimal-retention = მინ. რეკომენდებული შენარჩუნება: { $num }

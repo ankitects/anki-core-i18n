@@ -3,6 +3,7 @@
 decks-limit-to = შეზღუდვა რიცხვზე
 decks-cards-selected-by = ბარათები, არჩეული
 decks-enable-second-filter = მეორე ფილტრის ჩართვა
+decks_create_even_if_empty = დაფის შექმნა/განახლება მაშინაც კი, როცა ის ცარიელია
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
 decks-delay-for-button = დაყოვნება ღილაკისთვის { $button }
 # The count of cards waiting to be reviewed

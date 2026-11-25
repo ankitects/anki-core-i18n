@@ -13,6 +13,7 @@ importing-field-separator-guessed = ველის გამყოფი (ა�
 importing-field-mapping = ველის ასახვა
 importing-field-of-file-is = ფაილის ველი <b>{ $val }</b> არის:
 importing-fields-separated-by = ველები გამოყოფილია სიმბოლოთი: { $val }
+importing-file-version-unknown-trying-import-anyway = ფაილის ვერსია უცნობია. შემოტანის მცდელობა მაინც მოხდება.
 importing-first-field-matched = პირველი ველი დაემთხვა: { $val }
 importing-identical = იდენტური
 importing-ignore-field = ველის იგნორი
