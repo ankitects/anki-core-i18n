@@ -19,6 +19,7 @@ card-templates-night-mode = ღამის რეჟიმი
 # on a mobile device.
 card-templates-add-mobile-class = მობილურის კლასის დამატება
 card-templates-preview-settings = მორგება
+card-templates-identical-front = წინა მხარე იდენტურია ბარათის შაბლონზე { $number }.
 card-templates-see-preview = მეტი ინფორმაციისთვის იხილეთ წინასწარი დათვალიერება.
 card-templates-field-not-found = ველი '{ $field }' აღმოჩენილი არაა.
 card-templates-changes-saved = ცვლილებები შენახულია.

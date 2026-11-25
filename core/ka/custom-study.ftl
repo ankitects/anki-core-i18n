@@ -10,6 +10,9 @@ custom-study-cards =
        *[other] ბარათი
     }
 custom-study-available-new-cards-2 = ხელმისაწვდომი ახალი ბარათები: { $countString }
+custom-study-increase-todays-review-card-limit = დღევანდელი დღის მიმოხილვის ბარათების ლიმიტის გაზრდა
+# increase limit by {amount} cards
+custom-study-increase-todays-review-limit-by = დღევანდელი დღის მიმოხილვის ლიმიტის გაზრდა მნიშვნელობით
 custom-study-available-review-cards-2 = ხელმისაწვდომ მიმოხილვის ბარათები: { $countString }
 custom-study-review-forgotten-cards = დავიწყებული ბარათების მიმოხილვა
 custom-study-review-cards-forgotten-in-last = იმ ბარათების გადახედვა, რომლებიც დავიწყებული იყო ბოლო
@@ -21,9 +24,11 @@ custom-study-days =
 custom-study-review-ahead = წინასწარი გადახედვა
 custom-study-review-ahead-by = წინასწარი მიმოხილვა დროით
 custom-study-preview-new-cards = ახალი ბარათების წინასწარი დათვალიერება
+custom-study-preview-new-cards-added-in-the = ახალი ბარათების მიმოხილვა, რომელიც დამატებულია ბოლო
 
 ## options for the "study by card state or tag" subsection
 
+custom-study-study-by-card-state-or-tag = ბარათის სწავლა მდგომარეობით ან ჭდით
 # verb, not noun. As in "Select {amount} cards from the deck"
 custom-study-select = მონიშვნა
 # As in "select {amount} cards from the deck"
@@ -34,6 +39,7 @@ custom-study-cards-from-the-deck =
     }
 custom-study-new-cards-only = მხოლოდ ახალი ბარათები
 custom-study-due-cards-only = მხოლოდ მათი დრომოსული ბარათები
+custom-study-all-review-cards-in-random-order = მიმოხილვის ბარათების დამატება შემთხვევითი მიმდევრობით
 custom-study-choose-tags = აირჩიეთ ჭდეები
 
 ##
